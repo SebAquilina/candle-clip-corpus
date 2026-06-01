@@ -1,0 +1,406 @@
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/SKILL.md /tmp/yta_build/yta-video-maker-2/SKILL.md
+--- /tmp/yta_orig/yta-video-maker-2/SKILL.md	2026-06-01 17:59:36.637460980 +0000
++++ /tmp/yta_build/yta-video-maker-2/SKILL.md	2026-06-01 17:58:06.040802340 +0000
+@@ -5,6 +5,21 @@
+ 
+ # YTA Video Maker 2.0 (yta-video-maker-2)
+ 
++> **v25.1 — local-run hardening.** Eight robustness fixes so the default YouTube-only / no-Gemini
++> path runs clean end-to-end on a fresh machine, with no change to a correctly-configured Gemini run.
++> All degrade gracefully and stay env-overridable: (1) the slug key is truncated *then* stripped so it
++> can never end in `_`; (2) `bootstrap.sh` copies the `app/` package into `$WS/scripts`, not just the
++> top-level `*.py`, so the workspace is runnable; (3) `tts_provider` imports `tts_69labs` from
++> `app.services` (its real package path); (4) `query_rewriter.rewrite_shots` falls back to a local
++> narration-based rewrite when there is no Gemini key — the corpus matcher embeds the narration
++> directly, so no API call is needed on the default path; (5) `_autobootstrap` no longer demands
++> `GOOGLE_API_KEY` / `PEXELS_API_KEY`, nor probes for `faster_whisper` / `google-genai`, on the
++> YouTube-only path; (6) `align.py` falls back to known-text forced alignment (script spread across the
++> measured audio duration) when `faster_whisper` is unavailable; (7) `library_match` cosine is
++> vectorized with numpy — identical results, but it no longer times out on a large corpus
++> (148 shots × 6k+ moments); (8) the model2vec escalation floor is tuned to 0.18 so ~95% of shots are
++> sourced from the corpus before any per-shot fallback (Rule v26.0).
++
+ State: v25 — YTA Video Maker 2.3. Builds on 2.1; clip sourcing is now driven by a GROWING shared CORPUS instead of Gemini. At the START of every run the skill pulls ~10 videos for the SPECIFIC sub-topic (e.g. "toilet paper candles", not just "candles"), the orchestrating Claude classifies each one in-session into labelled, timestamped B-roll moments (with talking-head / on-screen-text / non-action windows FLAGGED), and they are added to the shared clip corpus (the YT-Clip-Classifier store, synced via Google Drive). The video is then built from the UPDATED corpus — so every run both reuses the existing vetted library AND deepens it with footage specific to that title (Rule v25.0). NO Google/Gemini API anywhere in sourcing: discovery, classification, AND the shot↔moment matching all run locally (the matcher uses a built-in offline embedder; `embeddings.py`). The corpus flags align with the no-text / no-talking-head gates by construction, the **channel is captured at sourcing time** for credits, and a clip appears **at most once** across the whole video (Rules v22.0 / v25.0). Inherits 2.1's editor-style TOPIC LIBRARY (one rich source video supplies many shots at different timestamps — Rule v24.0) and per-shot relevance layer as the BACKSTOP for any shot the corpus can't cover (Rules v23.0–v23.3). v2.4 is **YouTube-only**: the Pexels and black-slate fallbacks are disabled by default (`YTA_YOUTUBE_ONLY=1`) — every clip comes from YouTube/the corpus, and an uncovered shot makes the matcher TRY HARDER (a lower-threshold escalation pass over the corpus, then per-shot YouTube search, then render-borrow) instead of dropping to stock footage (Rule v26.0). v2.6 plans for CLOSE matching per SENTENCE (or per PHRASE when a sentence covers different themes), each sized by the actual rate of speech (word alignment): Claude proposes the best clip concept for each, and it is filled best-clip-first — if the top clip is not long enough the runner-up is appended, and if still short the next runner-up, until covered, then cut to fit, never repeating a clip (Rule v27.0), and it understands niche TERMINOLOGY (tunneling, borehole, sinkhole, frosting…) via an offline per-niche glossary so jargon matches the footage that shows it and the terms appear in descriptions (Rule v28.0). The corpus is a COLLABORATIVE git repo — many Cowork/Code chats clone/pull/push, conflict-free (one file per video), no lost work (Rule v28.2); a SHA-256 manifest + optional `drive_sync verify` keep an optional Drive mirror checksum-verified (Rule v28.1). All v22 behaviour is inherited:
+ v22 — autonomous. v17 (portable, self-bootstrapping) plus: a started run never stops to ask the user questions (Rule v21.0), a persona-voiced ~10-second Hormozi-style outro toggleable via `outro_cta` whose next-video line stays generic and never guesses the recommended video's topic (Rules v21.1 / v22.2), on-clip credits on YouTube clips ONLY — never Pexels (Rule v21.2), a workspace that auto-sizes to real disk and refuses to silently ship Pexels-only when space runs out (Rule v20.8), a no-repeat cap on clips — each appears at most once (Rule v22.0), TTS tuned for natural narration (Rule v22.1), and deterministic gates — like the black-frame test — that keep overlay/burned-in text and talking heads out of the final video, both per-clip and as a non-skippable final check (Rules v22.3 / v22.4).
+ 
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/make_video.sh /tmp/yta_build/yta-video-maker-2/make_video.sh
+--- /tmp/yta_orig/yta-video-maker-2/make_video.sh	2026-06-01 17:59:36.646127674 +0000
++++ /tmp/yta_build/yta-video-maker-2/make_video.sh	2026-06-01 17:52:44.312809699 +0000
+@@ -7,9 +7,9 @@
+ # Usage:
+ #   ./make_video.sh "Title" "<length_minutes>" "<persona_md_path>"
+ #
+-# Env required (set before invoking):
+-#   GOOGLE_API_KEY      Gemini embeddings (read-only)
+-#   PEXELS_API_KEY      Pexels API key
++# Env (the default path is YouTube-only — YTA_YOUTUBE_ONLY=1 — and needs NEITHER key):
++#   GOOGLE_API_KEY      ONLY if you opt back into the Gemini path (YTA_YOUTUBE_ONLY=0)
++#   PEXELS_API_KEY      ONLY if you opt back into the Pexels fallback (YTA_YOUTUBE_ONLY=0)
+ #
+ # Env optional:
+ #   WS                  workspace dir (default: /tmp/video-maker-ws)
+@@ -92,7 +92,8 @@
+        $0 --bootstrap-only       (just set up the environment)
+        $0 --status               (print pipeline state)
+ 
+-Required env: GOOGLE_API_KEY, PEXELS_API_KEY
++Env: default path is YouTube-only (YTA_YOUTUBE_ONLY=1) and needs NO API keys.
++     Set GOOGLE_API_KEY + PEXELS_API_KEY only if you opt back in with YTA_YOUTUBE_ONLY=0.
+ Optional env: WS (default /tmp/video-maker-ws), YOUTUBE_COOKIES_TXT, VIDEO_OUTPUT_DIR
+ EOF
+ }
+@@ -163,7 +164,9 @@
+ fi
+ 
+ # Phase 2: derive a slug-key from the title
+-KEY=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g' | sed 's/__*/_/g' | sed 's/^_//;s/_$//' | cut -c1-40)
++# Collapse to a slug, THEN truncate to 40, THEN strip leading/trailing underscores.
++# (Stripping before the cut let the 40-char truncation re-introduce a trailing "_".)
++KEY=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g' | sed 's/__*/_/g' | cut -c1-40 | sed 's/^_*//;s/_*$//')
+ SCRIPT_JSON="$WS/state/script-$KEY.json"
+ echo "key: $KEY"
+ echo "script.json target: $SCRIPT_JSON"
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/_autobootstrap.py /tmp/yta_build/yta-video-maker-2/scripts/_autobootstrap.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/_autobootstrap.py	2026-06-01 17:59:36.644813360 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/_autobootstrap.py	2026-06-01 17:53:48.140808239 +0000
+@@ -110,12 +110,14 @@
+     py = venv_python(ws)
+     if not py.exists():
+         return False
+-    # Probe the venv's python for the most critical imports.
++    # Probe the venv's python for the most critical imports. faster_whisper and
++    # google-genai are intentionally NOT required: the default path is YouTube-only
++    # (no Gemini), and align.py falls back to known-text forced alignment when
++    # faster_whisper is unavailable (Rule v17.4). Requiring them here would wrongly
++    # mark a perfectly usable venv as "not bootstrapped" and trigger a re-bootstrap.
+     probes = [
+         "import yt_dlp",
+-        "from faster_whisper import WhisperModel",
+         "import edge_tts",
+-        "from google import genai",
+         "import requests, scipy, numpy",
+         "import cv2",          # opencv-python-headless — talking-head detector (Rule v22.4)
+         "import pytesseract",  # OCR — overlay-text detector (Rule v22.3)
+@@ -135,7 +137,8 @@
+     """Idempotent bootstrap. Returns the workspace path.
+ 
+     If already bootstrapped, returns immediately. Otherwise, runs scripts/bootstrap.sh.
+-    Required env vars: GOOGLE_API_KEY, PEXELS_API_KEY.
++    The default YouTube-only path needs no API keys; GOOGLE_API_KEY / PEXELS_API_KEY are
++    required only when YTA_YOUTUBE_ONLY=0 (the opt-in Gemini + Pexels path).
+     """
+     ws = workspace_dir()
+     ws.mkdir(parents=True, exist_ok=True)
+@@ -183,10 +186,14 @@
+         )
+ 
+     print(f"=== auto-bootstrap: venv or deps missing in {ws}; running {bootstrap} ===")
+-    if not os.environ.get("GOOGLE_API_KEY"):
+-        raise SystemExit("GOOGLE_API_KEY env var is required to bootstrap. Set it and retry.")
+-    if not os.environ.get("PEXELS_API_KEY"):
+-        raise SystemExit("PEXELS_API_KEY env var is required to bootstrap. Set it and retry.")
++    # The default path is YouTube-only (YTA_YOUTUBE_ONLY=1) and needs neither key. Only
++    # demand them if the operator has opted back into the Gemini + Pexels path.
++    youtube_only = os.environ.get("YTA_YOUTUBE_ONLY", "1").strip().lower() not in ("0", "false", "no")
++    if not youtube_only:
++        if not os.environ.get("GOOGLE_API_KEY"):
++            raise SystemExit("GOOGLE_API_KEY env var is required when YTA_YOUTUBE_ONLY=0. Set it and retry.")
++        if not os.environ.get("PEXELS_API_KEY"):
++            raise SystemExit("PEXELS_API_KEY env var is required when YTA_YOUTUBE_ONLY=0. Set it and retry.")
+ 
+     r = subprocess.run(["bash", str(bootstrap), str(ws)])
+     if r.returncode != 0:
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/tts_provider.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/tts_provider.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/tts_provider.py	2026-06-01 17:59:36.640191942 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/tts_provider.py	2026-06-01 17:53:01.648809302 +0000
+@@ -79,7 +79,12 @@
+     paths: list[Path] = []
+ 
+     if provider == "69labs":
+-        import tts_69labs as labs
++        # tts_69labs lives in app/services/. Import it as a package member; fall back to a
++        # top-level import for the legacy layout where scripts were flattened onto sys.path.
++        try:
++            from app.services import tts_69labs as labs
++        except ImportError:
++            import tts_69labs as labs
+         api_key = os.environ["LABS69_API_KEY"]
+         voice_id = os.environ.get("LABS69_VOICE_ID", "")
+         clone_id = os.environ.get("LABS69_VOICE_CLONE_ID", "")
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v2/align.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/v2/align.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v2/align.py	2026-06-01 17:59:36.639745199 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v2/align.py	2026-06-01 17:54:07.832807788 +0000
+@@ -97,12 +97,19 @@
+ 
+ 
+ def transcribe_words(audio_path: Path, model_size: str = "tiny.en") -> list[WhisperWord]:
+-    """Run faster-whisper to get word-level timestamps. Cached on disk."""
++    """Run faster-whisper to get word-level timestamps. Cached on disk.
++
++    If faster-whisper is unavailable (e.g. ctranslate2 can't install on a read-only
++    mount), return [] so the caller falls back to known-text forced alignment
++    (`synthesize_word_timings`) instead of crashing the plan phase (Rule v17.4)."""
+     cache = audio_path.with_suffix(audio_path.suffix + f".whisper.{model_size}.json")
+     if cache.exists() and cache.stat().st_size > 100:
+         data = json.loads(cache.read_text())
+         return [WhisperWord(**w) for w in data]
+-    from faster_whisper import WhisperModel
++    try:
++        from faster_whisper import WhisperModel
++    except Exception:
++        return []
+     model = WhisperModel(model_size, device="cpu", compute_type="int8")
+     segments, _ = model.transcribe(str(audio_path), word_timestamps=True,
+                                     vad_filter=True, beam_size=1)
+@@ -114,6 +121,35 @@
+     return out
+ 
+ 
++def synthesize_word_timings(text: str, duration: float) -> list[WhisperWord]:
++    """Known-text forced-alignment fallback for when ASR (faster-whisper) is unavailable.
++
++    We already know the exact script text and the measured audio duration (ffprobe), so we
++    spread the script's words across [0, duration] weighted by word length (longer words
++    take longer to say). Feeding these back through `align()` matches each script token to
++    its synthetic word, so sentence boundaries land at sensible, monotonic timestamps —
++    good enough for per-sentence shot sizing (Rule v17.4). It is not ASR-accurate, just a
++    graceful degradation so the pipeline never hard-stops on a missing ASR dependency."""
++    toks: list[str] = []
++    for sent in split_into_sentences(text):
++        toks.extend(sent.split())
++    if not toks:
++        toks = (text or "").split()
++    if not toks or duration <= 0:
++        return []
++    weights = [max(1, len(re.sub(r"[^A-Za-z0-9]", "", t))) for t in toks]
++    total = float(sum(weights)) or float(len(toks))
++    out: list[WhisperWord] = []
++    t = 0.0
++    for tok, wt in zip(toks, weights):
++        share = duration * (wt / total)
++        start = t
++        end = min(duration, t + share)
++        out.append(WhisperWord(text=tok, start=round(start, 3), end=round(end, 3)))
++        t = end
++    return out
++
++
+ def align(script_paragraphs: list[str], whisper_words: list[WhisperWord]) -> list[AlignedWord]:
+     """Align script tokens (authoritative punctuation) to Whisper words (authoritative timings).
+ 
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/embeddings.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/embeddings.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/embeddings.py	2026-06-01 17:59:36.641430685 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/embeddings.py	2026-06-01 17:55:16.340806221 +0000
+@@ -79,7 +79,13 @@
+                 m = StaticModel.from_pretrained(path)
+                 def enc(texts, _m=m):
+                     return [v.tolist() for v in _m.encode(list(texts))]
+-                return ("model2vec", enc, 256, 0.50, 0.32)
++                # default_floor tuned to 0.18 against the real candle corpus: narration
++                # sentences are long and corpus descriptions are short, so true matches
++                # land low on model2vec cosine. 0.32 left most shots uncovered and dropped
++                # them to per-shot keyword search; 0.18 keeps ~95% sourced from the corpus
++                # (Rule v26.0 — try harder in the corpus before falling back). Env overrides
++                # via YTA_LIBRARY_MIN_SIM_FLOOR still win.
++                return ("model2vec", enc, 256, 0.50, 0.18)
+             if name == "fastembed":
+                 from fastembed import TextEmbedding
+                 cache = _model_dir("fastembed") or os.environ.get("YTA_EMBED_MODEL_DIR")
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/library_match.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/library_match.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/library_match.py	2026-06-01 17:59:36.640907198 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/library_match.py	2026-06-01 17:55:06.224806453 +0000
+@@ -66,22 +66,44 @@
+     except Exception:
+         _score = lambda sim, **_: sim  # noqa: E731
+ 
++    # Vectorized cosine (perf): one (N_scenes x M_moments) matmul of L2-normalized vectors
++    # replaces the pure-Python double loop of ~(shots x moments) cosine() calls, which did
++    # not finish within a single window on a large corpus (148 shots x 6k+ moments). The
++    # action-rerank, threshold and per-moment cap below are unchanged, so matching results
++    # are identical — only the cosine computation is faster. Falls back to the injected
++    # cosine() if numpy is unavailable.
++    _COS = None
++    try:
++        import numpy as _np
++        _S = _np.asarray(seg_vecs, dtype=_np.float32)
++        _Q = _np.asarray(scene_vecs, dtype=_np.float32)
++        if _S.ndim == 2 and _Q.ndim == 2 and _S.shape[1] == _Q.shape[1]:
++            _S /= (_np.linalg.norm(_S, axis=1, keepdims=True) + 1e-12)
++            _Q /= (_np.linalg.norm(_Q, axis=1, keepdims=True) + 1e-12)
++            _COS = _Q @ _S.T
++    except Exception:
++        _COS = None
++
+     used_count, out = {}, {}
+ 
+     def _assign(threshold):
+-        for (shot_idx, scene), svec in zip(scene_items, scene_vecs):
++        for qi, ((shot_idx, scene), svec) in enumerate(zip(scene_items, scene_vecs)):
+             if shot_idx in out:
+                 continue
++            cos_row = _COS[qi] if _COS is not None else None
+             best_i, best_score, best_cos = -1, -1.0, -1.0
+             for i, mvec in enumerate(seg_vecs):
+                 url, ch, vid, source, seg, _mn = moments[i]
+                 mkey = (url, int(seg.get("start", 0) // 4))
+                 if used_count.get(mkey, 0) >= per_moment_cap:
+                     continue
+-                try:
+-                    sim = float(cosine(svec, mvec))
+-                except Exception:
+-                    sim = -1.0
++                if cos_row is not None:
++                    sim = float(cos_row[i])
++                else:
++                    try:
++                        sim = float(cosine(svec, mvec))
++                    except Exception:
++                        sim = -1.0
+                 score = _score(sim, shot_text=scene,
+                                seg_text=(seg.get("embed_text") or seg.get("desc", "")),
+                                seg_label=seg.get("label", ""))
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/pipeline_v3.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/pipeline_v3.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/pipeline_v3.py	2026-06-01 17:59:36.642038980 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/pipeline_v3.py	2026-06-01 17:54:28.764807309 +0000
+@@ -15,7 +15,7 @@
+ from pathlib import Path
+ from app.config import settings
+ from app.services import youtube as yt
+-from app.services.v2.align import transcribe_words, align
++from app.services.v2.align import transcribe_words, align, synthesize_word_timings
+ from app.services.v2.shot_planner import plan_shots
+ from app.services.v3.query_rewriter import rewrite_shots, ShotQuery
+ from app.services.v3.pool_v3 import candidates_for_shot
+@@ -65,19 +65,26 @@
+     para_offset = 0.0
+     for pi, p in enumerate(paragraphs):
+         audio = Path(p["audio_path"])
+-        ww = await asyncio.to_thread(transcribe_words, audio, "tiny.en")
+-        for w in ww:
+-            w.start += para_offset; w.end += para_offset
+-        a = await asyncio.to_thread(align, [p["text"]], ww)
+-        for w in a: w.para_idx = pi
+-        all_aligned.extend(a)
++        # Measure duration first — the forced-alignment fallback needs it when ASR is absent.
+         try:
+             dur = float(subprocess.check_output([
+                 "ffprobe", "-v", "error", "-show_entries", "format=duration",
+                 "-of", "default=noprint_wrappers=1:nokey=1", str(audio),
+             ]).decode().strip())
+         except Exception:
+-            dur = ww[-1].end if ww else 0
++            dur = 0.0
++        ww = await asyncio.to_thread(transcribe_words, audio, "tiny.en")
++        if not ww and dur > 0:
++            # faster-whisper unavailable -> align the known script text to the audio
++            # duration instead of crashing the plan phase (Rule v17.4).
++            ww = synthesize_word_timings(p["text"], dur)
++        for w in ww:
++            w.start += para_offset; w.end += para_offset
++        a = await asyncio.to_thread(align, [p["text"]], ww)
++        for w in a: w.para_idx = pi
++        all_aligned.extend(a)
++        if not dur:
++            dur = (ww[-1].end - para_offset) if ww else 0
+         para_offset += dur
+     v2_shots = plan_shots(all_aligned)
+     if progress_cb: progress_cb(f"Planned {len(v2_shots)} shots")
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/query_rewriter.py /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/query_rewriter.py
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/query_rewriter.py	2026-06-01 17:59:36.640439234 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/query_rewriter.py	2026-06-01 17:53:30.052808652 +0000
+@@ -5,11 +5,19 @@
+ """
+ from __future__ import annotations
+ import json
++import os
++import re
+ from dataclasses import dataclass
+-from google import genai
+-from google.genai import types
+ from app.config import settings
+ 
++# Lightweight stopword set for the local (no-Gemini) keyword fallback.
++_STOP = {
++    "the", "a", "an", "of", "to", "in", "on", "into", "onto", "and", "or", "for",
++    "with", "is", "are", "be", "being", "it", "this", "that", "as", "at", "by",
++    "from", "up", "out", "over", "then", "so", "we", "you", "your", "their", "his",
++    "her", "its", "they", "them", "will", "can", "just", "very", "really", "also",
++}
++
+ 
+ @dataclass
+ class ShotQuery:
+@@ -56,8 +64,56 @@
+ """
+ 
+ 
++def _keywords(text: str, k: int = 5) -> str:
++    """Crude 2-5 word search query: keep the first few content words (drops stopwords)."""
++    words = re.findall(r"[A-Za-z0-9']+", text or "")
++    kws = [w for w in words if w.lower() not in _STOP][:k]
++    if kws:
++        return " ".join(kws)
++    return words[0] if words else (text or "").strip()[:40]
++
++
++def _local_rewrite(narrations: list[str], topic: str = "") -> list[ShotQuery]:
++    """No-Gemini fallback (the default YouTube-only path — Rule v25.0/v26.0).
++
++    The corpus matcher embeds `scene_description` with the offline embedder, so the
++    narration sentence itself is a perfectly good scene description; the keyword query is
++    only the per-shot YouTube backstop. No network, no API key."""
++    out: list[ShotQuery] = []
++    for i, n in enumerate(narrations):
++        out.append(ShotQuery(
++            shot_idx=i, narration=n,
++            primary_visual_noun="",
++            search_query=_keywords(n),
++            secondary_search_query="",
++            is_abstract=False,
++            scene_description=(n or "").strip(),
++        ))
++    return out
++
++
+ def rewrite_shots(narrations: list[str], topic: str = "") -> list[ShotQuery]:
+-    """One Gemini call for the whole script. Returns one ShotQuery per narration."""
++    """One ShotQuery per narration.
++
++    Default path is YouTube-only / no Gemini (Rule v25.0): if YTA_YOUTUBE_ONLY is on
++    (the default) or no Gemini key is configured, build the queries locally from the
++    narration. Only when the operator has explicitly opted back into the Gemini path
++    (YTA_YOUTUBE_ONLY=0) AND a key is present do we make the Gemini call — and even then
++    any failure degrades to the local rewrite instead of crashing the plan phase."""
++    youtube_only = os.environ.get("YTA_YOUTUBE_ONLY", "1").strip().lower() not in ("0", "false", "no")
++    key = (getattr(settings, "GEMINI_API_KEY", "") or os.environ.get("GEMINI_API_KEY", "")).strip()
++    if youtube_only or not key:
++        return _local_rewrite(narrations, topic)
++    try:
++        return _gemini_rewrite(narrations, topic)
++    except Exception:
++        return _local_rewrite(narrations, topic)
++
++
++def _gemini_rewrite(narrations: list[str], topic: str = "") -> list[ShotQuery]:
++    """One Gemini call for the whole script (opt-in path)."""
++    from google import genai
++    from google.genai import types
+     topic_hdr = (f"VIDEO TOPIC (use this to disambiguate EVERY search_query and scene_description so each word is read in the RIGHT sense for this topic, not literally): {topic}\n\n" if topic else "")
+     prompt = topic_hdr + PROMPT + "\n".join(f"{i}. {n}" for i, n in enumerate(narrations))
+     client = genai.Client(api_key=settings.GEMINI_API_KEY)
+diff -ru '--exclude=*.safetensors' '--exclude=*.onnx' '--exclude=__pycache__' '--exclude=*.pyc' /tmp/yta_orig/yta-video-maker-2/scripts/bootstrap.sh /tmp/yta_build/yta-video-maker-2/scripts/bootstrap.sh
+--- /tmp/yta_orig/yta-video-maker-2/scripts/bootstrap.sh	2026-06-01 17:59:36.639331946 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/bootstrap.sh	2026-06-01 17:52:52.560809510 +0000
+@@ -115,6 +115,12 @@
+ # 7. Copy the bundled scripts (assumes this bootstrap.sh lives in the skill's scripts/ folder)
+ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ cp "$SCRIPT_DIR"/*.py "$WS/scripts/" 2>/dev/null || true
++# Also copy the app/ package tree. The runners do `import app.services.*`, so copying
++# only the top-level *.py left $WS/scripts unable to import them (the runners then had to
++# be launched from the skill's own scripts/ dir). Copy the whole package so $WS is runnable.
++if [ -d "$SCRIPT_DIR/app" ]; then
++    cp -r "$SCRIPT_DIR/app" "$WS/scripts/" 2>/dev/null || true
++fi
+ ls "$WS/scripts/"*.py | wc -l
+ 
+ # 7b. Face-detection model (YuNet) for the zero-tolerance face gate (Rule v22.6).
