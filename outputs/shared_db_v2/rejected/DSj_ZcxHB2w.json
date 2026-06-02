@@ -1,0 +1,96 @@
+{
+  "video_id": "DSj_ZcxHB2w",
+  "n_rejected": 10,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 7.67,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 0.33
+    },
+    {
+      "window_index": 1,
+      "start_s": 7.67,
+      "end_s": 15.33,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 8.0
+    },
+    {
+      "window_index": 2,
+      "start_s": 15.33,
+      "end_s": 23.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 15.66
+    },
+    {
+      "window_index": 3,
+      "start_s": 23.0,
+      "end_s": 30.67,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 27.33
+    },
+    {
+      "window_index": 4,
+      "start_s": 30.67,
+      "end_s": 38.33,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 31.0
+    },
+    {
+      "window_index": 7,
+      "start_s": 53.67,
+      "end_s": 61.33,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 54.0
+    },
+    {
+      "window_index": 8,
+      "start_s": 61.33,
+      "end_s": 69.0,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 61.66
+    },
+    {
+      "window_index": 9,
+      "start_s": 69.0,
+      "end_s": 76.67,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 69.33
+    },
+    {
+      "window_index": 10,
+      "start_s": 76.67,
+      "end_s": 84.33,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 77.0
+    },
+    {
+      "window_index": 11,
+      "start_s": 84.33,
+      "end_s": 92.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 84.66
+    }
+  ]
+}
