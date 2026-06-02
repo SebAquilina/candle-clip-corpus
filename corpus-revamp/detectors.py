@@ -18,7 +18,7 @@ from pathlib import Path
 # --- configure the vendored detector BEFORE importing it (it reads env at import) ---
 _HERE = Path(__file__).resolve().parent
 os.environ.setdefault("YTA_NO_FACES", "1")                       # zero-tolerance face mode
-os.environ.setdefault("YTA_FACE_SCORE", os.environ.get("REVAMP_FACE_SCORE", "0.50"))
+os.environ.setdefault("YTA_FACE_SCORE", os.environ.get("REVAMP_FACE_SCORE", "0.60"))
 os.environ.setdefault("YTA_FACE_MODEL", str(_HERE / "face_detection_yunet_2023mar.onnx"))
 # Make the OCR sensitive: any confident multi-char alnum word counts as on-screen text.
 os.environ.setdefault("VM_TEXT_MIN_CONF", os.environ.get("REVAMP_TEXT_MIN_CONF", "45"))

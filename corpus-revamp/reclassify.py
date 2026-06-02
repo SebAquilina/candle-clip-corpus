@@ -196,8 +196,57 @@ def local_clips(clip_dir: str, limit=0):
     print(f"\nSUMMARY: kept {len(kept)}/{len(clips)}, rejected {len(rej)}  {dict((r,sum(1 for _,x in rej if x==r)) for _,r in rej)}")
 
 
+def selftest():
+    """Preflight: confirm this machine is ready BEFORE committing to the full grind —
+    strong face detector, OCR, local VLM, and a real test download with the cookies."""
+    ok = True
+    import detectors as D
+    a = D.availability()
+    print("== corpus-revamp preflight ==")
+    print(f"  face detector : {a['face_backend']}  ({'OK' if a['face_available'] else 'MISSING'})")
+    print(f"  OCR (tesseract): {'OK' if a['text_available'] else 'MISSING'}")
+    if a["face_backend"] != "yunet":
+        print("  !! weak face backend (want yunet) — check assets/face_detection_yunet_2023mar.onnx"); ok = False
+    if not (a["face_available"] and a["text_available"]):
+        ok = False
+    try:
+        cap = DESC.get_captioner(); print(f"  VLM           : {cap.name}  ({'OK' if cap.name!='stub' else 'STUB — install torch+transformers'})")
+        if cap.name == "stub":
+            ok = False
+    except Exception as e:
+        print(f"  VLM           : FAIL ({str(e)[:80]})"); ok = False
+    # test download (shortest record), with whatever cookies are configured
+    try:
+        import fetch, glob as _g, json as _j
+        rows = []
+        for rf in _g.glob(str(RECORDS / "*.json")):
+            try:
+                d = _j.load(open(rf))
+                if d.get("video_id"):
+                    rows.append((d.get("video_duration_s", 1e9) or 1e9, d["video_id"], d.get("video_url", "")))
+            except Exception:
+                pass
+        rows.sort()
+        if rows:
+            _, vid, url = rows[0]
+            print(f"  test download : {vid} ...")
+            dl = fetch.download(vid, url)
+            if dl["ok"]:
+                print(f"                  OK ({dl.get('height')}p)"); fetch.discard(vid)
+            else:
+                print(f"                  FAIL: {dl['err'][:140]}")
+                print("                  -> need: yt-dlp-ejs installed, deno on PATH, FRESH full-auth cookies (REVAMP_COOKIES)")
+                ok = False
+    except Exception as e:
+        print(f"  test download : ERROR {str(e)[:80]}"); ok = False
+    print("== PREFLIGHT", "PASS — ready to grind ==" if ok else "FAIL — fix the above first ==")
+    sys.exit(0 if ok else 1)
+
+
 if __name__ == "__main__":
-    if "--status" in sys.argv:
+    if "--selftest" in sys.argv:
+        selftest()
+    elif "--status" in sys.argv:
         status()
     elif "--reindex" in sys.argv:
         import shutil
