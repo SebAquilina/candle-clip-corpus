@@ -1,0 +1,51 @@
+{
+  "video_id": "K7UxM5B0FdM",
+  "n_rejected": 5,
+  "rejected": [
+    {
+      "window_index": 15,
+      "start_s": 120.0,
+      "end_s": 128.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 120.33
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.0,
+      "end_s": 176.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 168.33
+    },
+    {
+      "window_index": 22,
+      "start_s": 176.0,
+      "end_s": 184.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 176.33
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.0,
+      "end_s": 192.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 184.33
+    },
+    {
+      "window_index": 25,
+      "start_s": 200.0,
+      "end_s": 208.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 200.33
+    }
+  ]
+}
