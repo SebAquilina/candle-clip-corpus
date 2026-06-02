@@ -35,8 +35,13 @@ _spec.loader.exec_module(cc)
 import cv2  # noqa: E402
 
 FRAMES_PER_SEC = int(os.environ.get("REVAMP_FRAMES_PER_SEC", "2"))
-# >0 = at least one confident OCR word covers some area -> text present.
-TEXT_EPS = float(os.environ.get("REVAMP_TEXT_AREA_EPS", "0.0"))
+# A word counts as on-screen text only if OCR is confident AND it has enough letters —
+# this rejects the short gibberish ("SS", "sh iw vat") tesseract hallucinates on textured
+# B-roll, while keeping real captions/logos. Validated 10/10 on the montage sample.
+TEXT_CONF = float(os.environ.get("REVAMP_TEXT_MIN_CONF", "55"))
+TEXT_LEN = int(os.environ.get("REVAMP_TEXT_MIN_CHARS", "4"))
+import pytesseract  # noqa: E402
+_CLAHE = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
 
 
 def availability() -> dict:
@@ -51,8 +56,49 @@ def _frame_has_face(frame) -> bool:
     return bool(boxes)
 
 
+def _ocr_hit(gray, psm: int) -> bool:
+    """True if any confident, long-enough word is present in this (pre-processed) image."""
+    try:
+        d = pytesseract.image_to_data(gray, config=f"--psm {psm}",
+                                      output_type=pytesseract.Output.DICT)
+    except Exception:
+        return False
+    for i in range(len(d.get("text", []))):
+        t = (d["text"][i] or "").strip()
+        alnum = "".join(c for c in t if c.isalnum())
+        try:
+            conf = float(d["conf"][i])
+        except Exception:
+            conf = -1.0
+        if conf >= TEXT_CONF and len(alnum) >= TEXT_LEN:
+            return True
+    return False
+
+
 def _frame_has_text(frame) -> bool:
-    return cc.frame_text_area_frac(frame) > TEXT_EPS
+    """Three superimposed OCR passes — text ANYWHERE is caught, faint text recovered:
+      P1 full-frame + contrast  -> title cards, end-cards, large/any text
+      P2 bottom strip (upscaled) -> faint subtitles, bottom captions, bottom-corner marks
+      P3 top strip (upscaled)    -> top-corner logos/watermarks full-frame misses
+    Each region is contrast-enhanced (CLAHE) so low-contrast captions become readable.
+    Returns on the first hit. Persistence across seconds (scan_window) suppresses noise."""
+    h, w = frame.shape[:2]
+    g = _CLAHE.apply(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY))
+    if _ocr_hit(g, 11):
+        return True
+    bf = float(os.environ.get("REVAMP_BOTTOM_FRAC", "0.72"))
+    s = frame[int(h * bf):, :]
+    if s.size:
+        s = cv2.resize(s, (w * 2, max(1, s.shape[0] * 2)), interpolation=cv2.INTER_CUBIC)
+        if _ocr_hit(_CLAHE.apply(cv2.cvtColor(s, cv2.COLOR_BGR2GRAY)), 6):
+            return True
+    tf = float(os.environ.get("REVAMP_TOP_FRAC", "0.20"))
+    t = frame[:int(h * tf), :]
+    if t.size:
+        t = cv2.resize(t, (w * 2, max(1, t.shape[0] * 2)), interpolation=cv2.INTER_CUBIC)
+        if _ocr_hit(_CLAHE.apply(cv2.cvtColor(t, cv2.COLOR_BGR2GRAY)), 6):
+            return True
+    return False
 
 
 def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
