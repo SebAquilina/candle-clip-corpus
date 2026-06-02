@@ -1,0 +1,16 @@
+{
+  "video_id": "jVRtUAY0SpI",
+  "video_title": "The candle that made me go VIRAL \u2728 Studio Vlog No. 1 \u2728 The making of Cloud Nine",
+  "video_url": "https://www.youtube.com/watch?v=jVRtUAY0SpI",
+  "video_duration_s": 569.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T15:26:34Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 27,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 27,
+  "windows": []
+}
