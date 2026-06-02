@@ -1,0 +1,16 @@
+{
+  "video_id": "vWsjYBvP3aE",
+  "video_title": "how to make scented beeswax candles \ud83d\udc1d",
+  "video_url": "https://www.youtube.com/watch?v=vWsjYBvP3aE",
+  "video_duration_s": 468.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T16:23:03Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 6,
+  "windows": []
+}
