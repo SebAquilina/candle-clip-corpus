@@ -1,0 +1,24 @@
+{
+  "video_id": "FxW5eR7Uv3o",
+  "n_rejected": 2,
+  "rejected": [
+    {
+      "window_index": 48,
+      "start_s": 385.48,
+      "end_s": 393.51,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 385.81
+    },
+    {
+      "window_index": 49,
+      "start_s": 393.51,
+      "end_s": 401.54,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 393.84
+    }
+  ]
+}

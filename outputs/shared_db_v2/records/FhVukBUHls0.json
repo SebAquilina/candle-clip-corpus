@@ -1,0 +1,16 @@
+{
+  "video_id": "FhVukBUHls0",
+  "video_title": "Candle Making Kit with Electronic Hot Plate for Beginners, Adults, and Kids",
+  "video_url": "https://www.youtube.com/watch?v=FhVukBUHls0",
+  "video_duration_s": 110.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T14:36:43Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 8,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 8,
+  "windows": []
+}

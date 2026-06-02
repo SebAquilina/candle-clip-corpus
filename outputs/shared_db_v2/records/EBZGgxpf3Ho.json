@@ -1,0 +1,16 @@
+{
+  "video_id": "EBZGgxpf3Ho",
+  "video_title": "How to make perfect scented soy wax tin candles every time. DIY tutorial 7oz coco soy wax candles",
+  "video_url": "https://www.youtube.com/watch?v=EBZGgxpf3Ho",
+  "video_duration_s": 667.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T14:36:13Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 78,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 78,
+  "windows": []
+}
