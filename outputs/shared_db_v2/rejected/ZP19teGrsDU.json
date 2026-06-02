@@ -1,0 +1,24 @@
+{
+  "video_id": "ZP19teGrsDU",
+  "n_rejected": 2,
+  "rejected": [
+    {
+      "window_index": 18,
+      "start_s": 145.03,
+      "end_s": 153.09,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 145.36
+    },
+    {
+      "window_index": 19,
+      "start_s": 153.09,
+      "end_s": 161.14,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 153.42
+    }
+  ]
+}

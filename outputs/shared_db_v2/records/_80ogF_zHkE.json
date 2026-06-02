@@ -1,0 +1,16 @@
+{
+  "video_id": "_80ogF_zHkE",
+  "video_title": "oddly satisfying candle making!",
+  "video_url": "https://www.youtube.com/watch?v=_80ogF_zHkE",
+  "video_duration_s": 302.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T15:07:27Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 15,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 15,
+  "windows": []
+}
