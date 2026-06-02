@@ -1,0 +1,16 @@
+{
+  "video_id": "W_CSmi19gys",
+  "video_title": "Candle Making With Coconut Wax Blends (Basics, Tips & Fragrance Testing)",
+  "video_url": "https://www.youtube.com/watch?v=W_CSmi19gys",
+  "video_duration_s": 546.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:29:56Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 8,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 8,
+  "windows": []
+}
