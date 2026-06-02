@@ -1,0 +1,15 @@
+{
+  "video_id": "tefcS4jURNs",
+  "n_rejected": 1,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 16.4,
+      "end_s": 18.9,
+      "action_label": "reveal_result",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 17.73
+    }
+  ]
+}

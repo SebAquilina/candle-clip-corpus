@@ -1,0 +1,60 @@
+{
+  "video_id": "rjhYJgEVFMw",
+  "n_rejected": 6,
+  "rejected": [
+    {
+      "window_index": 5,
+      "start_s": 40.22,
+      "end_s": 48.26,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 40.55
+    },
+    {
+      "window_index": 13,
+      "start_s": 104.57,
+      "end_s": 112.61,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 105.24
+    },
+    {
+      "window_index": 15,
+      "start_s": 120.65,
+      "end_s": 128.7,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 120.98
+    },
+    {
+      "window_index": 17,
+      "start_s": 136.74,
+      "end_s": 144.78,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 137.07
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.83,
+      "end_s": 160.87,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 153.5
+    },
+    {
+      "window_index": 20,
+      "start_s": 160.87,
+      "end_s": 168.91,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 161.2
+    }
+  ]
+}
