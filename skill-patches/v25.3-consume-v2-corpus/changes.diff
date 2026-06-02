@@ -1,0 +1,49 @@
+--- /tmp/yta_orig/yta-video-maker-2/scripts/app/services/v3/shared_library.py	2026-06-01 17:59:36.642436451 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/app/services/v3/shared_library.py	2026-06-02 08:32:51.929384555 +0000
+@@ -64,7 +64,9 @@
+         cands.append(os.environ["YTA_SHARED_DB"])
+     for base in (os.environ.get("WS", ""), os.getcwd(), os.path.expanduser("~")):
+         if base:
+-            cands += [os.path.join(base, "shared_db"),
++            cands += [os.path.join(base, "shared_db_v2"),
++                      os.path.join(base, "outputs", "shared_db_v2"),
++                      os.path.join(base, "shared_db"),
+                       os.path.join(base, "shared_clip_db"),
+                       os.path.join(base, "outputs", "shared_db")]
+     for c in cands:
+@@ -148,6 +150,35 @@
+         f"https://www.youtube.com/watch?v={vid}" if vid else None)
+     if not url:
+         return None
++
++    # v2 per-second corpus (corpus-revamp): every window already passed the second-by-second
++    # face+OCR purge AND the description face backstop, so it is a CLEAN survivor by
++    # construction — none of the v1 is_step/flagged/face_score logic applies (rejects live in
++    # a separate rejected/ store). The window-level embed_text (vision) and transcript (speech)
++    # are precomputed and kept SEPARATE so the matcher weighs them independently.
++    if rec.get("schema") == "per_second_v1":
++        segs = []
++        for w in rec.get("windows", []):
++            start = float(w.get("start_s", 0.0) or 0.0)
++            end = float(w.get("end_s", start) or start)
++            if end <= start:
++                end = start + 5.0
++            et = (w.get("embed_text") or "").strip()
++            label = w.get("action_label", "")
++            segs.append({
++                "start": start, "end": end,
++                "desc": (et or label)[:160],
++                "embed_text": (et or label)[:400],        # VISION: what is on screen
++                "transcript": (w.get("transcript") or "").strip()[:400],  # SEPARATE: speech
++                "talking_head": False,                    # clean by construction
++                "label": label,
++            })
++        if not segs:
++            return None
++        return url, {"id": vid, "channel": (rec.get("channel") or "").strip(),
++                     "source": "shared-library-v2", "niche": rec.get("niche", ""),
++                     "segments": segs}
++
+     flagged_idx = {f.get("window_index") for f in rec.get("flagged", [])}
+     segs = []
+     for w in rec.get("windows", []):
