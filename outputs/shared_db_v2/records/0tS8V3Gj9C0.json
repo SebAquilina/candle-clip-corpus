@@ -1,0 +1,16 @@
+{
+  "video_id": "0tS8V3Gj9C0",
+  "video_title": "make 1000 candles with me | balancing work & life, browsing markets, small business vlog",
+  "video_url": "https://www.youtube.com/watch?v=0tS8V3Gj9C0",
+  "video_duration_s": 845.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T16:56:05Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 21,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 21,
+  "windows": []
+}
