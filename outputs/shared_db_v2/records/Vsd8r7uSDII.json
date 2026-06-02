@@ -1,0 +1,16 @@
+{
+  "video_id": "Vsd8r7uSDII",
+  "video_title": "How To Make A Wooden Wick Candle | Luxury Candle Making",
+  "video_url": "https://www.youtube.com/watch?v=Vsd8r7uSDII",
+  "video_duration_s": 288.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:29:05Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 23,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 23,
+  "windows": []
+}

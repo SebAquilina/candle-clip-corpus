@@ -1,0 +1,16 @@
+{
+  "video_id": "Vp4eR_y0Zsc",
+  "video_title": "Candle Making DIY bubble Candle | Make aesthetic candles with me! |\ud050\ube0c\uce94\ub4e4 \ub9cc\ub4e4\uae30",
+  "video_url": "https://www.youtube.com/watch?v=Vp4eR_y0Zsc",
+  "video_duration_s": 509.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:28:22Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 51,
+  "windows": []
+}

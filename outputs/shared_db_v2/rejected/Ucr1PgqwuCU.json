@@ -1,0 +1,105 @@
+{
+  "video_id": "Ucr1PgqwuCU",
+  "n_rejected": 11,
+  "rejected": [
+    {
+      "window_index": 7,
+      "start_s": 55.52,
+      "end_s": 63.45,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 55.85
+    },
+    {
+      "window_index": 11,
+      "start_s": 87.24,
+      "end_s": 95.17,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 87.57
+    },
+    {
+      "window_index": 12,
+      "start_s": 95.17,
+      "end_s": 103.1,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 95.5
+    },
+    {
+      "window_index": 13,
+      "start_s": 103.1,
+      "end_s": 111.03,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 103.43
+    },
+    {
+      "window_index": 14,
+      "start_s": 111.03,
+      "end_s": 118.97,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 111.36
+    },
+    {
+      "window_index": 15,
+      "start_s": 118.97,
+      "end_s": 126.9,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 119.3
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.83,
+      "end_s": 142.76,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 135.16
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.76,
+      "end_s": 150.69,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 143.09
+    },
+    {
+      "window_index": 23,
+      "start_s": 182.41,
+      "end_s": 190.34,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 182.74
+    },
+    {
+      "window_index": 24,
+      "start_s": 190.34,
+      "end_s": 198.28,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 190.67
+    },
+    {
+      "window_index": 27,
+      "start_s": 214.14,
+      "end_s": 222.07,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 215.47
+    }
+  ]
+}

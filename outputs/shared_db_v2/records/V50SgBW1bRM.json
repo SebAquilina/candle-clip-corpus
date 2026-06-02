@@ -1,0 +1,16 @@
+{
+  "video_id": "V50SgBW1bRM",
+  "video_title": "\ud83d\udd25 Watch Me Make Luxury Pillar Candles! | Get My Exact Recipe in the Ultimate Candle-Making eBook! \ud83d\udd25",
+  "video_url": "https://www.youtube.com/watch?v=V50SgBW1bRM",
+  "video_duration_s": 546.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:24:49Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 51,
+  "windows": []
+}
