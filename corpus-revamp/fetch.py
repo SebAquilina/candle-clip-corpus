@@ -49,6 +49,9 @@ def download(video_id: str, url: str = "") -> dict:
         "format": fmt, "outtmpl": out_tmpl, "quiet": True, "no_warnings": True,
         "noprogress": True, "retries": 3, "fragment_retries": 3,
         "merge_output_format": "mp4", "concurrent_fragment_downloads": 4,
+        # Socket timeout so a hung server doesn't freeze the grind forever (an earlier
+        # run stalled for 2h on a single video). yt_dlp's own retry will kick in.
+        "socket_timeout": int(os.environ.get("REVAMP_SOCKET_TIMEOUT", "30")),
         # Sandbox egress is a transparent TLS-intercepting proxy with a self-signed root
         # that yt_dlp's bundled certifi doesn't trust. Content is public video, so skip
         # cert verification here (the system CA bundle path doesn't reach yt_dlp).
