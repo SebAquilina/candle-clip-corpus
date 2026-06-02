@@ -1,0 +1,334 @@
+{
+  "video_id": "0HfXl244xc4",
+  "n_rejected": 34,
+  "rejected": [
+    {
+      "window_index": 41,
+      "start_s": 327.13,
+      "end_s": 335.11,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 327.46
+    },
+    {
+      "window_index": 42,
+      "start_s": 335.11,
+      "end_s": 343.09,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 335.44
+    },
+    {
+      "window_index": 43,
+      "start_s": 343.09,
+      "end_s": 351.06,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 343.42
+    },
+    {
+      "window_index": 44,
+      "start_s": 351.06,
+      "end_s": 359.04,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 352.39
+    },
+    {
+      "window_index": 45,
+      "start_s": 359.04,
+      "end_s": 367.02,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 359.37
+    },
+    {
+      "window_index": 46,
+      "start_s": 367.02,
+      "end_s": 375.0,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 367.35
+    },
+    {
+      "window_index": 47,
+      "start_s": 375.0,
+      "end_s": 382.98,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 375.33
+    },
+    {
+      "window_index": 48,
+      "start_s": 382.98,
+      "end_s": 390.96,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 383.31
+    },
+    {
+      "window_index": 49,
+      "start_s": 390.96,
+      "end_s": 398.94,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 391.29
+    },
+    {
+      "window_index": 50,
+      "start_s": 398.94,
+      "end_s": 406.91,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 400.61
+    },
+    {
+      "window_index": 51,
+      "start_s": 406.91,
+      "end_s": 414.89,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 407.58
+    },
+    {
+      "window_index": 52,
+      "start_s": 414.89,
+      "end_s": 422.87,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 417.22
+    },
+    {
+      "window_index": 53,
+      "start_s": 422.87,
+      "end_s": 430.85,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 423.54
+    },
+    {
+      "window_index": 54,
+      "start_s": 430.85,
+      "end_s": 438.83,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 431.52
+    },
+    {
+      "window_index": 55,
+      "start_s": 438.83,
+      "end_s": 446.81,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 440.5
+    },
+    {
+      "window_index": 56,
+      "start_s": 446.81,
+      "end_s": 454.79,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 448.48
+    },
+    {
+      "window_index": 57,
+      "start_s": 454.79,
+      "end_s": 462.77,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 58,
+      "start_s": 462.77,
+      "end_s": 470.74,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "glasses",
+        "person"
+      ]
+    },
+    {
+      "window_index": 59,
+      "start_s": 470.74,
+      "end_s": 478.72,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 472.41
+    },
+    {
+      "window_index": 60,
+      "start_s": 478.72,
+      "end_s": 486.7,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 483.05
+    },
+    {
+      "window_index": 62,
+      "start_s": 494.68,
+      "end_s": 502.66,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 495.35
+    },
+    {
+      "window_index": 65,
+      "start_s": 518.62,
+      "end_s": 526.6,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 521.29
+    },
+    {
+      "window_index": 67,
+      "start_s": 534.57,
+      "end_s": 542.55,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 535.24
+    },
+    {
+      "window_index": 68,
+      "start_s": 542.55,
+      "end_s": 550.53,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 542.88
+    },
+    {
+      "window_index": 69,
+      "start_s": 550.53,
+      "end_s": 558.51,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 70,
+      "start_s": 558.51,
+      "end_s": 566.49,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 562.84
+    },
+    {
+      "window_index": 71,
+      "start_s": 566.49,
+      "end_s": 574.47,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 566.82
+    },
+    {
+      "window_index": 72,
+      "start_s": 574.47,
+      "end_s": 582.45,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 73,
+      "start_s": 582.45,
+      "end_s": 590.43,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 74,
+      "start_s": 590.43,
+      "end_s": 598.4,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 75,
+      "start_s": 598.4,
+      "end_s": 606.38,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 598.73
+    },
+    {
+      "window_index": 76,
+      "start_s": 606.38,
+      "end_s": 614.36,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 612.71
+    },
+    {
+      "window_index": 77,
+      "start_s": 614.36,
+      "end_s": 622.34,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 79,
+      "start_s": 630.32,
+      "end_s": 638.3,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 633.99
+    }
+  ]
+}
