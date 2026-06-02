@@ -1,0 +1,72 @@
+{
+  "video_id": "oMSta9suaQ8",
+  "video_title": "How to make marble candles // Marble candle tutorial // DIY marbled candles",
+  "video_url": "https://www.youtube.com/watch?v=oMSta9suaQ8",
+  "video_duration_s": 115.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:18:08Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 5,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 3,
+      "start_s": 24.64,
+      "end_s": 32.86,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead: wax poured from a metal pitcher into dishes with blue dye to make the marble colour."
+    },
+    {
+      "window_index": 6,
+      "start_s": 49.29,
+      "end_s": 57.5,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Continued swirling/tilting of the glass to marble the blue wax up the walls."
+    },
+    {
+      "window_index": 8,
+      "start_s": 65.71,
+      "end_s": 73.93,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The marbled glass rests with a timer to let the pattern set before the fill."
+    },
+    {
+      "window_index": 9,
+      "start_s": 73.93,
+      "end_s": 82.14,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Clear/white wax poured into the marbled glass over a centring stick to fill it."
+    },
+    {
+      "window_index": 11,
+      "start_s": 90.36,
+      "end_s": 98.57,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Two finished blue-marble candles shown lit."
+    }
+  ]
+}
