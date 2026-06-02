@@ -1,0 +1,285 @@
+{
+  "video_id": "4hYoRmRDBKs",
+  "n_rejected": 31,
+  "rejected": [
+    {
+      "window_index": 12,
+      "start_s": 96.92,
+      "end_s": 105.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 97.25
+    },
+    {
+      "window_index": 13,
+      "start_s": 105.0,
+      "end_s": 113.08,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 106.33
+    },
+    {
+      "window_index": 14,
+      "start_s": 113.08,
+      "end_s": 121.15,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 113.41
+    },
+    {
+      "window_index": 15,
+      "start_s": 121.15,
+      "end_s": 129.23,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 121.82
+    },
+    {
+      "window_index": 16,
+      "start_s": 129.23,
+      "end_s": 137.31,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 130.9
+    },
+    {
+      "window_index": 17,
+      "start_s": 137.31,
+      "end_s": 145.38,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 137.64
+    },
+    {
+      "window_index": 18,
+      "start_s": 145.38,
+      "end_s": 153.46,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 145.71
+    },
+    {
+      "window_index": 19,
+      "start_s": 153.46,
+      "end_s": 161.54,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 153.79
+    },
+    {
+      "window_index": 21,
+      "start_s": 169.62,
+      "end_s": 177.69,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 169.95
+    },
+    {
+      "window_index": 22,
+      "start_s": 177.69,
+      "end_s": 185.77,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 178.02
+    },
+    {
+      "window_index": 24,
+      "start_s": 193.85,
+      "end_s": 201.92,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 194.52
+    },
+    {
+      "window_index": 25,
+      "start_s": 201.92,
+      "end_s": 210.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 202.25
+    },
+    {
+      "window_index": 26,
+      "start_s": 210.0,
+      "end_s": 218.08,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 210.33
+    },
+    {
+      "window_index": 27,
+      "start_s": 218.08,
+      "end_s": 226.15,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 218.41
+    },
+    {
+      "window_index": 29,
+      "start_s": 234.23,
+      "end_s": 242.31,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 234.56
+    },
+    {
+      "window_index": 30,
+      "start_s": 242.31,
+      "end_s": 250.38,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 242.64
+    },
+    {
+      "window_index": 31,
+      "start_s": 250.38,
+      "end_s": 258.46,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 250.71
+    },
+    {
+      "window_index": 32,
+      "start_s": 258.46,
+      "end_s": 266.54,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 258.79
+    },
+    {
+      "window_index": 33,
+      "start_s": 266.54,
+      "end_s": 274.62,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 266.87
+    },
+    {
+      "window_index": 35,
+      "start_s": 282.69,
+      "end_s": 290.77,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 283.36
+    },
+    {
+      "window_index": 36,
+      "start_s": 290.77,
+      "end_s": 298.85,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 291.1
+    },
+    {
+      "window_index": 37,
+      "start_s": 298.85,
+      "end_s": 306.92,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 299.18
+    },
+    {
+      "window_index": 38,
+      "start_s": 306.92,
+      "end_s": 315.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 307.25
+    },
+    {
+      "window_index": 39,
+      "start_s": 315.0,
+      "end_s": 323.08,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 315.33
+    },
+    {
+      "window_index": 42,
+      "start_s": 339.23,
+      "end_s": 347.31,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 339.56
+    },
+    {
+      "window_index": 43,
+      "start_s": 347.31,
+      "end_s": 355.38,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 347.64
+    },
+    {
+      "window_index": 44,
+      "start_s": 355.38,
+      "end_s": 363.46,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 355.71
+    },
+    {
+      "window_index": 46,
+      "start_s": 371.54,
+      "end_s": 379.62,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 371.87
+    },
+    {
+      "window_index": 47,
+      "start_s": 379.62,
+      "end_s": 387.69,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 379.95
+    },
+    {
+      "window_index": 48,
+      "start_s": 387.69,
+      "end_s": 395.77,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 388.02
+    },
+    {
+      "window_index": 49,
+      "start_s": 395.77,
+      "end_s": 403.85,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 398.1
+    }
+  ]
+}

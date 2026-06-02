@@ -1,0 +1,69 @@
+{
+  "video_id": "2KbmlOnPJnU",
+  "n_rejected": 7,
+  "rejected": [
+    {
+      "window_index": 9,
+      "start_s": 71.53,
+      "end_s": 79.47,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 74.2
+    },
+    {
+      "window_index": 11,
+      "start_s": 87.42,
+      "end_s": 95.37,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 88.75
+    },
+    {
+      "window_index": 12,
+      "start_s": 95.37,
+      "end_s": 103.32,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 99.04
+    },
+    {
+      "window_index": 13,
+      "start_s": 103.32,
+      "end_s": 111.26,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 109.99
+    },
+    {
+      "window_index": 14,
+      "start_s": 111.26,
+      "end_s": 119.21,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 117.59
+    },
+    {
+      "window_index": 15,
+      "start_s": 119.21,
+      "end_s": 127.16,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 125.54
+    },
+    {
+      "window_index": 16,
+      "start_s": 127.16,
+      "end_s": 135.11,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 133.49
+    }
+  ]
+}

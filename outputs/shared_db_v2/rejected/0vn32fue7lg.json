@@ -1,0 +1,123 @@
+{
+  "video_id": "0vn32fue7lg",
+  "n_rejected": 13,
+  "rejected": [
+    {
+      "window_index": 6,
+      "start_s": 48.29,
+      "end_s": 56.34,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 48.62
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.34,
+      "end_s": 64.39,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 58.67
+    },
+    {
+      "window_index": 8,
+      "start_s": 64.39,
+      "end_s": 72.44,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 64.72
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.44,
+      "end_s": 80.49,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 72.77
+    },
+    {
+      "window_index": 24,
+      "start_s": 193.17,
+      "end_s": 201.22,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 193.5
+    },
+    {
+      "window_index": 25,
+      "start_s": 201.22,
+      "end_s": 209.27,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 201.55
+    },
+    {
+      "window_index": 26,
+      "start_s": 209.27,
+      "end_s": 217.32,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 209.94
+    },
+    {
+      "window_index": 27,
+      "start_s": 217.32,
+      "end_s": 225.37,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 217.65
+    },
+    {
+      "window_index": 28,
+      "start_s": 225.37,
+      "end_s": 233.41,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 225.7
+    },
+    {
+      "window_index": 29,
+      "start_s": 233.41,
+      "end_s": 241.46,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 233.74
+    },
+    {
+      "window_index": 31,
+      "start_s": 249.51,
+      "end_s": 257.56,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 250.18
+    },
+    {
+      "window_index": 32,
+      "start_s": 257.56,
+      "end_s": 265.61,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 263.89
+    },
+    {
+      "window_index": 33,
+      "start_s": 265.61,
+      "end_s": 273.66,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 265.94
+    }
+  ]
+}
