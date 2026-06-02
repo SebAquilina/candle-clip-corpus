@@ -1,0 +1,16 @@
+{
+  "video_id": "6DueGSsFhd8",
+  "video_title": "CD (Stabilo) Candle Wick Series: Everything You Need To Know | CandleScience Product Guides",
+  "video_url": "https://www.youtube.com/watch?v=6DueGSsFhd8",
+  "video_duration_s": 125.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T17:43:21Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 3,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 3,
+  "windows": []
+}

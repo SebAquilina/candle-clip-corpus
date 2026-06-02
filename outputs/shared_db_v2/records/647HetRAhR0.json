@@ -1,0 +1,185 @@
+{
+  "video_id": "647HetRAhR0",
+  "video_title": "Make Candle Tins with Me! | Small Business Vlog",
+  "video_url": "https://www.youtube.com/watch?v=647HetRAhR0",
+  "video_duration_s": 172.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T17:43:00Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 17,
+  "n_windows_kept": 2,
+  "n_windows_rejected": 15,
+  "windows": [
+    {
+      "window_index": 8,
+      "start_s": 62.55,
+      "end_s": 70.36,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 62.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "centers from design",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 63.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "design house are an absolute",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 64.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "absolute game changer.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 65.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "changer. I feel",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 66.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "feel like I'm okay",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 67.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "okay When it comes",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 68.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "comes to getting the wick",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 69.55,
+          "vision_desc": "a group of black and gold metal candles",
+          "transcript_text": "wick centered properly,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a group of black and gold metal candles",
+      "transcript": "centers from design house are an absolute game changer. I feel like I'm okay When it comes to getting the wick centered properly,",
+      "old_description": "Adjusting wicks in the tins."
+    },
+    {
+      "window_index": 12,
+      "start_s": 93.82,
+      "end_s": 101.64,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 93.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "product",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 94.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 95.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 96.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 97.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 98.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 99.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 100.82,
+          "vision_desc": "a bunch of black and gold candles on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bunch of black and gold candles on a table",
+      "transcript": "product",
+      "old_description": "Rows of tins cooling."
+    }
+  ]
+}

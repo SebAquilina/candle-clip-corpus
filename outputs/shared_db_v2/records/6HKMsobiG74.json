@@ -1,0 +1,16 @@
+{
+  "video_id": "6HKMsobiG74",
+  "video_title": "Most Satisfying Ocean Jelly Candle | Water Candle DIY ASMR",
+  "video_url": "https://www.youtube.com/watch?v=6HKMsobiG74",
+  "video_duration_s": 158.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T17:44:33Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 20,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 20,
+  "windows": []
+}
