@@ -1,0 +1,101 @@
+{
+  "video_id": "1V3hfxo7OtE",
+  "video_title": "Candle Making | How to Make Scented Candles",
+  "video_url": "https://www.youtube.com/watch?v=1V3hfxo7OtE",
+  "video_duration_s": 508.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T17:09:55Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 39,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 38,
+  "windows": [
+    {
+      "window_index": 8,
+      "start_s": 63.5,
+      "end_s": 71.44,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 63.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "And while you are melting",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 64.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "melting your wax you're",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 65.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "you're going to want something to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 66.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "to stir it with and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 67.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "and also a digital thermometer",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 68.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "thermometer to keep",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 69.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "keep track of the temperature",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 70.5,
+          "vision_desc": "a table with various items and uts on it",
+          "transcript_text": "temperature Once your",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with various items and uts on it",
+      "transcript": "And while you are melting your wax you're going to want something to stir it with and also a digital thermometer to keep track of the temperature Once your",
+      "old_description": "overhead bench work"
+    }
+  ]
+}
