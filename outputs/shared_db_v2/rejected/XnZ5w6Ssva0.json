@@ -1,0 +1,15 @@
+{
+  "video_id": "XnZ5w6Ssva0",
+  "n_rejected": 1,
+  "rejected": [
+    {
+      "window_index": 6,
+      "start_s": 47.25,
+      "end_s": 55.12,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 48.58
+    }
+  ]
+}
