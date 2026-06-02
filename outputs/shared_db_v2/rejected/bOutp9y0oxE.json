@@ -1,0 +1,60 @@
+{
+  "video_id": "bOutp9y0oxE",
+  "n_rejected": 6,
+  "rejected": [
+    {
+      "window_index": 1,
+      "start_s": 8.3,
+      "end_s": 16.6,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 8.63
+    },
+    {
+      "window_index": 2,
+      "start_s": 16.6,
+      "end_s": 24.9,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 17.93
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.9,
+      "end_s": 33.2,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 25.23
+    },
+    {
+      "window_index": 4,
+      "start_s": 33.2,
+      "end_s": 41.5,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 33.87
+    },
+    {
+      "window_index": 5,
+      "start_s": 41.5,
+      "end_s": 49.8,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 41.83
+    },
+    {
+      "window_index": 7,
+      "start_s": 58.1,
+      "end_s": 66.4,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 58.77
+    }
+  ]
+}
