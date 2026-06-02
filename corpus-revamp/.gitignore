@@ -1,4 +1,3 @@
 __pycache__/
 *.pyc
-state/purge/
-state/describe/
+state/

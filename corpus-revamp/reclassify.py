@@ -134,29 +134,29 @@ def run_grind(max_videos=0, max_seconds=0):
             _atomic(REC_OUT / f"{vid}.json", {"video_id": vid, "schema": "per_second_v1",
                     "n_windows_in": 0, "n_windows_kept": 0, "windows": []})
             continue
-        # Per-video watchdog: a single hung download/scan must not freeze the whole grind
-        # (an earlier run stalled for 2h on one video). SIGALRM raises after the budget,
-        # we record the failure and move on. Tunable via REVAMP_VIDEO_TIMEOUT (default 600s).
-        import signal as _sig
-        _budget = int(os.environ.get("REVAMP_VIDEO_TIMEOUT", "600"))
-        def _on_alarm(_n, _f):
-            raise TimeoutError(f"video budget {_budget}s exceeded")
-        _sig.signal(_sig.SIGALRM, _on_alarm); _sig.alarm(_budget)
+        # Stall guard: a video can hang INSIDE a C call (cv2/torch), which a Python signal
+        # can't interrupt — so an external watchdog (grind_supervisor.sh) kills a stalled
+        # grind, and this attempt-marker makes the resumed run SKIP the culprit instead of
+        # re-hanging on it. We record an attempt BEFORE the heavy work; if we ever see a
+        # video that was already attempted (and has no record), it hung -> quarantine it.
+        attempts = {}
         try:
-            dl = fetch.download(vid, rec.get("video_url", ""))
-            if not dl["ok"]:
-                _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
-                _sig.alarm(0); continue
-            words = TR.get_transcript(vid, dl["path"], rec.get("video_url", ""))
-            v2, rej = reclassify_video(rec, dl["path"], words)
-        except TimeoutError as _te:
-            _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": str(_te), "rejected": []})
-            try: fetch.discard(vid)
-            except Exception: pass
-            print(f"[stall] {vid}: {_te}; skipping")
-            _sig.alarm(0); continue
-        finally:
-            _sig.alarm(0)
+            attempts = json.load(open(STATE / "attempts.json"))
+        except Exception:
+            pass
+        if attempts.get(vid, 0) >= 1:
+            _atomic(REJ_OUT / f"{vid}.json",
+                    {"video_id": vid, "error": f"skipped after stall (attempts={attempts[vid]})", "rejected": []})
+            print(f"[skip] {vid}: previously stalled, quarantined")
+            continue
+        attempts[vid] = attempts.get(vid, 0) + 1
+        _atomic(STATE / "attempts.json", attempts)
+        dl = fetch.download(vid, rec.get("video_url", ""))
+        if not dl["ok"]:
+            _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
+            continue
+        words = TR.get_transcript(vid, dl["path"], rec.get("video_url", ""))
+        v2, rej = reclassify_video(rec, dl["path"], words)
         _atomic(REC_OUT / f"{vid}.json", v2)
         _atomic(REJ_OUT / f"{vid}.json", rej)
         _reindex_one(v2)
