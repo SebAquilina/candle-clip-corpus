@@ -1,0 +1,182 @@
+{
+  "video_id": "fPLxwt3A3pA",
+  "video_title": "DIY Transparent Candles \u2013 No Gel Wax Needed!Easy Tutorial",
+  "video_url": "https://www.youtube.com/watch?v=fPLxwt3A3pA",
+  "video_duration_s": 118.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:51:55Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 15,
+  "n_windows_kept": 15,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 7.87,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A clear glass with red rose pieces is prepared (blurry footage)."
+    },
+    {
+      "window_index": 1,
+      "start_s": 7.87,
+      "end_s": 15.73,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Red rose/petal pieces and a metal melting pot are gathered."
+    },
+    {
+      "window_index": 2,
+      "start_s": 15.73,
+      "end_s": 23.6,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A silicone mould with red shapes and a melting pot on heat."
+    },
+    {
+      "window_index": 3,
+      "start_s": 23.6,
+      "end_s": 31.47,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Caption 'Hot water'; clear liquid poured into the rose-filled glass."
+    },
+    {
+      "window_index": 4,
+      "start_s": 31.47,
+      "end_s": 39.33,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The glass fills with clear wax around embedded red roses."
+    },
+    {
+      "window_index": 5,
+      "start_s": 39.33,
+      "end_s": 47.2,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A stick/wick is positioned in the clear rose candle."
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.2,
+      "end_s": 55.07,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "More clear wax in the glass with suspended roses."
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.07,
+      "end_s": 62.93,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Caption 'Hot water'; a hot-water technique step (blurry)."
+    },
+    {
+      "window_index": 8,
+      "start_s": 62.93,
+      "end_s": 70.8,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Clear wax poured around the roses in the glass."
+    },
+    {
+      "window_index": 9,
+      "start_s": 70.8,
+      "end_s": 78.67,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Glass of clear wax with roses; a blue element appears."
+    },
+    {
+      "window_index": 10,
+      "start_s": 78.67,
+      "end_s": 86.53,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A blue swirl forms \u2014 a blue transparent variant being made."
+    },
+    {
+      "window_index": 11,
+      "start_s": 86.53,
+      "end_s": 94.4,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A blue ice-like mass sits in the glass."
+    },
+    {
+      "window_index": 12,
+      "start_s": 94.4,
+      "end_s": 102.27,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The blue transparent candle in the glass is shown."
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.27,
+      "end_s": 110.13,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished blue and rose transparent candles, one shown lit."
+    },
+    {
+      "window_index": 14,
+      "start_s": 110.13,
+      "end_s": 118.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Beauty shot of the finished transparent candles with embedded roses."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "video_id": "fhuTHnPrqIM",
+  "video_title": "The candle that never goes out and lasts  FOREVER",
+  "video_url": "https://www.youtube.com/watch?v=fhuTHnPrqIM",
+  "video_duration_s": 170.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:52:50Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 13,
+  "n_windows_kept": 13,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 3,
+      "start_s": 24.29,
+      "end_s": 32.38,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Building the floating-wick disc."
+    },
+    {
+      "window_index": 4,
+      "start_s": 32.38,
+      "end_s": 40.48,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Fitting the wick into the float."
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.48,
+      "end_s": 48.57,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Assembling the float beside the glass of oil."
+    },
+    {
+      "window_index": 6,
+      "start_s": 48.57,
+      "end_s": 56.67,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Threading the wick through the cork/foil float."
+    },
+    {
+      "window_index": 8,
+      "start_s": 64.76,
+      "end_s": 72.86,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The float wick is placed on the surface of the oil."
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.86,
+      "end_s": 80.95,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Adjusting the floating wick in the oil glass."
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.95,
+      "end_s": 89.05,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "More float assembly on a white cloth."
+    },
+    {
+      "window_index": 12,
+      "start_s": 97.14,
+      "end_s": 105.24,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The float wick floats on the yellow oil."
+    },
+    {
+      "window_index": 14,
+      "start_s": 113.33,
+      "end_s": 121.43,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The float wick ignites on the oil."
+    },
+    {
+      "window_index": 15,
+      "start_s": 121.43,
+      "end_s": 129.52,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The oil candle burns steadily in the glass."
+    },
+    {
+      "window_index": 16,
+      "start_s": 129.52,
+      "end_s": 137.62,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Lit oil candle glass."
+    },
+    {
+      "window_index": 17,
+      "start_s": 137.62,
+      "end_s": 145.71,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The eternal oil candle burning."
+    },
+    {
+      "window_index": 20,
+      "start_s": 161.9,
+      "end_s": 170.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Final shot of the burning oil candle."
+    }
+  ]
+}
