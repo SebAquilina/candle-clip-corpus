@@ -1,0 +1,60 @@
+{
+  "video_id": "0ERh-nj5jjw",
+  "n_rejected": 6,
+  "rejected": [
+    {
+      "window_index": 2,
+      "start_s": 15.6,
+      "end_s": 23.4,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 15.93
+    },
+    {
+      "window_index": 7,
+      "start_s": 54.6,
+      "end_s": 62.4,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 54.93
+    },
+    {
+      "window_index": 8,
+      "start_s": 62.4,
+      "end_s": 70.2,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 62.73
+    },
+    {
+      "window_index": 9,
+      "start_s": 70.2,
+      "end_s": 78.0,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 70.53
+    },
+    {
+      "window_index": 10,
+      "start_s": 78.0,
+      "end_s": 85.8,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 78.33
+    },
+    {
+      "window_index": 14,
+      "start_s": 109.2,
+      "end_s": 117.0,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 109.53
+    }
+  ]
+}

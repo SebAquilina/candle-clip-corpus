@@ -1,0 +1,16 @@
+{
+  "video_id": "0HfXl244xc4",
+  "video_title": "Sinkholes in Candles? Here\u2019s How to Fix Them FAST!",
+  "video_url": "https://www.youtube.com/watch?v=0HfXl244xc4",
+  "video_duration_s": 750.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:50:25Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 39,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 39,
+  "windows": []
+}
