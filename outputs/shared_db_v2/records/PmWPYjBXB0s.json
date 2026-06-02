@@ -1,0 +1,16 @@
+{
+  "video_id": "PmWPYjBXB0s",
+  "video_title": "Wooden Wick Candle Burning Instructions",
+  "video_url": "https://www.youtube.com/watch?v=PmWPYjBXB0s",
+  "video_duration_s": 128.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:04:07Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 7,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 7,
+  "windows": []
+}

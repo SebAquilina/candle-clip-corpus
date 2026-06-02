@@ -1,0 +1,16 @@
+{
+  "video_id": "Lg_fGA7jd4A",
+  "video_title": "How to Make Whipped Wax?\u2728\uff5cCandle Tutorial\u2665 Candle Making with English Subtitles",
+  "video_url": "https://www.youtube.com/watch?v=Lg_fGA7jd4A",
+  "video_duration_s": 199.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:00:47Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 19,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 19,
+  "windows": []
+}

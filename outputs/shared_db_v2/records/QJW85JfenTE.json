@@ -1,0 +1,16 @@
+{
+  "video_id": "QJW85JfenTE",
+  "video_title": "What's the BEST CANDLE WAX - pt.1 Candle wax guide",
+  "video_url": "https://www.youtube.com/watch?v=QJW85JfenTE",
+  "video_duration_s": 367,
+  "niche": "candle_making",
+  "channel": "Suffolk Candles",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:06:37Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 5,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 5,
+  "windows": []
+}

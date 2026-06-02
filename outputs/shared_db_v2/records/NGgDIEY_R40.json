@@ -1,0 +1,61 @@
+{
+  "video_id": "NGgDIEY_R40",
+  "video_title": "How to Add Scent to a Candle : Basic Candle Making",
+  "video_url": "https://www.youtube.com/watch?v=NGgDIEY_R40",
+  "video_duration_s": 111.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:02:07Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 4,
+  "n_windows_kept": 4,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 4,
+      "start_s": 31.71,
+      "end_s": 39.64,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "The big metal pot with a wick clip on the rim and a wooden stir stick; wax inside."
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.5,
+      "end_s": 63.43,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A stick/probe is inserted into the pot to stir in scent (the video's topic is adding fragrance)."
+    },
+    {
+      "window_index": 9,
+      "start_s": 71.36,
+      "end_s": 79.29,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Work at a glass jar with a wick \u2014 wax being poured/handled."
+    },
+    {
+      "window_index": 11,
+      "start_s": 87.21,
+      "end_s": 95.14,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished Pure Integrity candle in the glass with its wick shown."
+    }
+  ]
+}
