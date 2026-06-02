@@ -21,8 +21,11 @@ os.environ.setdefault("YTA_NO_FACES", "1")                       # zero-toleranc
 os.environ.setdefault("YTA_FACE_SCORE", os.environ.get("REVAMP_FACE_SCORE", "0.60"))
 os.environ.setdefault("YTA_FACE_MODEL", str(_HERE / "face_detection_yunet_2023mar.onnx"))
 # Make the OCR sensitive: any confident multi-char alnum word counts as on-screen text.
-os.environ.setdefault("VM_TEXT_MIN_CONF", os.environ.get("REVAMP_TEXT_MIN_CONF", "45"))
-os.environ.setdefault("VM_TEXT_MIN_CHARS", os.environ.get("REVAMP_TEXT_MIN_CHARS", "2"))
+# conf 60 + min 4 chars: real captions/watermarks are confident, multi-letter words;
+# at conf 45 / 2 chars tesseract hallucinated short gibberish ("SS", "sh iw vat") on
+# textured candle/snow B-roll, falsely rejecting clean windows (see montage analysis).
+os.environ.setdefault("VM_TEXT_MIN_CONF", os.environ.get("REVAMP_TEXT_MIN_CONF", "60"))
+os.environ.setdefault("VM_TEXT_MIN_CHARS", os.environ.get("REVAMP_TEXT_MIN_CHARS", "4"))
 
 import importlib.util
 _spec = importlib.util.spec_from_file_location("_cc_vendored", _HERE / "_clip_checks_vendored.py")
@@ -64,10 +67,14 @@ def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
     dur = max(0.0, float(end_s) - float(start_s))
     n_sec = max(1, int(round(dur)))
     offsets = [(j + 1) / (FRAMES_PER_SEC + 1) for j in range(FRAMES_PER_SEC)]  # e.g. 1/3, 2/3
+    persist = int(os.environ.get("REVAMP_TEXT_PERSIST_SECONDS", "2"))
     frames_read = 0
+    text_seconds = 0
+    first_text_t = None
     try:
         for k in range(n_sec):
             sec_frames = 0
+            sec_has_text = False
             for off in offsets:
                 t = float(start_s) + k + off
                 if t >= float(end_s):
@@ -78,19 +85,27 @@ def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
                     continue
                 frames_read += 1
                 sec_frames += 1
-                # face first (cheaper than OCR), then text
+                # Faces are zero-tolerance: ANY single detection rejects immediately.
                 if _frame_has_face(fr):
                     return {"clean": False, "reason": "face", "hit_t": round(t, 2),
                             "seconds_scanned": k + 1, "frames_read": frames_read}
-                if _frame_has_text(fr):
-                    return {"clean": False, "reason": "text", "hit_t": round(t, 2),
-                            "seconds_scanned": k + 1, "frames_read": frames_read}
+                # Text must PERSIST: one flickered frame is usually OCR noise on textured
+                # B-roll, not a real caption. Mark the second, decide after counting.
+                if not sec_has_text and _frame_has_text(fr):
+                    sec_has_text = True
+                    if first_text_t is None:
+                        first_text_t = round(t, 2)
             # FAIL-CLOSED: a second we could not decode at all is a second we could not
-            # verify. Never pass an unscanned second as "clean" (an undecodable AV1 stream
-            # used to read 0 frames and slip through as clean). Reject so it's re-sourced.
+            # verify. Never pass an unscanned second as "clean" (undecodable AV1 used to
+            # read 0 frames and slip through). Reject so it's re-sourced.
             if sec_frames == 0:
                 return {"clean": False, "reason": "unreadable", "hit_t": round(start_s + k, 2),
                         "seconds_scanned": k, "frames_read": frames_read}
+            if sec_has_text:
+                text_seconds += 1
+                if text_seconds >= persist:   # confident text on >=N distinct seconds
+                    return {"clean": False, "reason": "text", "hit_t": first_text_t,
+                            "seconds_scanned": k + 1, "frames_read": frames_read}
         return {"clean": True, "reason": "", "hit_t": None,
                 "seconds_scanned": n_sec, "frames_read": frames_read}
     finally:
