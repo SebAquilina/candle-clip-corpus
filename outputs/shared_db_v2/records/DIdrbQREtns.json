@@ -1,0 +1,16 @@
+{
+  "video_id": "DIdrbQREtns",
+  "video_title": "Beginners Guide to Make Soy Wax Pillar Candles  Tips and Tricks",
+  "video_url": "https://www.youtube.com/watch?v=DIdrbQREtns",
+  "video_duration_s": 694.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T14:32:12Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 41,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 41,
+  "windows": []
+}
