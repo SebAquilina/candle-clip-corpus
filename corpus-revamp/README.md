@@ -43,26 +43,29 @@ Decisions baked in (per your answers): **grind to completion**, **local offline 
 **drop the whole window** on any hit, **zero-tolerance / fail-closed**, plus the **stage-4b**
 description-based face drop you added.
 
-## ⚠️ Where this must run
+## Downloads: what unblocks YouTube
 
-It **cannot run in the Claude Code web sandbox**: that container's datacenter IP is
-bot-walled by YouTube (`yt-dlp` returns *"Sign in to confirm you're not a bot"* / 403 /
-DRM-only formats, and the bundled cookies are stale). Every stage that needs frames or
-captions therefore needs an environment where YouTube downloads work — **your local
-machine or the Cowork environment that successfully downloaded clips before.** The code,
-detector, VLM, schema and resumability are all built and **validated on real footage here**
-(see "Validation"); only the bulk download/scan must run where the network allows it.
+Modern YouTube hides downloadable formats behind a JS "EJS" challenge. yt-dlp returns
+**only storyboards** ("Requested format is not available") unless THREE things are present:
+1. **`yt-dlp-ejs`** installed (the challenge solver) — in `requirements.txt`.
+2. **`deno`** (and `node`) on `PATH` — the JS runtimes that solve the challenge.
+3. **FRESH, full-auth cookies** — a complete browser export with `SID`/`SAPISID`/
+   `__Secure-1PSID`/`LOGIN_INFO` (a thin cookie file fails the bot check).
+
+With all three, real 144p–1080p formats appear and download normally — verified working
+in this environment (a 720p clip in ~20 s). Run `--selftest` first to confirm your box.
 
 ## Run it
 
 ```bash
 cd corpus-revamp
 python3 -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt                                      # includes yt-dlp-ejs
 pip install torch --index-url https://download.pytorch.org/whl/cpu   # CPU-only boxes
-# system deps: ffmpeg, tesseract-ocr, nodejs   (YuNet model is vendored here)
+# system deps: ffmpeg, tesseract-ocr, nodejs, deno   (YuNet model is vendored here)
 
-export REVAMP_COOKIES=/path/to/fresh/youtube_cookies.txt   # a FRESH full cookie export
+export REVAMP_COOKIES=/path/to/fresh/youtube_cookies.txt   # FRESH full-auth export
+python reclassify.py --selftest      # preflight: detector + VLM + a real test download
 python reclassify.py                 # the full grind — resumable, one video at a time
 python reclassify.py --status        # progress + kept/dropped/reasons
 python reclassify.py --reindex       # rebuild by_label/ from records/
@@ -105,13 +108,32 @@ browse/match index.
 
 | var | default | meaning |
 |---|---|---|
-| `REVAMP_FACE_SCORE` | 0.50 | min YuNet/SSD confidence to count a face (lower = stricter) |
+| `REVAMP_FACE_SCORE` | 0.60 | min YuNet/SSD confidence to count a face. 0.60 is the YuNet default; at 0.50 it false-positived on hands/silicone moulds. Real faces score 0.8+. |
 | `REVAMP_TEXT_MIN_CONF` | 45 | min OCR word confidence to count as text |
+| `REVAMP_TEXT_AREA_EPS` | 0.0 | min text area fraction to count (0 = ANY confident word). Raise to e.g. 0.006 to ignore tiny corner watermarks. |
 | `REVAMP_FRAMES_PER_SEC` | 2 | frames sampled inside each second during purge |
 | `REVAMP_SCENE_DIFF` | 10.0 | mean-abs frame diff to trigger a re-caption |
 | `REVAMP_VLM` | blip | `blip` (offline) or `stub`; swap `REVAMP_BLIP_MODEL` for a stronger captioner if you have a GPU (e.g. BLIP-2, Florence-2, moondream) |
 | `REVAMP_MAX_HEIGHT` | 720 | download/scan resolution (higher = better small-text/face recall, slower) |
 
-Start strict (defaults) and watch `--status` reject rates; if false positives gut the
-corpus, raise `REVAMP_FACE_SCORE` / `REVAMP_TEXT_MIN_CONF` a little. The old corpus is left
-untouched in `shared_db/` until you bless `shared_db_v2/`.
+## ⚠️ Corpus survival reality (important)
+
+A sample of the real corpus shows **~8–12% of windows survive** the strict purge. The cause
+is **not** over-aggressive detection (the face false-positives are fixed at 0.60) — it's the
+**source material**: a large fraction of these candle videos are **subtitled tutorials**
+(burned-in captions like *"This starter kit comes with everything you need"*) and/or carry
+app watermarks (InShot/TikTok). Survival is **bimodal**: a video is either clean B-roll
+(`kept 18/18`) or captioned throughout (`kept 0/69`). A captioned clip cannot be used as
+text-free B-roll without the caption showing, so rejecting it is **correct** for the
+"no on-screen text" rule — it just means the clean corpus is much smaller than the raw one.
+
+Your options:
+1. **Accept the small clean corpus** (~hundreds of genuinely text/face-free windows).
+2. **Grow it** by sourcing more *un-subtitled* candle B-roll and re-running (the system is
+   additive + resumable).
+3. **Relax the text rule** if you'd tolerate small text: raise `REVAMP_TEXT_AREA_EPS` to
+   ignore tiny corner watermarks (but real captions over the content will still — correctly —
+   reject, and any surviving text would appear in the final video).
+
+The old corpus is left **untouched** in `shared_db/` and is NOT deleted until you confirm the
+v2 size is acceptable — deleting it while v2 is small would leave you with almost nothing.
