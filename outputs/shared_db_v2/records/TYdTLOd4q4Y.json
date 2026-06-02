@@ -1,0 +1,16 @@
+{
+  "video_id": "TYdTLOd4q4Y",
+  "video_title": "Start Your Own Profitable Candle Making Business! How to make Candles at home #businessideas #candle",
+  "video_url": "https://www.youtube.com/watch?v=TYdTLOd4q4Y",
+  "video_duration_s": 553.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:18:05Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 50,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 50,
+  "windows": []
+}
