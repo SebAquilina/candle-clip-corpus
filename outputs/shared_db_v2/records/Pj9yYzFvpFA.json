@@ -1,0 +1,16 @@
+{
+  "video_id": "Pj9yYzFvpFA",
+  "video_title": "DIY Transparent Candle Without Gel | Elegant and Easy Tutorial",
+  "video_url": "https://www.youtube.com/watch?v=Pj9yYzFvpFA",
+  "video_duration_s": 63.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T14:47:24Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 6,
+  "windows": []
+}

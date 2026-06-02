@@ -1,0 +1,16 @@
+{
+  "video_id": "Q9pTMOljpgM",
+  "video_title": "How To Set Candle Wicks With Wick Stickers Or A Hot Glue Gun #candle #diycandle #candlebusiness",
+  "video_url": "https://www.youtube.com/watch?v=Q9pTMOljpgM",
+  "video_duration_s": 271.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T14:49:47Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 29,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 29,
+  "windows": []
+}
