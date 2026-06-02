@@ -1,0 +1,16 @@
+{
+  "video_id": "DpgV20P8bVc",
+  "video_title": "Small candle business from home | holiday launch studio vlog New paint can candles | Amazon handmade",
+  "video_url": "https://www.youtube.com/watch?v=DpgV20P8bVc",
+  "video_duration_s": 820.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T09:41:50Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 84,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 84,
+  "windows": []
+}

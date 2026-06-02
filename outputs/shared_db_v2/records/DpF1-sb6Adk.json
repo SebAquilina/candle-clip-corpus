@@ -1,0 +1,116 @@
+{
+  "video_id": "DpF1-sb6Adk",
+  "video_title": "How to Color Soy Candles Using Candle Dye - 3 Ways to DIY Candle Dye",
+  "video_url": "https://www.youtube.com/watch?v=DpF1-sb6Adk",
+  "video_duration_s": 349.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T09:40:38Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 9,
+  "n_windows_kept": 9,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 17,
+      "start_s": 134.84,
+      "end_s": 142.77,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead: pouring/mixing dye into the wax (green/red)."
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.77,
+      "end_s": 150.7,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead: pouring/mixing dye into the wax (green/red)."
+    },
+    {
+      "window_index": 20,
+      "start_s": 158.64,
+      "end_s": 166.57,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead: pouring/mixing dye into the wax (green/red)."
+    },
+    {
+      "window_index": 21,
+      "start_s": 166.57,
+      "end_s": 174.5,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Pouring coloured wax into a glass."
+    },
+    {
+      "window_index": 36,
+      "start_s": 285.55,
+      "end_s": 293.48,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished coloured candles shown."
+    },
+    {
+      "window_index": 37,
+      "start_s": 293.48,
+      "end_s": 301.41,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished coloured candles shown."
+    },
+    {
+      "window_index": 38,
+      "start_s": 301.41,
+      "end_s": 309.34,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished coloured candles shown."
+    },
+    {
+      "window_index": 39,
+      "start_s": 309.34,
+      "end_s": 317.27,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished coloured candles shown."
+    },
+    {
+      "window_index": 40,
+      "start_s": 317.27,
+      "end_s": 325.2,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Finished coloured candles shown."
+    }
+  ]
+}

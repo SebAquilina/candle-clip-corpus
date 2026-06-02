@@ -1,0 +1,171 @@
+{
+  "video_id": "GAh9lQmaEvI",
+  "video_title": "How to make scented candles at home step by step",
+  "video_url": "https://www.youtube.com/watch?v=GAh9lQmaEvI",
+  "video_duration_s": 135.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T09:47:59Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 14,
+  "n_windows_kept": 14,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 1,
+      "start_s": 7.94,
+      "end_s": 15.88,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 1: washing jars under tap"
+    },
+    {
+      "window_index": 2,
+      "start_s": 15.88,
+      "end_s": 23.82,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 2: drying jars in oven, 'preheat'"
+    },
+    {
+      "window_index": 3,
+      "start_s": 23.82,
+      "end_s": 31.76,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 3: wicks laid out"
+    },
+    {
+      "window_index": 4,
+      "start_s": 31.76,
+      "end_s": 39.71,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 4: glue + stick wick inside jar"
+    },
+    {
+      "window_index": 5,
+      "start_s": 39.71,
+      "end_s": 47.65,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 5: measuring in bowls"
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.65,
+      "end_s": 55.59,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 6: 'Measure out the wax', flakes in cup"
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.59,
+      "end_s": 63.53,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 7: wax cup in double boiler pot"
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.53,
+      "end_s": 71.47,
+      "action_label": "monitor_temperature",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "step 8: 'Test the temperature of the wax'"
+    },
+    {
+      "window_index": 10,
+      "start_s": 79.41,
+      "end_s": 87.35,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "dropper adding essential oils"
+    },
+    {
+      "window_index": 11,
+      "start_s": 87.35,
+      "end_s": 95.29,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "green wax, dropper, thermometer"
+    },
+    {
+      "window_index": 12,
+      "start_s": 95.29,
+      "end_s": 103.24,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "'Pour the wax into your container'"
+    },
+    {
+      "window_index": 13,
+      "start_s": 103.24,
+      "end_s": 111.18,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "pouring green wax, 'leave space at top'"
+    },
+    {
+      "window_index": 14,
+      "start_s": 111.18,
+      "end_s": 119.12,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "'Top off the candle', green+blue jars"
+    },
+    {
+      "window_index": 15,
+      "start_s": 119.12,
+      "end_s": 127.06,
+      "action_label": "trim_wick",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "'Trim the wick' + finished candles"
+    }
+  ]
+}

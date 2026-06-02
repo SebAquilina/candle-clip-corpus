@@ -1,0 +1,99 @@
+{
+  "video_id": "HM8dpgA-bms",
+  "n_rejected": 10,
+  "rejected": [
+    {
+      "window_index": 1,
+      "start_s": 7.88,
+      "end_s": 15.75,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 12.21
+    },
+    {
+      "window_index": 4,
+      "start_s": 31.5,
+      "end_s": 39.38,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 31.83
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.25,
+      "end_s": 55.12,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 47.58
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.12,
+      "end_s": 63.0,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 56.45
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.0,
+      "end_s": 70.88,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 63.33
+    },
+    {
+      "window_index": 9,
+      "start_s": 70.88,
+      "end_s": 78.75,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 71.55
+    },
+    {
+      "window_index": 10,
+      "start_s": 78.75,
+      "end_s": 86.62,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 82.08
+    },
+    {
+      "window_index": 11,
+      "start_s": 86.62,
+      "end_s": 94.5,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 89.29
+    },
+    {
+      "window_index": 12,
+      "start_s": 94.5,
+      "end_s": 102.38,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.38,
+      "end_s": 110.25,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 107.71
+    }
+  ]
+}
