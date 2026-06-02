@@ -1,0 +1,101 @@
+{
+  "video_id": "8V_WyGLS5Zo",
+  "video_title": "Candle Making Tutorial for Beginners | DIY Candle Tutorial",
+  "video_url": "https://www.youtube.com/watch?v=8V_WyGLS5Zo",
+  "video_duration_s": 375.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T18:09:38Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 32,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 31,
+  "windows": [
+    {
+      "window_index": 36,
+      "start_s": 287.23,
+      "end_s": 295.21,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 287.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "design,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 288.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "the wax will start to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 289.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "to travel to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 290.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "to where the wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 291.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "wax was starting to melt and it",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 292.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "it will be placed in the heat bed.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 293.23,
+          "vision_desc": "a candle is being poured into a glass",
+          "transcript_text": "bed. So creates this really",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 294.23,
+          "vision_desc": "a drink being poured into a glass",
+          "transcript_text": "really cool smoking",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a drink being poured into a glass | a candle is being poured into a glass",
+      "transcript": "design, the wax will start to travel to where the wax was starting to melt and it will be placed in the heat bed. So creates this really cool smoking",
+      "old_description": "Several finished red-marble candles."
+    }
+  ]
+}
