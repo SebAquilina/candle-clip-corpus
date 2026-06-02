@@ -1,0 +1,105 @@
+{
+  "video_id": "Tr8qDI6L2aA",
+  "n_rejected": 11,
+  "rejected": [
+    {
+      "window_index": 16,
+      "start_s": 127.81,
+      "end_s": 135.8,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 128.14
+    },
+    {
+      "window_index": 17,
+      "start_s": 135.8,
+      "end_s": 143.79,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 136.13
+    },
+    {
+      "window_index": 18,
+      "start_s": 143.79,
+      "end_s": 151.78,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 144.12
+    },
+    {
+      "window_index": 25,
+      "start_s": 199.71,
+      "end_s": 207.69,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 200.04
+    },
+    {
+      "window_index": 30,
+      "start_s": 239.65,
+      "end_s": 247.64,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 239.98
+    },
+    {
+      "window_index": 46,
+      "start_s": 367.46,
+      "end_s": 375.45,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 367.79
+    },
+    {
+      "window_index": 47,
+      "start_s": 375.45,
+      "end_s": 383.44,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 375.78
+    },
+    {
+      "window_index": 54,
+      "start_s": 431.36,
+      "end_s": 439.35,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 431.69
+    },
+    {
+      "window_index": 71,
+      "start_s": 567.16,
+      "end_s": 575.15,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 567.49
+    },
+    {
+      "window_index": 74,
+      "start_s": 591.13,
+      "end_s": 599.12,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 591.46
+    },
+    {
+      "window_index": 75,
+      "start_s": 599.12,
+      "end_s": 607.11,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 599.45
+    }
+  ]
+}
