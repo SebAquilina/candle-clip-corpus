@@ -1,0 +1,16 @@
+{
+  "video_id": "rFGerjaJG40",
+  "video_title": "DIY Candle #craft #creative #shortvideo #candlemaking #marbleeffect #scentedcandle #handmade",
+  "video_url": "https://www.youtube.com/watch?v=rFGerjaJG40",
+  "video_duration_s": 71.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:26:43Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 6,
+  "windows": []
+}
