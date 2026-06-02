@@ -1,0 +1,16 @@
+{
+  "video_id": "1NluHw-tnt0",
+  "video_title": "Making Witchy Wax Candles - A satisfying & mystical Process of Sculpting with Wax - PATH LAB",
+  "video_url": "https://www.youtube.com/watch?v=1NluHw-tnt0",
+  "video_duration_s": 538.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T09:05:25Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 18,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 18,
+  "windows": []
+}

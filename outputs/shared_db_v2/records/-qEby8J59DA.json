@@ -1,0 +1,16 @@
+{
+  "video_id": "-qEby8J59DA",
+  "video_title": "6 Mistakes Candle Makers Should Avoid & How To Fix Them [Updated]",
+  "video_url": "https://www.youtube.com/watch?v=-qEby8J59DA",
+  "video_duration_s": 758.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T08:59:13Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 3,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 3,
+  "windows": []
+}
