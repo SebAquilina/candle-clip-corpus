@@ -38,8 +38,13 @@ def download(video_id: str, url: str = "") -> dict:
         if p.exists() and p.stat().st_size > 10000:
             return {"ok": True, "path": str(p), "err": "", "height": None, "duration": None}
     out_tmpl = str(SCRATCH / "%(id)s.%(ext)s")
-    fmt = (f"bv*[height<={MAX_H}][ext=mp4]+ba[ext=m4a]/"
-           f"b[height<={MAX_H}][ext=mp4]/b[height<={MAX_H}]/b")
+    # Force H.264 (avc1): YouTube also serves AV1, which this platform's ffmpeg/cv2 CANNOT
+    # decode (every frame read fails -> 0 frames -> the scan would falsely pass). avc1 is
+    # available up to 1080p (e.g. fmt 136 at 720p). Fall back through mp4 then anything.
+    fmt = (f"bv*[height<={MAX_H}][vcodec^=avc1]+ba[ext=m4a]/"
+           f"bv*[height<={MAX_H}][vcodec^=avc1]+ba/"
+           f"b[height<={MAX_H}][vcodec^=avc1]/"
+           f"bv*[height<={MAX_H}][ext=mp4]+ba/b[height<={MAX_H}][ext=mp4]/b[height<={MAX_H}]/b")
     opts = {
         "format": fmt, "outtmpl": out_tmpl, "quiet": True, "no_warnings": True,
         "noprogress": True, "retries": 3, "fragment_retries": 3,

@@ -67,6 +67,7 @@ def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
     frames_read = 0
     try:
         for k in range(n_sec):
+            sec_frames = 0
             for off in offsets:
                 t = float(start_s) + k + off
                 if t >= float(end_s):
@@ -76,6 +77,7 @@ def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
                 if not ok or fr is None:
                     continue
                 frames_read += 1
+                sec_frames += 1
                 # face first (cheaper than OCR), then text
                 if _frame_has_face(fr):
                     return {"clean": False, "reason": "face", "hit_t": round(t, 2),
@@ -83,6 +85,12 @@ def scan_window(video_path: str, start_s: float, end_s: float) -> dict:
                 if _frame_has_text(fr):
                     return {"clean": False, "reason": "text", "hit_t": round(t, 2),
                             "seconds_scanned": k + 1, "frames_read": frames_read}
+            # FAIL-CLOSED: a second we could not decode at all is a second we could not
+            # verify. Never pass an unscanned second as "clean" (an undecodable AV1 stream
+            # used to read 0 frames and slip through as clean). Reject so it's re-sourced.
+            if sec_frames == 0:
+                return {"clean": False, "reason": "unreadable", "hit_t": round(start_s + k, 2),
+                        "seconds_scanned": k, "frames_read": frames_read}
         return {"clean": True, "reason": "", "hit_t": None,
                 "seconds_scanned": n_sec, "frames_read": frames_read}
     finally:
