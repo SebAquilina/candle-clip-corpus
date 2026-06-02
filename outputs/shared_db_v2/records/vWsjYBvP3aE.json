@@ -1,0 +1,83 @@
+{
+  "video_id": "vWsjYBvP3aE",
+  "video_title": "how to make scented beeswax candles \ud83d\udc1d",
+  "video_url": "https://www.youtube.com/watch?v=vWsjYBvP3aE",
+  "video_duration_s": 468.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:34:49Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 6,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 9,
+      "start_s": 72.62,
+      "end_s": 80.69,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead beeswax discs (copper/brown)."
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.69,
+      "end_s": 88.76,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Overhead white surface with beeswax discs."
+    },
+    {
+      "window_index": 11,
+      "start_s": 88.76,
+      "end_s": 96.83,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "A copper wax disc; 'fragrance oil' caption."
+    },
+    {
+      "window_index": 50,
+      "start_s": 403.45,
+      "end_s": 411.52,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Lit candle; 'never burn more than 4 hours' caption."
+    },
+    {
+      "window_index": 51,
+      "start_s": 411.52,
+      "end_s": 419.59,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Wax block scraped into a cup (b-roll)."
+    },
+    {
+      "window_index": 55,
+      "start_s": 443.79,
+      "end_s": 451.86,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Ceramic cups filled with wax."
+    }
+  ]
+}

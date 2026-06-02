@@ -1,0 +1,16 @@
+{
+  "video_id": "upLGuIZtRdg",
+  "video_title": "Create Candles Like a Pro: 3 Mistakes to Avoid",
+  "video_url": "https://www.youtube.com/watch?v=upLGuIZtRdg",
+  "video_duration_s": 439.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:32:21Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 15,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 15,
+  "windows": []
+}

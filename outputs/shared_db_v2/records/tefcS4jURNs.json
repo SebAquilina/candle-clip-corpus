@@ -1,0 +1,28 @@
+{
+  "video_id": "tefcS4jURNs",
+  "video_title": "Candle Making 101: How to Select the Right Wax for Making Candles, Wax Melts & Tarts",
+  "video_url": "https://www.youtube.com/watch?v=tefcS4jURNs",
+  "video_duration_s": 274,
+  "niche": "candle_making",
+  "channel": "CandleScience",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:31:32Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 1,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 0,
+      "start_s": 16.4,
+      "end_s": 18.9,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "close-up of a finished green pillar candle"
+    }
+  ]
+}

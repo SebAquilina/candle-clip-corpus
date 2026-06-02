@@ -1,0 +1,33 @@
+{
+  "video_id": "vVlmkfF_PRk",
+  "n_rejected": 3,
+  "rejected": [
+    {
+      "window_index": 37,
+      "start_s": 296.0,
+      "end_s": 304.0,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 296.33
+    },
+    {
+      "window_index": 38,
+      "start_s": 304.0,
+      "end_s": 312.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 304.33
+    },
+    {
+      "window_index": 51,
+      "start_s": 408.0,
+      "end_s": 416.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 408.33
+    }
+  ]
+}
