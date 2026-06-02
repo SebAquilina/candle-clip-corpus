@@ -1,0 +1,17 @@
+# corpus-revamp Python deps. Install into a venv on a machine where YouTube downloads work.
+#   python3 -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#   # torch: for CPU-only boxes use the CPU wheel index (much smaller, no CUDA):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# System binaries also required (install via apt/brew): ffmpeg, tesseract-ocr, nodejs
+# (node is used by yt-dlp's JS challenge). The YuNet face model is vendored in this dir.
+yt-dlp
+opencv-python-headless
+pytesseract
+numpy
+faster-whisper          # transcript fallback when a video has no YouTube captions
+torch                   # for the BLIP local VLM (use the CPU wheel index on CPU-only boxes)
+transformers            # BLIP captioner
+pillow
+safetensors
