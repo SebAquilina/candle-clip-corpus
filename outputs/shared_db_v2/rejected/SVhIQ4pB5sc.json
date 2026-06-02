@@ -1,0 +1,24 @@
+{
+  "video_id": "SVhIQ4pB5sc",
+  "n_rejected": 2,
+  "rejected": [
+    {
+      "window_index": 17,
+      "start_s": 136.4,
+      "end_s": 144.43,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 136.73
+    },
+    {
+      "window_index": 18,
+      "start_s": 144.43,
+      "end_s": 152.45,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 144.76
+    }
+  ]
+}

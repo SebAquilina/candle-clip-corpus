@@ -1,0 +1,33 @@
+{
+  "video_id": "SWQm4eoR8Uk",
+  "n_rejected": 3,
+  "rejected": [
+    {
+      "window_index": 19,
+      "start_s": 151.32,
+      "end_s": 159.29,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 151.65
+    },
+    {
+      "window_index": 20,
+      "start_s": 159.29,
+      "end_s": 167.25,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 159.62
+    },
+    {
+      "window_index": 21,
+      "start_s": 167.25,
+      "end_s": 175.21,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 167.58
+    }
+  ]
+}
