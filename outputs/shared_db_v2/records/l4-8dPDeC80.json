@@ -1,0 +1,16 @@
+{
+  "video_id": "l4-8dPDeC80",
+  "video_title": "Turn the Ocean into a Candle\ud83c\udf0a\ud83d\ude0d Easy DIY Gel Candle Tutorial\ud83d\udd6f\ufe0f",
+  "video_url": "https://www.youtube.com/watch?v=l4-8dPDeC80",
+  "video_duration_s": 121.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T15:27:56Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 13,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 13,
+  "windows": []
+}

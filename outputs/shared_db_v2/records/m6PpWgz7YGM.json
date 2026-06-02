@@ -1,0 +1,16 @@
+{
+  "video_id": "m6PpWgz7YGM",
+  "video_title": "The Satisfying Process of Candle Making | Inside a Modern Candle Factory",
+  "video_url": "https://www.youtube.com/watch?v=m6PpWgz7YGM",
+  "video_duration_s": 665.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T15:30:06Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 47,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 47,
+  "windows": []
+}
