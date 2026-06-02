@@ -1,0 +1,96 @@
+{
+  "video_id": "6N1oH8pkD5Q",
+  "n_rejected": 10,
+  "rejected": [
+    {
+      "window_index": 7,
+      "start_s": 56.7,
+      "end_s": 64.8,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 57.03
+    },
+    {
+      "window_index": 10,
+      "start_s": 81.0,
+      "end_s": 89.1,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 82.33
+    },
+    {
+      "window_index": 11,
+      "start_s": 89.1,
+      "end_s": 97.2,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 90.43
+    },
+    {
+      "window_index": 12,
+      "start_s": 97.2,
+      "end_s": 105.3,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 99.87
+    },
+    {
+      "window_index": 15,
+      "start_s": 121.5,
+      "end_s": 129.6,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 121.83
+    },
+    {
+      "window_index": 16,
+      "start_s": 129.6,
+      "end_s": 137.7,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 129.93
+    },
+    {
+      "window_index": 18,
+      "start_s": 145.8,
+      "end_s": 153.9,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 146.13
+    },
+    {
+      "window_index": 19,
+      "start_s": 153.9,
+      "end_s": 162.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 154.23
+    },
+    {
+      "window_index": 20,
+      "start_s": 162.0,
+      "end_s": 170.1,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 162.67
+    },
+    {
+      "window_index": 22,
+      "start_s": 178.2,
+      "end_s": 186.3,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 178.53
+    }
+  ]
+}
