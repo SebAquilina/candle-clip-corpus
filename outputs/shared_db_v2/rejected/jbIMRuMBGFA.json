@@ -1,0 +1,276 @@
+{
+  "video_id": "jbIMRuMBGFA",
+  "n_rejected": 30,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 7.91,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 1.67
+    },
+    {
+      "window_index": 1,
+      "start_s": 7.91,
+      "end_s": 15.82,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 8.58
+    },
+    {
+      "window_index": 5,
+      "start_s": 39.56,
+      "end_s": 47.47,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 41.23
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.47,
+      "end_s": 55.38,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 50.8
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.38,
+      "end_s": 63.29,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 59.71
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.29,
+      "end_s": 71.21,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 63.62
+    },
+    {
+      "window_index": 9,
+      "start_s": 71.21,
+      "end_s": 79.12,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 71.54
+    },
+    {
+      "window_index": 10,
+      "start_s": 79.12,
+      "end_s": 87.03,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 79.79
+    },
+    {
+      "window_index": 11,
+      "start_s": 87.03,
+      "end_s": 94.94,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 87.36
+    },
+    {
+      "window_index": 12,
+      "start_s": 94.94,
+      "end_s": 102.85,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 95.27
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.85,
+      "end_s": 110.76,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 103.18
+    },
+    {
+      "window_index": 14,
+      "start_s": 110.76,
+      "end_s": 118.68,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 111.09
+    },
+    {
+      "window_index": 15,
+      "start_s": 118.68,
+      "end_s": 126.59,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 119.01
+    },
+    {
+      "window_index": 16,
+      "start_s": 126.59,
+      "end_s": 134.5,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 128.26
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.5,
+      "end_s": 142.41,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 134.83
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.41,
+      "end_s": 150.32,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 142.74
+    },
+    {
+      "window_index": 19,
+      "start_s": 150.32,
+      "end_s": 158.24,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 151.99
+    },
+    {
+      "window_index": 20,
+      "start_s": 158.24,
+      "end_s": 166.15,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 158.91
+    },
+    {
+      "window_index": 21,
+      "start_s": 166.15,
+      "end_s": 174.06,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 167.48
+    },
+    {
+      "window_index": 22,
+      "start_s": 174.06,
+      "end_s": 181.97,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 174.73
+    },
+    {
+      "window_index": 23,
+      "start_s": 181.97,
+      "end_s": 189.88,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 182.3
+    },
+    {
+      "window_index": 25,
+      "start_s": 197.79,
+      "end_s": 205.71,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 198.46
+    },
+    {
+      "window_index": 26,
+      "start_s": 205.71,
+      "end_s": 213.62,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 206.04
+    },
+    {
+      "window_index": 27,
+      "start_s": 213.62,
+      "end_s": 221.53,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 213.95
+    },
+    {
+      "window_index": 28,
+      "start_s": 221.53,
+      "end_s": 229.44,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 221.86
+    },
+    {
+      "window_index": 29,
+      "start_s": 229.44,
+      "end_s": 237.35,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 231.77
+    },
+    {
+      "window_index": 30,
+      "start_s": 237.35,
+      "end_s": 245.26,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 237.68
+    },
+    {
+      "window_index": 31,
+      "start_s": 245.26,
+      "end_s": 253.18,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 245.93
+    },
+    {
+      "window_index": 32,
+      "start_s": 253.18,
+      "end_s": 261.09,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 253.51
+    },
+    {
+      "window_index": 33,
+      "start_s": 261.09,
+      "end_s": 269.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 261.42
+    }
+  ]
+}

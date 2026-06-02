@@ -1,0 +1,127 @@
+{
+  "video_id": "m2fZmJ8RmZM",
+  "video_title": "Candle Making at Home for Beginners | Candle Business",
+  "video_url": "https://www.youtube.com/watch?v=m2fZmJ8RmZM",
+  "video_duration_s": 304.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:06:42Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 10,
+  "n_windows_kept": 10,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 27,
+      "start_s": 216.0,
+      "end_s": 224.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Orange jug placed under the melter spout."
+    },
+    {
+      "window_index": 28,
+      "start_s": 224.0,
+      "end_s": 232.0,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Orange jug filling with molten wax from the tank."
+    },
+    {
+      "window_index": 29,
+      "start_s": 232.0,
+      "end_s": 240.0,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Pouring/blending near the fragrance bottles."
+    },
+    {
+      "window_index": 30,
+      "start_s": 240.0,
+      "end_s": 248.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Melter tank and jug."
+    },
+    {
+      "window_index": 32,
+      "start_s": 256.0,
+      "end_s": 264.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Cream wax poured into champagne-style glasses."
+    },
+    {
+      "window_index": 33,
+      "start_s": 264.0,
+      "end_s": 272.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Pouring wax into the glasses."
+    },
+    {
+      "window_index": 34,
+      "start_s": 272.0,
+      "end_s": 280.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Filling a row of glasses with wax."
+    },
+    {
+      "window_index": 35,
+      "start_s": 280.0,
+      "end_s": 288.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Pouring into glasses; bottles behind."
+    },
+    {
+      "window_index": 36,
+      "start_s": 288.0,
+      "end_s": 296.0,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Tray of white candles with wooden wicks setting."
+    },
+    {
+      "window_index": 37,
+      "start_s": 296.0,
+      "end_s": 304.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "Tray of finished white candles."
+    }
+  ]
+}

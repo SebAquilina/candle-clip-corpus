@@ -1,0 +1,16 @@
+{
+  "video_id": "ixtOL_gQNEQ",
+  "video_title": "What's the BEST Flower Candle WAX? 9 Wax casts tests with silicone mold",
+  "video_url": "https://www.youtube.com/watch?v=ixtOL_gQNEQ",
+  "video_duration_s": 854.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T10:59:50Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 96,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 96,
+  "windows": []
+}

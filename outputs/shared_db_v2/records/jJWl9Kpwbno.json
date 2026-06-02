@@ -1,0 +1,127 @@
+{
+  "video_id": "jJWl9Kpwbno",
+  "video_title": "How to Make Candles in 5 Minutes (Crash Course) | DIY Candle Making for Beginners",
+  "video_url": "https://www.youtube.com/watch?v=jJWl9Kpwbno",
+  "video_duration_s": 442.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T11:00:39Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 10,
+  "n_windows_kept": 10,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 18,
+      "start_s": 144.65,
+      "end_s": 152.69,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "pouring pitcher with flakes"
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.69,
+      "end_s": 160.73,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "liquid wax b-roll"
+    },
+    {
+      "window_index": 22,
+      "start_s": 176.8,
+      "end_s": 184.84,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "bowls of dye / materials"
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.84,
+      "end_s": 192.87,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "'Fragrance Oils' card with bottles"
+    },
+    {
+      "window_index": 24,
+      "start_s": 192.87,
+      "end_s": 200.91,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "row of jars b-roll"
+    },
+    {
+      "window_index": 25,
+      "start_s": 200.91,
+      "end_s": 208.95,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "metal pot b-roll"
+    },
+    {
+      "window_index": 26,
+      "start_s": 208.95,
+      "end_s": 216.98,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "containers b-roll"
+    },
+    {
+      "window_index": 35,
+      "start_s": 281.27,
+      "end_s": 289.31,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "coloured wax pile b-roll"
+    },
+    {
+      "window_index": 37,
+      "start_s": 297.35,
+      "end_s": 305.38,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "'Let candles cool/cure' caption"
+    },
+    {
+      "window_index": 38,
+      "start_s": 305.38,
+      "end_s": 313.42,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [],
+      "embed_text": "",
+      "transcript": "",
+      "old_description": "honeycomb wax pile b-roll"
+    }
+  ]
+}
