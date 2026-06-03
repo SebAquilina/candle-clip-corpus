@@ -1,0 +1,16 @@
+{
+  "video_id": "x0dohaYKy9w",
+  "video_title": "Small Candle Business from home: shop launch prep! Make 300 candles for Amazon fba with digiboil",
+  "video_url": "https://www.youtube.com/watch?v=x0dohaYKy9w",
+  "video_duration_s": 347.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T17:06:02Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 9,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 9,
+  "windows": []
+}

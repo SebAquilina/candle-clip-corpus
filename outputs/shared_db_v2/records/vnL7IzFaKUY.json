@@ -1,0 +1,16 @@
+{
+  "video_id": "vnL7IzFaKUY",
+  "video_title": "What is candle frosting and how to prevent it? | Soy Candles",
+  "video_url": "https://www.youtube.com/watch?v=vnL7IzFaKUY",
+  "video_duration_s": 299.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T17:05:14Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 4,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 4,
+  "windows": []
+}

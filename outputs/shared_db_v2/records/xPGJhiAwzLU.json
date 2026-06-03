@@ -1,0 +1,185 @@
+{
+  "video_id": "xPGJhiAwzLU",
+  "video_title": "Making scented candle. DIY Jesmonite candle container",
+  "video_url": "https://www.youtube.com/watch?v=xPGJhiAwzLU",
+  "video_duration_s": 341.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T17:11:37Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 38,
+  "n_windows_kept": 2,
+  "n_windows_rejected": 36,
+  "windows": [
+    {
+      "window_index": 36,
+      "start_s": 285.49,
+      "end_s": 293.42,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 285.49,
+          "vision_desc": "a cup with a red liquid pouring out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 286.49,
+          "vision_desc": "a cup with a red liquid pouring out of it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 287.49,
+          "vision_desc": "a cup with a spoon pouring water into it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 288.49,
+          "vision_desc": "a cup with a spoon pouring water into it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 289.49,
+          "vision_desc": "a white table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 290.49,
+          "vision_desc": "a white table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 291.49,
+          "vision_desc": "a white table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 292.49,
+          "vision_desc": "a spoon pouring liquid into a bowl of food",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup with a red liquid pouring out of it | a cup with a spoon pouring water into it | a white table | a spoon pouring liquid into a bowl of food",
+      "transcript": "",
+      "old_description": "Finished scented jesmonite candles."
+    },
+    {
+      "window_index": 37,
+      "start_s": 293.42,
+      "end_s": 301.35,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 293.42,
+          "vision_desc": "a spoon pouring liquid into a bowl of food",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 294.42,
+          "vision_desc": "a candle with a small candle inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 295.42,
+          "vision_desc": "a candle with a small candle inside",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 296.42,
+          "vision_desc": "a candle with a small candle inside",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 297.42,
+          "vision_desc": "a bottle of liquid with a red liquid bottle",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 298.42,
+          "vision_desc": "a candle with a candle holder on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 299.42,
+          "vision_desc": "a candle with a candle holder on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 300.42,
+          "vision_desc": "a bottle of liquid",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a spoon pouring liquid into a bowl of food | a candle with a small candle inside | a bottle of liquid with a red liquid bottle | a candle with a candle holder on it | a bottle of liquid",
+      "transcript": "",
+      "old_description": "Finished scented jesmonite candles."
+    }
+  ]
+}
