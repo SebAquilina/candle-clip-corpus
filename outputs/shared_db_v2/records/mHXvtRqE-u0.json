@@ -1,0 +1,185 @@
+{
+  "video_id": "mHXvtRqE-u0",
+  "video_title": "Palm Wax Candle Experiment | Part One",
+  "video_url": "https://www.youtube.com/watch?v=mHXvtRqE-u0",
+  "video_duration_s": 570.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T14:20:27Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 60,
+  "n_windows_kept": 2,
+  "n_windows_rejected": 58,
+  "windows": [
+    {
+      "window_index": 39,
+      "start_s": 313.1,
+      "end_s": 321.13,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 313.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "fragrance oil disperses",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 314.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "disperses pretty evenly",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 315.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "evenly throughout the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 316.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "the blend Now",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 317.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "Now that's important",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 318.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "important because as the candle",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 319.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "candle cures and it",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 320.1,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "it cools and it becomes",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "how to make a cocktail shaker",
+      "transcript": "fragrance oil disperses pretty evenly throughout the blend Now that's important because as the candle cures and it cools and it becomes",
+      "old_description": "Melting wax in the large metal melter."
+    },
+    {
+      "window_index": 41,
+      "start_s": 329.15,
+      "end_s": 337.18,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 329.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "chemistry equation",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 330.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "equation that you can just",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 331.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "just solve where",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 332.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "where you end up with some",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 333.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "some sort of candle",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 334.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "candle Compound on",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 335.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "on the right side of your equation.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 336.15,
+          "vision_desc": "how to make a cocktail shaker",
+          "transcript_text": "equation. No in fact",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "how to make a cocktail shaker",
+      "transcript": "chemistry equation that you can just solve where you end up with some sort of candle Compound on the right side of your equation. No in fact",
+      "old_description": "Melting wax in the large metal melter."
+    }
+  ]
+}
