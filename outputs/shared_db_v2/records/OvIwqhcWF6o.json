@@ -1,0 +1,16 @@
+{
+  "video_id": "OvIwqhcWF6o",
+  "video_title": "How to remove soy wax pillar candle from plastic mould? | The easiest method | DIY",
+  "video_url": "https://www.youtube.com/watch?v=OvIwqhcWF6o",
+  "video_duration_s": 70.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T09:29:27Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 5,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 5,
+  "windows": []
+}

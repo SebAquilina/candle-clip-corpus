@@ -1,0 +1,101 @@
+{
+  "video_id": "PmWPYjBXB0s",
+  "video_title": "Wooden Wick Candle Burning Instructions",
+  "video_url": "https://www.youtube.com/watch?v=PmWPYjBXB0s",
+  "video_duration_s": 128.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T09:31:03Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 7,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 6,
+  "windows": [
+    {
+      "window_index": 4,
+      "start_s": 32.0,
+      "end_s": 40.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 32.0,
+          "vision_desc": "a candle with a lit flame",
+          "transcript_text": "most important when it comes",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 33.0,
+          "vision_desc": "a candle with a lit candle in it",
+          "transcript_text": "comes to lifetime quality",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 34.0,
+          "vision_desc": "a candle with a lit flame in it",
+          "transcript_text": "quality of your candle.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 35.0,
+          "vision_desc": "a candle with a lit flame in it",
+          "transcript_text": "candle. Burn the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 36.0,
+          "vision_desc": "a lit candle with a white candle inside",
+          "transcript_text": "the candle long enough",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 37.0,
+          "vision_desc": "a lit candle with a white candle inside",
+          "transcript_text": "enough that the melted wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 38.0,
+          "vision_desc": "a lit candle is lit in the dark",
+          "transcript_text": "wax reaches the edge of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 39.0,
+          "vision_desc": "a candle is lit in the dark",
+          "transcript_text": "of the container.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle with a lit flame | a candle with a lit candle in it | a candle with a lit flame in it | a lit candle with a white candle inside | a lit candle is lit in the dark | a candle is lit in the dark",
+      "transcript": "most important when it comes to lifetime quality of your candle. Burn the candle long enough that the melted wax reaches the edge of the container.",
+      "old_description": "Lit wood-wick flame close-up."
+    }
+  ]
+}
