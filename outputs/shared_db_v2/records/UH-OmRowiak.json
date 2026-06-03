@@ -1,0 +1,101 @@
+{
+  "video_id": "UH-OmRowiak",
+  "video_title": "Candle Making Process In Factory || How Candle Is Made",
+  "video_url": "https://www.youtube.com/watch?v=UH-OmRowiak",
+  "video_duration_s": 363.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:31:48Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 19,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 18,
+  "windows": [
+    {
+      "window_index": 6,
+      "start_s": 48.4,
+      "end_s": 56.47,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 48.4,
+          "vision_desc": "a large metal pot filled with water",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 49.4,
+          "vision_desc": "a machine that is making ice on the table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 50.4,
+          "vision_desc": "a machine is making ice on a piece of wood",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 51.4,
+          "vision_desc": "a machine that is making ice on the ground",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 52.4,
+          "vision_desc": "a machine that is making ice on a piece of metal",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 53.4,
+          "vision_desc": "a machine that is making ice",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 54.4,
+          "vision_desc": "a machine that is making ice on the table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 55.4,
+          "vision_desc": "a machine that is making ice on the table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a large metal pot filled with water | a machine that is making ice on the table | a machine is making ice on a piece of wood | a machine that is making ice on the ground | a machine that is making ice on a piece of metal | a machine that is making ice",
+      "transcript": "",
+      "old_description": "Workers demoulding/finishing the candles."
+    }
+  ]
+}
