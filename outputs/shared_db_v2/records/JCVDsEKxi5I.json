@@ -1,0 +1,16 @@
+{
+  "video_id": "JCVDsEKxi5I",
+  "video_title": "Make Your First Candle with Our London Luxury Candle Making Starter Kit!",
+  "video_url": "https://www.youtube.com/watch?v=JCVDsEKxi5I",
+  "video_duration_s": 427.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:42:38Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 21,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 21,
+  "windows": []
+}
