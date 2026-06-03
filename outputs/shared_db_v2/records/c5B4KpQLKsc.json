@@ -1,0 +1,438 @@
+{
+  "video_id": "c5B4KpQLKsc",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=c5B4KpQLKsc",
+  "video_duration_s": 545.970794,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T17:43:43Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 68,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 63,
+  "windows": [
+    {
+      "window_index": 49,
+      "start_s": 392.0,
+      "end_s": 400.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 392.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "from Hodge lobby that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 393.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "that really great",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 394.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "great so",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 395.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "so I just want to throw one in there",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 396.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "there while we wait for that",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 397.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "that temperature to get down",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 398.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "down",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 399.0,
+          "vision_desc": "a black coffee pot with a therm temperature indicator",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a black coffee pot with a therm temperature indicator",
+      "transcript": "from Hodge lobby that really great so I just want to throw one in there while we wait for that temperature to get down",
+      "old_description": ""
+    },
+    {
+      "window_index": 50,
+      "start_s": 400.0,
+      "end_s": 408.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 400.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "because this",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 401.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "this is paraffin",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 402.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "paraffin so you do have",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 403.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "have the way for the temperature to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 404.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "to get a little bit lower",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 405.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "lower before you pour",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 406.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "pour and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 407.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "and when I say you these chips",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a black coffee pot",
+      "transcript": "because this is paraffin so you do have the way for the temperature to get a little bit lower before you pour and when I say you these chips",
+      "old_description": ""
+    },
+    {
+      "window_index": 51,
+      "start_s": 408.0,
+      "end_s": 416.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 408.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "chips are strong they're",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 409.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "they're super strong so",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 410.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "so",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 411.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "the less",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 412.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "less is more",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 413.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "more",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 414.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 415.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a black coffee pot",
+      "transcript": "chips are strong they're super strong so the less is more",
+      "old_description": ""
+    },
+    {
+      "window_index": 60,
+      "start_s": 480.0,
+      "end_s": 488.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 480.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 481.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 482.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 483.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 484.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 485.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 486.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 487.0,
+          "vision_desc": "a cup with a straw and straw straw in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup with a straw and straw straw in it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 62,
+      "start_s": 496.0,
+      "end_s": 504.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 496.0,
+          "vision_desc": "a red cup with a straw sticking out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 497.0,
+          "vision_desc": "a red cup with a straw sticking out of it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 498.0,
+          "vision_desc": "a red object with a white stick sticking out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 499.0,
+          "vision_desc": "a red object with a white stick sticking out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 500.0,
+          "vision_desc": "a red candle with a white stick sticking out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 501.0,
+          "vision_desc": "a red bowl with a white stick sticking out of it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 502.0,
+          "vision_desc": "a red cup with a straw and a straw straw",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 503.0,
+          "vision_desc": "a red candle with a white candle stick in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a red cup with a straw sticking out of it | a red object with a white stick sticking out of it | a red candle with a white stick sticking out of it | a red bowl with a white stick sticking out of it | a red cup with a straw and a straw straw | a red candle with a white candle stick in it",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
