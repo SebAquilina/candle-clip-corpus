@@ -1,0 +1,521 @@
+{
+  "video_id": "TcpmRHRmLEA",
+  "video_title": "DIY CRAYON CANDLE - Home Decor - How To | SoCraftastic",
+  "video_url": "https://www.youtube.com/watch?v=TcpmRHRmLEA",
+  "video_duration_s": 297.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:26:08Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 32,
+  "n_windows_kept": 6,
+  "n_windows_rejected": 26,
+  "windows": [
+    {
+      "window_index": 9,
+      "start_s": 72.24,
+      "end_s": 80.27,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 72.24,
+          "vision_desc": "a group of crayon pencils on a table",
+          "transcript_text": "them.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 73.24,
+          "vision_desc": "a group of crayon pencils on a table",
+          "transcript_text": "Once they're stripped",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 74.24,
+          "vision_desc": "a pile of colorful plastic pencils on a table",
+          "transcript_text": "stripped of their paper,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 75.24,
+          "vision_desc": "a bunch of colorful plastic tubes",
+          "transcript_text": "it's time to break",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 76.24,
+          "vision_desc": "a bunch of colorful plastic tubes",
+          "transcript_text": "break them into small",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 77.24,
+          "vision_desc": "a group of different colored pens on a table",
+          "transcript_text": "small pieces.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 78.24,
+          "vision_desc": "a group of four different colored pens",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 79.24,
+          "vision_desc": "how to make a diy cup",
+          "transcript_text": "Each",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a group of crayon pencils on a table | a pile of colorful plastic pencils on a table | a bunch of colorful plastic tubes | a group of different colored pens on a table | a group of four different colored pens | how to make a diy cup",
+      "transcript": "them. Once they're stripped of their paper, it's time to break them into small pieces. Each",
+      "old_description": "Coloured wax melting in the microwave."
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.51,
+      "end_s": 160.54,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 152.51,
+          "vision_desc": "a candle is lit in a glass with a rainbow colored candle",
+          "transcript_text": "Once all",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 153.51,
+          "vision_desc": "a glass filled with liquid",
+          "transcript_text": "all your colors are poured,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 154.51,
+          "vision_desc": "a glass with a rainbow colored liquid inside",
+          "transcript_text": "poured, as you can see,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 155.51,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "see, you will have an",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 156.51,
+          "vision_desc": "a table with candles and a tray of candles",
+          "transcript_text": "an awesome candle.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 157.51,
+          "vision_desc": "a table with candles and a clock on it",
+          "transcript_text": "candle.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 158.51,
+          "vision_desc": "a bunch of candy",
+          "transcript_text": "So pretty!",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 159.51,
+          "vision_desc": "a candle and some crayos on a counter",
+          "transcript_text": "pretty! These guys",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle is lit in a glass with a rainbow colored candle | a glass filled with liquid | a glass with a rainbow colored liquid inside | a table with candles and other items on it | a table with candles and a tray of candles | a table with candles and a clock on it | a bunch of candy | a candle and some crayos on a counter",
+      "transcript": "Once all your colors are poured, as you can see, you will have an awesome candle. So pretty! These guys",
+      "old_description": "Pouring a coloured wax layer into the glass (rainbow layers)."
+    },
+    {
+      "window_index": 20,
+      "start_s": 160.54,
+      "end_s": 168.57,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 160.54,
+          "vision_desc": "a candle and some crayos on a counter",
+          "transcript_text": "guys are great for home",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 161.54,
+          "vision_desc": "two candles are sitting on a counter",
+          "transcript_text": "home decor. They'll look",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 162.54,
+          "vision_desc": "two candles are sitting on a counter",
+          "transcript_text": "look fabulous in",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 163.54,
+          "vision_desc": "a couple of candles sitting on top of a counter",
+          "transcript_text": "in your living room or",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 164.54,
+          "vision_desc": "a couple of candles sitting on top of a counter",
+          "transcript_text": "or bedroom or wherever",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 165.54,
+          "vision_desc": "two candles are sitting on a counter",
+          "transcript_text": "wherever the heck you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 166.54,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "you want to put it.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 167.54,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "Oh, and also check",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and some crayos on a counter | two candles are sitting on a counter | a couple of candles sitting on top of a counter | two candles sitting on top of a counter",
+      "transcript": "guys are great for home decor. They'll look fabulous in your living room or bedroom or wherever the heck you want to put it. Oh, and also check",
+      "old_description": "Finished rainbow layered crayon candle, lit."
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.57,
+      "end_s": 176.59,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 168.57,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "check out my heart",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 169.57,
+          "vision_desc": "two candles are sitting on a counter",
+          "transcript_text": "heart crayon video if",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 170.57,
+          "vision_desc": "a glass filled with liquid next to a pink heart",
+          "transcript_text": "if you want to learn how",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 171.57,
+          "vision_desc": "a glass filled with candy and a heart",
+          "transcript_text": "how to make your own",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 172.57,
+          "vision_desc": "a glass filled with colorful candy and a heart",
+          "transcript_text": "own heart shaped crayons.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 173.57,
+          "vision_desc": "crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa cr",
+          "transcript_text": "crayons. I have a video",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 174.57,
+          "vision_desc": "crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa cr",
+          "transcript_text": "video on how",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 175.57,
+          "vision_desc": "crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa cr",
+          "transcript_text": "how to do that. Remember,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on top of a counter | two candles are sitting on a counter | a glass filled with liquid next to a pink heart | a glass filled with candy and a heart | a glass filled with colorful candy and a heart | crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa crayoa cr",
+      "transcript": "check out my heart crayon video if you want to learn how to make your own heart shaped crayons. I have a video on how to do that. Remember,",
+      "old_description": "Finished rainbow layered crayon candle, lit."
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.62,
+      "end_s": 192.65,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 184.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "gosh, it looks so cool",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 185.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "cool when it's lit!",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 186.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "So we're just going to watch",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 187.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "watch this burn",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 188.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "burn for a little bit and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 189.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "and watch the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 190.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "the flames weigh",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 191.62,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "weigh",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle is lit in a glass",
+      "transcript": "gosh, it looks so cool when it's lit! So we're just going to watch this burn for a little bit and watch the flames weigh",
+      "old_description": "Finished rainbow layered crayon candle, lit."
+    },
+    {
+      "window_index": 24,
+      "start_s": 192.65,
+      "end_s": 200.68,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 192.65,
+          "vision_desc": "a candle is lit on a table",
+          "transcript_text": "weigh in the non",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 193.65,
+          "vision_desc": "a candle is lit on a table",
+          "transcript_text": "non -existent wind.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 194.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "wind. I'm",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 195.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "I'm probably waving my",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 196.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "my hand here to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 197.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "to try and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 198.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "and not have",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 199.65,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "have the smoke alarm go",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle is lit on a table | a candle is lit in a glass",
+      "transcript": "weigh in the non -existent wind. I'm probably waving my hand here to try and not have the smoke alarm go",
+      "old_description": "Finished rainbow layered crayon candle, lit."
+    }
+  ]
+}
