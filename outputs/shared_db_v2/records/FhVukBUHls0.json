@@ -1,0 +1,101 @@
+{
+  "video_id": "FhVukBUHls0",
+  "video_title": "Candle Making Kit with Electronic Hot Plate for Beginners, Adults, and Kids",
+  "video_url": "https://www.youtube.com/watch?v=FhVukBUHls0",
+  "video_duration_s": 110.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:22:18Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 8,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 7,
+  "windows": [
+    {
+      "window_index": 3,
+      "start_s": 23.57,
+      "end_s": 31.43,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 23.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "Here are the product",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 24.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "product features of this",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 25.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "this candle making kit.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 26.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "kit. The lecture",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 27.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "lecture cut plate is",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 28.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "is equipped with 5 speed",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 29.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "speed heating mode",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 30.57,
+          "vision_desc": "a stove with a bowl of food and a knife",
+          "transcript_text": "mode and it's easy to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a stove with a bowl of food and a knife",
+      "transcript": "Here are the product features of this candle making kit. The lecture cut plate is equipped with 5 speed heating mode and it's easy to",
+      "old_description": "White wax melts in the metal pan on the electronic hotplate, stirred with a stick."
+    }
+  ]
+}

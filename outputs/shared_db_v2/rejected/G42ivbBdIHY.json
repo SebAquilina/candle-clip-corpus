@@ -1,0 +1,114 @@
+{
+  "video_id": "G42ivbBdIHY",
+  "n_rejected": 12,
+  "rejected": [
+    {
+      "window_index": 18,
+      "start_s": 143.38,
+      "end_s": 151.34,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 143.88
+    },
+    {
+      "window_index": 21,
+      "start_s": 167.28,
+      "end_s": 175.24,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 167.78
+    },
+    {
+      "window_index": 28,
+      "start_s": 223.03,
+      "end_s": 231.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 223.53
+    },
+    {
+      "window_index": 29,
+      "start_s": 231.0,
+      "end_s": 238.97,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 231.5
+    },
+    {
+      "window_index": 36,
+      "start_s": 286.76,
+      "end_s": 294.72,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 287.26
+    },
+    {
+      "window_index": 37,
+      "start_s": 294.72,
+      "end_s": 302.69,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 295.22
+    },
+    {
+      "window_index": 38,
+      "start_s": 302.69,
+      "end_s": 310.66,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 303.19
+    },
+    {
+      "window_index": 40,
+      "start_s": 318.62,
+      "end_s": 326.59,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 319.12
+    },
+    {
+      "window_index": 60,
+      "start_s": 477.93,
+      "end_s": 485.9,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 478.43
+    },
+    {
+      "window_index": 61,
+      "start_s": 485.9,
+      "end_s": 493.86,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 486.4
+    },
+    {
+      "window_index": 62,
+      "start_s": 493.86,
+      "end_s": 501.83,
+      "action_label": "monitor_temperature",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 494.36
+    },
+    {
+      "window_index": 77,
+      "start_s": 613.34,
+      "end_s": 621.31,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 613.84
+    }
+  ]
+}
