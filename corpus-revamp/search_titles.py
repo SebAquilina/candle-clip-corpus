@@ -24,7 +24,7 @@ LIMIT=int(sys.argv[1]) if len(sys.argv)>1 else len(TITLES)
 seen=set(existing); out=[]
 for i,title in enumerate(TITLES[:LIMIT]):
     q=keywords(title)
-    try: ids=search(q,3)
+    try: ids=search(q,2)
     except Exception as e: print(f"  [searchfail] {title[:40]}: {str(e)[:50]}"); continue
     new=[v for v in ids if v not in seen]
     for v in new: seen.add(v); out.append(v)
