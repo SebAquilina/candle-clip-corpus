@@ -1,0 +1,101 @@
+{
+  "video_id": "Jap03OmOhXU",
+  "video_title": "15 BRILLIANT Dollar Tree Candle HACKS \ud83d\udd6f\ufe0f (gift ideas galore!)",
+  "video_url": "https://www.youtube.com/watch?v=Jap03OmOhXU",
+  "video_duration_s": 388.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:44:31Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 19,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 18,
+  "windows": [
+    {
+      "window_index": 26,
+      "start_s": 210.17,
+      "end_s": 218.25,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 210.17,
+          "vision_desc": "a white sink",
+          "transcript_text": "kids in a bubble",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 211.17,
+          "vision_desc": "a bathtub with a candle and a towel",
+          "transcript_text": "bubble bath and they're less",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 212.17,
+          "vision_desc": "a bathtub with a candle and a phone",
+          "transcript_text": "less than 50 cents",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 213.17,
+          "vision_desc": "a bathtub with a light on it",
+          "transcript_text": "cents each I'll be sure",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 214.17,
+          "vision_desc": "a white bathtub with a white tub and a white tub",
+          "transcript_text": "sure to link them for you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 215.17,
+          "vision_desc": "a bathtub with a lot of soap and a candle",
+          "transcript_text": "you guys and when it",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 216.17,
+          "vision_desc": "a bathtub with candles and a candle",
+          "transcript_text": "it comes to battery operated",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 217.17,
+          "vision_desc": "a bathtub with a candle and a candle",
+          "transcript_text": "operated candles You",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a white sink | a bathtub with a candle and a towel | a bathtub with a candle and a phone | a bathtub with a light on it | a white bathtub with a white tub and a white tub | a bathtub with a lot of soap and a candle | a bathtub with candles and a candle | a bathtub with a candle and a candle",
+      "transcript": "kids in a bubble bath and they're less than 50 cents each I'll be sure to link them for you guys and when it comes to battery operated candles You",
+      "old_description": "Dollar Tree candles/supplies shown."
+    }
+  ]
+}
