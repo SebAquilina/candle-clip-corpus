@@ -1,0 +1,33 @@
+{
+  "video_id": "ni6Z78PCyVw",
+  "n_rejected": 3,
+  "rejected": [
+    {
+      "window_index": 11,
+      "start_s": 89.14,
+      "end_s": 97.24,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 89.64
+    },
+    {
+      "window_index": 12,
+      "start_s": 97.24,
+      "end_s": 105.34,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 100.74
+    },
+    {
+      "window_index": 14,
+      "start_s": 113.45,
+      "end_s": 121.55,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 113.95
+    }
+  ]
+}
