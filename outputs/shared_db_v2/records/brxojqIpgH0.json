@@ -1,0 +1,101 @@
+{
+  "video_id": "brxojqIpgH0",
+  "video_title": "How to Make Soy Tealight Candles | DIY Candle Making",
+  "video_url": "https://www.youtube.com/watch?v=brxojqIpgH0",
+  "video_duration_s": 171.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T12:20:23Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 14,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 13,
+  "windows": [
+    {
+      "window_index": 5,
+      "start_s": 40.71,
+      "end_s": 48.86,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 40.71,
+          "vision_desc": "a white marble counter top with a white marble counter top",
+          "transcript_text": "tools you'll need.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 41.71,
+          "vision_desc": "a pan with a fryer on top of it",
+          "transcript_text": "A double boiler,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 42.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "a pouring picture,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 43.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "picture, a funnel",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 44.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "funnel pouring picture,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 45.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "a stirring utensil,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 46.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "utensil, a",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 47.71,
+          "vision_desc": "a pan with a pan on top of it",
+          "transcript_text": "a thermometer,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a white marble counter top with a white marble counter top | a pan with a fryer on top of it | a pan with a pan on top of it",
+      "transcript": "tools you'll need. A double boiler, a pouring picture, a funnel pouring picture, a stirring utensil, a thermometer,",
+      "old_description": "Soy wax melting in a black pot on an induction hob."
+    }
+  ]
+}
