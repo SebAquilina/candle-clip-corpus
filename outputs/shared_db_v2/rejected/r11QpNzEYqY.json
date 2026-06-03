@@ -1,0 +1,33 @@
+{
+  "video_id": "r11QpNzEYqY",
+  "n_rejected": 3,
+  "rejected": [
+    {
+      "window_index": 18,
+      "start_s": 144.0,
+      "end_s": 152.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 144.5
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.0,
+      "end_s": 160.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 154.5
+    },
+    {
+      "window_index": 48,
+      "start_s": 384.0,
+      "end_s": 392.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 384.5
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "qz7Nr43IJ20",
+  "video_title": "ICED COFFEE CANDLE TUTORIAL | DIY gel wax ice cubes #icedcoffee #coffeecandle",
+  "video_url": "https://www.youtube.com/watch?v=qz7Nr43IJ20",
+  "video_duration_s": 112.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:39:33Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 14,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 14,
+  "windows": []
+}
