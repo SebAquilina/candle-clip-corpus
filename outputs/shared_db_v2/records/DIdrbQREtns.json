@@ -1,0 +1,101 @@
+{
+  "video_id": "DIdrbQREtns",
+  "video_title": "Beginners Guide to Make Soy Wax Pillar Candles  Tips and Tricks",
+  "video_url": "https://www.youtube.com/watch?v=DIdrbQREtns",
+  "video_duration_s": 694.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T07:49:09Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 41,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 40,
+  "windows": [
+    {
+      "window_index": 86,
+      "start_s": 686.02,
+      "end_s": 694.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 686.02,
+          "vision_desc": "a group of three different colored candles",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 687.02,
+          "vision_desc": "a pink candle and a pink flower on a white surface",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 688.02,
+          "vision_desc": "a pink sculpture with a pink flower on top",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 689.02,
+          "vision_desc": "a white bed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 690.02,
+          "vision_desc": "a small figurin sitting on a bed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 691.02,
+          "vision_desc": "a small figurine is sitting next to a small figurine",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 692.02,
+          "vision_desc": "a small figurine is sitting on a bed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 693.02,
+          "vision_desc": "a pink and white sculpture next to a pink and white sculpture",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a group of three different colored candles | a pink candle and a pink flower on a white surface | a pink sculpture with a pink flower on top | a white bed | a small figurin sitting on a bed | a small figurine is sitting next to a small figurine | a small figurine is sitting on a bed | a pink and white sculpture next to a pink and white sculpture",
+      "transcript": "",
+      "old_description": "Finished burgundy knit-pillar candles shown."
+    }
+  ]
+}

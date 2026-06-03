@@ -1,0 +1,24 @@
+{
+  "video_id": "DJBHjOFJBOs",
+  "n_rejected": 2,
+  "rejected": [
+    {
+      "window_index": 6,
+      "start_s": 48.23,
+      "end_s": 56.27,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 48.73
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.27,
+      "end_s": 64.31,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 56.77
+    }
+  ]
+}
