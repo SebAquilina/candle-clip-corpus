@@ -1,0 +1,774 @@
+{
+  "video_id": "YfoczJO89TQ",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=YfoczJO89TQ",
+  "video_duration_s": 485.041633,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T18:12:47Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 61,
+  "n_windows_kept": 9,
+  "n_windows_rejected": 52,
+  "windows": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 0.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "Today",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "Today we're gonna be making",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "making some candles.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 3.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "This is a beginner",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "beginner video. This",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "This is an intro that's gonna",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6.0,
+          "vision_desc": "a glass of lemon juice on a table",
+          "transcript_text": "gonna help you get",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7.0,
+          "vision_desc": "a glass of orange juice on a table",
+          "transcript_text": "get started Making your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and some plants on a table | a glass of lemon juice on a table | a glass of orange juice on a table",
+      "transcript": "Today we're gonna be making some candles. This is a beginner video. This is an intro that's gonna help you get started Making your",
+      "old_description": ""
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.0,
+      "end_s": 32.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 24.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "ramblings where I share",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 25.0,
+          "vision_desc": "a candle and a pot with sus on a table",
+          "transcript_text": "share simple inspiring",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 26.0,
+          "vision_desc": "a candle and a pot with sus on a table",
+          "transcript_text": "inspiring projects Today",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 27.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "Today we",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 28.0,
+          "vision_desc": "a candle and a plant on a table",
+          "transcript_text": "we are going to make these",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 29.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "these beautiful",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 30.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "beautiful",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 31.0,
+          "vision_desc": "a candle and a plant on a table",
+          "transcript_text": "Simple candles.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and some plants on a table | a candle and a pot with sus on a table | a candle and some sus on a table | a candle and a plant on a table",
+      "transcript": "ramblings where I share simple inspiring projects Today we are going to make these beautiful Simple candles.",
+      "old_description": ""
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.0,
+      "end_s": 160.0,
+      "action_label": "measure_wax",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 152.0,
+          "vision_desc": "a bowl of rice and a measuring scale",
+          "transcript_text": "And then you can",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 153.0,
+          "vision_desc": "a bowl of rice and a measuring scale",
+          "transcript_text": "can purchase soy wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 154.0,
+          "vision_desc": "a bowl of rice and a measuring scale",
+          "transcript_text": "wax and all kinds",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 155.0,
+          "vision_desc": "a scale with rice and a bag of rice",
+          "transcript_text": "kinds of different places.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 156.0,
+          "vision_desc": "a scale with rice and a bag of rice",
+          "transcript_text": "This is actually a big",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 157.0,
+          "vision_desc": "a scale with rice and a bag of rice",
+          "transcript_text": "big bar. So",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 158.0,
+          "vision_desc": "a scale with rice and a bag of rice",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 159.0,
+          "vision_desc": "a scale with rice and a bag of rice",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bowl of rice and a measuring scale | a scale with rice and a bag of rice",
+      "transcript": "And then you can purchase soy wax and all kinds of different places. This is actually a big bar. So",
+      "old_description": ""
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.0,
+      "end_s": 192.0,
+      "action_label": "measure_wax",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 184.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "four ounces of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 185.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "of beeswax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 186.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "beeswax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 187.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 188.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 189.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 190.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 191.0,
+          "vision_desc": "a glass of water and a measuring scale on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a glass of water and a measuring scale on a table",
+      "transcript": "four ounces of beeswax",
+      "old_description": ""
+    },
+    {
+      "window_index": 51,
+      "start_s": 408.0,
+      "end_s": 416.0,
+      "action_label": "pour_wax",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 408.0,
+          "vision_desc": "a cup of tea being poured into a cup",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 409.0,
+          "vision_desc": "a glass filled with a drink sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 410.0,
+          "vision_desc": "a glass filled with a drink sitting on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 411.0,
+          "vision_desc": "a glass filled with orange juice sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 412.0,
+          "vision_desc": "a glass filled with orange juice sitting on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 413.0,
+          "vision_desc": "a glass of lemonade with a lemon wedge",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 414.0,
+          "vision_desc": "a glass filled with a liquid and a small metal tube",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 415.0,
+          "vision_desc": "a glass filled with a liquid and a small metal tube",
+          "transcript_text": "So our",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup of tea being poured into a cup | a glass filled with a drink sitting on a table | a glass filled with orange juice sitting on a table | a glass of lemonade with a lemon wedge | a glass filled with a liquid and a small metal tube",
+      "transcript": "So our",
+      "old_description": ""
+    },
+    {
+      "window_index": 56,
+      "start_s": 448.0,
+      "end_s": 456.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 448.0,
+          "vision_desc": "a vase with a candle and a vase with a plant in it",
+          "transcript_text": "process using beeswax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 449.0,
+          "vision_desc": "a plant in a vase next to a mirror",
+          "transcript_text": "beeswax and soy wax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 450.0,
+          "vision_desc": "a plant in a pot next to a mirror",
+          "transcript_text": "wax Don't",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 451.0,
+          "vision_desc": "a pot with a plant in it on a table",
+          "transcript_text": "Don't emit harmful",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 452.0,
+          "vision_desc": "a plant in a pot on a shelf",
+          "transcript_text": "harmful chemicals into the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 453.0,
+          "vision_desc": "a plant and a candle on a table",
+          "transcript_text": "the air around you. They give",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 454.0,
+          "vision_desc": "a candle and a pot with a plant on it",
+          "transcript_text": "give off a light",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 455.0,
+          "vision_desc": "a small plant sits next to a candle",
+          "transcript_text": "light soothing scent",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a vase with a candle and a vase with a plant in it | a plant in a vase next to a mirror | a plant in a pot next to a mirror | a pot with a plant in it on a table | a plant in a pot on a shelf | a plant and a candle on a table | a candle and a pot with a plant on it | a small plant sits next to a candle",
+      "transcript": "process using beeswax and soy wax Don't emit harmful chemicals into the air around you. They give off a light soothing scent",
+      "old_description": ""
+    },
+    {
+      "window_index": 57,
+      "start_s": 456.0,
+      "end_s": 464.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 456.0,
+          "vision_desc": "a small plant sits next to a candle",
+          "transcript_text": "scent And the really economical.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 457.0,
+          "vision_desc": "a candle and a pot with sus on a table",
+          "transcript_text": "economical. It's a great way to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 458.0,
+          "vision_desc": "a candle and sus on a table",
+          "transcript_text": "to use up those jars that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 459.0,
+          "vision_desc": "a candle and sus on a table",
+          "transcript_text": "that you already have at",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 460.0,
+          "vision_desc": "a candle and sus on a table",
+          "transcript_text": "at home",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 461.0,
+          "vision_desc": "a candle and sus on a table",
+          "transcript_text": "If you liked",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 462.0,
+          "vision_desc": "a table with two candles and a plant",
+          "transcript_text": "liked this video if you learned",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 463.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "learned something new",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a small plant sits next to a candle | a candle and a pot with sus on a table | a candle and sus on a table | a table with two candles and a plant | a candle and some plants on a table",
+      "transcript": "scent And the really economical. It's a great way to use up those jars that you already have at home If you liked this video if you learned something new",
+      "old_description": ""
+    },
+    {
+      "window_index": 58,
+      "start_s": 464.0,
+      "end_s": 472.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 464.0,
+          "vision_desc": "a candle and a picture on a table",
+          "transcript_text": "new give me a thumbs up and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 465.0,
+          "vision_desc": "a candle and a plant on a table",
+          "transcript_text": "and consider subscribing So",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 466.0,
+          "vision_desc": "a candle and a pot with sus on a table",
+          "transcript_text": "So you don't miss",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 467.0,
+          "vision_desc": "a candle and a pot with sus on a table",
+          "transcript_text": "miss my next simple",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 468.0,
+          "vision_desc": "a small plant sits on a table next to a candle",
+          "transcript_text": "simple inspiring project.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 469.0,
+          "vision_desc": "a small plant sits on a table next to a candle",
+          "transcript_text": "project. Thanks",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 470.0,
+          "vision_desc": "a small plant sits on a table next to a candle",
+          "transcript_text": "Thanks so much for watching. We'll",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 471.0,
+          "vision_desc": "a small plant sits on a table next to a candle",
+          "transcript_text": "We'll see you next time",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and a picture on a table | a candle and a plant on a table | a candle and a pot with sus on a table | a small plant sits on a table next to a candle",
+      "transcript": "new give me a thumbs up and consider subscribing So you don't miss my next simple inspiring project. Thanks so much for watching. We'll see you next time",
+      "old_description": ""
+    },
+    {
+      "window_index": 59,
+      "start_s": 472.0,
+      "end_s": 480.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 472.0,
+          "vision_desc": "two candles sitting on a table next to a vase",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 473.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 474.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 475.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 476.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 477.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 478.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 479.0,
+          "vision_desc": "a candle and some sus on a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on a table next to a vase | a candle and some sus on a table",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}

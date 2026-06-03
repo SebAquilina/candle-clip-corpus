@@ -1,0 +1,438 @@
+{
+  "video_id": "CydSqouhftw",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=CydSqouhftw",
+  "video_duration_s": 1658.67102,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T18:04:38Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 207,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 202,
+  "windows": [
+    {
+      "window_index": 155,
+      "start_s": 1240.0,
+      "end_s": 1248.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1240.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1241.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1242.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1243.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1244.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1245.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1246.0,
+          "vision_desc": "two candles sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1247.0,
+          "vision_desc": "three candles sitting on a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on top of a counter | two candles sitting on top of a table | three candles sitting on a counter",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 156,
+      "start_s": 1248.0,
+      "end_s": 1256.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1248.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1249.0,
+          "vision_desc": "two candles sitting on a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1250.0,
+          "vision_desc": "two candles sitting on a counter top",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1251.0,
+          "vision_desc": "a cell phone with the screen open on a granite counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1252.0,
+          "vision_desc": "a cell phone sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1253.0,
+          "vision_desc": "a candle and a cell phone on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1254.0,
+          "vision_desc": "three candles are sitting next to a cell",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1255.0,
+          "vision_desc": "three candles are sitting on a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on top of a counter | two candles sitting on a counter | two candles sitting on a counter top | a cell phone with the screen open on a granite counter | a cell phone sitting on top of a counter | a candle and a cell phone on a table | three candles are sitting next to a cell | three candles are sitting on a counter",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 157,
+      "start_s": 1256.0,
+      "end_s": 1264.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1256.0,
+          "vision_desc": "three candles are sitting on a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1257.0,
+          "vision_desc": "three candles are sitting on a granite counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1258.0,
+          "vision_desc": "candles are lit in the kitchen",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1259.0,
+          "vision_desc": "candles are placed on a counter top",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1260.0,
+          "vision_desc": "a candle and a cell phone on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1261.0,
+          "vision_desc": "a candle and a cell phone on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1262.0,
+          "vision_desc": "candles and a cell phone on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1263.0,
+          "vision_desc": "three candles are sitting next to a phone",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "three candles are sitting on a counter | three candles are sitting on a granite counter | candles are lit in the kitchen | candles are placed on a counter top | a candle and a cell phone on a table | candles and a cell phone on a table | three candles are sitting next to a phone",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 165,
+      "start_s": 1320.0,
+      "end_s": 1328.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1320.0,
+          "vision_desc": "a candle and a cell phone on a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1321.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1322.0,
+          "vision_desc": "three candles sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1323.0,
+          "vision_desc": "three candles sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1324.0,
+          "vision_desc": "three candles sitting on a counter with a candle in the middle",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1325.0,
+          "vision_desc": "three candles sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1326.0,
+          "vision_desc": "three candles sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1327.0,
+          "vision_desc": "two candles sitting on top of a counter",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and a cell phone on a counter | two candles sitting on top of a counter | three candles sitting on a table | three candles sitting on a counter with a candle in the middle",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 206,
+      "start_s": 1648.0,
+      "end_s": 1656.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1648.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1649.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1650.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1651.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1652.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1653.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1654.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1655.0,
+          "vision_desc": "a black and red logo with the words, ' this is forging '",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a black and red logo with the words, ' this is forging '",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
