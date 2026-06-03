@@ -1,0 +1,101 @@
+{
+  "video_id": "gSnmUNHpwJY",
+  "video_title": "Quick and easy way to wax raw wick for candles",
+  "video_url": "https://www.youtube.com/watch?v=gSnmUNHpwJY",
+  "video_duration_s": 121.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T12:52:41Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 13,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 12,
+  "windows": [
+    {
+      "window_index": 12,
+      "start_s": 96.8,
+      "end_s": 104.87,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 96.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "Now if you're",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 97.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "you're using the wick that's",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 98.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "that's directional, this method",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 99.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "method is also quite handy because",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 100.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "because you can put",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 101.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "put just a color paper clip",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 102.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "clip on the end to remind",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 103.8,
+          "vision_desc": "a jar of liquid sitting on top of foil",
+          "transcript_text": "remind yourself which is the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a jar of liquid sitting on top of foil",
+      "transcript": "Now if you're using the wick that's directional, this method is also quite handy because you can put just a color paper clip on the end to remind yourself which is the",
+      "old_description": "Overhead: a raw cotton wick is dipped into a jar of melted wax and pulled taut to prime/wax it."
+    }
+  ]
+}
