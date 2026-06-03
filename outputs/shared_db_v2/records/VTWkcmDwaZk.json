@@ -1,0 +1,101 @@
+{
+  "video_id": "VTWkcmDwaZk",
+  "video_title": "Candle Making Hacks from CandleScience // How to Wick Candles & Center Wicks // Easy Wick Tricks",
+  "video_url": "https://www.youtube.com/watch?v=VTWkcmDwaZk",
+  "video_duration_s": 93.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:48:01Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 5,
+  "windows": [
+    {
+      "window_index": 4,
+      "start_s": 31.0,
+      "end_s": 38.75,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 31.0,
+          "vision_desc": "a wooden floor with a hole in it",
+          "transcript_text": "template inside the container and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 32.0,
+          "vision_desc": "a wooden floor with a hole in it",
+          "transcript_text": "and center those wicks with",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 33.0,
+          "vision_desc": "a wooden floor with a hole in it",
+          "transcript_text": "with confidence.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 34.0,
+          "vision_desc": "a wooden floor with a hole in it",
+          "transcript_text": "If you're working with",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 35.0,
+          "vision_desc": "a white square on a wood floor",
+          "transcript_text": "with a clear jar, you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 36.0,
+          "vision_desc": "a piece of paper on a wooden floor",
+          "transcript_text": "you can place the template underneath",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 37.0,
+          "vision_desc": "a piece of paper on a wooden floor",
+          "transcript_text": "underneath the jar.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 38.0,
+          "vision_desc": "a piece of paper on a wooden floor",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a wooden floor with a hole in it | a white square on a wood floor | a piece of paper on a wooden floor",
+      "transcript": "template inside the container and center those wicks with confidence. If you're working with a clear jar, you can place the template underneath the jar.",
+      "old_description": "A paper/cardboard wick guide held over the jar."
+    }
+  ]
+}

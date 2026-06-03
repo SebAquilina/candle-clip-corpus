@@ -1,0 +1,353 @@
+{
+  "video_id": "V50SgBW1bRM",
+  "video_title": "\ud83d\udd25 Watch Me Make Luxury Pillar Candles! | Get My Exact Recipe in the Ultimate Candle-Making eBook! \ud83d\udd25",
+  "video_url": "https://www.youtube.com/watch?v=V50SgBW1bRM",
+  "video_duration_s": 546.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:47:38Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 4,
+  "n_windows_rejected": 47,
+  "windows": [
+    {
+      "window_index": 26,
+      "start_s": 208.76,
+      "end_s": 216.79,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 208.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "method It works just",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 209.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "just as well if that's",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 210.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "that's what you have on hand.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 211.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "hand. I just use",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 212.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "use a wax melted because",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 213.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "because that's what",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 214.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "what I have",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 215.76,
+          "vision_desc": "a machine that is sitting on a table",
+          "transcript_text": "have So while the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a machine that is sitting on a table",
+      "transcript": "method It works just as well if that's what you have on hand. I just use a wax melted because that's what I have So while the",
+      "old_description": "Pouring wax into the pillar moulds."
+    },
+    {
+      "window_index": 35,
+      "start_s": 281.03,
+      "end_s": 289.06,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 281.03,
+          "vision_desc": "a cup filled with liquid sitting on a counter",
+          "transcript_text": "the wig in place",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 282.03,
+          "vision_desc": "a cup filled with liquid sitting on a counter",
+          "transcript_text": "place as you pull",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 283.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "pull your can your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 284.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "your your wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 285.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "wax And",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 286.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "And so you're going to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 287.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "to pull your wax into the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 288.03,
+          "vision_desc": "a bunch of candles with a pink tag on them",
+          "transcript_text": "the modes and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup filled with liquid sitting on a counter | a bunch of candles with a pink tag on them",
+      "transcript": "the wig in place as you pull your can your wax And so you're going to pull your wax into the modes and",
+      "old_description": "Rows of pillar candles setting."
+    },
+    {
+      "window_index": 39,
+      "start_s": 313.15,
+      "end_s": 321.18,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 313.15,
+          "vision_desc": "a counter with several different types of candles",
+          "transcript_text": "know a little piece of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 314.15,
+          "vision_desc": "a counter with several different types of candles",
+          "transcript_text": "of play -doh at the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 315.15,
+          "vision_desc": "a counter with several different types of candles",
+          "transcript_text": "the bottom to keep",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 316.15,
+          "vision_desc": "a counter with several different types of candles",
+          "transcript_text": "keep the wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 317.15,
+          "vision_desc": "a counter with several different types of candles",
+          "transcript_text": "wax from sipping through",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 318.15,
+          "vision_desc": "a counter with several different types of soaps",
+          "transcript_text": "through so",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 319.15,
+          "vision_desc": "a counter with several different types of soaps",
+          "transcript_text": "so Don't",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 320.15,
+          "vision_desc": "a counter with several different types of soaps",
+          "transcript_text": "Don't forget that tip that",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a counter with several different types of candles | a counter with several different types of soaps",
+      "transcript": "know a little piece of play -doh at the bottom to keep the wax from sipping through so Don't forget that tip that",
+      "old_description": "Demoulding/trimming the ribbed & bubble pillar candles."
+    },
+    {
+      "window_index": 45,
+      "start_s": 361.32,
+      "end_s": 369.35,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 361.32,
+          "vision_desc": "a candle holder with two candles and a candle",
+          "transcript_text": "candles is pretty",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 362.32,
+          "vision_desc": "a candle holder with candles and a candle",
+          "transcript_text": "pretty easy",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 363.32,
+          "vision_desc": "a bunch of candles sitting on top of a counter",
+          "transcript_text": "But",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 364.32,
+          "vision_desc": "a candle and some candles on a table",
+          "transcript_text": "But the tricky part",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 365.32,
+          "vision_desc": "a candle and some candles on a counter",
+          "transcript_text": "part comes uh,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 366.32,
+          "vision_desc": "a candle holder with candles and a candle",
+          "transcript_text": "uh, well you have to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 367.32,
+          "vision_desc": "a candle holder with candles and candles on it",
+          "transcript_text": "to you know like measure",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 368.32,
+          "vision_desc": "a candle holder with candles and a candle",
+          "transcript_text": "measure out the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle holder with two candles and a candle | a candle holder with candles and a candle | a bunch of candles sitting on top of a counter | a candle and some candles on a table | a candle and some candles on a counter | a candle holder with candles and candles on it",
+      "transcript": "candles is pretty easy But the tricky part comes uh, well you have to you know like measure out the",
+      "old_description": "Rows of pillar candles setting."
+    }
+  ]
+}
