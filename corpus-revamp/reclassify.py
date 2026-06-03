@@ -216,6 +216,89 @@ def local_clips(clip_dir: str, limit=0):
     print(f"\nSUMMARY: kept {len(kept)}/{len(clips)}, rejected {len(rej)}  {dict((r,sum(1 for _,x in rej if x==r)) for _,r in rej)}")
 
 
+# keyword -> action_label for NEW videos (which have no upstream classification labels)
+_LABEL_KW = [
+    ("measure_wax", ["scale", "weigh", "weighing", "grams", "ounces"]),
+    ("melt_wax", ["melt", "melting", "double boiler", "heating wax", "pouring pitcher", "hot wax"]),
+    ("add_fragrance", ["fragrance", "scent", "essential oil", "perfume", "adding oil"]),
+    ("add_dye_color", ["dye", "colour", "coloring", "colouring", "pigment", "tint", "colored wax"]),
+    ("set_wick", ["wick bar", "centering", "wick sticker", "securing wick", "placing wick"]),
+    ("trim_wick", ["trim", "scissors", "wick trimmer", "cutting wick"]),
+    ("pour_wax", ["pour", "pouring", "pours", "filling"]),
+    ("prepare_container", ["jar", "container", "tin", "vessel", "glass jar", "empty jar"]),
+    ("cure_cool", ["cooling", "cure", "curing", "setting up", "hardening", "left to set"]),
+    ("decorate_finish", ["decorate", "flower", "rose", "label", "ribbon", "dried", "topping", "garnish"]),
+    ("reveal_result", ["lit", "burning", "flame", "glowing", "finished candle", "display", "shown"]),
+    ("gather_materials", ["materials", "supplies", "ingredients", "tools", "kit", "laid out"]),
+]
+
+
+def _infer_label(text: str) -> str:
+    t = (text or "").lower()
+    for label, kws in _LABEL_KW:
+        if any(k in t for k in kws):
+            return label
+    return ""
+
+
+def ingest_list(ids, niche="candle_making", source="watch-later", window_s=8.0):
+    """Put BRAND-NEW videos (not in the old corpus) through the v3 pipeline. They have no
+    upstream window segmentation, so we auto-segment [0,dur] into ~window_s windows, run the
+    exact same purge+describe+4b as the grind, then infer an action_label from the vision
+    text. Resumable + attempt-marker stall guard, same as run_grind."""
+    import fetch, transcript as TR
+    a = detectors.availability()
+    if not (a["face_available"] and a["text_available"]):
+        sys.exit(f"BLOCKER: detectors unavailable: {a}")
+    print(f"ingest: {len(ids)} videos | detector={a['face_backend']} vlm={DESC.get_captioner().name}")
+    done = 0
+    for vid in ids:
+        if (REC_OUT / f"{vid}.json").exists():
+            print(f"[have] {vid} already in corpus"); continue
+        try:
+            attempts = json.load(open(ATTEMPTS_FILE))
+        except Exception:
+            attempts = {}
+        if attempts.get(vid, 0) >= 1 and not (REJ_OUT / f"{vid}.json").exists():
+            _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": "skipped after stall", "rejected": []})
+            print(f"[skip] {vid}: previously stalled"); continue
+        attempts[vid] = attempts.get(vid, 0) + 1
+        _atomic(ATTEMPTS_FILE, attempts)
+        url = f"https://www.youtube.com/watch?v={vid}"
+        dl = fetch.download(vid, url)
+        if not dl["ok"]:
+            _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
+            print(f"[dlfail] {vid}: {dl['err'][:70]}"); continue
+        try:
+            dur = float(subprocess.check_output(
+                ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                 "-of", "default=noprint_wrappers=1:nokey=1", dl["path"]]).decode().strip())
+        except Exception:
+            dur = 0.0
+        if dur <= 4:
+            _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": "no/short duration", "rejected": []})
+            fetch.discard(vid); continue
+        wins, i, t = [], 0, 0.0
+        while t + 4.0 <= dur:
+            wins.append({"window_index": i, "start_s": round(t, 2),
+                         "end_s": round(min(t + window_s, dur), 2), "is_step": 1, "action_label": ""})
+            t += window_s; i += 1
+        rec = {"video_id": vid, "video_url": url, "video_duration_s": dur,
+               "niche": niche, "channel": "", "windows": wins}
+        words = TR.get_transcript(vid, dl["path"], url)
+        v2, rej = reclassify_video(rec, dl["path"], words)
+        for w in v2["windows"]:
+            w["action_label"] = _infer_label(w.get("embed_text", ""))
+        v2["source"] = source
+        _atomic(REC_OUT / f"{vid}.json", v2)
+        _atomic(REJ_OUT / f"{vid}.json", rej)
+        _reindex_one(v2)
+        fetch.discard(vid)
+        done += 1
+        print(f"[{done}] {vid}: kept {v2['n_windows_kept']}/{v2['n_windows_in']} ({rej['n_rejected']} dropped)")
+    print(f"ingested {done} new videos")
+
+
 def selftest():
     """Preflight: confirm this machine is ready BEFORE committing to the full grind —
     strong face detector, OCR, local VLM, and a real test download with the cookies."""
@@ -279,6 +362,9 @@ if __name__ == "__main__":
         i = sys.argv.index("--local-clips"); d = sys.argv[i + 1]
         lim = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 0
         local_clips(d, lim)
+    elif "--ingest" in sys.argv:
+        ids = json.load(open(sys.argv[sys.argv.index("--ingest") + 1]))
+        ingest_list(ids)
     else:
         mv = int(sys.argv[sys.argv.index("--max-videos") + 1]) if "--max-videos" in sys.argv else 0
         ms = int(sys.argv[sys.argv.index("--max-seconds") + 1]) if "--max-seconds" in sys.argv else 0
