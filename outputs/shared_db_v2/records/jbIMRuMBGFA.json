@@ -1,0 +1,437 @@
+{
+  "video_id": "jbIMRuMBGFA",
+  "video_title": "Tips to prevent frosting and sinkholes in candles | soy wax frosting | sinkholes in candles",
+  "video_url": "https://www.youtube.com/watch?v=jbIMRuMBGFA",
+  "video_duration_s": 269.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T13:43:25Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 30,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 25,
+  "windows": [
+    {
+      "window_index": 5,
+      "start_s": 39.56,
+      "end_s": 47.47,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 39.56,
+          "vision_desc": "two small candles sitting on a wooden table",
+          "transcript_text": "in candle making is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 40.56,
+          "vision_desc": "two small glass candles on a wooden table",
+          "transcript_text": "is these types of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 41.56,
+          "vision_desc": "two candles sitting on top of a wooden table",
+          "transcript_text": "of sink holes.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 42.56,
+          "vision_desc": "a glass filled with a candle and a small candle",
+          "transcript_text": "Coming up in the up nay,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 43.56,
+          "vision_desc": "a glass filled with a candle and a small candle",
+          "transcript_text": "nay, sector only",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 44.56,
+          "vision_desc": "a glass filled with a candle and a small candle",
+          "transcript_text": "only kebard may be a pink candle",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 45.56,
+          "vision_desc": "a glass filled with a candle and a small candle",
+          "transcript_text": "candle may, is there a ke hole",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 46.56,
+          "vision_desc": "a glass filled with liquid next to a candle",
+          "transcript_text": "hole they kew. Right.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two small candles sitting on a wooden table | two small glass candles on a wooden table | two candles sitting on top of a wooden table | a glass filled with a candle and a small candle | a glass filled with liquid next to a candle",
+      "transcript": "in candle making is these types of sink holes. Coming up in the up nay, sector only kebard may be a pink candle may, is there a ke hole they kew. Right.",
+      "old_description": "Metal pot with a wax block."
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.47,
+      "end_s": 55.38,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 47.47,
+          "vision_desc": "a candle with a straw in it",
+          "transcript_text": "Right. So",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 48.47,
+          "vision_desc": "two candles sitting on top of a blanket",
+          "transcript_text": "So in this video I",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 49.47,
+          "vision_desc": "a candle with a straw and a straw straw",
+          "transcript_text": "I am going to share top",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 50.47,
+          "vision_desc": "a glass of liquid with a straw in it",
+          "transcript_text": "top 5 to 6",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 51.47,
+          "vision_desc": "a candle is being poured into a glass",
+          "transcript_text": "6 tips, jogger",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 52.47,
+          "vision_desc": "a metal cup on a wooden table",
+          "transcript_text": "jogger up for a look or two",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 53.47,
+          "vision_desc": "a metal cup sitting on top of a wooden table",
+          "transcript_text": "two to up kiwongy, don't",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 54.47,
+          "vision_desc": "a stainless mug with a handle on it",
+          "transcript_text": "don't know issues future may",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle with a straw in it | two candles sitting on top of a blanket | a candle with a straw and a straw straw | a glass of liquid with a straw in it | a candle is being poured into a glass | a metal cup on a wooden table | a metal cup sitting on top of a wooden table | a stainless mug with a handle on it",
+      "transcript": "Right. So in this video I am going to share top 5 to 6 tips, jogger up for a look or two to up kiwongy, don't know issues future may",
+      "old_description": "Wax melting in a double boiler."
+    },
+    {
+      "window_index": 27,
+      "start_s": 213.62,
+      "end_s": 221.53,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 213.62,
+          "vision_desc": "a couple of jars with a spoon and a glass",
+          "transcript_text": "if required you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 214.62,
+          "vision_desc": "a couple of jars with a spoon and a glass",
+          "transcript_text": "you can give a second",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 215.62,
+          "vision_desc": "a glass filled with milk and a spoon",
+          "transcript_text": "second pour to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 216.62,
+          "vision_desc": "two jars of milk with straws on top",
+          "transcript_text": "to finish your candle.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 217.62,
+          "vision_desc": "two jars of milk with straws on top",
+          "transcript_text": "candle.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 218.62,
+          "vision_desc": "two jars of milk with straws on top",
+          "transcript_text": "Okay. A guan still ako lakta",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 219.62,
+          "vision_desc": "two jars of milk with straws on top",
+          "transcript_text": "lakta gi aki candle.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 220.62,
+          "vision_desc": "two jars of milk with straws on top",
+          "transcript_text": "candle. Thorey si finished",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a couple of jars with a spoon and a glass | a glass filled with milk and a spoon | two jars of milk with straws on top",
+      "transcript": "if required you can give a second pour to finish your candle. Okay. A guan still ako lakta gi aki candle. Thorey si finished",
+      "old_description": "The poured candle setting (watching for frosting/sinkholes)."
+    },
+    {
+      "window_index": 28,
+      "start_s": 221.53,
+      "end_s": 229.44,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 221.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "finished nahi lakrita.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 222.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "lakrita. What is the rikis ai",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 223.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "ai second pour of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 224.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "of nahi gandel koh deh sato",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 225.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "sato again",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 226.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "again who has cut temperature jouka",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 227.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "jouka of xka of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 228.53,
+          "vision_desc": "two jars of milk with a straw in them",
+          "transcript_text": "of 55 to 65",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two jars of milk with a straw in them",
+      "transcript": "finished nahi lakrita. What is the rikis ai second pour of nahi gandel koh deh sato again who has cut temperature jouka of xka of 55 to 65",
+      "old_description": "The poured candle setting (watching for frosting/sinkholes)."
+    },
+    {
+      "window_index": 29,
+      "start_s": 229.44,
+      "end_s": 237.35,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 229.44,
+          "vision_desc": "two jars of homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade",
+          "transcript_text": "65 kibb each mukha.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 230.44,
+          "vision_desc": "two jars of homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade",
+          "transcript_text": "mukha.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 231.44,
+          "vision_desc": "two jars of homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade",
+          "transcript_text": "Okay guys so",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 232.44,
+          "vision_desc": "two jars of homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade",
+          "transcript_text": "so that's it for this",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 233.44,
+          "vision_desc": "how to make homemade soy candles",
+          "transcript_text": "this video and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 234.44,
+          "vision_desc": "how to make homemade soy candles",
+          "transcript_text": "and up is salate",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 235.44,
+          "vision_desc": "two candles sitting on top of a wooden table",
+          "transcript_text": "salate of zerousif alo",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 236.44,
+          "vision_desc": "how to make homemade soy candles",
+          "transcript_text": "alo khanayam.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two jars of homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade homemade | how to make homemade soy candles | two candles sitting on top of a wooden table",
+      "transcript": "65 kibb each mukha. Okay guys so that's it for this video and up is salate of zerousif alo khanayam.",
+      "old_description": "The poured candle setting (watching for frosting/sinkholes)."
+    }
+  ]
+}

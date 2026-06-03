@@ -1,0 +1,101 @@
+{
+  "video_id": "ixtOL_gQNEQ",
+  "video_title": "What's the BEST Flower Candle WAX? 9 Wax casts tests with silicone mold",
+  "video_url": "https://www.youtube.com/watch?v=ixtOL_gQNEQ",
+  "video_duration_s": 854.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T13:36:24Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 96,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 95,
+  "windows": [
+    {
+      "window_index": 44,
+      "start_s": 351.18,
+      "end_s": 359.16,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 351.18,
+          "vision_desc": "a pink candle and a small white candle on a wooden table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 352.18,
+          "vision_desc": "a pink candle and a white candle on a wooden table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 353.18,
+          "vision_desc": "a pink liquid being poured into a cup",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 354.18,
+          "vision_desc": "a cupcake with a red heart on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 355.18,
+          "vision_desc": "a cupcake with a red heart on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 356.18,
+          "vision_desc": "a cupcake with a red heart on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 357.18,
+          "vision_desc": "a cupcake with a red heart on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 358.18,
+          "vision_desc": "a cup filled with liquid and a red heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pink candle and a small white candle on a wooden table | a pink candle and a white candle on a wooden table | a pink liquid being poured into a cup | a cupcake with a red heart on it | a cup filled with liquid and a red heart",
+      "transcript": "",
+      "old_description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
+    }
+  ]
+}

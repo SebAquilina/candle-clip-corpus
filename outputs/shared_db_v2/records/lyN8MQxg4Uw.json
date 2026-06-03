@@ -1,0 +1,353 @@
+{
+  "video_id": "lyN8MQxg4Uw",
+  "video_title": "How I soak my wood wicks in 2023.",
+  "video_url": "https://www.youtube.com/watch?v=lyN8MQxg4Uw",
+  "video_duration_s": 184.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T13:50:54Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 18,
+  "n_windows_kept": 4,
+  "n_windows_rejected": 14,
+  "windows": [
+    {
+      "window_index": 11,
+      "start_s": 88.0,
+      "end_s": 96.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 88.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "to 24 hours",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 89.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "hours So if I",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 90.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "I came downstairs",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 91.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "downstairs and I wanted to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 92.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "to do it for 6",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 93.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "6 a .m. And",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 94.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "And then when I finish at 6",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 95.0,
+          "vision_desc": "a tray of chocolate and a green cup on a table",
+          "transcript_text": "6 p .m. I'll just take it",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray of chocolate and a green cup on a table",
+      "transcript": "to 24 hours So if I came downstairs and I wanted to do it for 6 a .m. And then when I finish at 6 p .m. I'll just take it",
+      "old_description": "Wooden wicks in the oil bath."
+    },
+    {
+      "window_index": 16,
+      "start_s": 128.0,
+      "end_s": 136.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 128.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "So you don't necessarily",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 129.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "necessarily have to use gloves, but",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 130.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "but I'm more majority of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 131.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "of the time 99",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 132.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "99 .9 %",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 133.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "% of the time In",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 134.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "In gloves only",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 135.0,
+          "vision_desc": "a tray with a cake in it on a counter",
+          "transcript_text": "only because it's sanitary",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray with a cake in it on a counter",
+      "transcript": "So you don't necessarily have to use gloves, but I'm more majority of the time 99 .9 % of the time In gloves only because it's sanitary",
+      "old_description": "Continued wick soaking."
+    },
+    {
+      "window_index": 17,
+      "start_s": 136.0,
+      "end_s": 144.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 136.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "sanitary and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 137.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "and only because",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 138.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "because candle making can be",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 139.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "be a little bit messy",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 140.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "messy So",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 141.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "So wearing gloves is",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 142.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "is basically for your",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 143.0,
+          "vision_desc": "a tray of food on a counter with a green cup",
+          "transcript_text": "your safety as well as the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray of food on a counter with a green cup",
+      "transcript": "sanitary and only because candle making can be a little bit messy So wearing gloves is basically for your safety as well as the",
+      "old_description": "Wooden wicks in oil."
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.0,
+      "end_s": 176.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 168.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "but if you ever",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 169.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "ever have problems with your wicks",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 170.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "wicks going out",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 171.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "It's for the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 172.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "the wood wicks. I should say",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 173.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "say it's because of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 174.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "of this. This is",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 175.0,
+          "vision_desc": "a tray with a tray of food and a cup",
+          "transcript_text": "is a life saver It",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray with a tray of food and a cup",
+      "transcript": "but if you ever have problems with your wicks going out It's for the wood wicks. I should say it's because of this. This is a life saver It",
+      "old_description": "The prepared soaked wicks shown."
+    }
+  ]
+}

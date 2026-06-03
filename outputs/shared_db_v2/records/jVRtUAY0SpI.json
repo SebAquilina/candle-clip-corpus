@@ -1,0 +1,101 @@
+{
+  "video_id": "jVRtUAY0SpI",
+  "video_title": "The candle that made me go VIRAL \u2728 Studio Vlog No. 1 \u2728 The making of Cloud Nine",
+  "video_url": "https://www.youtube.com/watch?v=jVRtUAY0SpI",
+  "video_duration_s": 569.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T13:39:30Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 27,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 26,
+  "windows": [
+    {
+      "window_index": 69,
+      "start_s": 552.97,
+      "end_s": 560.99,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 552.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 553.97,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 554.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 555.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 556.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 557.97,
+          "vision_desc": "a bunch of white candles sitting in a glass container",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 558.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "What I put always",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 559.97,
+          "vision_desc": "a bunch of candles with white candles inside",
+          "transcript_text": "always had a way to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bunch of candles with white candles inside | a bunch of candles sitting on top of a table | a bunch of white candles sitting in a glass container",
+      "transcript": "What I put always had a way to",
+      "old_description": "Finished blue cloud candles shown."
+    }
+  ]
+}

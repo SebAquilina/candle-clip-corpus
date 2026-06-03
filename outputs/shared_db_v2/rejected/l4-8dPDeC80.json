@@ -1,0 +1,126 @@
+{
+  "video_id": "l4-8dPDeC80",
+  "n_rejected": 13,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.07,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 0.5
+    },
+    {
+      "window_index": 2,
+      "start_s": 16.13,
+      "end_s": 24.2,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 16.63
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.2,
+      "end_s": 32.27,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 26.7
+    },
+    {
+      "window_index": 4,
+      "start_s": 32.27,
+      "end_s": 40.33,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 33.77
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.33,
+      "end_s": 48.4,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 6,
+      "start_s": 48.4,
+      "end_s": 56.47,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 48.9
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.47,
+      "end_s": 64.53,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 59.97
+    },
+    {
+      "window_index": 8,
+      "start_s": 64.53,
+      "end_s": 72.6,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 65.03
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.6,
+      "end_s": 80.67,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 77.1
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.67,
+      "end_s": 88.73,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 82.17
+    },
+    {
+      "window_index": 11,
+      "start_s": 88.73,
+      "end_s": 96.8,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 94.23
+    },
+    {
+      "window_index": 12,
+      "start_s": 96.8,
+      "end_s": 104.87,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 97.3
+    },
+    {
+      "window_index": 13,
+      "start_s": 104.87,
+      "end_s": 112.93,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 106.37
+    }
+  ]
+}

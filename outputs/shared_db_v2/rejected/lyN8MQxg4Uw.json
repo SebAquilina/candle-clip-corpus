@@ -1,0 +1,173 @@
+{
+  "video_id": "lyN8MQxg4Uw",
+  "n_rejected": 14,
+  "rejected": [
+    {
+      "window_index": 2,
+      "start_s": 16.0,
+      "end_s": 24.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.0,
+      "end_s": 32.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 4,
+      "start_s": 32.0,
+      "end_s": 40.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.0,
+      "end_s": 48.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 6,
+      "start_s": 48.0,
+      "end_s": 56.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 8,
+      "start_s": 64.0,
+      "end_s": 72.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.0,
+      "end_s": 80.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.0,
+      "end_s": 88.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 12,
+      "start_s": 96.0,
+      "end_s": 104.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "man",
+        "mouth",
+        "person"
+      ]
+    },
+    {
+      "window_index": 13,
+      "start_s": 104.0,
+      "end_s": 112.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 15,
+      "start_s": 120.0,
+      "end_s": 128.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 18,
+      "start_s": 144.0,
+      "end_s": 152.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.0,
+      "end_s": 160.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 20,
+      "start_s": 160.0,
+      "end_s": 168.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 160.5
+    }
+  ]
+}
