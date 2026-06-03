@@ -1,0 +1,16 @@
+{
+  "video_id": "rltpKr2t-Bw",
+  "video_title": "How to Make Pillar Candles // CandleScience Tutorials",
+  "video_url": "https://www.youtube.com/watch?v=rltpKr2t-Bw",
+  "video_duration_s": 130.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:44:07Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 6,
+  "windows": []
+}

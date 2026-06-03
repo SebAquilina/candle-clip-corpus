@@ -1,0 +1,269 @@
+{
+  "video_id": "utr9EuGsSJs",
+  "video_title": "DIY Scented Freedom Soy Wax Candles at home |  Candle making kit review | Microwave your wax!",
+  "video_url": "https://www.youtube.com/watch?v=utr9EuGsSJs",
+  "video_duration_s": 509.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:50:58Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 3,
+  "n_windows_rejected": 48,
+  "windows": [
+    {
+      "window_index": 41,
+      "start_s": 326.08,
+      "end_s": 334.03,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 326.08,
+          "vision_desc": "a cup of milk with pink hearts on it",
+          "transcript_text": "the top to remove some of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 327.08,
+          "vision_desc": "a cup filled with pink hearts on top of a table",
+          "transcript_text": "of the frosting but",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 328.08,
+          "vision_desc": "a cup filled with pink hearts on top of a table",
+          "transcript_text": "but I ended up brewing in it",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 329.08,
+          "vision_desc": "a cup filled with pink hearts on top of a table",
+          "transcript_text": "it so I",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 330.08,
+          "vision_desc": "a cup filled with pink hearts on a table",
+          "transcript_text": "I remade these hearts",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 331.08,
+          "vision_desc": "a cup filled with marsh and marshs",
+          "transcript_text": "hearts with pillar wax.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 332.08,
+          "vision_desc": "a cup filled with marsh and marsh",
+          "transcript_text": "wax.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 333.08,
+          "vision_desc": "a cup filled with marsh and marsh",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup of milk with pink hearts on it | a cup filled with pink hearts on top of a table | a cup filled with pink hearts on a table | a cup filled with marsh and marshs | a cup filled with marsh and marsh",
+      "transcript": "the top to remove some of the frosting but I ended up brewing in it so I remade these hearts with pillar wax.",
+      "old_description": "Demoulding embeds / labelling the candle."
+    },
+    {
+      "window_index": 55,
+      "start_s": 437.42,
+      "end_s": 445.38,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 437.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "burns and the candle will",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 438.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "will burn hotter further",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 439.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "further down the jar.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 440.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "jar.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 441.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 442.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 443.42,
+          "vision_desc": "a candle sitting on top of a table",
+          "transcript_text": "The sun through after",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 444.42,
+          "vision_desc": "a candle on a table next to a window",
+          "transcript_text": "after five days is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle sitting on top of a table | a candle on a table next to a window",
+      "transcript": "burns and the candle will burn hotter further down the jar. The sun through after five days is",
+      "old_description": "Lit candle burn-test / finished candle."
+    },
+    {
+      "window_index": 58,
+      "start_s": 461.28,
+      "end_s": 469.23,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 461.28,
+          "vision_desc": "a candle is lit in a cup on a table",
+          "transcript_text": "village crafting candles",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 462.28,
+          "vision_desc": "a candle is lit in a white bowl",
+          "transcript_text": "candles explore kit and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 463.28,
+          "vision_desc": "a candle with the word ' 2nd cycle ' on it",
+          "transcript_text": "and after two weeks",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 464.28,
+          "vision_desc": "a candle with the words 2nd cycle on it",
+          "transcript_text": "weeks it produced a pretty impressive",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 465.28,
+          "vision_desc": "a candle with the word 2ndburge on it",
+          "transcript_text": "impressive hot throw for a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 466.28,
+          "vision_desc": "a candle is lit in a glass bowl",
+          "transcript_text": "a single wick candle.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 467.28,
+          "vision_desc": "a candle is lit in a glass bowl",
+          "transcript_text": "When",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 468.28,
+          "vision_desc": "a candle is lit in a glass",
+          "transcript_text": "When I tested this",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle is lit in a cup on a table | a candle is lit in a white bowl | a candle with the word ' 2nd cycle ' on it | a candle with the words 2nd cycle on it | a candle with the word 2ndburge on it | a candle is lit in a glass bowl | a candle is lit in a glass",
+      "transcript": "village crafting candles explore kit and after two weeks it produced a pretty impressive hot throw for a single wick candle. When I tested this",
+      "old_description": "Lit candle burn-test / finished candle."
+    }
+  ]
+}
