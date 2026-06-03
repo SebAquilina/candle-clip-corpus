@@ -1,0 +1,101 @@
+{
+  "video_id": "BkYBsDHjXaw",
+  "video_title": "Automatic Indian wax, Candle Making Machine/ Ask Price - 09354433750  New Delhi",
+  "video_url": "https://www.youtube.com/watch?v=BkYBsDHjXaw",
+  "video_duration_s": 196.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T07:26:29Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 20,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 19,
+  "windows": [
+    {
+      "window_index": 1,
+      "start_s": 8.17,
+      "end_s": 16.33,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8.17,
+          "vision_desc": "a machine that is making wood",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9.17,
+          "vision_desc": "a machine that is cutting a piece of metal",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 10.17,
+          "vision_desc": "a machine that is making ice",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 11.17,
+          "vision_desc": "a machine that is making aluminum foil",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 12.17,
+          "vision_desc": "automatic egg egg tray machine",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 13.17,
+          "vision_desc": "automatic egg tray machine",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 14.17,
+          "vision_desc": "automatic egg washing machine",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 15.17,
+          "vision_desc": "a machine that is making a piece of metal",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a machine that is making wood | a machine that is cutting a piece of metal | a machine that is making ice | a machine that is making aluminum foil | automatic egg egg tray machine | automatic egg tray machine | automatic egg washing machine | a machine that is making a piece of metal",
+      "transcript": "",
+      "old_description": "Automatic candle machine: rows of white candles formed in the moulds (steam)."
+    }
+  ]
+}
