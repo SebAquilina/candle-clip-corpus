@@ -50,6 +50,17 @@ def _atomic(path: Path, obj) -> None:
     os.replace(tmp, path)
 
 
+def _clear_attempt(vid: str) -> None:
+    """Drop a video's attempt-marker once it produced a RESULT (record or rejected) — only
+    a video that hung (no result at all) keeps its marker and is quarantined on resume."""
+    try:
+        a = json.load(open(ATTEMPTS_FILE))
+    except Exception:
+        return
+    if a.pop(vid, None) is not None:
+        _atomic(ATTEMPTS_FILE, a)
+
+
 def _window_rollup(seconds: list[dict]) -> tuple[str, str]:
     """Window-level embed_text (unique vision phrases) + transcript (joined) so the
     existing matcher can use the v2 corpus without changes."""
@@ -157,11 +168,12 @@ def run_grind(max_videos=0, max_seconds=0):
         dl = fetch.download(vid, rec.get("video_url", ""))
         if not dl["ok"]:
             _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
-            continue
+            _clear_attempt(vid); continue
         words = TR.get_transcript(vid, dl["path"], rec.get("video_url", ""))
         v2, rej = reclassify_video(rec, dl["path"], words)
         _atomic(REC_OUT / f"{vid}.json", v2)
         _atomic(REJ_OUT / f"{vid}.json", rej)
+        _clear_attempt(vid)
         _reindex_one(v2)
         fetch.discard(vid)
         done += 1
@@ -268,7 +280,7 @@ def ingest_list(ids, niche="candle_making", source="watch-later", window_s=8.0):
         dl = fetch.download(vid, url)
         if not dl["ok"]:
             _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
-            print(f"[dlfail] {vid}: {dl['err'][:70]}"); continue
+            _clear_attempt(vid); print(f"[dlfail] {vid}: {dl['err'][:70]}"); continue
         try:
             dur = float(subprocess.check_output(
                 ["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -292,6 +304,7 @@ def ingest_list(ids, niche="candle_making", source="watch-later", window_s=8.0):
         v2["source"] = source
         _atomic(REC_OUT / f"{vid}.json", v2)
         _atomic(REJ_OUT / f"{vid}.json", rej)
+        _clear_attempt(vid)
         _reindex_one(v2)
         fetch.discard(vid)
         done += 1
