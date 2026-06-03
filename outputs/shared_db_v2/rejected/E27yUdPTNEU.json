@@ -1,0 +1,258 @@
+{
+  "video_id": "E27yUdPTNEU",
+  "n_rejected": 28,
+  "rejected": [
+    {
+      "window_index": 1,
+      "start_s": 7.9,
+      "end_s": 15.81,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 8.4
+    },
+    {
+      "window_index": 2,
+      "start_s": 15.81,
+      "end_s": 23.71,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 16.31
+    },
+    {
+      "window_index": 3,
+      "start_s": 23.71,
+      "end_s": 31.61,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 25.21
+    },
+    {
+      "window_index": 4,
+      "start_s": 31.61,
+      "end_s": 39.52,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 33.11
+    },
+    {
+      "window_index": 5,
+      "start_s": 39.52,
+      "end_s": 47.42,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 40.02
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.42,
+      "end_s": 55.32,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 48.92
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.32,
+      "end_s": 63.23,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 55.82
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.23,
+      "end_s": 71.13,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 63.73
+    },
+    {
+      "window_index": 9,
+      "start_s": 71.13,
+      "end_s": 79.03,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 71.63
+    },
+    {
+      "window_index": 10,
+      "start_s": 79.03,
+      "end_s": 86.94,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 79.53
+    },
+    {
+      "window_index": 11,
+      "start_s": 86.94,
+      "end_s": 94.84,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 87.44
+    },
+    {
+      "window_index": 12,
+      "start_s": 94.84,
+      "end_s": 102.74,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 95.34
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.74,
+      "end_s": 110.65,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 105.24
+    },
+    {
+      "window_index": 14,
+      "start_s": 110.65,
+      "end_s": 118.55,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 111.15
+    },
+    {
+      "window_index": 15,
+      "start_s": 118.55,
+      "end_s": 126.45,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 119.05
+    },
+    {
+      "window_index": 16,
+      "start_s": 126.45,
+      "end_s": 134.35,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 127.95
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.35,
+      "end_s": 142.26,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 137.85
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.26,
+      "end_s": 150.16,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 143.76
+    },
+    {
+      "window_index": 19,
+      "start_s": 150.16,
+      "end_s": 158.06,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 150.66
+    },
+    {
+      "window_index": 20,
+      "start_s": 158.06,
+      "end_s": 165.97,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 159.56
+    },
+    {
+      "window_index": 21,
+      "start_s": 165.97,
+      "end_s": 173.87,
+      "action_label": "trim_wick",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 172.47
+    },
+    {
+      "window_index": 22,
+      "start_s": 173.87,
+      "end_s": 181.77,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 174.37
+    },
+    {
+      "window_index": 23,
+      "start_s": 181.77,
+      "end_s": 189.68,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 184.27
+    },
+    {
+      "window_index": 24,
+      "start_s": 189.68,
+      "end_s": 197.58,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 192.18
+    },
+    {
+      "window_index": 25,
+      "start_s": 197.58,
+      "end_s": 205.48,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 198.08
+    },
+    {
+      "window_index": 26,
+      "start_s": 205.48,
+      "end_s": 213.39,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 205.98
+    },
+    {
+      "window_index": 27,
+      "start_s": 213.39,
+      "end_s": 221.29,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 216.89
+    },
+    {
+      "window_index": 28,
+      "start_s": 221.29,
+      "end_s": 229.19,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 221.79
+    }
+  ]
+}
