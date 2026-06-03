@@ -1,0 +1,111 @@
+{
+  "video_id": "9ziN3qqHkc4",
+  "n_rejected": 11,
+  "rejected": [
+    {
+      "window_index": 6,
+      "start_s": 48.0,
+      "end_s": 56.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.0,
+      "end_s": 64.0,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.0,
+      "end_s": 160.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 152.5
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.0,
+      "end_s": 176.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 172.5
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.0,
+      "end_s": 192.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 184.5
+    },
+    {
+      "window_index": 24,
+      "start_s": 192.0,
+      "end_s": 200.0,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 192.5
+    },
+    {
+      "window_index": 27,
+      "start_s": 216.0,
+      "end_s": 224.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 216.5
+    },
+    {
+      "window_index": 46,
+      "start_s": 368.0,
+      "end_s": 376.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 368.5
+    },
+    {
+      "window_index": 47,
+      "start_s": 376.0,
+      "end_s": 384.0,
+      "action_label": "add_dye_color",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 376.5
+    },
+    {
+      "window_index": 50,
+      "start_s": 400.0,
+      "end_s": 408.0,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 403.5
+    },
+    {
+      "window_index": 55,
+      "start_s": 440.0,
+      "end_s": 448.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 440.5
+    }
+  ]
+}

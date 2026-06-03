@@ -28,6 +28,9 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 RECORDS = Path(os.environ.get("REVAMP_RECORDS", REPO / "outputs/shared_db/records"))
 V2 = Path(os.environ.get("REVAMP_V2", REPO / "outputs/shared_db_v2"))
+STATE_DIR = HERE / "state"
+STATE_DIR.mkdir(parents=True, exist_ok=True)
+ATTEMPTS_FILE = STATE_DIR / "attempts.json"
 REC_OUT = V2 / "records"; REJ_OUT = V2 / "rejected"; LBL_OUT = V2 / "by_label"
 for d in (REC_OUT, REJ_OUT, LBL_OUT):
     d.mkdir(parents=True, exist_ok=True)
@@ -141,7 +144,7 @@ def run_grind(max_videos=0, max_seconds=0):
         # video that was already attempted (and has no record), it hung -> quarantine it.
         attempts = {}
         try:
-            attempts = json.load(open(STATE / "attempts.json"))
+            attempts = json.load(open(ATTEMPTS_FILE))
         except Exception:
             pass
         if attempts.get(vid, 0) >= 1:
@@ -150,7 +153,7 @@ def run_grind(max_videos=0, max_seconds=0):
             print(f"[skip] {vid}: previously stalled, quarantined")
             continue
         attempts[vid] = attempts.get(vid, 0) + 1
-        _atomic(STATE / "attempts.json", attempts)
+        _atomic(ATTEMPTS_FILE, attempts)
         dl = fetch.download(vid, rec.get("video_url", ""))
         if not dl["ok"]:
             _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
