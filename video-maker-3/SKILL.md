@@ -1,0 +1,105 @@
+---
+name: video-maker-3
+description: Turn a narration script into a finished B-roll video, sourcing every clip from the CLEAN pre-built corpus (outputs/shared_db_v2). It narrates the script (69labs or EdgeTTS), aligns it to speech-timed sections, then SHORTLISTS the best corpus windows per section by BOTH the on-screen vision caption AND the spoken transcript (weighted by the video's topic) — and hands that shortlist to Claude to PICK the best clip(s) per section. It assembles best-clip-first (append the next-best to cover a section), with every clip used at most TWICE, NEVER back-to-back, and NEVER frozen/held; downloads exactly those windows; renders with an atomic mux; and runs a non-skippable final gate (black/freeze/AV-skew/text/face). Trigger when the user wants to make/build/produce a video from a script using the clean clip corpus. The corpus must already exist (build it with the clip-corpus-builder skill).
+---
+
+# Video Maker 3
+
+Makes a narrated B-roll video from a script, using **only** the clean corpus the
+clip-corpus-builder produced (`outputs/shared_db_v2`: every window is face-free and
+text-free, with a per-window **vision** caption and **transcript** kept separate). No live
+discovery, no Gemini, no Pexels — the corpus is the single source. Claude does the matching.
+
+## What makes this version different (the brief)
+- **Streamlined**: the old skill's discovery/pool/Hungarian-assign/Gemini/Pexels machinery is
+  gone. The path is just `TTS → align → sections → shortlist → [Claude picks] → assemble →
+  download → render → validate`.
+- **Matching uses BOTH vision and transcript, weighted by the title, with Claude in the loop.**
+  An offline pass shortlists ~12 real candidates per section (combined vision+transcript
+  similarity + action-aware rerank); **Claude then reads each section's candidates and picks
+  the best**, because a generic caption often under-rates a window whose speaker is literally
+  narrating the action.
+- **No-repeat / no-freeze (enforced in code):** a clip is used **at most twice**, **never
+  consecutively**, and **never frozen/paused/held**. If a clip is shorter than its section,
+  the **next-best matching clip is appended** (best-clip-first concat), trimmed to fit.
+- **Lighter QC, but still checked:** the corpus is already clean, so per-clip screening is a
+  light black/face/text sample — but the **non-skippable final gate stays** (`validate_render.py`).
+
+## Setup
+```bash
+cd <skill-dir>
+bash bootstrap.sh                       # venv + deps; lists any missing system binaries
+export YTA_SHARED_DB=/path/to/outputs/shared_db_v2      # the clean corpus
+export VM_COOKIES=/path/to/fresh/youtube_cookies.txt    # fresh full-auth cookies (for downloads)
+# optional 69labs voice (else EdgeTTS is used automatically):
+export LABS69_API_KEY=... LABS69_VOICE_ID=...
+python scripts/make.py --selftest       # offline: assembly rules + matcher + embedder
+```
+System binaries: **ffmpeg/ffprobe**, **tesseract** (final-gate text), **deno + node**
+(yt-dlp-ejs, to download corpus windows). Downloads need all three + fresh cookies, exactly
+like the corpus builder.
+
+## Run it (Claude is in the loop between `plan` and `build`)
+```bash
+# 1. PLAN — narrate, section, shortlist candidates per section
+python scripts/make.py plan --topic top10 --script script.md \
+       --title "Top 10 Candle Making Tricks"
+```
+This writes `state/runs/top10/match_worklist.json`. **Now do the matching yourself:**
+
+> Read `match_worklist.json`. It has the project title + niche and, per section, the
+> narration text and ~12 candidate windows — each with its **vision** caption, its
+> **transcript**, action label, source title, and offline score. For each section pick the
+> clip(s) whose **vision and transcript together** best convey the narration **in the context
+> of the title**. Prefer a clip that both *shows* and (when spoken) *describes* the action.
+> Write `state/runs/top10/match_decisions.json`:
+> `{"0": ["<cand_id>", "<cand_id>", ...], "1": [...], ...}` — an **ordered** (best-first) list
+> per section; list a few so short clips can be concatenated to cover the section. You don't
+> need to track repeats — the assembler enforces ≤2 uses / never-consecutive. Omit a section
+> to accept the offline order.
+
+```bash
+# 2. BUILD — assemble (honoring the no-repeat/concat/no-freeze rules), download, render
+python scripts/make.py build --topic top10
+
+# 3. VALIDATE — the non-skippable safety gate (must exit 0 to ship)
+python scripts/validate_render.py state/runs/top10/top10.mp4
+```
+`make.py all --topic ... --script ...` runs plan+build with the **offline** order (no Claude
+step) — a CI/fallback path; the intended flow is plan → pick → build.
+
+**Resumable:** downloaded windows are cached under `state/runs/<topic>/raw/`; re-running
+`build` reuses them. The final gate has its own resumable mode (`VM_VALIDATE_BUDGET_SEC>0`).
+
+## How a section becomes clips (the assembler)
+`plan_from_worklist` walks each section best-first over **[your picks] + [offline order]** and,
+via a global use-count + last-clip state:
+1. lays the best candidate that (a) is under the 2-use cap, (b) isn't the clip just played
+   (non-consecutive), and (c) **actually downloads + passes the light QC** (else it reaches
+   for the next-best — an editor's move);
+2. if that clip is shorter than the section, **appends the next-best** until covered, trimming
+   the last to land on the section duration;
+3. never holds/freezes a frame; an unfillable tail (rare with a 671-window corpus) takes the
+   globally least-used window — still a real moving clip.
+`assembly_report` audits this every build (`max_uses_seen`, `consecutive_violations`) and the
+build **asserts** both rules before rendering.
+
+## Output
+- `state/runs/<topic>/<topic>.mp4` — the finished 1920×1080/30fps video, narration muxed
+  (loudnorm, +faststart), one bottom-left source credit per clip.
+- `match_worklist.json` / `match_decisions.json` / `shots.json` — the full, auditable trail of
+  what was considered, what Claude picked, and what was placed where.
+
+## Tuning (env, all optional)
+| var | default | meaning |
+|---|---|---|
+| `VM_MAX_CLIP_USES` | 2 | max times any one clip may appear (never consecutive regardless) |
+| `VM_W_VISION` / `VM_W_TRANSCRIPT` | 0.55 / 0.45 | offline shortlist weighting of the two signals |
+| `VM_SHORTLIST_K` | 12 | candidates shown to Claude per section |
+| `VM_MAX_SECTION_SEC` | 9 | split a longer sentence into sub-sections (keeps each query focused) |
+| `VM_LIGHT_QC` | 1 | light per-clip black/face/text sample at materialize (final gate is the hard one) |
+| `VM_DOWNLOAD_PAD` | 1.5 | tail seconds added to each window download so a clip is never short |
+| `LABS69_API_KEY`/`LABS69_VOICE_ID` | — | use 69labs; otherwise EdgeTTS (`EDGETTS_VOICE`) |
+| `YTA_SHARED_DB` / `VM_COOKIES` | — | corpus dir / fresh YouTube cookies |
+
+See `ARCHITECTURE.md` for the keep/cut rationale vs the previous skill.
