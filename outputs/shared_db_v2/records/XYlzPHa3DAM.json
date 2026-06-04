@@ -1,0 +1,3546 @@
+{
+  "video_id": "XYlzPHa3DAM",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=XYlzPHa3DAM",
+  "video_duration_s": 21606.35356,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T17:35:22Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 2701,
+  "n_windows_kept": 42,
+  "n_windows_rejected": 2659,
+  "windows": [
+    {
+      "window_index": 61,
+      "start_s": 488.0,
+      "end_s": 496.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 488.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 489.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 490.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 491.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 492.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 493.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 494.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 495.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 79,
+      "start_s": 632.0,
+      "end_s": 640.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 632.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 633.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 634.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 635.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 636.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 637.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 638.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 639.0,
+          "vision_desc": "a heart shaped object with the number 344 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 344 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 202,
+      "start_s": 1616.0,
+      "end_s": 1624.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1616.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1617.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1618.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1619.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1620.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1621.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1622.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1623.0,
+          "vision_desc": "a heart shaped object with the number 21 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 21 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 219,
+      "start_s": 1752.0,
+      "end_s": 1760.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1752.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1753.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1754.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1755.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1756.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1757.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1758.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1759.0,
+          "vision_desc": "a heart shaped icon with the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped icon with the date",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 270,
+      "start_s": 2160.0,
+      "end_s": 2168.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 2160.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 2161.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2162.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 2163.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 2164.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 2165.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 2166.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 2167.0,
+          "vision_desc": "a heart shaped object with the number 4 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 4 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 289,
+      "start_s": 2312.0,
+      "end_s": 2320.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 2312.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 2313.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2314.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 2315.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 2316.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 2317.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 2318.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 2319.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 13 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 481,
+      "start_s": 3848.0,
+      "end_s": 3856.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 3848.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 3849.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 3850.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 3851.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 3852.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 3853.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 3854.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 3855.0,
+          "vision_desc": "a heart shaped object with the number 458",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 458",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 517,
+      "start_s": 4136.0,
+      "end_s": 4144.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4136.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4137.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4138.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4139.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4140.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4141.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4142.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4143.0,
+          "vision_desc": "a heart shaped object with the number 41",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 41",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 526,
+      "start_s": 4208.0,
+      "end_s": 4216.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4208.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4209.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4210.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4211.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4212.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4213.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4214.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4215.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number of the heart",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 530,
+      "start_s": 4240.0,
+      "end_s": 4248.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4240.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4241.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4242.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4243.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4244.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4245.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4246.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4247.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number of the heart",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 556,
+      "start_s": 4448.0,
+      "end_s": 4456.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4448.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4449.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4450.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4451.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4452.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4453.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4454.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4455.0,
+          "vision_desc": "a heart shaped object with the number 35 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 35 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 571,
+      "start_s": 4568.0,
+      "end_s": 4576.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4568.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4569.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4570.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4571.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4572.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4573.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4574.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4575.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 3 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 594,
+      "start_s": 4752.0,
+      "end_s": 4760.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4752.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4753.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4754.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4755.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4756.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4757.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4758.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4759.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 611,
+      "start_s": 4888.0,
+      "end_s": 4896.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 4888.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 4889.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 4890.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 4891.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4892.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 4893.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 4894.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 4895.0,
+          "vision_desc": "a heart shaped icon with the number 28",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped icon with the number 28",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 713,
+      "start_s": 5704.0,
+      "end_s": 5712.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 5704.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 5705.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 5706.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 5707.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 5708.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5709.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 5710.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 5711.0,
+          "vision_desc": "a heart shaped object with the number of the number",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 728,
+      "start_s": 5824.0,
+      "end_s": 5832.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 5824.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 5825.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 5826.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 5827.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 5828.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5829.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 5830.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 5831.0,
+          "vision_desc": "a heart shaped object with the number 13",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 13",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 758,
+      "start_s": 6064.0,
+      "end_s": 6072.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 6064.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 6065.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 6066.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 6067.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 6068.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 6069.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6070.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 6071.0,
+          "vision_desc": "a heart shaped object with the number 0 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 0 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 795,
+      "start_s": 6360.0,
+      "end_s": 6368.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 6360.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 6361.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 6362.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 6363.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 6364.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 6365.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6366.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 6367.0,
+          "vision_desc": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 4 0 0 0 0 0 0 0 0 0 0 0 0 0",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 796,
+      "start_s": 6368.0,
+      "end_s": 6376.0,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 6368.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 6369.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 6370.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 6371.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 6372.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 6373.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6374.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 6375.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped clock with the time displayed",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 879,
+      "start_s": 7032.0,
+      "end_s": 7040.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 7032.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 7033.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 7034.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 7035.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 7036.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 7037.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 7038.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7039.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number of the heart",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 900,
+      "start_s": 7200.0,
+      "end_s": 7208.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 7200.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 7201.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 7202.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 7203.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 7204.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 7205.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 7206.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7207.0,
+          "vision_desc": "a heart shaped icon with the word love",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped icon with the word love",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 911,
+      "start_s": 7288.0,
+      "end_s": 7296.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 7288.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 7289.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 7290.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 7291.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 7292.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 7293.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 7294.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7295.0,
+          "vision_desc": "a heart shaped object with the number 488",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 488",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1072,
+      "start_s": 8576.0,
+      "end_s": 8584.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8576.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 8577.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 8578.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 8579.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 8580.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 8581.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 8582.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 8583.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number of the heart",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1073,
+      "start_s": 8584.0,
+      "end_s": 8592.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8584.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 8585.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 8586.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 8587.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 8588.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 8589.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 8590.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 8591.0,
+          "vision_desc": "a heart shaped object with the number 27 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 27 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1119,
+      "start_s": 8952.0,
+      "end_s": 8960.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8952.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 8953.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 8954.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 8955.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 8956.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 8957.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 8958.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 8959.0,
+          "vision_desc": "a heart shaped object with the number of the date",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the date",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1192,
+      "start_s": 9536.0,
+      "end_s": 9544.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 9536.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9537.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 9538.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 9539.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 9540.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 9541.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 9542.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 9543.0,
+          "vision_desc": "a heart shaped object with the number one on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number one on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1200,
+      "start_s": 9600.0,
+      "end_s": 9608.0,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 9600.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9601.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 9602.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 9603.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 9604.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 9605.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 9606.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 9607.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped clock with the time displayed",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1246,
+      "start_s": 9968.0,
+      "end_s": 9976.0,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 9968.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9969.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 9970.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 9971.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 9972.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 9973.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 9974.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 9975.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped clock with the time displayed",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1283,
+      "start_s": 10264.0,
+      "end_s": 10272.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 10264.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 10265.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 10266.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 10267.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 10268.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 10269.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 10270.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 10271.0,
+          "vision_desc": "a heart shaped object with the number 9 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 9 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1312,
+      "start_s": 10496.0,
+      "end_s": 10504.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 10496.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 10497.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 10498.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 10499.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 10500.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 10501.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 10502.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 10503.0,
+          "vision_desc": "a heart shaped object with the number 10 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 10 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1471,
+      "start_s": 11768.0,
+      "end_s": 11776.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 11768.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 11769.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 11770.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 11771.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 11772.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 11773.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 11774.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 11775.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 3 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1612,
+      "start_s": 12896.0,
+      "end_s": 12904.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 12896.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 12897.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 12898.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 12899.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 12900.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 12901.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 12902.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 12903.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 15 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1638,
+      "start_s": 13104.0,
+      "end_s": 13112.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 13104.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 13105.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 13106.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 13107.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 13108.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 13109.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 13110.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 13111.0,
+          "vision_desc": "a heart shaped object with the number 14 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 14 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1837,
+      "start_s": 14696.0,
+      "end_s": 14704.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 14696.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 14697.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 14698.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 14699.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 14700.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 14701.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 14702.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 14703.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number forty",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 1931,
+      "start_s": 15448.0,
+      "end_s": 15456.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 15448.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 15449.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 15450.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 15451.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 15452.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 15453.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 15454.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 15455.0,
+          "vision_desc": "a heart shaped object with the number 33 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 33 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2040,
+      "start_s": 16320.0,
+      "end_s": 16328.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 16320.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 16321.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 16322.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 16323.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 16324.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 16325.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 16326.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 16327.0,
+          "vision_desc": "a heart shaped object with the number 18 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 18 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2145,
+      "start_s": 17160.0,
+      "end_s": 17168.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 17160.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 17161.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 17162.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 17163.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 17164.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 17165.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 17166.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 17167.0,
+          "vision_desc": "a heart shaped object with the number forty",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number forty",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2221,
+      "start_s": 17768.0,
+      "end_s": 17776.0,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 17768.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 17769.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 17770.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 17771.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 17772.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 17773.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 17774.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 17775.0,
+          "vision_desc": "a heart shaped clock with the time displayed",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped clock with the time displayed",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2231,
+      "start_s": 17848.0,
+      "end_s": 17856.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 17848.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 17849.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 17850.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 17851.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 17852.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 17853.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 17854.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 17855.0,
+          "vision_desc": "a heart shaped object with the number of the number of the heart",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number of the number of the heart",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2339,
+      "start_s": 18712.0,
+      "end_s": 18720.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 18712.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 18713.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 18714.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 18715.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 18716.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 18717.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 18718.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 18719.0,
+          "vision_desc": "a heart shaped object with the number 3 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 3 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2513,
+      "start_s": 20104.0,
+      "end_s": 20112.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 20104.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 20105.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 20106.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 20107.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 20108.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 20109.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 20110.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 20111.0,
+          "vision_desc": "a heart shaped object with the number 15 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 15 on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 2528,
+      "start_s": 20224.0,
+      "end_s": 20232.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 20224.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 20225.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 20226.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 20227.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 20228.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 20229.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 20230.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 20231.0,
+          "vision_desc": "a heart shaped object with the number 13 on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart shaped object with the number 13 on it",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
