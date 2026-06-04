@@ -1,0 +1,17 @@
+{
+  "video_id": "rpdKlCtlp-s",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=rpdKlCtlp-s",
+  "video_duration_s": 127.198912,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T15:26:48Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 16,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 16,
+  "windows": [],
+  "source": "watch-later"
+}
