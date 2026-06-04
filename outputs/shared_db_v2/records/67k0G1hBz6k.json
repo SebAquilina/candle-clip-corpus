@@ -1,0 +1,690 @@
+{
+  "video_id": "67k0G1hBz6k",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=67k0G1hBz6k",
+  "video_duration_s": 2371.314649,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T18:23:29Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 296,
+  "n_windows_kept": 8,
+  "n_windows_rejected": 288,
+  "windows": [
+    {
+      "window_index": 60,
+      "start_s": 480.0,
+      "end_s": 488.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 480.0,
+          "vision_desc": "a counter with several plastic cups on it",
+          "transcript_text": "70 % isopropyl",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 481.0,
+          "vision_desc": "a counter with several plastic cups on it",
+          "transcript_text": "isopropyl alcohol that means",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 482.0,
+          "vision_desc": "a counter with several plastic cups on it",
+          "transcript_text": "means there's 30 %",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 483.0,
+          "vision_desc": "a counter with several bags of orange liquid",
+          "transcript_text": "% water. And",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 484.0,
+          "vision_desc": "a counter with several bags of orange liquid",
+          "transcript_text": "And that water is going",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 485.0,
+          "vision_desc": "a counter with several bags of orange liquid",
+          "transcript_text": "going to take longer",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 486.0,
+          "vision_desc": "a counter with several bags of orange liquid",
+          "transcript_text": "longer to evaporate than",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 487.0,
+          "vision_desc": "a counter with several bags of orange liquid",
+          "transcript_text": "than the alcohol and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a counter with several plastic cups on it | a counter with several bags of orange liquid",
+      "transcript": "70 % isopropyl alcohol that means there's 30 % water. And that water is going to take longer to evaporate than the alcohol and",
+      "old_description": ""
+    },
+    {
+      "window_index": 87,
+      "start_s": 696.0,
+      "end_s": 704.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 696.0,
+          "vision_desc": "a bottle of syrup sitting on top of a table",
+          "transcript_text": "vessel. If",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 697.0,
+          "vision_desc": "a box with a label on it",
+          "transcript_text": "If she doesn't have it on file,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 698.0,
+          "vision_desc": "a stack of boxes stacked on top of each other boxes",
+          "transcript_text": "file, she will literally",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 699.0,
+          "vision_desc": "a white refrigerator sitting next to a white refrigerator",
+          "transcript_text": "literally make a template",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 700.0,
+          "vision_desc": "a box with a stamp on it",
+          "transcript_text": "template out of your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 701.0,
+          "vision_desc": "a box with a white label on it",
+          "transcript_text": "your candle",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 702.0,
+          "vision_desc": "a white box with a white sheet on it",
+          "transcript_text": "candle jar and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 703.0,
+          "vision_desc": "a cardboard box with a piece of cardboard sticking out of it",
+          "transcript_text": "and then also give you a discount",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bottle of syrup sitting on top of a table | a box with a label on it | a stack of boxes stacked on top of each other boxes | a white refrigerator sitting next to a white refrigerator | a box with a stamp on it | a box with a white label on it | a white box with a white sheet on it | a cardboard box with a piece of cardboard sticking out of it",
+      "transcript": "vessel. If she doesn't have it on file, she will literally make a template out of your candle jar and then also give you a discount",
+      "old_description": ""
+    },
+    {
+      "window_index": 111,
+      "start_s": 888.0,
+      "end_s": 896.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 888.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "is right after they're poured",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 889.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "poured just perfectly",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 890.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "perfectly smooth tops",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 891.0,
+          "vision_desc": "many candles are arranged in rows",
+          "transcript_text": "tops every time.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 892.0,
+          "vision_desc": "many candles are arranged in rows on a table",
+          "transcript_text": "time. Just heat that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 893.0,
+          "vision_desc": "many candles are arranged in rows on a table",
+          "transcript_text": "that wax to around",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 894.0,
+          "vision_desc": "many candles are arranged in rows",
+          "transcript_text": "around 205 with",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 895.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "with your stick thermometer,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bunch of candles sitting on top of a table | many candles are arranged in rows | many candles are arranged in rows on a table",
+      "transcript": "is right after they're poured just perfectly smooth tops every time. Just heat that wax to around 205 with your stick thermometer,",
+      "old_description": ""
+    },
+    {
+      "window_index": 125,
+      "start_s": 1000.0,
+      "end_s": 1008.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1000.0,
+          "vision_desc": "a group of jars of honeys on a counter",
+          "transcript_text": "bring in just",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1001.0,
+          "vision_desc": "a bunch of jars filled with honeys",
+          "transcript_text": "just a full candle,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1002.0,
+          "vision_desc": "a bunch of candles sitting on top of a counter",
+          "transcript_text": "candle, go into",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1003.0,
+          "vision_desc": "a bunch of jars with lids on them",
+          "transcript_text": "into the store with just",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1004.0,
+          "vision_desc": "a table with several jars of honeys",
+          "transcript_text": "just a full candle and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1005.0,
+          "vision_desc": "a table with many jars of honeys",
+          "transcript_text": "and introduce yourself.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1006.0,
+          "vision_desc": "a table topped with a bunch of honeys",
+          "transcript_text": "yourself.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1007.0,
+          "vision_desc": "a bunch of jars of honeys on a counter",
+          "transcript_text": "The way I like to do",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a group of jars of honeys on a counter | a bunch of jars filled with honeys | a bunch of candles sitting on top of a counter | a bunch of jars with lids on them | a table with several jars of honeys | a table with many jars of honeys | a table topped with a bunch of honeys | a bunch of jars of honeys on a counter",
+      "transcript": "bring in just a full candle, go into the store with just a full candle and introduce yourself. The way I like to do",
+      "old_description": ""
+    },
+    {
+      "window_index": 154,
+      "start_s": 1232.0,
+      "end_s": 1240.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1232.0,
+          "vision_desc": "a box with a label on it",
+          "transcript_text": "then once you're",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1233.0,
+          "vision_desc": "a box full of white sugar cubes",
+          "transcript_text": "you're kind of doing well on",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1234.0,
+          "vision_desc": "a box full of popcorn is shown in this und - clone video",
+          "transcript_text": "on fair and you have a few reviews,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1235.0,
+          "vision_desc": "a box full of white marshs",
+          "transcript_text": "reviews, you'll",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1236.0,
+          "vision_desc": "a box full of white marshs",
+          "transcript_text": "you'll start getting more orders",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1237.0,
+          "vision_desc": "a box full of white marsh marsh",
+          "transcript_text": "orders too from",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1238.0,
+          "vision_desc": "a box full of marsh marsh",
+          "transcript_text": "from other places that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1239.0,
+          "vision_desc": "a box full of marsh marsh",
+          "transcript_text": "that are not local stores",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a box with a label on it | a box full of white sugar cubes | a box full of popcorn is shown in this und - clone video | a box full of white marshs | a box full of white marsh marsh | a box full of marsh marsh",
+      "transcript": "then once you're kind of doing well on fair and you have a few reviews, you'll start getting more orders too from other places that are not local stores",
+      "old_description": ""
+    },
+    {
+      "window_index": 242,
+      "start_s": 1936.0,
+      "end_s": 1944.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1936.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "especially in these,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1937.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "these, you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1938.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "you know, it's just not something",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1939.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "something I'd recommend.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1940.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "But CB2",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1941.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "CB2 is awesome, and I use",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1942.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "use CDN wicks for",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1943.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "for any",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on a counter next to a box",
+      "transcript": "especially in these, you know, it's just not something I'd recommend. But CB2 is awesome, and I use CDN wicks for any",
+      "old_description": ""
+    },
+    {
+      "window_index": 245,
+      "start_s": 1960.0,
+      "end_s": 1968.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1960.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "They look",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1961.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "look so lux, they are",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1962.0,
+          "vision_desc": "two candles sitting on a counter next to a box",
+          "transcript_text": "are kind of expensive, but",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1963.0,
+          "vision_desc": "a box with a candle inside of it",
+          "transcript_text": "but when you're doing a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1964.0,
+          "vision_desc": "a box with a candle inside and a box with a candle inside",
+          "transcript_text": "a fancy candle like this,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1965.0,
+          "vision_desc": "a box with a candle inside and a box with a candle inside",
+          "transcript_text": "this, I would highly",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1966.0,
+          "vision_desc": "a box with a candle inside and a box with a candle inside",
+          "transcript_text": "highly recommend putting",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1967.0,
+          "vision_desc": "a box with a candle inside and a box with a candle inside",
+          "transcript_text": "putting a little bit into your packaging",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on a counter next to a box | a box with a candle inside of it | a box with a candle inside and a box with a candle inside",
+      "transcript": "They look so lux, they are kind of expensive, but when you're doing a fancy candle like this, I would highly recommend putting a little bit into your packaging",
+      "old_description": ""
+    },
+    {
+      "window_index": 279,
+      "start_s": 2232.0,
+      "end_s": 2240.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 2232.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "You're so much",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 2233.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "much better than you think.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2234.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "think. And",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 2235.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "And then you're giving yourself credit",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 2236.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "credit for. And",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 2237.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "And you can do difficult things.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 2238.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "things.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 2239.0,
+          "vision_desc": "a heart in the dark",
+          "transcript_text": "And I have full",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a heart in the dark",
+      "transcript": "You're so much better than you think. And then you're giving yourself credit for. And you can do difficult things. And I have full",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
