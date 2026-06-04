@@ -65,6 +65,12 @@ def download_segment(video_url: str, start: float, end: float, out_path: Path) -
         "yt-dlp", "-q",
         "--download-sections", f"*{s:.2f}-{e:.2f}",
         "--force-keyframes-at-cuts",
+        # 429 resilience: back off on HTTP errors and pace requests so a rate-limited account
+        # de-escalates instead of getting hard-blocked (the corpus may be heavily fetched).
+        "--retries", os.environ.get("VM_YT_RETRIES", "5"),
+        "--extractor-retries", os.environ.get("VM_YT_EXTRACTOR_RETRIES", "3"),
+        "--retry-sleep", os.environ.get("VM_YT_RETRY_SLEEP", "http=2:30:2"),
+        "--sleep-requests", os.environ.get("VM_YT_SLEEP_REQUESTS", "1"),
         # solve YouTube's `n` challenge via deno (must be on PATH)
         "--remote-components", "ejs:github", "--js-runtimes", "node",
         # avc1 only: cv2 can't decode AV1, which would read 0 frames at the gate
