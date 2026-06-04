@@ -1,0 +1,102 @@
+{
+  "video_id": "KkJMeuNsiEw",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=KkJMeuNsiEw",
+  "video_duration_s": 244.622222,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T15:02:31Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 31,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 30,
+  "windows": [
+    {
+      "window_index": 16,
+      "start_s": 128.0,
+      "end_s": 136.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 128.0,
+          "vision_desc": "a pot filled with liquid sitting on a stove",
+          "transcript_text": "You can see the wax is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 129.0,
+          "vision_desc": "a metal pot filled with liquid on top of a stove",
+          "transcript_text": "is fully melted",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 130.0,
+          "vision_desc": "a metal bowl filled with liquid and a spoon",
+          "transcript_text": "melted in a matter of seconds",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 131.0,
+          "vision_desc": "a metal bowl filled with liquid on top of a stove",
+          "transcript_text": "seconds and depending",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 132.0,
+          "vision_desc": "a metal bowl filled with liquid sitting on a stove",
+          "transcript_text": "depending on how much you need",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 133.0,
+          "vision_desc": "a metal bowl filled with liquid sitting on top of a stove",
+          "transcript_text": "need it will take longer",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 134.0,
+          "vision_desc": "a metal bowl filled with yellow liquid on top of a stove",
+          "transcript_text": "longer of course But",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 135.0,
+          "vision_desc": "a metal bowl filled with liquid sitting on top of a stove",
+          "transcript_text": "But you didn't",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pot filled with liquid sitting on a stove | a metal pot filled with liquid on top of a stove | a metal bowl filled with liquid and a spoon | a metal bowl filled with liquid on top of a stove | a metal bowl filled with liquid sitting on a stove | a metal bowl filled with liquid sitting on top of a stove | a metal bowl filled with yellow liquid on top of a stove",
+      "transcript": "You can see the wax is fully melted in a matter of seconds and depending on how much you need it will take longer of course But you didn't",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
