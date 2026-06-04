@@ -1,0 +1,438 @@
+{
+  "video_id": "IA_-lL2gHng",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=IA_-lL2gHng",
+  "video_duration_s": 894.200454,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T08:12:17Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 112,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 107,
+  "windows": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 0.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "Hey guys,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "welcome back to my channel,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "channel, man who's neither",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 3.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "neither of the krei koi",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "koi kkk land to those who can't",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5.0,
+          "vision_desc": "a red rose in a clear vase",
+          "transcript_text": "can't say hai hai up look",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6.0,
+          "vision_desc": "a red rose in a clear vase",
+          "transcript_text": "look I'm going to be doing some krei",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7.0,
+          "vision_desc": "a red rose in a clear vase",
+          "transcript_text": "krei mare mare",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pink rose on a glass plate | a red rose in a clear vase",
+      "transcript": "Hey guys, welcome back to my channel, man who's neither of the krei koi kkk land to those who can't say hai up look I'm going to be doing some krei mare",
+      "old_description": ""
+    },
+    {
+      "window_index": 1,
+      "start_s": 8.0,
+      "end_s": 16.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8.0,
+          "vision_desc": "a red rose in a glass vase",
+          "transcript_text": "mare mare bhojade sjaf",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9.0,
+          "vision_desc": "a red rose in a glass vase",
+          "transcript_text": "sjaf nakjalra krei",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 10.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "krei to those who are german",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 11.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "german animal you candles",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 12.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "candles the man who coffee",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 13.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "coffee is already flower moles",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 14.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "moles online mongwai right",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 15.0,
+          "vision_desc": "how to make a candle with flowers",
+          "transcript_text": "right there or as we only use",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a red rose in a glass vase | how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond | how to make a candle with flowers",
+      "transcript": "mare bhojade sjaf nakjalra krei to those who are german animal you candles the man who coffee is already flower moles online mongwai right there or as we only use",
+      "old_description": ""
+    },
+    {
+      "window_index": 18,
+      "start_s": 144.0,
+      "end_s": 152.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 144.0,
+          "vision_desc": "a cup of tea next to a tea strain",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 145.0,
+          "vision_desc": "a cup of tea next to a tea strain",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 146.0,
+          "vision_desc": "a cup of tea with a tea strainer",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 147.0,
+          "vision_desc": "a cup of tea with a tea strainer",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 148.0,
+          "vision_desc": "a pot with a spoon and a flower",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 149.0,
+          "vision_desc": "a glass with a yellow liquid sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 150.0,
+          "vision_desc": "a glass with a yellow flower in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 151.0,
+          "vision_desc": "a table with a bowl and a bowl of flowers",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a cup of tea next to a tea strain | a cup of tea with a tea strainer | a pot with a spoon and a flower | a glass with a yellow liquid sitting on a table | a glass with a yellow flower in it | a table with a bowl and a bowl of flowers",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 107,
+      "start_s": 856.0,
+      "end_s": 864.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 856.0,
+          "vision_desc": "how to make rose cupcakes",
+          "transcript_text": "osekeshia, kara, mujam,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 857.0,
+          "vision_desc": "three small candles with pink roses and green leaves",
+          "transcript_text": "mujam, mujam, mujibh, mausa, rulath,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 858.0,
+          "vision_desc": "three small cupcakes with flowers in them",
+          "transcript_text": "rulath, hai, to stay",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 859.0,
+          "vision_desc": "three small cupcakes with roses in them",
+          "transcript_text": "stay connected, build",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 860.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "build you next up the yellow",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 861.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "yellow bai, take care.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 862.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "care.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 863.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "how to make rose cupcakes | three small candles with pink roses and green leaves | three small cupcakes with flowers in them | three small cupcakes with roses in them | a pink rose on a glass plate",
+      "transcript": "osekeshia, kara, mujam, mujibh, mausa, rulath, hai, to stay connected, build you next up the yellow bai, take care.",
+      "old_description": ""
+    },
+    {
+      "window_index": 108,
+      "start_s": 864.0,
+      "end_s": 872.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 864.0,
+          "vision_desc": "a pink rose on a glass plate",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 865.0,
+          "vision_desc": "a vase filled with flowers and a rose",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 866.0,
+          "vision_desc": "a vase with a rose in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 867.0,
+          "vision_desc": "a vase with a rose in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 868.0,
+          "vision_desc": "a vase with a rose in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 869.0,
+          "vision_desc": "a vase filled with flowers and a red rose",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 870.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 871.0,
+          "vision_desc": "how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pink rose on a glass plate | a vase filled with flowers and a rose | a vase with a rose in it | a vase filled with flowers and a red rose | how to make a cake with fond fond fond fond fond fond fond fond fond fond fond fond fond fond fond",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
