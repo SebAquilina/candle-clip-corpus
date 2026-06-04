@@ -1,0 +1,270 @@
+{
+  "video_id": "RPCcpZAIEmk",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=RPCcpZAIEmk",
+  "video_duration_s": 1213.707029,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T19:17:46Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 152,
+  "n_windows_kept": 3,
+  "n_windows_rejected": 149,
+  "windows": [
+    {
+      "window_index": 112,
+      "start_s": 896.0,
+      "end_s": 904.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 896.0,
+          "vision_desc": "a wooden table with a laptop and a cup of tea",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 897.0,
+          "vision_desc": "a wooden table with a laptop and a cup of tea",
+          "transcript_text": "I'm",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 898.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "I'm hoping I measured",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 899.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "measured that pretty",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 900.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "pretty good because I don't want",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 901.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "want to have to go back in",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 902.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "in",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 903.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "in and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a wooden table with a laptop and a cup of tea | a wooden cutting board",
+      "transcript": "I'm hoping I measured that pretty good because I don't want to have to go back in and",
+      "old_description": ""
+    },
+    {
+      "window_index": 113,
+      "start_s": 904.0,
+      "end_s": 912.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 904.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 905.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 906.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 907.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 908.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 909.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 910.0,
+          "vision_desc": "a wooden cutting board",
+          "transcript_text": "right to the lip.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 911.0,
+          "vision_desc": "a laptop and a cup of coffee on a table",
+          "transcript_text": "lip. Good. Now I'm going to set",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a wooden cutting board | a laptop and a cup of coffee on a table",
+      "transcript": "and right to the lip. Good. Now I'm going to set",
+      "old_description": ""
+    },
+    {
+      "window_index": 114,
+      "start_s": 912.0,
+      "end_s": 920.0,
+      "action_label": "trim_wick",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 912.0,
+          "vision_desc": "a laptop and a pair of scissors on a table",
+          "transcript_text": "set this in the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 913.0,
+          "vision_desc": "a laptop and a pair of scissors on a table",
+          "transcript_text": "the water.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 914.0,
+          "vision_desc": "a laptop and a pair of scissors on a table",
+          "transcript_text": "I'm not",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 915.0,
+          "vision_desc": "a laptop and a pair of scissors on a table",
+          "transcript_text": "not going to move these.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 916.0,
+          "vision_desc": "a laptop and a pair of scissors on a table",
+          "transcript_text": "these. Leave them right",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 917.0,
+          "vision_desc": "a wooden table with a laptop and some other items",
+          "transcript_text": "right there,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 918.0,
+          "vision_desc": "a laptop and headphones on a wooden table",
+          "transcript_text": "right where they're at.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 919.0,
+          "vision_desc": "a laptop and a pair of headphones on a wooden table",
+          "transcript_text": "at.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a laptop and a pair of scissors on a table | a wooden table with a laptop and some other items | a laptop and headphones on a wooden table | a laptop and a pair of headphones on a wooden table",
+      "transcript": "set this in the water. I'm not going to move these. Leave them right there, right where they're at.",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}

@@ -1,0 +1,438 @@
+{
+  "video_id": "kcWd7oWRw-A",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=kcWd7oWRw-A",
+  "video_duration_s": 889.556463,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T18:59:20Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 111,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 106,
+  "windows": [
+    {
+      "window_index": 60,
+      "start_s": 480.0,
+      "end_s": 488.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 480.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "can see this is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 481.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "is pretty much",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 482.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "much melted and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 483.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "and once",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 484.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "once it's completely",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 485.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "completely melted we have",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 486.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "have a few of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 487.0,
+          "vision_desc": "a pot with an egg in it on a stove",
+          "transcript_text": "of the beeswax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pot with an egg in it on a stove",
+      "transcript": "can see this is pretty much melted and once it's completely melted we have a few of the beeswax",
+      "old_description": ""
+    },
+    {
+      "window_index": 96,
+      "start_s": 768.0,
+      "end_s": 776.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 768.0,
+          "vision_desc": "two jars of candles with one candle in the middle",
+          "transcript_text": "do whatever you want with",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 769.0,
+          "vision_desc": "two jars of candles with one candle in the middle",
+          "transcript_text": "with the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 770.0,
+          "vision_desc": "two jars filled with yellow candles sitting on a table",
+          "transcript_text": "the the scents",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 771.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "scents you can even use",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 772.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "use it since like",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 773.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "like no scent",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 774.0,
+          "vision_desc": "two jars filled with liquid sitting on a table",
+          "transcript_text": "scent at all I have done",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 775.0,
+          "vision_desc": "two jars filled with yellow candles sitting on a table",
+          "transcript_text": "done that before and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two jars of candles with one candle in the middle | two jars filled with yellow candles sitting on a table | two jars filled with candles sitting on a table | two jars filled with liquid sitting on a table",
+      "transcript": "do whatever you want with the scents you can even use it since like no scent at all I have done that before and",
+      "old_description": ""
+    },
+    {
+      "window_index": 97,
+      "start_s": 776.0,
+      "end_s": 784.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 776.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "and I",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 777.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "I just like the look of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 778.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "of candles always have",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 779.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "have and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 780.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "and this is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 781.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "is just a way",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 782.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "way a natural way",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 783.0,
+          "vision_desc": "two jars filled with yellow candles sitting on a table",
+          "transcript_text": "way for me to get",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two jars filled with candles sitting on a table | two jars filled with yellow candles sitting on a table",
+      "transcript": "and I just like the look of candles always have and this is just a way a natural way for me to get",
+      "old_description": ""
+    },
+    {
+      "window_index": 98,
+      "start_s": 784.0,
+      "end_s": 792.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 784.0,
+          "vision_desc": "two jars filled with yellow candles sitting on a table",
+          "transcript_text": "get that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 785.0,
+          "vision_desc": "two jars filled with candles sitting on a table",
+          "transcript_text": "that in",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 786.0,
+          "vision_desc": "two jars filled with yellow candles sitting on a table",
+          "transcript_text": "in my home okay",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 787.0,
+          "vision_desc": "a jar of honey sitting on top of a wooden table",
+          "transcript_text": "okay so",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 788.0,
+          "vision_desc": "a glass filled with liquid sitting on a wooden table",
+          "transcript_text": "so I've already burned",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 789.0,
+          "vision_desc": "a glass filled with liquid sitting on a wooden table",
+          "transcript_text": "burned start we'll start it",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 790.0,
+          "vision_desc": "a glass filled with liquid sitting on a wooden table",
+          "transcript_text": "it burning the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 791.0,
+          "vision_desc": "a glass filled with liquid sitting on top of a wooden block",
+          "transcript_text": "the this ukulep",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two jars filled with yellow candles sitting on a table | two jars filled with candles sitting on a table | a jar of honey sitting on top of a wooden table | a glass filled with liquid sitting on a wooden table | a glass filled with liquid sitting on top of a wooden block",
+      "transcript": "get that in my home okay so I've already burned start we'll start it burning the this ukulep",
+      "old_description": ""
+    },
+    {
+      "window_index": 103,
+      "start_s": 824.0,
+      "end_s": 832.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 824.0,
+          "vision_desc": "a candle and some pine cones on a table",
+          "transcript_text": "ahead and give me a thumbs",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 825.0,
+          "vision_desc": "a candle and some pine cones on a table",
+          "transcript_text": "thumbs up if",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 826.0,
+          "vision_desc": "a candle and some pine cones on a table",
+          "transcript_text": "if you like more",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 827.0,
+          "vision_desc": "a candle and some chocolates on a table",
+          "transcript_text": "more natural",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 828.0,
+          "vision_desc": "a candle and some pine cones on a table",
+          "transcript_text": "natural homemade",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 829.0,
+          "vision_desc": "a candle and some plants on a table",
+          "transcript_text": "homemade DIY",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 830.0,
+          "vision_desc": "a candle and some flowers on a table",
+          "transcript_text": "DIY things",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 831.0,
+          "vision_desc": "a candle and some chocolates on a table",
+          "transcript_text": "things",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and some pine cones on a table | a candle and some chocolates on a table | a candle and some plants on a table | a candle and some flowers on a table",
+      "transcript": "ahead and give me a thumbs up if you like more natural homemade DIY things",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
