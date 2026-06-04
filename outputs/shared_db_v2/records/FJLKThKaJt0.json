@@ -1,0 +1,606 @@
+{
+  "video_id": "FJLKThKaJt0",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=FJLKThKaJt0",
+  "video_duration_s": 1552.950567,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T08:55:54Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 194,
+  "n_windows_kept": 7,
+  "n_windows_rejected": 187,
+  "windows": [
+    {
+      "window_index": 1,
+      "start_s": 8.0,
+      "end_s": 16.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 8.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "wax you should",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 9.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "should do it in a double",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 10.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "double boiler. So I have",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 11.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "have a kitchen pot",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 12.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "pot here",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 13.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "And I have",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 14.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "have especially made",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 15.0,
+          "vision_desc": "a metal bowl with a blue handle on top of a stove",
+          "transcript_text": "made pop for",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a metal bowl with a blue handle on top of a stove",
+      "transcript": "wax you should do it in a double boiler. So I have a kitchen pot here And I have especially made pop for",
+      "old_description": ""
+    },
+    {
+      "window_index": 92,
+      "start_s": 736.0,
+      "end_s": 744.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 736.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 737.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 738.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 739.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 740.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 741.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 742.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 743.0,
+          "vision_desc": "a tray of ices with a bunch of orange peels",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray of ices with a bunch of orange peels",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 94,
+      "start_s": 752.0,
+      "end_s": 760.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 752.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 753.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 754.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 755.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 756.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 757.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 758.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 759.0,
+          "vision_desc": "a tray of ices with a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray of ices with a bunch of flowers",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 101,
+      "start_s": 808.0,
+      "end_s": 816.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 808.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "that's it!",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 809.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 810.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 811.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 812.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 813.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 814.0,
+          "vision_desc": "a tray with ices and a bunch of flowers",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 815.0,
+          "vision_desc": "a tray with some eggs and a knife",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a tray with ices and a bunch of flowers | a tray with some eggs and a knife",
+      "transcript": "that's it!",
+      "old_description": ""
+    },
+    {
+      "window_index": 124,
+      "start_s": 992.0,
+      "end_s": 1000.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 992.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "that cool",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 993.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 994.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 995.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "And then",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 996.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "then we'll",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 997.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "we'll take them apart",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 998.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "So",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 999.0,
+          "vision_desc": "a table with eggs and a newspaper on it",
+          "transcript_text": "So I'm going to continue",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with eggs and a newspaper on it",
+      "transcript": "that cool And then we'll take them apart So I'm going to continue",
+      "old_description": ""
+    },
+    {
+      "window_index": 138,
+      "start_s": 1104.0,
+      "end_s": 1112.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1104.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1105.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1106.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1107.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1108.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1109.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1110.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1111.0,
+          "vision_desc": "a table with newspapers and eggs on it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with newspapers and eggs on it",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 189,
+      "start_s": 1512.0,
+      "end_s": 1520.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 1512.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "Or I don't know if you could use",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1513.0,
+          "vision_desc": "a table topped with candles and flowers",
+          "transcript_text": "use them as wax melts You",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 1514.0,
+          "vision_desc": "a table topped with candles and flowers",
+          "transcript_text": "You could try",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 1515.0,
+          "vision_desc": "a table topped with candles and pine cones",
+          "transcript_text": "But I just",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 1516.0,
+          "vision_desc": "a table topped with candles and a bunch of flowers",
+          "transcript_text": "just love all the natural",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 1517.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "natural looking candles",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 1518.0,
+          "vision_desc": "a bunch of candles sitting on top of a table",
+          "transcript_text": "candles",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 1519.0,
+          "vision_desc": "a table topped with candles and pine cones",
+          "transcript_text": "And I",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers on it | a table topped with candles and flowers | a table topped with candles and pine cones | a table topped with candles and a bunch of flowers | a bunch of candles sitting on top of a table",
+      "transcript": "Or I don't know if you could use them as wax melts You could try But I just love all the natural looking candles And I",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
