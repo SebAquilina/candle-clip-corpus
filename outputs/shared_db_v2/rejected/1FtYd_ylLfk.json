@@ -1,6 +1,6 @@
 {
-  "video_id": "lPOj01DK7Dc",
-  "n_rejected": 104,
+  "video_id": "1FtYd_ylLfk",
+  "n_rejected": 122,
   "rejected": [
     {
       "window_index": 0,
@@ -441,7 +441,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 385.5
+      "hit_t": 384.5
     },
     {
       "window_index": 49,
@@ -567,7 +567,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 498.5
+      "hit_t": 496.5
     },
     {
       "window_index": 63,
@@ -575,11 +575,8 @@
       "end_s": 512.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 504.5
     },
     {
       "window_index": 64,
@@ -588,7 +585,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 515.5
+      "hit_t": 512.5
     },
     {
       "window_index": 65,
@@ -606,7 +603,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 530.5
+      "hit_t": 528.5
     },
     {
       "window_index": 67,
@@ -632,11 +629,8 @@
       "end_s": 560.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 552.5
     },
     {
       "window_index": 70,
@@ -644,11 +638,8 @@
       "end_s": 568.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 560.5
     },
     {
       "window_index": 71,
@@ -657,7 +648,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 574.5
+      "hit_t": 568.5
     },
     {
       "window_index": 72,
@@ -666,7 +657,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 577.5
+      "hit_t": 576.5
     },
     {
       "window_index": 73,
@@ -683,11 +674,8 @@
       "end_s": 600.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 592.5
     },
     {
       "window_index": 75,
@@ -695,11 +683,8 @@
       "end_s": 608.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 600.5
     },
     {
       "window_index": 76,
@@ -716,11 +701,8 @@
       "end_s": 624.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 616.5
     },
     {
       "window_index": 78,
@@ -729,7 +711,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 628.5
+      "hit_t": 624.5
     },
     {
       "window_index": 79,
@@ -755,11 +737,8 @@
       "end_s": 656.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 648.5
     },
     {
       "window_index": 82,
@@ -785,11 +764,8 @@
       "end_s": 680.0,
       "action_label": "",
       "phase": "",
-      "reason": "desc_face",
-      "hit_t": null,
-      "detail": [
-        "person"
-      ]
+      "reason": "face",
+      "hit_t": 672.5
     },
     {
       "window_index": 85,
@@ -798,7 +774,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 683.5
+      "hit_t": 680.5
     },
     {
       "window_index": 86,
@@ -807,7 +783,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 691.5
+      "hit_t": 688.5
     },
     {
       "window_index": 87,
@@ -816,7 +792,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 698.5
+      "hit_t": 696.5
     },
     {
       "window_index": 88,
@@ -825,7 +801,7 @@
       "action_label": "",
       "phase": "",
       "reason": "face",
-      "hit_t": 706.5
+      "hit_t": 704.5
     },
     {
       "window_index": 89,
@@ -961,6 +937,168 @@
       "phase": "",
       "reason": "face",
       "hit_t": 824.5
+    },
+    {
+      "window_index": 104,
+      "start_s": 832.0,
+      "end_s": 840.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 832.5
+    },
+    {
+      "window_index": 105,
+      "start_s": 840.0,
+      "end_s": 848.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 840.5
+    },
+    {
+      "window_index": 106,
+      "start_s": 848.0,
+      "end_s": 856.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 848.5
+    },
+    {
+      "window_index": 107,
+      "start_s": 856.0,
+      "end_s": 864.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 856.5
+    },
+    {
+      "window_index": 108,
+      "start_s": 864.0,
+      "end_s": 872.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 864.5
+    },
+    {
+      "window_index": 109,
+      "start_s": 872.0,
+      "end_s": 880.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 872.5
+    },
+    {
+      "window_index": 110,
+      "start_s": 880.0,
+      "end_s": 888.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 880.5
+    },
+    {
+      "window_index": 111,
+      "start_s": 888.0,
+      "end_s": 896.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 888.5
+    },
+    {
+      "window_index": 112,
+      "start_s": 896.0,
+      "end_s": 904.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 896.5
+    },
+    {
+      "window_index": 113,
+      "start_s": 904.0,
+      "end_s": 912.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 904.5
+    },
+    {
+      "window_index": 114,
+      "start_s": 912.0,
+      "end_s": 920.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 912.5
+    },
+    {
+      "window_index": 115,
+      "start_s": 920.0,
+      "end_s": 928.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 920.5
+    },
+    {
+      "window_index": 116,
+      "start_s": 928.0,
+      "end_s": 936.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 928.5
+    },
+    {
+      "window_index": 117,
+      "start_s": 936.0,
+      "end_s": 944.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 936.5
+    },
+    {
+      "window_index": 118,
+      "start_s": 944.0,
+      "end_s": 952.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 944.5
+    },
+    {
+      "window_index": 119,
+      "start_s": 952.0,
+      "end_s": 960.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 952.5
+    },
+    {
+      "window_index": 120,
+      "start_s": 960.0,
+      "end_s": 968.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 960.5
+    },
+    {
+      "window_index": 121,
+      "start_s": 968.0,
+      "end_s": 976.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 968.5
     }
   ]
 }
