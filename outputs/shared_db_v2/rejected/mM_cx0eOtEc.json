@@ -1,0 +1,429 @@
+{
+  "video_id": "mM_cx0eOtEc",
+  "n_rejected": 47,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 0.5
+    },
+    {
+      "window_index": 1,
+      "start_s": 8.0,
+      "end_s": 16.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 8.5
+    },
+    {
+      "window_index": 2,
+      "start_s": 16.0,
+      "end_s": 24.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 16.5
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.0,
+      "end_s": 32.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 24.5
+    },
+    {
+      "window_index": 4,
+      "start_s": 32.0,
+      "end_s": 40.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 32.5
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.0,
+      "end_s": 48.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 40.5
+    },
+    {
+      "window_index": 6,
+      "start_s": 48.0,
+      "end_s": 56.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 48.5
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.0,
+      "end_s": 64.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 56.5
+    },
+    {
+      "window_index": 8,
+      "start_s": 64.0,
+      "end_s": 72.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 64.5
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.0,
+      "end_s": 80.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 73.5
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.0,
+      "end_s": 88.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 81.5
+    },
+    {
+      "window_index": 11,
+      "start_s": 88.0,
+      "end_s": 96.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 88.5
+    },
+    {
+      "window_index": 12,
+      "start_s": 96.0,
+      "end_s": 104.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 96.5
+    },
+    {
+      "window_index": 13,
+      "start_s": 104.0,
+      "end_s": 112.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 104.5
+    },
+    {
+      "window_index": 14,
+      "start_s": 112.0,
+      "end_s": 120.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 112.5
+    },
+    {
+      "window_index": 15,
+      "start_s": 120.0,
+      "end_s": 128.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 120.5
+    },
+    {
+      "window_index": 16,
+      "start_s": 128.0,
+      "end_s": 136.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 128.5
+    },
+    {
+      "window_index": 17,
+      "start_s": 136.0,
+      "end_s": 144.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 136.5
+    },
+    {
+      "window_index": 18,
+      "start_s": 144.0,
+      "end_s": 152.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 144.5
+    },
+    {
+      "window_index": 19,
+      "start_s": 152.0,
+      "end_s": 160.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 152.5
+    },
+    {
+      "window_index": 20,
+      "start_s": 160.0,
+      "end_s": 168.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 160.5
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.0,
+      "end_s": 176.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 168.5
+    },
+    {
+      "window_index": 22,
+      "start_s": 176.0,
+      "end_s": 184.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 176.5
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.0,
+      "end_s": 192.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 184.5
+    },
+    {
+      "window_index": 24,
+      "start_s": 192.0,
+      "end_s": 200.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 192.5
+    },
+    {
+      "window_index": 25,
+      "start_s": 200.0,
+      "end_s": 208.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 200.5
+    },
+    {
+      "window_index": 26,
+      "start_s": 208.0,
+      "end_s": 216.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 208.5
+    },
+    {
+      "window_index": 27,
+      "start_s": 216.0,
+      "end_s": 224.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 216.5
+    },
+    {
+      "window_index": 28,
+      "start_s": 224.0,
+      "end_s": 232.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 224.5
+    },
+    {
+      "window_index": 29,
+      "start_s": 232.0,
+      "end_s": 240.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 232.5
+    },
+    {
+      "window_index": 30,
+      "start_s": 240.0,
+      "end_s": 248.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 240.5
+    },
+    {
+      "window_index": 31,
+      "start_s": 248.0,
+      "end_s": 256.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 248.5
+    },
+    {
+      "window_index": 32,
+      "start_s": 256.0,
+      "end_s": 264.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 256.5
+    },
+    {
+      "window_index": 33,
+      "start_s": 264.0,
+      "end_s": 272.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 264.5
+    },
+    {
+      "window_index": 34,
+      "start_s": 272.0,
+      "end_s": 280.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 272.5
+    },
+    {
+      "window_index": 35,
+      "start_s": 280.0,
+      "end_s": 288.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 280.5
+    },
+    {
+      "window_index": 36,
+      "start_s": 288.0,
+      "end_s": 296.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 288.5
+    },
+    {
+      "window_index": 37,
+      "start_s": 296.0,
+      "end_s": 304.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 296.5
+    },
+    {
+      "window_index": 38,
+      "start_s": 304.0,
+      "end_s": 312.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 308.5
+    },
+    {
+      "window_index": 39,
+      "start_s": 312.0,
+      "end_s": 320.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 312.5
+    },
+    {
+      "window_index": 40,
+      "start_s": 320.0,
+      "end_s": 328.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 320.5
+    },
+    {
+      "window_index": 41,
+      "start_s": 328.0,
+      "end_s": 336.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 328.5
+    },
+    {
+      "window_index": 42,
+      "start_s": 336.0,
+      "end_s": 344.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 336.5
+    },
+    {
+      "window_index": 43,
+      "start_s": 344.0,
+      "end_s": 352.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 344.5
+    },
+    {
+      "window_index": 44,
+      "start_s": 352.0,
+      "end_s": 360.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 352.5
+    },
+    {
+      "window_index": 45,
+      "start_s": 360.0,
+      "end_s": 368.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 360.5
+    },
+    {
+      "window_index": 46,
+      "start_s": 368.0,
+      "end_s": 376.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 368.5
+    }
+  ]
+}
