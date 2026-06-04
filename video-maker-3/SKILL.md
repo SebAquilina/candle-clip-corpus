@@ -1,6 +1,6 @@
 ---
 name: video-maker-3
-description: Turn a narration script into a finished B-roll video, sourcing every clip from the CLEAN pre-built corpus (outputs/shared_db_v2). It narrates the script (69labs or EdgeTTS), aligns it to speech-timed sections, then SHORTLISTS the best corpus windows per section by BOTH the on-screen vision caption AND the spoken transcript (weighted by the video's topic) — and hands that shortlist to Claude to PICK the best clip(s) per section. It assembles best-clip-first (append the next-best to cover a section), with every clip used at most TWICE, NEVER back-to-back, and NEVER frozen/held; downloads exactly those windows; renders with an atomic mux; and runs a non-skippable final gate (black/freeze/AV-skew/text/face). Trigger when the user wants to make/build/produce a video from a script using the clean clip corpus. The corpus must already exist (build it with the clip-corpus-builder skill).
+description: Turn a narration script into a finished B-roll video, sourcing every clip from the CLEAN pre-built corpus (outputs/shared_db_v2). It narrates the script (69labs or EdgeTTS), aligns it to speech-timed sections, then SHORTLISTS the best corpus windows per section by a combined score over BOTH the on-screen vision caption AND the spoken transcript — and hands that shortlist to Claude to PICK the best clip(s) per section in the context of the video title. It assembles best-clip-first (append the next-best to cover a section), with every clip used at most TWICE, NEVER back-to-back, and NEVER frozen/held; downloads exactly those windows; renders with an atomic mux; and runs a non-skippable final gate (black/freeze/AV-skew/text/face). Trigger when the user wants to make/build/produce a video from a script using the clean clip corpus. The corpus must already exist (build it with the clip-corpus-builder skill).
 ---
 
 # Video Maker 3
@@ -14,11 +14,13 @@ discovery, no Gemini, no Pexels — the corpus is the single source. Claude does
 - **Streamlined**: the old skill's discovery/pool/Hungarian-assign/Gemini/Pexels machinery is
   gone. The path is just `TTS → align → sections → shortlist → [Claude picks] → assemble →
   download → render → validate`.
-- **Matching uses BOTH vision and transcript, weighted by the title, with Claude in the loop.**
-  An offline pass shortlists ~12 real candidates per section (combined vision+transcript
-  similarity + action-aware rerank); **Claude then reads each section's candidates and picks
-  the best**, because a generic caption often under-rates a window whose speaker is literally
-  narrating the action.
+- **Matching uses BOTH vision and transcript, with Claude in the loop.** An offline pass
+  shortlists ~12 real candidates per section by a **combined vision+transcript similarity**
+  (the `VM_W_*` weights) + action-aware rerank + topic/niche expansion; **Claude then reads
+  each section's candidates and picks the best in the context of the video title**, because a
+  generic caption often under-rates a window whose speaker is literally narrating the action.
+  (The offline scorer weights the two signals and uses the topic; the *title* context is
+  applied by Claude — that is the "directly involved" step.)
 - **No-repeat / no-freeze (enforced in code):** a clip is used **at most twice**, **never
   consecutively**, and **never frozen/paused/held**. If a clip is shorter than its section,
   the **next-best matching clip is appended** (best-clip-first concat), trimmed to fit.

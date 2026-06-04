@@ -32,7 +32,8 @@ TTS(script)            tts_provider.py  (69labs | EdgeTTS)            [kept verb
 
 ## REWORKED / NEW
 - `v3/section_planner.py` — dropped the old phrase-concept handoff + the use-once cosine fill;
-  added `sections_from_sentences`, the **vision+transcript+title** flow, and the assembler:
+  added `sections_from_sentences`, the **vision+transcript** shortlist→pick flow (offline score
+  weights the two signals + topic; the title context is applied by Claude), and the assembler:
   best-clip-first concat, **≤2 uses, never consecutive, no freeze**, with a `materialize`
   callback so only clips that actually download+pass-QC are placed. `assembly_report` audits it.
 - `v3/matcher.py` (NEW) — combined `w_vision*cos(vision) + w_transcript*cos(transcript)` +

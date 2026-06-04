@@ -42,24 +42,34 @@ NICHE = os.environ.get('VM_NICHE', 'candle making')
 # --------------------------------------------------------------------------- #
 # script -> paragraphs                                                         #
 # --------------------------------------------------------------------------- #
+_META_RE = re.compile(
+    r"(^(persona|voice|narration script|script|title|author|notes?)\s*[:\-])"
+    r"|(one idea per (paragraph|sentence))|(b-?roll window)|(\bwpm\b)|(~?\d+\s*minutes?\b)",
+    re.I)
+
+
 def read_script(path):
-    """Narration paragraphs from a .md/.txt: drop markdown headings / --- rules / a leading
-    'Persona:'/'---' metadata block, then split the body on blank lines."""
+    """Narration paragraphs from a .md/.txt. Drops markdown headings and '---' rules at the
+    line level, then — crucially — filters metadata at the PARAGRAPH level (after joining
+    wrapped lines), so a multi-line front-matter block like
+        Persona: ... One idea per paragraph so the video-maker
+        can size a B-roll window per sentence. ~150 wpm -> ~10 minutes.
+    is dropped whole, not just its first line. Splits the rest on blank lines."""
     text = Path(path).read_text(encoding="utf-8")
-    lines, body = text.splitlines(), []
-    for ln in lines:
+    lines = []
+    for ln in text.splitlines():
         s = ln.strip()
-        if s.startswith("#") or set(s) == {"-"} and len(s) >= 3:   # heading or '---' rule
+        if s.startswith("#") or (set(s) == {"-"} and len(s) >= 3):   # heading or '---' rule
             continue
-        if s.lower().startswith(("persona:", "voice:", "narration script")):
-            continue
-        body.append(ln)
-    blocks = re.split(r"\n\s*\n", "\n".join(body))
+        lines.append(ln)
     paras = []
-    for b in blocks:
+    for b in re.split(r"\n\s*\n", "\n".join(lines)):
         p = " ".join(x.strip() for x in b.splitlines() if x.strip()).strip()
-        if len(p.split()) >= 4:
-            paras.append(p)
+        if len(p.split()) < 4:
+            continue
+        if _META_RE.search(p[:120]):   # front-matter / production notes, not narration
+            continue
+        paras.append(p)
     return paras
 
 

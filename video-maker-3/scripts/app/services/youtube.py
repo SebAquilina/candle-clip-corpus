@@ -71,7 +71,7 @@ def download_segment(video_url: str, start: float, end: float, out_path: Path) -
         "-f", "bv*[height<=1080][vcodec^=avc1]+ba[ext=m4a]/b[height<=1080][vcodec^=avc1]/"
               "bv*[height<=1080][ext=mp4]+ba/b[ext=mp4]/b",
         "--merge-output-format", "mp4",
-        "--no-playlist", "--nocheckcertificate",
+        "--no-playlist", "--no-check-certificate",
         "-o", str(out_path),
     ]
     cookies = _cookies_path()
