@@ -156,8 +156,12 @@ _CHAN_CACHE = {}
 
 
 def _credit(moment):
+    """Source credit for the bottom-left overlay. Uses the corpus channel if present. Only
+    resolves an unknown channel over the network when VM_RESOLVE_CHANNELS=1 (off by default,
+    because fetch_channel hammers a rate-limited account with 429s during a build)."""
     ch = (moment.get("channel") or "").strip()
-    if not ch:
+    resolve = os.environ.get("VM_RESOLVE_CHANNELS", "0").strip().lower() in ("1", "true", "yes")
+    if not ch and resolve:
         url = moment.get("url", "")
         if url not in _CHAN_CACHE:
             try:
@@ -210,7 +214,20 @@ def _make_materializer(run):
     # cached pool instead of stalling on doomed downloads.
     cached_only = os.environ.get("VM_CACHED_ONLY", "0").strip().lower() in ("1", "true", "yes")
 
-    face_status = {}  # window_key -> bool (face/text clean?) — scanned once per window, reused
+    # face/text QC verdict per window, PERSISTED to disk so the (expensive) cv2 scans survive
+    # a restart or a process death — the build resumes the QC instead of re-scanning.
+    qc_path = run / "qc_cache.json"
+    try:
+        face_status = {tuple(k.rsplit("@", 1)[:1]) + (float(k.rsplit("@", 1)[1]),): v
+                       for k, v in json.loads(qc_path.read_text()).items()}
+    except Exception:
+        face_status = {}
+
+    def _save_qc():
+        try:
+            qc_path.write_text(json.dumps({f"{k[0]}@{k[1]}": v for k, v in face_status.items()}))
+        except Exception:
+            pass
 
     def materialize(moment, take, shot_seq):
         seg = moment["seg"]; url = moment["url"]; vid = moment.get("id") or "x"
@@ -225,10 +242,11 @@ def _make_materializer(run):
         raw = raw_status[wkey]
         if raw is None:
             return None
-        # face/text QC once per window (cached): scan the whole raw window; if it has a face
-        # the corpus purge missed, the window is unusable -> the assembler reaches for the next.
+        # face/text QC once per window (cached on disk): scan the whole raw window; if it has a
+        # face the corpus purge missed, the window is unusable -> the assembler reaches onward.
         if wkey not in face_status:
             face_status[wkey] = (not rnd.mostly_black(raw)) and _face_text_ok(raw)
+            _save_qc()
         if not face_status[wkey]:
             return None
         seg_path = seg_dir / f"seg_{shot_seq:04d}.mp4"
