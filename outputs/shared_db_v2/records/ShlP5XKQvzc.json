@@ -1,0 +1,1110 @@
+{
+  "video_id": "ShlP5XKQvzc",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=ShlP5XKQvzc",
+  "video_duration_s": 1034.37932,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T20:29:13Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 129,
+  "n_windows_kept": 13,
+  "n_windows_rejected": 116,
+  "windows": [
+    {
+      "window_index": 57,
+      "start_s": 456.0,
+      "end_s": 464.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 456.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "show you. Right, you guys,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 457.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "guys, here is option",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 458.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "option number one.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 459.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "one. Okay,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 460.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "I can not get over",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 461.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "over how pretty",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 462.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "pretty and simple",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 463.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "simple and elegant this",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a picture frame | a table with candles and a sign that says love",
+      "transcript": "show you. Right, you guys, here is option number one. Okay, I can not get over how pretty and simple and elegant this",
+      "old_description": ""
+    },
+    {
+      "window_index": 59,
+      "start_s": 472.0,
+      "end_s": 480.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 472.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "me. And",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 473.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "And a florist would",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 474.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "would easily charge",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 475.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "charge you anywhere",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 476.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "anywhere between $20",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 477.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "$20 to $30",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 478.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "$30 for a",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 479.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "a centerpiece like this,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign that says love | a table with candles and a sign on it",
+      "transcript": "me. And a florist would easily charge you anywhere between $20 to $30 for a centerpiece like this,",
+      "old_description": ""
+    },
+    {
+      "window_index": 60,
+      "start_s": 480.0,
+      "end_s": 488.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 480.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "this, which is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 481.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "is ridiculous because",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 482.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "because we'll no offense to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 483.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "to the florist because honestly",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 484.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "honestly your girl wish she",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 485.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "she was a florist. I love",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 486.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "love playing with flowers,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 487.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "flowers, but you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a picture frame | a table with candles and a mirror | a table with candles and a sign that says love",
+      "transcript": "this, which is ridiculous because we'll no offense to the florist because honestly your girl wish she was a florist. I love playing with flowers, but you",
+      "old_description": ""
+    },
+    {
+      "window_index": 61,
+      "start_s": 488.0,
+      "end_s": 496.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 488.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "you can do this so cheap",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 489.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "cheap yourself. So",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 490.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "So between the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 491.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "the three vases,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 492.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "vases, the three candles,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 493.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "candles, the picture",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 494.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "picture frame,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 495.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "that is all,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign that says love",
+      "transcript": "you can do this so cheap yourself. So between the three vases, the three candles, the picture frame, that is all,",
+      "old_description": ""
+    },
+    {
+      "window_index": 62,
+      "start_s": 496.0,
+      "end_s": 504.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 496.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "all, I think $5",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 497.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "$5 .50.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 498.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": ".50.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 499.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "And then the eucalyptus",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 500.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "eucalyptus comes in a",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 501.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "a bundle and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 502.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "and usually it comes",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 503.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "comes anywhere between",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign that says love",
+      "transcript": "all, I think $5 .50. And then the eucalyptus comes in a bundle and usually it comes anywhere between",
+      "old_description": ""
+    },
+    {
+      "window_index": 63,
+      "start_s": 504.0,
+      "end_s": 512.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 504.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "between six",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 505.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "six to eight",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 506.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "eight stems.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 507.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "This bundle actually had",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 508.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "had eight stems for",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 509.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "for $6. But for",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 510.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "for the purposes of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 511.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "of simple math, let's",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign that says love",
+      "transcript": "between six to eight stems. This bundle actually had eight stems for $6. But for the purposes of simple math, let's",
+      "old_description": ""
+    },
+    {
+      "window_index": 64,
+      "start_s": 512.0,
+      "end_s": 520.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 512.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "let's just say it's a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 513.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "a dollar a stem.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 514.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "There's two",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 515.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "two stems in there.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 516.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "So that's $2 worth",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 517.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "worth of eucalyptus for",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 518.0,
+          "vision_desc": "a table with candles and a picture frame",
+          "transcript_text": "for a grand total of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 519.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "of $7 .50",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign that says love | a table with candles and a picture frame",
+      "transcript": "let's just say it's a dollar a stem. There's two stems in there. So that's $2 worth of eucalyptus for a grand total of $7 .50",
+      "old_description": ""
+    },
+    {
+      "window_index": 67,
+      "start_s": 536.0,
+      "end_s": 544.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 536.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "long stem T -light holders I",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 537.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "I showed you. So",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 538.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "So I'm going to add a few of",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 539.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "of those in and a few",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 540.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "few other little things.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 541.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "So let me show",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 542.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "show you that one.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 543.0,
+          "vision_desc": "a table with candles and eucalyptus leaves",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign on it | a table with candles and a mirror | a table with candles and eucalyptus leaves",
+      "transcript": "long stem T -light holders I showed you. So I'm going to add a few of those in and a few other little things. So let me show you that one.",
+      "old_description": ""
+    },
+    {
+      "window_index": 68,
+      "start_s": 544.0,
+      "end_s": 552.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 544.0,
+          "vision_desc": "a table with candles and eucalyptus leaves on it",
+          "transcript_text": "So here is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 545.0,
+          "vision_desc": "a table with candles and eucalyptus leaves",
+          "transcript_text": "is another option",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 546.0,
+          "vision_desc": "a table with candles and eucalyptus leaves",
+          "transcript_text": "option and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 547.0,
+          "vision_desc": "a table with candles and eucalyptus leaves",
+          "transcript_text": "and I just realized my",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 548.0,
+          "vision_desc": "a table with candles and eucalyptus leaves",
+          "transcript_text": "my light is so bright.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 549.0,
+          "vision_desc": "a table with candles and eucalyptus leaves on it",
+          "transcript_text": "bright. Let me turn that down",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 550.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "down so you guys can",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 551.0,
+          "vision_desc": "a table with candles and a sign that says love",
+          "transcript_text": "can get like a little",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and eucalyptus leaves on it | a table with candles and eucalyptus leaves | a table with candles and a sign on it | a table with candles and a sign that says love",
+      "transcript": "So here is another option and I just realized my light is so bright. Let me turn that down so you guys can get like a little",
+      "old_description": ""
+    },
+    {
+      "window_index": 95,
+      "start_s": 760.0,
+      "end_s": 768.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 760.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "honestly think they work so",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 761.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "so much better for",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 762.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "for a long centerpiece,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 763.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "centerpiece, like a",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 764.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "a rectangle table,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 765.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "table, farmhouse style",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 766.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "style tables. I'm",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 767.0,
+          "vision_desc": "a table with candles and a sign on it",
+          "transcript_text": "I'm going to show you guys",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and a sign on it | a table with candles and flowers on it",
+      "transcript": "honestly think they work so much better for a long centerpiece, like a rectangle table, farmhouse style tables. I'm going to show you guys",
+      "old_description": ""
+    },
+    {
+      "window_index": 101,
+      "start_s": 808.0,
+      "end_s": 816.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 808.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "greenhouse. This is my dining",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 809.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "dining room. I had to bring",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 810.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "bring these guys in because",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 811.0,
+          "vision_desc": "a table with candles and a mirror",
+          "transcript_text": "because it's supposed to frost.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 812.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "frost. This is Mother's Day",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 813.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "Day weekend.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 814.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "And we're supposed to get",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 815.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "get frost and possibly snow.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers on it | a table with candles and a mirror",
+      "transcript": "greenhouse. This is my dining room. I had to bring these guys in because it's supposed to frost. This is Mother's Day weekend. And we're supposed to get frost and possibly snow.",
+      "old_description": ""
+    },
+    {
+      "window_index": 108,
+      "start_s": 864.0,
+      "end_s": 872.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 864.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "looks really nice.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 865.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "nice. This",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 866.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "This is about",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 867.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "about $20",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 868.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "$20 with",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 869.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "with",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 870.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "with all",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 871.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "all the candles in the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers on it",
+      "transcript": "looks really nice. This is about $20 with all the candles in the",
+      "old_description": ""
+    },
+    {
+      "window_index": 111,
+      "start_s": 888.0,
+      "end_s": 896.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 888.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "more expensive one at",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 889.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "at least.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 890.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 891.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "And",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 892.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "And let's cheapen",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 893.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "cheapen this up a little bit in",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 894.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "in a good way.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 895.0,
+          "vision_desc": "a black background with a white border",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers on it | a black background with a white border",
+      "transcript": "more expensive one at least. And let's cheapen this up a little bit in a good way.",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
