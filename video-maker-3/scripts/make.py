@@ -197,17 +197,19 @@ def _make_materializer(run):
         code = ("import sys,os,json;sys.path.insert(0,'scripts');os.environ['WS']=%r;"
                 "import clip_checks as cc;"
                 "fh=cc.scan_video_talking_head(%r); th=cc.scan_video_text(%r);"
-                "print(json.dumps({'face':len(fh),'text':len(th),"
+                "print('RESULT'+json.dumps({'face':len(fh),'text':len(th),"
                 "'gf':cc.GATE_FACE_HITS,'gt':cc.GATE_TEXT_HITS}))"
                 % (os.path.abspath('.'), str(seg_path), str(seg_path)))
         try:
             out = subprocess.check_output([sys.executable, "-c", code],
-                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "60")),
+                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "180")),
                                           stderr=subprocess.DEVNULL).decode()
-            v = json.loads(out.strip().splitlines()[-1])
+            v = json.loads([l for l in out.splitlines() if l.startswith("RESULT")][-1][7:])
             return v["face"] < v["gf"] and v["text"] < v["gt"]
         except Exception:
-            return True  # hang/error -> don't block (the final gate is the hard guarantee)
+            # FAIL-CLOSED (zero-tolerance): a window we can't verify face/text-free is unusable,
+            # so the assembler reaches for the next-best instead of risking a face slipping in.
+            return False
 
     # VM_CACHED_ONLY: never hit the network; place only windows already downloaded under
     # raw/. Useful when YouTube is rate-limiting (429/503) — the build assembles from the
