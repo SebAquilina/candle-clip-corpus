@@ -176,18 +176,32 @@ def _make_materializer(run):
     import render as rnd
     raw_dir = run / "raw"; seg_dir = run / "segs"
     raw_dir.mkdir(parents=True, exist_ok=True); seg_dir.mkdir(parents=True, exist_ok=True)
-    light_qc = os.environ.get("VM_LIGHT_QC", "1").strip().lower() not in ("0", "false", "no", "")
+    # Per-clip QC is LIGHT by design: the corpus is already face/text-purged, so the only
+    # per-clip check is black/validity (cheap, no cv2). The thorough face/text/freeze/black
+    # scan is the non-skippable FINAL GATE (validate_render.py) — "lighter QC, still checked".
+    # An OPTIONAL per-clip face/text recheck (VM_LIGHT_QC_FACES=1) runs in a SUBPROCESS with a
+    # timeout so a cv2/YuNet C-level hang can never wedge the build (it could before).
+    face_qc = os.environ.get("VM_LIGHT_QC_FACES", "0").strip().lower() in ("1", "true", "yes")
     raw_status = {}  # window_key -> raw Path or None
 
-    def _light_face_text_ok(seg_path):
-        if not light_qc:
+    def _face_text_ok(seg_path):
+        if not face_qc:
             return True
+        code = ("import sys,os,json;sys.path.insert(0,'scripts');os.environ['WS']=%r;"
+                "import clip_checks as cc;print(json.dumps(cc.check_clip(%r,n=6)))"
+                % (os.path.abspath('.'), str(seg_path)))
         try:
-            import clip_checks as cc
-            v = cc.check_clip(seg_path, n=int(os.environ.get("VM_LIGHT_QC_FRAMES", "6")))
-            return bool(v.get("ok", True))   # corpus is clean: this almost never fires
+            out = subprocess.check_output([sys.executable, "-c", code],
+                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "25")),
+                                          stderr=subprocess.DEVNULL).decode()
+            return bool(json.loads(out.strip().splitlines()[-1]).get("ok", True))
         except Exception:
-            return True
+            return True  # hang/error -> don't block (the final gate is the hard guarantee)
+
+    # VM_CACHED_ONLY: never hit the network; place only windows already downloaded under
+    # raw/. Useful when YouTube is rate-limiting (429/503) — the build assembles from the
+    # cached pool instead of stalling on doomed downloads.
+    cached_only = os.environ.get("VM_CACHED_ONLY", "0").strip().lower() in ("1", "true", "yes")
 
     def materialize(moment, take, shot_seq):
         seg = moment["seg"]; url = moment["url"]; vid = moment.get("id") or "x"
@@ -196,7 +210,7 @@ def _make_materializer(run):
         raw = raw_dir / f"raw_{vid}_{start:.2f}.mp4"
         if wkey not in raw_status:
             ok = raw.exists() and raw.stat().st_size > 50_000
-            if not ok:
+            if not ok and not cached_only:
                 ok = youtube.download_segment(url, start, end + PAD, raw)
             raw_status[wkey] = raw if (ok and raw.exists()) else None
         raw = raw_status[wkey]
@@ -206,7 +220,7 @@ def _make_materializer(run):
         res = dl.fit_clip(raw, seg_path, float(take), _credit(moment))
         if not res.get("ok") or not seg_path.exists():
             return None
-        if rnd.mostly_black(seg_path) or not _light_face_text_ok(seg_path):
+        if rnd.mostly_black(seg_path) or not _face_text_ok(seg_path):
             try: seg_path.unlink()
             except Exception: pass
             return None

@@ -28,9 +28,18 @@ def probe_dur(p: Path) -> float:
         return 0.0
 
 
+# Black detection is for CORRUPT/TRUNCATED downloads, which render ~100% pure black — NOT for
+# dark footage. Candle B-roll is often genuinely dark (moody lighting, black wax/backgrounds),
+# which reads as "black" at the old pix_th=0.10/60% and got valid clips wrongly rejected
+# (churning re-downloads). So count only NEAR-PURE-black pixels (pix_th=0.02) and require a high
+# black fraction (0.85) — only a broken clip trips it. Both env-tunable.
+_BLACK_PIX_TH = float(os.environ.get("VM_BLACK_PIX_TH", "0.02"))
+_BLACK_FRAC = float(os.environ.get("VM_BLACK_FRAC", "0.85"))
+
+
 def mostly_black(p: Path) -> bool:
-    """True if the clip is essentially black/blank over a short sample (corrupt/truncated
-    downloads render to black). Used as the light per-segment check."""
+    """True only if the clip is essentially PURE black across the sample (a corrupt/truncated
+    download) — dark-but-visible footage passes."""
     try:
         dur = probe_dur(p)
         if dur <= 0:
@@ -38,12 +47,12 @@ def mostly_black(p: Path) -> bool:
         sample = min(dur, 6.0)
         r = subprocess.run(
             ["ffmpeg", "-hide_banner", "-t", f"{sample:.2f}", "-i", str(p),
-             "-vf", "blackdetect=d=0.5:pix_th=0.10", "-an", "-f", "null", "-"],
+             "-vf", f"blackdetect=d=0.3:pix_th={_BLACK_PIX_TH}", "-an", "-f", "null", "-"],
             capture_output=True, text=True, timeout=30)
         black = 0.0
         for m in re.finditer(r"black_start:([0-9.]+) black_end:([0-9.]+)", r.stderr or ""):
             black += float(m.group(2)) - float(m.group(1))
-        return black > 0.6 * sample
+        return black > _BLACK_FRAC * sample
     except Exception:
         return True
 
