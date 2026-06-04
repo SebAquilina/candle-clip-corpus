@@ -1,0 +1,102 @@
+{
+  "video_id": "ys-QiqGS5qo",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=ys-QiqGS5qo",
+  "video_duration_s": 659.168073,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T16:15:22Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 82,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 81,
+  "windows": [
+    {
+      "window_index": 49,
+      "start_s": 392.0,
+      "end_s": 400.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 392.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "is to you, the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 393.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "the more intimately you",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 394.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "you will come to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 395.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "to know their business,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 396.0,
+          "vision_desc": "a table with candles, cinnamons and other items",
+          "transcript_text": "business, capabilities,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 397.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "capabilities,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 398.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "business strengths, and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 399.0,
+          "vision_desc": "a table with a bunch of cinnamons and a candle",
+          "transcript_text": "and business weaknesses.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and other items on it | a table with candles, cinnamons and other items | a table with candles, candles and other items | a table with a bunch of cinnamons and a candle",
+      "transcript": "is to you, the more intimately you will come to know their business, capabilities, business strengths, and business weaknesses.",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}

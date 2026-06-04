@@ -1,0 +1,438 @@
+{
+  "video_id": "5zH-SoPDXLQ",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=5zH-SoPDXLQ",
+  "video_duration_s": 998.829569,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T16:13:22Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 125,
+  "n_windows_kept": 5,
+  "n_windows_rejected": 120,
+  "windows": [
+    {
+      "window_index": 2,
+      "start_s": 16.0,
+      "end_s": 24.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 16.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "during transit I",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 17.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "I know that when I",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 18.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "I first started",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 19.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "started doing this I",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 20.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "I really had no idea",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 21.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "idea what I was doing in",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 22.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "in terms of shipping breakable",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 23.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "breakable items because",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with a bunch of paper and a box of paint",
+      "transcript": "during transit I know that when I first started doing this I really had no idea what I was doing in terms of shipping breakable items because",
+      "old_description": ""
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.0,
+      "end_s": 32.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 24.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "because it can be",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 25.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "be really intimidating if",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 26.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "if you don't",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 27.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "don't know",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 28.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "little things",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 29.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "things to look for on",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 30.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "on how to make it",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 31.0,
+          "vision_desc": "a table with a bunch of paper and a box of paint",
+          "transcript_text": "it as",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with a bunch of paper and a box of paint",
+      "transcript": "because it can be really intimidating if you don't know little things to look for on how to make it as",
+      "old_description": ""
+    },
+    {
+      "window_index": 4,
+      "start_s": 32.0,
+      "end_s": 40.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 32.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "as quote unquote",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 33.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "unquote bulletproof as",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 34.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "as possible although there",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 35.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "there are definitely things",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 36.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "things that can happen",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 37.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "happen So this",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 38.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "this is not a guarantee but",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 39.0,
+          "vision_desc": "a table with a bunch of items on it",
+          "transcript_text": "but I really",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with a bunch of items on it",
+      "transcript": "as quote unquote bulletproof as possible although there are definitely things that can happen So this is not a guarantee but I really",
+      "old_description": ""
+    },
+    {
+      "window_index": 48,
+      "start_s": 384.0,
+      "end_s": 392.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 384.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "I did it in the beginning because",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 385.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "because I felt more",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 386.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "more comfortable knowing",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 387.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "knowing that I wasn't",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 388.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "wasn't sitting out products",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 389.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "products that we're going",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 390.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "going to break I wanted to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 391.0,
+          "vision_desc": "a table with a brown paper bag on it",
+          "transcript_text": "to make sure that",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with a brown paper bag on it",
+      "transcript": "I did it in the beginning because I felt more comfortable knowing that I wasn't sitting out products that we're going to break I wanted to make sure that",
+      "old_description": ""
+    },
+    {
+      "window_index": 104,
+      "start_s": 832.0,
+      "end_s": 840.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 832.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "one or the other, it'd probably",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 833.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "probably be the packing peanuts.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 834.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "peanuts. I feel like those are",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 835.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "are a little bit more",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 836.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "more of a protection",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 837.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "protection than",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 838.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "than the crinkle cut paper.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 839.0,
+          "vision_desc": "a white bag",
+          "transcript_text": "paper. But I do love",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a white bag",
+      "transcript": "one or the other, it'd probably be the packing peanuts. I feel like those are a little bit more of a protection than the crinkle cut paper. But I do love",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
