@@ -1,0 +1,186 @@
+{
+  "video_id": "9KteI8yiFns",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=9KteI8yiFns",
+  "video_duration_s": 847.505125,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T14:10:08Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 106,
+  "n_windows_kept": 2,
+  "n_windows_rejected": 104,
+  "windows": [
+    {
+      "window_index": 75,
+      "start_s": 600.0,
+      "end_s": 608.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 600.0,
+          "vision_desc": "a bucket is sitting on a table near a window",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 601.0,
+          "vision_desc": "a cup is sitting on a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 602.0,
+          "vision_desc": "a black cup sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 603.0,
+          "vision_desc": "a black coffee pot",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 604.0,
+          "vision_desc": "a black cup sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 605.0,
+          "vision_desc": "a black cup with a white liquid inside",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 606.0,
+          "vision_desc": "a black bowl sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 607.0,
+          "vision_desc": "a black cup sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bucket is sitting on a table near a window | a cup is sitting on a table | a black cup sitting on top of a table | a black coffee pot | a black cup with a white liquid inside | a black bowl sitting on top of a table",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 79,
+      "start_s": 632.0,
+      "end_s": 640.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 632.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 633.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 634.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 635.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 636.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 637.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 638.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 639.0,
+          "vision_desc": "a bottle of wine sitting on top of a table",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bottle of wine sitting on top of a table",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
