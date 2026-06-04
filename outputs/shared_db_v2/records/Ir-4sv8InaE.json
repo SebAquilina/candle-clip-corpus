@@ -1,0 +1,17 @@
+{
+  "video_id": "Ir-4sv8InaE",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=Ir-4sv8InaE",
+  "video_duration_s": 16046.3122,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T16:46:13Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 2006,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 2006,
+  "windows": [],
+  "source": "watch-later"
+}
