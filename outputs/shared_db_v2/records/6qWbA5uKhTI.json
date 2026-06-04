@@ -1,0 +1,522 @@
+{
+  "video_id": "6qWbA5uKhTI",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=6qWbA5uKhTI",
+  "video_duration_s": 583.68,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T20:17:05Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 73,
+  "n_windows_kept": 6,
+  "n_windows_rejected": 67,
+  "windows": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 0.0,
+          "vision_desc": "a table with candles and flowers in mason jars",
+          "transcript_text": "Your wedding day",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1.0,
+          "vision_desc": "a table with a bunch of flowers and candles",
+          "transcript_text": "day is one of the most",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2.0,
+          "vision_desc": "a table with candles and flowers in mason jars",
+          "transcript_text": "most special days of your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 3.0,
+          "vision_desc": "a table with a bunch of flowers and candles",
+          "transcript_text": "your life, and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4.0,
+          "vision_desc": "a table with a bunch of flowers and candles",
+          "transcript_text": "and every detail matters,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5.0,
+          "vision_desc": "a table set with white and pink flowers",
+          "transcript_text": "matters, including",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6.0,
+          "vision_desc": "a table with white and pink flowers on it",
+          "transcript_text": "including the centerpieces that",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 7.0,
+          "vision_desc": "a table set with white and pink flowers",
+          "transcript_text": "that will decorate your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers in mason jars | a table with a bunch of flowers and candles | a table set with white and pink flowers | a table with white and pink flowers on it",
+      "transcript": "Your wedding day is one of the most special days of your life, and every detail matters, including the centerpieces that will decorate your",
+      "old_description": ""
+    },
+    {
+      "window_index": 28,
+      "start_s": 224.0,
+      "end_s": 232.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 224.0,
+          "vision_desc": "a close up of a plant with green leaves",
+          "transcript_text": "to fill the spaces and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 225.0,
+          "vision_desc": "a close up of a plant with green leaves",
+          "transcript_text": "and add texture.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 226.0,
+          "vision_desc": "a table set for a wedding reception",
+          "transcript_text": "For added",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 227.0,
+          "vision_desc": "a table with white plates and white napkins",
+          "transcript_text": "added flair, place",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 228.0,
+          "vision_desc": "a table with white plates and white napkins",
+          "transcript_text": "place candles or fairy lights",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 229.0,
+          "vision_desc": "a table with white plates and white napkins",
+          "transcript_text": "lights around the succulents",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 230.0,
+          "vision_desc": "a table with white plates and white napkins",
+          "transcript_text": "succulents to create a cozy atmosphere.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 231.0,
+          "vision_desc": "a table with white plates and white napkins",
+          "transcript_text": "atmosphere.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a close up of a plant with green leaves | a table set for a wedding reception | a table with white plates and white napkins",
+      "transcript": "to fill the spaces and add texture. For added flair, place candles or fairy lights around the succulents to create a cozy atmosphere.",
+      "old_description": ""
+    },
+    {
+      "window_index": 49,
+      "start_s": 392.0,
+      "end_s": 400.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 392.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "room feel larger. This",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 393.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "This is a simple",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 394.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "simple and effective way to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 395.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "to add an elegant touch.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 396.0,
+          "vision_desc": "a table with flowers and vases on it",
+          "transcript_text": "touch.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 397.0,
+          "vision_desc": "a table with vases and flowers on it",
+          "transcript_text": "Materials.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 398.0,
+          "vision_desc": "a table with vases and flowers on it",
+          "transcript_text": "Mirror -based five",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 399.0,
+          "vision_desc": "a table with vases and flowers on it",
+          "transcript_text": "five to ten dollars.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers on it | a table with flowers and vases on it | a table with vases and flowers on it",
+      "transcript": "room feel larger. This is a simple and effective way to add an elegant touch. Materials. Mirror -based five to ten dollars.",
+      "old_description": ""
+    },
+    {
+      "window_index": 50,
+      "start_s": 400.0,
+      "end_s": 408.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 400.0,
+          "vision_desc": "a table with white flowers and candles",
+          "transcript_text": "dollars. Flowers like",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 401.0,
+          "vision_desc": "a table with white flowers and silverware",
+          "transcript_text": "like roses, hydranges",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 402.0,
+          "vision_desc": "a table with white flowers and silverware",
+          "transcript_text": "hydranges or peonies,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 403.0,
+          "vision_desc": "a table with white flowers and candles",
+          "transcript_text": "peonies, fifteen to",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 404.0,
+          "vision_desc": "a table with white flowers and candles",
+          "transcript_text": "to twenty dollars.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 405.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "dollars. Candles or fairy",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 406.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "fairy lights, five",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 407.0,
+          "vision_desc": "a table with candles and flowers on it",
+          "transcript_text": "five to ten dollars.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with white flowers and candles | a table with white flowers and silverware | a table with candles and flowers on it",
+      "transcript": "dollars. Flowers like roses, hydranges or peonies, fifteen to twenty dollars. Candles or fairy lights, five to ten dollars.",
+      "old_description": ""
+    },
+    {
+      "window_index": 65,
+      "start_s": 520.0,
+      "end_s": 528.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 520.0,
+          "vision_desc": "a table with white and green flowers and silverware",
+          "transcript_text": "are countless creative ways",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 521.0,
+          "vision_desc": "a table with white and green flowers and silverware",
+          "transcript_text": "ways to create stunning",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 522.0,
+          "vision_desc": "a table with white flowers and gold chargers",
+          "transcript_text": "stunning DIY wedding",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 523.0,
+          "vision_desc": "a table with white flowers and candles on it",
+          "transcript_text": "wedding centerpieces on a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 524.0,
+          "vision_desc": "a table with white flowers and candles on it",
+          "transcript_text": "a budget.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 525.0,
+          "vision_desc": "a table with white flowers and candles",
+          "transcript_text": "From elegant",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 526.0,
+          "vision_desc": "a table with white flowers and candles on it",
+          "transcript_text": "elegant mason jars,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 527.0,
+          "vision_desc": "a table with white flowers and candles on it",
+          "transcript_text": "to rustic wooden boxes",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with white and green flowers and silverware | a table with white flowers and gold chargers | a table with white flowers and candles on it | a table with white flowers and candles",
+      "transcript": "are countless creative ways to create stunning DIY wedding centerpieces on a budget. From elegant mason jars, to rustic wooden boxes",
+      "old_description": ""
+    },
+    {
+      "window_index": 70,
+      "start_s": 560.0,
+      "end_s": 568.0,
+      "action_label": "decorate_finish",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 560.0,
+          "vision_desc": "a table with candles and flowers in vases",
+          "transcript_text": "don't forget to like this",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 561.0,
+          "vision_desc": "a table with white and gold decorations",
+          "transcript_text": "this video comment below",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 562.0,
+          "vision_desc": "a table with white and gold decorations",
+          "transcript_text": "below with your favorite centerpiece",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 563.0,
+          "vision_desc": "a table with a vase filled with sus and sus",
+          "transcript_text": "centerpiece and subscribe",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 564.0,
+          "vision_desc": "a table with a vase filled with sus and sus",
+          "transcript_text": "subscribe to my channel for",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 565.0,
+          "vision_desc": "a table with a vase filled with sus and susies",
+          "transcript_text": "for more amazing wedding",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 566.0,
+          "vision_desc": "a table with a vase filled with sus and sus",
+          "transcript_text": "wedding inspiration and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 567.0,
+          "vision_desc": "a table with a vase filled with sus and sus",
+          "transcript_text": "and budget -friendly tips.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and flowers in vases | a table with white and gold decorations | a table with a vase filled with sus and sus | a table with a vase filled with sus and susies",
+      "transcript": "don't forget to like this video comment below with your favorite centerpiece and subscribe to my channel for more amazing wedding inspiration and budget -friendly tips.",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
