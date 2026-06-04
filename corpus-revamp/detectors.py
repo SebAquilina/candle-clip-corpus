@@ -1,15 +1,19 @@
 """Per-second face + on-screen-text detector for the corpus purge.
 
 Wraps the skill's vendored `clip_checks` detector chain (YuNet -> SSD -> Haar for
-faces, Tesseract OCR for text) but applies it ZERO-TOLERANCE and SECOND-BY-SECOND:
-for a window [start_s, end_s] we sample N frames inside every second and a window is
-REJECTED the instant any sampled frame shows a face OR any confident text. Fail-closed.
+faces) plus a 3-pass Tesseract OCR (full-frame + bottom-strip + top-strip, CLAHE
+contrast) and applies it SECOND-BY-SECOND, fail-closed. A FACE rejects the window on
+any single frame; TEXT must PERSIST on >=2 distinct seconds (so one-frame OCR noise on
+textured B-roll doesn't drop clean footage). A second that decodes 0 frames -> rejected
+'unreadable' (never passed unscanned).
 
-Env knobs (all overridable; defaults tuned for max recall / zero-tolerance):
-  REVAMP_FACE_SCORE     min YuNet/SSD confidence to count a face   (default 0.50)
-  REVAMP_TEXT_MIN_CONF  min OCR word confidence to count as text   (default 45)
-  REVAMP_TEXT_MIN_CHARS min alnum chars for an OCR word            (default 2)
-  REVAMP_FRAMES_PER_SEC frames sampled inside each second          (default 2)
+Env knobs (all overridable):
+  REVAMP_FACE_SCORE           min YuNet/SSD confidence to count a face     (default 0.60)
+  REVAMP_TEXT_MIN_CONF        min OCR word confidence to count as text     (default 55)
+  REVAMP_TEXT_MIN_CHARS       min alnum chars for an OCR word              (default 4)
+  REVAMP_TEXT_PERSIST_SECONDS confident text on >=N seconds -> reject      (default 2)
+  REVAMP_BOTTOM_FRAC/_TOP_FRAC strip crops for subtitle/corner-logo OCR    (0.72 / 0.20)
+  REVAMP_FRAMES_PER_SEC       frames sampled inside each second            (default 2)
 """
 from __future__ import annotations
 import os
