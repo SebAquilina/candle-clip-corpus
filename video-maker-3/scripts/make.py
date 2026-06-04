@@ -176,25 +176,32 @@ def _make_materializer(run):
     import render as rnd
     raw_dir = run / "raw"; seg_dir = run / "segs"
     raw_dir.mkdir(parents=True, exist_ok=True); seg_dir.mkdir(parents=True, exist_ok=True)
-    # Per-clip QC is LIGHT by design: the corpus is already face/text-purged, so the only
-    # per-clip check is black/validity (cheap, no cv2). The thorough face/text/freeze/black
-    # scan is the non-skippable FINAL GATE (validate_render.py) — "lighter QC, still checked".
-    # An OPTIONAL per-clip face/text recheck (VM_LIGHT_QC_FACES=1) runs in a SUBPROCESS with a
-    # timeout so a cv2/YuNet C-level hang can never wedge the build (it could before).
-    face_qc = os.environ.get("VM_LIGHT_QC_FACES", "0").strip().lower() in ("1", "true", "yes")
+    # Per-clip QC: black/validity is always on (cheap, no cv2). A per-clip FACE/TEXT recheck
+    # (VM_LIGHT_QC_FACES=1, ON by default) catches the few corpus windows whose face flickers
+    # between the corpus purge's per-second samples — so the build rejects them during assembly
+    # and reaches for the next-best face-free clip, instead of only failing at the final gate.
+    # It runs the SAME detector at the SAME density as the gate (clip_checks, GATE_FPS sampling)
+    # inside a SUBPROCESS with a timeout, so a cv2/YuNet C-level hang can never wedge the build.
+    face_qc = os.environ.get("VM_LIGHT_QC_FACES", "1").strip().lower() in ("1", "true", "yes")
     raw_status = {}  # window_key -> raw Path or None
 
     def _face_text_ok(seg_path):
         if not face_qc:
             return True
+        # gate-aligned: scan the whole seg for faces/text exactly as validate_render does, so a
+        # clip that passes here also passes the final gate. Reject on >=1 face frame / >=2 text.
         code = ("import sys,os,json;sys.path.insert(0,'scripts');os.environ['WS']=%r;"
-                "import clip_checks as cc;print(json.dumps(cc.check_clip(%r,n=6)))"
-                % (os.path.abspath('.'), str(seg_path)))
+                "import clip_checks as cc;"
+                "fh=cc.scan_video_talking_head(%r); th=cc.scan_video_text(%r);"
+                "print(json.dumps({'face':len(fh),'text':len(th),"
+                "'gf':cc.GATE_FACE_HITS,'gt':cc.GATE_TEXT_HITS}))"
+                % (os.path.abspath('.'), str(seg_path), str(seg_path)))
         try:
             out = subprocess.check_output([sys.executable, "-c", code],
-                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "25")),
+                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "60")),
                                           stderr=subprocess.DEVNULL).decode()
-            return bool(json.loads(out.strip().splitlines()[-1]).get("ok", True))
+            v = json.loads(out.strip().splitlines()[-1])
+            return v["face"] < v["gf"] and v["text"] < v["gt"]
         except Exception:
             return True  # hang/error -> don't block (the final gate is the hard guarantee)
 
@@ -202,6 +209,8 @@ def _make_materializer(run):
     # raw/. Useful when YouTube is rate-limiting (429/503) — the build assembles from the
     # cached pool instead of stalling on doomed downloads.
     cached_only = os.environ.get("VM_CACHED_ONLY", "0").strip().lower() in ("1", "true", "yes")
+
+    face_status = {}  # window_key -> bool (face/text clean?) — scanned once per window, reused
 
     def materialize(moment, take, shot_seq):
         seg = moment["seg"]; url = moment["url"]; vid = moment.get("id") or "x"
@@ -216,11 +225,15 @@ def _make_materializer(run):
         raw = raw_status[wkey]
         if raw is None:
             return None
+        # face/text QC once per window (cached): scan the whole raw window; if it has a face
+        # the corpus purge missed, the window is unusable -> the assembler reaches for the next.
+        if wkey not in face_status:
+            face_status[wkey] = (not rnd.mostly_black(raw)) and _face_text_ok(raw)
+        if not face_status[wkey]:
+            return None
         seg_path = seg_dir / f"seg_{shot_seq:04d}.mp4"
         res = dl.fit_clip(raw, seg_path, float(take), _credit(moment))
-        if not res.get("ok") or not seg_path.exists():
-            return None
-        if rnd.mostly_black(seg_path) or not _face_text_ok(seg_path):
+        if not res.get("ok") or not seg_path.exists() or rnd.mostly_black(seg_path):
             try: seg_path.unlink()
             except Exception: pass
             return None
