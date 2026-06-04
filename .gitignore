@@ -16,3 +16,7 @@ video-maker-3/output/
 # secrets — never commit cookies or keys
 *cookies*.txt
 *.env
+
+# build/run logs (scratch)
+*.log
+video-maker-3/state_*.log
