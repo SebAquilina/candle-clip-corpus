@@ -12,5 +12,6 @@
   "n_windows_in": 38,
   "n_windows_kept": 0,
   "n_windows_rejected": 38,
-  "windows": []
+  "windows": [],
+  "source": "corpus"
 }
