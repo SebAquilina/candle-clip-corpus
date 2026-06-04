@@ -1,0 +1,102 @@
+{
+  "video_id": "cf6FpjC-ANs",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=cf6FpjC-ANs",
+  "video_duration_s": 351.968073,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T10:43:17Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 44,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 43,
+  "windows": [
+    {
+      "window_index": 42,
+      "start_s": 336.0,
+      "end_s": 344.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 336.0,
+          "vision_desc": "can ' t be you again next time",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 337.0,
+          "vision_desc": "a black background with a heart and a photo of a candle",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 338.0,
+          "vision_desc": "a black background with a heart and a photo of a candle",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 339.0,
+          "vision_desc": "a black background with a heart and a photo of a candle",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 340.0,
+          "vision_desc": "a black background with a colorful logo and a photo of a candle",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 341.0,
+          "vision_desc": "a black background with a colorful logo and a photo of a candle",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 342.0,
+          "vision_desc": "a black background with a neon sign that says subbie",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 343.0,
+          "vision_desc": "a black background with a purple and blue logo",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "can ' t be you again next time | a black background with a heart and a photo of a candle | a black background with a colorful logo and a photo of a candle | a black background with a neon sign that says subbie | a black background with a purple and blue logo",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}

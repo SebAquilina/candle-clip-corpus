@@ -1,0 +1,858 @@
+{
+  "video_id": "XQ51RuH4mAA",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=XQ51RuH4mAA",
+  "video_duration_s": 623.571882,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T10:39:30Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 78,
+  "n_windows_kept": 10,
+  "n_windows_rejected": 68,
+  "windows": [
+    {
+      "window_index": 25,
+      "start_s": 200.0,
+      "end_s": 208.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 200.0,
+          "vision_desc": "candles burning in the dark",
+          "transcript_text": "Plastic can",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 201.0,
+          "vision_desc": "two candles are lit in the dark",
+          "transcript_text": "can warp or leach",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 202.0,
+          "vision_desc": "candles burning in the dark",
+          "transcript_text": "leach into hot",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 203.0,
+          "vision_desc": "a candle and a candle on a marble table",
+          "transcript_text": "hot wax, and",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 204.0,
+          "vision_desc": "a candle and a candle on a marble table",
+          "transcript_text": "and not all glass is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 205.0,
+          "vision_desc": "a candle and a glass on a table",
+          "transcript_text": "is microwave safe.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 206.0,
+          "vision_desc": "two candles are sitting on a marble table",
+          "transcript_text": "safe. A sudden",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 207.0,
+          "vision_desc": "a candle and some candles on a table",
+          "transcript_text": "sudden temperature change",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "candles burning in the dark | two candles are lit in the dark | a candle and a candle on a marble table | a candle and a glass on a table | two candles are sitting on a marble table | a candle and some candles on a table",
+      "transcript": "Plastic can warp or leach into hot wax, and not all glass is microwave safe. A sudden temperature change",
+      "old_description": ""
+    },
+    {
+      "window_index": 26,
+      "start_s": 208.0,
+      "end_s": 216.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 208.0,
+          "vision_desc": "a candle and some branches on a table",
+          "transcript_text": "change can crack it,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 209.0,
+          "vision_desc": "a red cup on top of a black stove",
+          "transcript_text": "it, and there is the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 210.0,
+          "vision_desc": "a red cup on top of a black induction induction",
+          "transcript_text": "the bigger hazard.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 211.0,
+          "vision_desc": "a red cup on top of a black stove",
+          "transcript_text": "If a bit of",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 212.0,
+          "vision_desc": "a red cup on top of a black stove",
+          "transcript_text": "of old wick or",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 213.0,
+          "vision_desc": "a red cup on top of a black stove",
+          "transcript_text": "or a metal fleck is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 214.0,
+          "vision_desc": "a red cup on top of a black stove",
+          "transcript_text": "is hiding in reused",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 215.0,
+          "vision_desc": "two jars with sand inside sitting on a table",
+          "transcript_text": "reused wax,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle and some branches on a table | a red cup on top of a black stove | a red cup on top of a black induction induction | two jars with sand inside sitting on a table",
+      "transcript": "change can crack it, and there is the bigger hazard. If a bit of old wick or a metal fleck is hiding in reused wax,",
+      "old_description": ""
+    },
+    {
+      "window_index": 30,
+      "start_s": 240.0,
+      "end_s": 248.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 240.0,
+          "vision_desc": "a table with candles, cinnamons and other items",
+          "transcript_text": "70 seconds.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 241.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "Well before the wax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 242.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "wax was fully melted.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 243.0,
+          "vision_desc": "a glass jar with a white label and a cotton plant",
+          "transcript_text": "melted. Beeswax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 244.0,
+          "vision_desc": "a glass jar with a white label and a cotton plant",
+          "transcript_text": "Beeswax is the worst candidate",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 245.0,
+          "vision_desc": "a glass jar with a white label and a cotton plant",
+          "transcript_text": "candidate of the three.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 246.0,
+          "vision_desc": "a glass jar with a white label and a cotton plant",
+          "transcript_text": "three. It has a",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 247.0,
+          "vision_desc": "a glass jar with a white label and a cotton plant",
+          "transcript_text": "a high melt point",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles, cinnamons and other items | a table with candles, candles and other items | a glass jar with a white label and a cotton plant",
+      "transcript": "70 seconds. Well before the wax was fully melted. Beeswax is the worst candidate of the three. It has a high melt point",
+      "old_description": ""
+    },
+    {
+      "window_index": 31,
+      "start_s": 248.0,
+      "end_s": 256.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 248.0,
+          "vision_desc": "a glass jar with a label on it",
+          "transcript_text": "point and a deep golden",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 249.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "golden color,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 250.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "so it absorbs microwave",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 251.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "microwave energy",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 252.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "energy fast,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 253.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "and discolours when",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 254.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "when it overheats.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 255.0,
+          "vision_desc": "three jars of candles on a table",
+          "transcript_text": "overheats. My beeswax",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a glass jar with a label on it | two white candles on a wooden table | three jars of candles on a table",
+      "transcript": "point and a deep golden color, so it absorbs microwave energy fast, and discolours when it overheats. My beeswax",
+      "old_description": ""
+    },
+    {
+      "window_index": 49,
+      "start_s": 392.0,
+      "end_s": 400.0,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 392.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "Here is what the whole",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 393.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "whole experiment really",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 394.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "really taught me.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 395.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "me. A candle is",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 396.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "is mostly about control,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 397.0,
+          "vision_desc": "a candle with a lit candle on top",
+          "transcript_text": "control,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 398.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "and the microwave takes",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 399.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "takes control away",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle with a lit candle on top | a table with candles and other items on it",
+      "transcript": "Here is what the whole experiment really taught me. A candle is mostly about control, and the microwave takes control away",
+      "old_description": ""
+    },
+    {
+      "window_index": 50,
+      "start_s": 400.0,
+      "end_s": 408.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 400.0,
+          "vision_desc": "a table with candles and other items on it",
+          "transcript_text": "away from you and hides",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 401.0,
+          "vision_desc": "a table with candles, spoons and other items",
+          "transcript_text": "hides it inside a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 402.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "a closed box.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 403.0,
+          "vision_desc": "a table with candles, candles and other items",
+          "transcript_text": "box. The",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 404.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "The double boiler hands",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 405.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "hands that control right",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 406.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "right back,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 407.0,
+          "vision_desc": "two white candles on a wooden table",
+          "transcript_text": "slow, visible,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a table with candles and other items on it | a table with candles, spoons and other items | a table with candles, candles and other items | two white candles on a wooden table",
+      "transcript": "away from you and hides it inside a closed box. The double boiler hands that control right back, slow, visible,",
+      "old_description": ""
+    },
+    {
+      "window_index": 59,
+      "start_s": 472.0,
+      "end_s": 480.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 472.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "microwave for",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 473.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "for all its convenience is",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 474.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "is simply",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 475.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "simply not a gentle way",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 476.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "way to melt wax.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 477.0,
+          "vision_desc": "a glass of milk and a wooden stick",
+          "transcript_text": "wax. So here",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 478.0,
+          "vision_desc": "a blue kettle sitting on top of a table",
+          "transcript_text": "here is my verdict after",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 479.0,
+          "vision_desc": "a blue table with a metal kettle on it",
+          "transcript_text": "after three scorched",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a glass of milk and a wooden stick | a blue kettle sitting on top of a table | a blue table with a metal kettle on it",
+      "transcript": "microwave for all its convenience is simply not a gentle way to melt wax. So here is my verdict after three scorched",
+      "old_description": ""
+    },
+    {
+      "window_index": 61,
+      "start_s": 488.0,
+      "end_s": 496.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 488.0,
+          "vision_desc": "a bunch of candles sitting on top of a wooden table",
+          "transcript_text": "also one of the fastest ways",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 489.0,
+          "vision_desc": "a table with several candles and a glass",
+          "transcript_text": "ways I know to ruin a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 490.0,
+          "vision_desc": "a table with several candles and a glass",
+          "transcript_text": "a batch,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 491.0,
+          "vision_desc": "a small glass filled with a candle and some candles",
+          "transcript_text": "and I will not be using",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 492.0,
+          "vision_desc": "a small glass filled with a small candle",
+          "transcript_text": "using it again.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 493.0,
+          "vision_desc": "three jars of candles and a plant on a wooden tray",
+          "transcript_text": "A thermometer is",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 494.0,
+          "vision_desc": "three jars of candles and a plant on a wooden tray",
+          "transcript_text": "is the heart of doing",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 495.0,
+          "vision_desc": "three jars of candles and a plant on a wooden tray",
+          "transcript_text": "doing this right,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a bunch of candles sitting on top of a wooden table | a table with several candles and a glass | a small glass filled with a candle and some candles | a small glass filled with a small candle | three jars of candles and a plant on a wooden tray",
+      "transcript": "also one of the fastest ways I know to ruin a batch, and I will not be using it again. A thermometer is the heart of doing this right,",
+      "old_description": ""
+    },
+    {
+      "window_index": 62,
+      "start_s": 496.0,
+      "end_s": 504.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 496.0,
+          "vision_desc": "a wooden tray with three jars of candles and a plant",
+          "transcript_text": "and the microwave makes",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 497.0,
+          "vision_desc": "a wooden tray with three jars of candles and a plant",
+          "transcript_text": "makes one almost",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 498.0,
+          "vision_desc": "a wooden tray with three jars of candles and a plant",
+          "transcript_text": "almost useless.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 499.0,
+          "vision_desc": "a wooden tray with three jars of candles and a plant",
+          "transcript_text": "With a double boiler,",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 500.0,
+          "vision_desc": "a candle and a cork cork coaster",
+          "transcript_text": "boiler, you clip a",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 501.0,
+          "vision_desc": "a candle and a cork cork coaster",
+          "transcript_text": "a thermometer to",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 502.0,
+          "vision_desc": "a candle and a cork cork coaster",
+          "transcript_text": "to the picture and",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 503.0,
+          "vision_desc": "a candle and a cork cork coaster",
+          "transcript_text": "and watch the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a wooden tray with three jars of candles and a plant | a candle and a cork cork coaster",
+      "transcript": "and the microwave makes one almost useless. With a double boiler, you clip a thermometer to the picture and watch the",
+      "old_description": ""
+    },
+    {
+      "window_index": 77,
+      "start_s": 616.0,
+      "end_s": 623.57,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 616.0,
+          "vision_desc": "three candles on a table",
+          "transcript_text": "test lands in",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 617.0,
+          "vision_desc": "three candles on a table",
+          "transcript_text": "in your feed.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 618.0,
+          "vision_desc": "three candles on a table",
+          "transcript_text": "In that video on your",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 619.0,
+          "vision_desc": "a candle on a marble table",
+          "transcript_text": "your screen now,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 620.0,
+          "vision_desc": "a candle on a marble table",
+          "transcript_text": "now, YouTube thinks",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 621.0,
+          "vision_desc": "a candle on a marble table",
+          "transcript_text": "thinks you'll like it. Happy",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 622.0,
+          "vision_desc": "a candle on a marble table",
+          "transcript_text": "Happy pouring friend.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 623.0,
+          "vision_desc": "a candle on a marble table",
+          "transcript_text": "friend.",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "three candles on a table | a candle on a marble table",
+      "transcript": "test lands in your feed. In that video on your screen now, YouTube thinks you'll like it. Happy pouring friend.",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
