@@ -1,0 +1,774 @@
+{
+  "video_id": "xu9qnzbhAMA",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=xu9qnzbhAMA",
+  "video_duration_s": 404.72381,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T13:54:15Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 9,
+  "n_windows_rejected": 42,
+  "windows": [
+    {
+      "window_index": 26,
+      "start_s": 208.0,
+      "end_s": 216.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 208.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 209.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 210.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 211.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 212.0,
+          "vision_desc": "a metal pot filled with a mixture of liquid",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 213.0,
+          "vision_desc": "a metal pot filled with a mixture of liquid",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 214.0,
+          "vision_desc": "a piece of bread in a pan",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 215.0,
+          "vision_desc": "a metal bowl filled with a mixture of sugar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a close up of a metal pot filled with sugar | a metal pot filled with a mixture of liquid | a piece of bread in a pan | a metal bowl filled with a mixture of sugar",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 27,
+      "start_s": 216.0,
+      "end_s": 224.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 216.0,
+          "vision_desc": "a pot of food",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 217.0,
+          "vision_desc": "a metal bowl with a small amount of sugar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 218.0,
+          "vision_desc": "a metal pot filled with a mixture of liquid",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 219.0,
+          "vision_desc": "a piece of bread in a pan",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 220.0,
+          "vision_desc": "a piece of cheese in a metal container",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 221.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 222.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 223.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pot of food | a metal bowl with a small amount of sugar | a metal pot filled with a mixture of liquid | a piece of bread in a pan | a piece of cheese in a metal container | a close up of a metal pot filled with sugar",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 28,
+      "start_s": 224.0,
+      "end_s": 232.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 224.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 225.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 226.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 227.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 228.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 229.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 230.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 231.0,
+          "vision_desc": "a close up of a metal pot filled with sugar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a close up of a metal pot filled with sugar",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 29,
+      "start_s": 232.0,
+      "end_s": 240.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 232.0,
+          "vision_desc": "a pot of soup with a piece of bread in it",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 233.0,
+          "vision_desc": "a pot of soup with a piece of bread in it",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 234.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 235.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 236.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 237.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 238.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 239.0,
+          "vision_desc": "a pot of soup with a piece of bread",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a pot of soup with a piece of bread in it | a pot of soup with a piece of bread",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 43,
+      "start_s": 344.0,
+      "end_s": 352.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 344.0,
+          "vision_desc": "a candle is lit in a glass jar",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 345.0,
+          "vision_desc": "a candle is lit in a glass jar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 346.0,
+          "vision_desc": "a candle is lit in a glass jar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 347.0,
+          "vision_desc": "a candle is lit in a glass jar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 348.0,
+          "vision_desc": "a candle is lit in a glass jar",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 349.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 350.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 351.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle is lit in a glass jar | a candle in the dark",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 44,
+      "start_s": 352.0,
+      "end_s": 360.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 352.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 353.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 354.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 355.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 356.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 357.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 358.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 359.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle in the dark",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 45,
+      "start_s": 360.0,
+      "end_s": 368.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 360.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 361.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 362.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 363.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 364.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 365.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 366.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 367.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle in the dark",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 46,
+      "start_s": 368.0,
+      "end_s": 376.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 368.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 369.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 370.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 371.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 372.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 373.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 374.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 375.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle in the dark",
+      "transcript": "",
+      "old_description": ""
+    },
+    {
+      "window_index": 47,
+      "start_s": 376.0,
+      "end_s": 384.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 376.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 377.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 378.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 379.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 380.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 381.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 382.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 383.0,
+          "vision_desc": "a candle in the dark",
+          "transcript_text": "",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a candle in the dark",
+      "transcript": "",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
