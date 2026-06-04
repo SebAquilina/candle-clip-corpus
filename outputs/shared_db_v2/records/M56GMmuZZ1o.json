@@ -1,0 +1,102 @@
+{
+  "video_id": "M56GMmuZZ1o",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=M56GMmuZZ1o",
+  "video_duration_s": 71.58712,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T19:07:05Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 9,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 8,
+  "windows": [
+    {
+      "window_index": 7,
+      "start_s": 56.0,
+      "end_s": 64.0,
+      "action_label": "",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 56.0,
+          "vision_desc": "a machine is making orange juice in a factory",
+          "transcript_text": "we achieve the candlesthetics",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 57.0,
+          "vision_desc": "a fork is on the convey",
+          "transcript_text": "candlesthetics we're looking for.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 58.0,
+          "vision_desc": "a line of orange juices in a factory",
+          "transcript_text": "for.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 59.0,
+          "vision_desc": "a convey convey with orange juices",
+          "transcript_text": "Then they're topped off",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 60.0,
+          "vision_desc": "a convey convey with orange juices",
+          "transcript_text": "off with a little more wax.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 61.0,
+          "vision_desc": "a line of orange juices on a convey",
+          "transcript_text": "wax.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 62.0,
+          "vision_desc": "a line of orange juices being made by a machine",
+          "transcript_text": "Once the candles are topped,",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 63.0,
+          "vision_desc": "a line of orange juices being made by a machine",
+          "transcript_text": "topped, they're ready to be",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a machine is making orange juice in a factory | a fork is on the convey | a line of orange juices in a factory | a convey convey with orange juices | a line of orange juices on a convey | a line of orange juices being made by a machine",
+      "transcript": "we achieve the candlesthetics we're looking for. Then they're topped off with a little more wax. Once the candles are topped, they're ready to be",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
