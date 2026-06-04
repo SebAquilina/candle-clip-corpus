@@ -14,6 +14,19 @@ echo "== python deps =="
 pip install -q -r requirements.txt
 # CPU-only torch is NOT required (the embedder is model2vec/numpy; whisper is optional).
 
+# Behind an SSL-intercepting egress proxy (self-signed CA in the chain), edge-tts/aiohttp
+# verify against certifi, which lacks the proxy CA -> TTS fails with CERTIFICATE_VERIFY_FAILED.
+# If such a CA is present on this host, append it to certifi so EdgeTTS can connect. No-op
+# elsewhere. (yt-dlp already skips cert checks via --no-check-certificate.)
+for CA in /usr/local/share/ca-certificates/egress-gateway-ca-production.crt \
+          /usr/local/share/ca-certificates/*.crt; do
+  [ -f "$CA" ] || continue
+  CB="$(python -c 'import certifi;print(certifi.where())' 2>/dev/null)" || break
+  if [ -n "$CB" ] && ! grep -qFf "$CA" "$CB" 2>/dev/null; then
+    cat "$CA" >> "$CB"; echo "  appended $(basename "$CA") to certifi bundle"
+  fi
+done
+
 echo "== system binaries (need to be on PATH) =="
 for b in ffmpeg ffprobe tesseract deno node; do
   if command -v "$b" >/dev/null 2>&1; then echo "  ok: $b"; else echo "  MISSING: $b"; fi
