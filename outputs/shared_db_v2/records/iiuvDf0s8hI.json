@@ -1,0 +1,186 @@
+{
+  "video_id": "iiuvDf0s8hI",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=iiuvDf0s8hI",
+  "video_duration_s": 960.725624,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T13:40:11Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 120,
+  "n_windows_kept": 2,
+  "n_windows_rejected": 118,
+  "windows": [
+    {
+      "window_index": 87,
+      "start_s": 696.0,
+      "end_s": 704.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 696.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "obviously the longer they",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 697.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "they cure the better But I",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 698.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "I have a very short curing",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 699.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "curing time with just",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 700.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "just at minimum 24",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 701.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "24 hours",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 702.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "hours before Thanks",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 703.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "Thanks our burning and I know",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a green cup sitting on top of a table",
+      "transcript": "obviously the longer they cure the better But I have a very short curing time with just at minimum 24 hours before Thanks our burning and I know",
+      "old_description": ""
+    },
+    {
+      "window_index": 88,
+      "start_s": 704.0,
+      "end_s": 712.0,
+      "action_label": "prepare_container",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 704.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "know that the soy 10 also",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 705.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "also played a big part of it as well",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 706.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "well The soy 10 is just",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 707.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "just a fantastic wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 708.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "wax So for",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 709.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "for right now, I'm just gonna let",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 710.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "let it sit and then",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 7,
+          "abs_t": 711.0,
+          "vision_desc": "a green cup sitting on top of a table",
+          "transcript_text": "then tomorrow We're",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "a green cup sitting on top of a table",
+      "transcript": "know that the soy 10 also played a big part of it as well The soy 10 is just a fantastic wax So for right now, I'm just gonna let it sit and then tomorrow We're",
+      "old_description": ""
+    }
+  ],
+  "source": "watch-later"
+}
