@@ -68,6 +68,7 @@ def _concat(parts, out: Path, reencode=False) -> bool:
                 "-pix_fmt", "yuv420p", "-r", "30", "-an"]
     else:
         cmd += ["-c", "copy"]
+    cmd.append(str(out))
     try:
         subprocess.check_call(cmd, stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
         ok = out.exists() and out.stat().st_size > 10_000
