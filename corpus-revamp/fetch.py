@@ -68,7 +68,9 @@ def download(video_id: str, url: str = "") -> dict:
             p = SCRATCH / f"{video_id}.{ext}"
             if p.exists() and p.stat().st_size > 10000:
                 return {"ok": True, "path": str(p), "err": "",
-                        "height": info.get("height"), "duration": info.get("duration")}
+                        "height": info.get("height"), "duration": info.get("duration"),
+                        "channel": (info.get("channel") or info.get("uploader") or "").strip(),
+                        "title": (info.get("title") or "").strip()}
         return {"ok": False, "path": "", "err": "downloaded but no file found",
                 "height": None, "duration": None}
     except Exception as e:

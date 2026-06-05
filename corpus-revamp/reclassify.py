@@ -169,6 +169,11 @@ def run_grind(max_videos=0, max_seconds=0):
         if not dl["ok"]:
             _atomic(REJ_OUT / f"{vid}.json", {"video_id": vid, "error": dl["err"], "rejected": []})
             _clear_attempt(vid); continue
+        # capture the source channel/title from yt-dlp metadata for clip attribution
+        if dl.get("channel") and not (rec.get("channel") or "").strip():
+            rec["channel"] = dl["channel"]
+        if dl.get("title") and not (rec.get("video_title") or "").strip():
+            rec["video_title"] = dl["title"]
         words = TR.get_transcript(vid, dl["path"], rec.get("video_url", ""))
         v2, rej = reclassify_video(rec, dl["path"], words)
         _atomic(REC_OUT / f"{vid}.json", v2)
@@ -296,7 +301,8 @@ def ingest_list(ids, niche="candle_making", source="watch-later", window_s=8.0):
                          "end_s": round(min(t + window_s, dur), 2), "is_step": 1, "action_label": ""})
             t += window_s; i += 1
         rec = {"video_id": vid, "video_url": url, "video_duration_s": dur,
-               "niche": niche, "channel": "", "windows": wins}
+               "niche": niche, "channel": dl.get("channel", ""),
+               "video_title": dl.get("title", ""), "windows": wins}
         words = TR.get_transcript(vid, dl["path"], url)
         v2, rej = reclassify_video(rec, dl["path"], words)
         for w in v2["windows"]:
