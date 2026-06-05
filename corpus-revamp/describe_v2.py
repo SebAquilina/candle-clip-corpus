@@ -128,6 +128,31 @@ def merge():
     print(f"[merge] updated {n} records with v2 descriptions", flush=True)
 
 
+def next_batches():
+    """Emit up to DV2_MAXNEW undescribed+framed windows (not recently claimed) as batch files
+    of DV2_BATCH each, record claims so parallel waves don't collide, print the batch paths."""
+    import time
+    BATCH=int(os.environ.get("DV2_BATCH","6")); MAXNEW=int(os.environ.get("DV2_MAXNEW","30"))
+    TTL=float(os.environ.get("DV2_CLAIM_TTL","1800"))
+    cp=os.path.join(DV2,"claims.json")
+    try: claims=json.load(open(cp))
+    except Exception: claims={}
+    now=time.time(); avail=[]
+    for w in _windows():
+        if os.path.exists(os.path.join(DESC,w["key"]+".json")): continue
+        fr=sorted(glob.glob(os.path.join(FRAMES,w["key"],"sec_*.jpg")))
+        if not fr: continue
+        if float(claims.get(w["key"],0))>now-TTL: continue
+        avail.append((w,fr))
+    avail=avail[:MAXNEW]; bdir=os.path.join(DV2,"batches"); os.makedirs(bdir,exist_ok=True)
+    for i in range(0,len(avail),BATCH):
+        chunk=avail[i:i+BATCH]; bp=os.path.join(bdir,f"batch_{int(now)}_{i//BATCH:02d}.json")
+        json.dump([{**{k:w[k] for k in ("key","video_id","video_title","niche","action_label","transcript","blip","start_s","end_s")},"frames":fr} for w,fr in chunk], open(bp,"w"), indent=2)
+        for w,fr in chunk: claims[w["key"]]=now
+        print(bp)
+    json.dump(claims, open(cp,"w"))
+
+
 if __name__=="__main__":
     cmd = sys.argv[1] if len(sys.argv)>1 else "status"
-    {"extract":extract,"worklist":worklist,"merge":merge,"status":status}.get(cmd, status)()
+    {"extract":extract,"worklist":worklist,"merge":merge,"status":status,"next_batches":next_batches}.get(cmd, status)()
