@@ -14,6 +14,15 @@ echo "== python deps =="
 pip install -q -r requirements.txt
 # CPU-only torch is NOT required (the embedder is model2vec/numpy; whisper is optional).
 
+# Offline semantic embedder model. If the bundled assets/potion-base-8M/ directory is
+# missing (lean bundle), pre-download it once now so first run is offline; this avoids
+# the wait-and-hope of pulling it at first invocation. Skip if already present.
+if [ ! -f "assets/potion-base-8M/model.safetensors" ]; then
+  echo "== fetching potion-base-8M embedder (~30 MB, first time only) =="
+  python -c "from huggingface_hub import snapshot_download; snapshot_download('minishlab/potion-base-8M', local_dir='assets/potion-base-8M')" || \
+    echo "  (download skipped — model2vec will pull it on first run)"
+fi
+
 # Behind an SSL-intercepting egress proxy (self-signed CA in the chain), edge-tts/aiohttp
 # verify against certifi, which lacks the proxy CA -> TTS fails with CERTIFICATE_VERIFY_FAILED.
 # If such a CA is present on this host, append it to certifi so EdgeTTS can connect. No-op

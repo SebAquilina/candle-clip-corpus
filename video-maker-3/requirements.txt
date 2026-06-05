@@ -16,3 +16,4 @@ pytesseract>=0.3.10
 yt-dlp>=2024.0
 yt-dlp-ejs>=0.2.0
 # system binaries (install separately): ffmpeg, tesseract-ocr, deno, nodejs
+huggingface_hub>=0.20  # used by bootstrap.sh to pre-fetch potion-base-8M (model2vec depends on it transitively too)
