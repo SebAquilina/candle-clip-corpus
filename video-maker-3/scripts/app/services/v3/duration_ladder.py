@@ -20,7 +20,7 @@ def probe_duration(path: Path) -> float:
         out = subprocess.check_output([
             "ffprobe", "-v", "error", "-show_entries", "format=duration",
             "-of", "default=noprint_wrappers=1:nokey=1", str(path),
-        ], stderr=subprocess.DEVNULL).decode().strip()
+        ], stderr=subprocess.DEVNULL, timeout=30).decode().strip()
         return float(out)
     except Exception:
         return 0.0
@@ -55,9 +55,9 @@ def fit_clip(src: Path, out: Path, shot_dur: float, watermark: str = "") -> dict
                 "ffmpeg", "-y", "-i", str(src), "-t", f"{shot_dur:.3f}",
                 "-vf", vf, "-an", "-c:v", "libx264", "-preset", "veryfast",
                 "-crf", "22", "-pix_fmt", "yuv420p", str(out),
-            ], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+            ], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, timeout=180)
             return {"strategy": "trim", "ok": True, "out_dur": probe_duration(out)}
-        except subprocess.CalledProcessError:
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
             return {"strategy": "trim_failed", "ok": False, "out_dur": 0.0}
 
     # Shorter than the slot: keep the REAL clip at its natural length. The assembler/renderer
@@ -66,7 +66,7 @@ def fit_clip(src: Path, out: Path, shot_dur: float, watermark: str = "") -> dict
         subprocess.check_call([
             "ffmpeg", "-y", "-i", str(src), "-vf", vf, "-an",
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", str(out),
-        ], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+        ], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, timeout=180)
         return {"strategy": "natural", "ok": True, "out_dur": probe_duration(out)}
-    except subprocess.CalledProcessError:
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
         return {"strategy": "natural_failed", "ok": False, "out_dur": 0.0}

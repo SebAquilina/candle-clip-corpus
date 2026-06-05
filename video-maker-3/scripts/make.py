@@ -189,25 +189,32 @@ def _make_materializer(run):
     face_qc = os.environ.get("VM_LIGHT_QC_FACES", "1").strip().lower() in ("1", "true", "yes")
     raw_status = {}  # window_key -> raw Path or None
 
+    # Build QC is FACE-ONLY by default: the corpus is already OCR-text-purged and the final
+    # gate still runs the full text scan, so re-running the slow 3-pass OCR per clip here is
+    # redundant and was the main hang/latency source. Faces are the real corpus miss, so we
+    # scan those. Set VM_QC_TEXT=1 to also text-scan per clip.
+    qc_text = os.environ.get("VM_QC_TEXT", "0").strip().lower() in ("1", "true", "yes")
+
     def _face_text_ok(seg_path):
         if not face_qc:
             return True
-        # gate-aligned: scan the whole seg for faces/text exactly as validate_render does, so a
-        # clip that passes here also passes the final gate. Reject on >=1 face frame / >=2 text.
+        # gate-aligned face scan (same detector + density as validate_render). Reject on
+        # >=1 face frame (zero-tolerance), so a clip passing here also passes the gate's face check.
+        textscan = "th=cc.scan_video_text(%r);" % str(seg_path) if qc_text else "th=[];"
         code = ("import sys,os,json;sys.path.insert(0,'scripts');os.environ['WS']=%r;"
                 "import clip_checks as cc;"
-                "fh=cc.scan_video_talking_head(%r); th=cc.scan_video_text(%r);"
+                "fh=cc.scan_video_talking_head(%r); " + textscan +
                 "print('RESULT'+json.dumps({'face':len(fh),'text':len(th),"
-                "'gf':cc.GATE_FACE_HITS,'gt':cc.GATE_TEXT_HITS}))"
-                % (os.path.abspath('.'), str(seg_path), str(seg_path)))
+                "'gf':cc.GATE_FACE_HITS,'gt':cc.GATE_TEXT_HITS}))") % (
+                    os.path.abspath('.'), str(seg_path))
         try:
             out = subprocess.check_output([sys.executable, "-c", code],
-                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "180")),
+                                          timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "120")),
                                           stderr=subprocess.DEVNULL).decode()
             v = json.loads([l for l in out.splitlines() if l.startswith("RESULT")][-1].partition("RESULT")[2])
             return v["face"] < v["gf"] and v["text"] < v["gt"]
         except Exception:
-            # FAIL-CLOSED (zero-tolerance): a window we can't verify face/text-free is unusable,
+            # FAIL-CLOSED (zero-tolerance): a window we can't verify face-free is unusable,
             # so the assembler reaches for the next-best instead of risking a face slipping in.
             return False
 
