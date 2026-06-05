@@ -23,5 +23,6 @@ video-maker-3/state_*.log
 
 # packaged skill bundles (source is tracked)
 *.skill
-outputs/clip_cache/
+# outputs/clip_cache/  # tracked via LFS
 outputs/describe_v2/
+!outputs/clip_cache/*.mp4
