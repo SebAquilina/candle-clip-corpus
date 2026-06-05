@@ -257,6 +257,18 @@ def _make_materializer(run):
         except Exception:
             pass
 
+    # If a CORPUS-WIDE clip cache exists at outputs/clip_cache/<vid>_<start>.mp4 (the layout
+    # the corpus-builder's enrich_v2 phase writes), use it directly. Massive speedup:
+    # builds skip every YouTube download. Env override: VM_CORPUS_CLIP_CACHE.
+    corpus_cache_env = os.environ.get("VM_CORPUS_CLIP_CACHE", "")
+    if corpus_cache_env:
+        corpus_cache = Path(corpus_cache_env)
+    else:
+        sdb = os.environ.get("YTA_SHARED_DB", "")
+        corpus_cache = (Path(sdb).parent / "clip_cache") if sdb else None
+    if corpus_cache and not corpus_cache.is_dir():
+        corpus_cache = None
+
     def materialize(moment, take, shot_seq):
         seg = moment["seg"]; url = moment["url"]; vid = moment.get("id") or "x"
         start = float(seg.get("start", 0)); end = float(seg.get("end", start))
@@ -264,6 +276,16 @@ def _make_materializer(run):
         raw = raw_dir / f"raw_{vid}_{start:.2f}.mp4"
         if wkey not in raw_status:
             ok = raw.exists() and raw.stat().st_size > 50_000
+            # 1) prefer the corpus-wide cache (pre-downloaded by the corpus-builder)
+            if not ok and corpus_cache is not None:
+                ccp = corpus_cache / f"{vid}_{start:.2f}.mp4"
+                if ccp.exists() and ccp.stat().st_size > 50_000:
+                    try:
+                        import shutil
+                        shutil.copy(str(ccp), str(raw)); ok = True
+                    except Exception:
+                        pass
+            # 2) fall back to YouTube download
             if not ok and not cached_only:
                 ok = youtube.download_segment(url, start, end + PAD, raw)
             raw_status[wkey] = raw if (ok and raw.exists()) else None
