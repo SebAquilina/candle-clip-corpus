@@ -141,10 +141,11 @@ def write_worklist(worklist, path, project_title="", niche=""):
             "For each section, choose the clip(s) whose VISION (what is on screen) AND "
             "TRANSCRIPT (what is said) best convey the narration, in the context of the video "
             "title. Prefer a clip that both SHOWS and (when spoken) DESCRIBES the action. "
-            "Return match_decisions.json mapping each section index to an ORDERED list of "
-            "cand_id (best first); list a few so short clips can be concatenated to cover the "
-            "section. A clip may be reused at most twice total and never back-to-back — the "
-            "assembler enforces this, so just rank by fit. Omit a section to accept the "
+            "Return match_decisions.json mapping each section's `index` FIELD (NOT its slice/list "
+            "position) — AS A STRING — to an ORDERED list of cand_id (best first); list a few so "
+            "short clips can be concatenated to cover the section. EVERY cand_id you list MUST be "
+            "one of THAT section's `candidates`. A clip may be reused at most twice total and "
+            "never back-to-back — the assembler enforces this, so just rank by fit. Omit a "
             "offline order."),
         "project_title": project_title, "niche": niche,
         "n_sections": len(worklist), "sections": worklist,
