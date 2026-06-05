@@ -23,3 +23,7 @@ video-maker-3/state_*.log
 
 # packaged skill bundles (source is tracked)
 *.skill
+outputs/clip_cache/
+outputs/describe_v2/frames/
+outputs/describe_v2/desc/
+outputs/describe_v2/worklist.json
