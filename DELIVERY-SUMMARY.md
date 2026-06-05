@@ -79,6 +79,7 @@ metadata lookups are lighter. It prefers a channel already in the corpus when pr
 - **Downloads:** YouTube rate-limited the shared cookie account during the test, so the cut
   assembles from the 75 windows cached before the block (`VM_CACHED_ONLY`). On a fresh/cooled
   account the build sources every section's best match — no skill change needed.
-- **Recommended follow-up:** backfill the source channel into every corpus record (durable
-  attribution) and have `clip-corpus-builder` capture it at ingest, so the video-maker never
-  needs a live channel lookup.
+- **Durable attribution — done:** every windowed corpus record (127/127) was backfilled with
+  its source channel, and `clip-corpus-builder` now captures the channel at ingest
+  (`fetch.download` → record), so the video-maker credits from the corpus with no live lookup
+  needed. The build-time resolve+cache remains as a fallback for any future window that lacks one.
