@@ -1,0 +1,19 @@
+# video-maker-3 — streamlined, corpus-only, offline-first.
+# TTS
+edge-tts>=6.1.9
+requests>=2.31           # 69labs HTTP path (tts_69labs)
+# alignment (script<->speech word timings)
+pysbd>=0.3.4
+rapidfuzz>=3.0
+faster-whisper>=1.0.0    # optional: accurate word timings; synthesize_word_timings falls back
+# offline semantic matcher (bundled potion-base-8M model -> model2vec; numpy for cosine)
+model2vec>=0.3.0
+numpy>=1.24
+# final safety gate + light per-clip QC (faces / text)
+opencv-python-headless>=4.9
+pytesseract>=0.3.10
+# corpus window download (the only live-YouTube touchpoint)
+yt-dlp>=2024.0
+yt-dlp-ejs>=0.2.0
+# system binaries (install separately): ffmpeg, tesseract-ocr, deno, nodejs
+huggingface_hub>=0.20  # used by bootstrap.sh to pre-fetch potion-base-8M (model2vec depends on it transitively too)

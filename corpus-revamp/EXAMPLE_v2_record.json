@@ -1,0 +1,86 @@
+{
+  "video_id": "EXAMPLE",
+  "video_title": "(demo) moulded rose candles",
+  "schema": "per_second_v1",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 1,
+  "n_windows_kept": 1,
+  "n_windows_rejected": 0,
+  "windows": [
+    {
+      "window_index": 3,
+      "start_s": 23.2,
+      "end_s": 31.0,
+      "action_label": "pour_wax",
+      "phase": "make",
+      "embed_text": "a black background with a white and red flower",
+      "transcript": "pour the melted wax slowly into the silicone mould",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 0.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "pour the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 1.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "the melted",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 2,
+          "abs_t": 2.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "melted wax",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 3,
+          "abs_t": 3.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "wax slowly into",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 4,
+          "abs_t": 4.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "into the",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 5,
+          "abs_t": 5.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "the silicone",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 6,
+          "abs_t": 6.0,
+          "vision_desc": "a black background with a white and red flower",
+          "transcript_text": "silicone mould",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ]
+    }
+  ]
+}

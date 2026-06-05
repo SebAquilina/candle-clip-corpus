@@ -1,0 +1,231 @@
+--- /tmp/yta_orig/yta-video-maker-2/scripts/render_video.py	2026-06-01 17:59:36.638630139 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/render_video.py	2026-06-02 07:42:28.267329071 +0000
+@@ -585,15 +585,24 @@
+     silent = out_path.parent / f"{topic_key}_silent_v16b.mp4"
+     video_list = out_path.parent / f"{topic_key}_segs_v16b.txt"
+     video_list.write_text("\n".join(f"file '{p}'" for p in seg_paths))
+-    subprocess.check_call([
+-        'ffmpeg','-y','-f','concat','-safe','0','-i', str(video_list),
+-        '-c','copy', str(silent),
+-    ], stderr=subprocess.DEVNULL)
++    # Reuse a COMPLETE silent concat across resumed runs instead of rebuilding it every
++    # time (the concat of all segments is the slow part to redo after an interruption).
++    if not (silent.exists() and abs(probe_dur(silent) - audio_dur) < 1.0):
++        subprocess.check_call([
++            'ffmpeg','-y','-f','concat','-safe','0','-i', str(video_list),
++            '-c','copy', str(silent),
++        ], stderr=subprocess.DEVNULL)
++    # ATOMIC mux: encode to a temp file then rename. A mux killed mid-write (e.g. by a
++    # short execution window) used to leave a corrupt, no-moov-atom file at the final
++    # path; now the partial write stays in .muxing.mp4 and the previous good output (if
++    # any) survives until the rename succeeds. +faststart for clean web playback.
++    tmp_out = out_path.with_suffix('.muxing.mp4')
+     subprocess.check_call([
+         'ffmpeg','-y','-i', str(silent), '-i', str(audio_concat),
+         '-c:v','copy','-af','loudnorm=I=-14:TP=-1.5:LRA=11',
+-        '-c:a','aac','-b:a','192k','-shortest', str(out_path),
++        '-c:a','aac','-b:a','192k','-shortest','-movflags','+faststart', str(tmp_out),
+     ], stderr=subprocess.DEVNULL)
++    os.replace(tmp_out, out_path)
+     return f"rendered {len(seg_paths)} segs, audio_dur={audio_dur:.1f}s"
+ 
+ 
+--- /tmp/yta_orig/yta-video-maker-2/scripts/validate_render.py	2026-06-01 17:59:36.644022639 +0000
++++ /tmp/yta_build/yta-video-maker-2/scripts/validate_render.py	2026-06-02 07:41:15.135324724 +0000
+@@ -25,9 +25,17 @@
+           VM_DISABLE_CLIP_CHECKS while YTA_REQUIRE_GATES=1 (default). A blocker, never a silent pass.
+ """
+ from __future__ import annotations
+-import os, sys, re, subprocess, json
++import os, sys, re, subprocess, json, time, math, tempfile
+ from pathlib import Path
+ 
++# Resumable mode (opt-in): set VM_VALIDATE_BUDGET_SEC>0 so a single invocation does only
++# as much work as fits the budget, persists progress, and exits 75 ("run me again") until
++# the whole file is scanned — then emits the SAME verdict/exit codes as the one-shot path.
++# Default (budget=0) keeps the original one-shot behaviour exactly. Lets the non-skippable
++# gate finish a long video across short execution windows without ever redoing work or
++# weakening a single threshold.
++EXIT_INCOMPLETE = 75
++
+ # Tunables — strict by design. Don't relax these to "save time."
+ MAX_BLACK_SEC = 0.5      # any black stretch >= this is a failure
+ MAX_FREEZE_SEC = 8.0     # any frozen-frame stretch >= this is a failure (long holds = bad B-roll)
+@@ -99,6 +107,166 @@
+     return abs(vd - ad), vd, ad
+ 
+ 
++# --- resumable mode (opt-in via VM_VALIDATE_BUDGET_SEC) ---------------------
++def _sig(p: Path) -> str:
++    st = p.stat()
++    return f"{st.st_size}-{int(st.st_mtime)}"
++
++
++def _state_path(p: Path) -> Path:
++    # keep state off the (possibly write-once) output mount
++    d = Path(os.environ.get("VM_VALIDATE_STATE_DIR", tempfile.gettempdir()))
++    d.mkdir(parents=True, exist_ok=True)
++    return d / f"validate_{p.name}.{_sig(p)}.json"
++
++
++def _load_state(p: Path, dur: float, chunk: float) -> dict:
++    sp = _state_path(p)
++    if sp.exists():
++        try:
++            st = json.load(open(sp))
++            if st.get("sig") == _sig(p):
++                return st
++        except Exception:
++            pass
++    return {"sig": _sig(p), "duration": dur, "chunk": chunk,
++            "black": None, "freeze": None, "skew": None, "tf_chunks": {}}
++
++
++def _save_state(p: Path, st: dict) -> None:
++    sp = _state_path(p)
++    fd, tmp = tempfile.mkstemp(dir=str(sp.parent), suffix=".tmp")
++    with os.fdopen(fd, "w") as f:
++        json.dump(st, f)
++    os.replace(tmp, sp)
++
++
++def _detector_state():
++    try:
++        import clip_checks as cc
++    except Exception as e:
++        return None, False, False, str(e)
++    require = os.environ.get("YTA_REQUIRE_GATES", "1").strip().lower() not in ("0", "false", "no", "")
++    return cc, bool(cc.DISABLED), bool(cc.TEXT_AVAILABLE and cc.FACE_AVAILABLE), require
++
++
++def _scan_chunk_text_face(p: Path, t0: float, t1: float, cc):
++    """Run the CANONICAL gate scans on the [t0,t1] sub-clip and offset timestamps by t0,
++    so per-chunk results aggregate to exactly what a whole-file scan would find."""
++    tmp = tempfile.mktemp(suffix=".mp4", dir=tempfile.gettempdir())
++    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t0}", "-to", f"{t1}",
++                    "-i", str(p), "-c:v", "copy", "-an", tmp], check=True)
++    try:
++        th = [(float(t) + t0, frac) for (t, frac) in cc.scan_video_text(Path(tmp))]
++        fh = [(float(t) + t0, frac) for (t, frac) in cc.scan_video_talking_head(Path(tmp))]
++    finally:
++        try:
++            os.unlink(tmp)
++        except Exception:
++            pass
++    return th, fh
++
++
++def _emit_verdict(p, black, freeze, skew, text_hits, face_hits, cc, disabled, detectors_ok, require):
++    """Same checks, thresholds and exit codes as the one-shot path — just fed aggregated data."""
++    if black:
++        print(f"FAIL ({len(black)} black stretch(es) >= {MAX_BLACK_SEC}s):", file=sys.stderr)
++        for s, e, d in black:
++            print(f"   {s:>7.2f}s -> {e:>7.2f}s   ({d:.2f}s black)", file=sys.stderr)
++        sys.exit(2)
++    print("  black: PASS")
++    if freeze:
++        print(f"FAIL ({len(freeze)} frozen-frame stretch(es) >= {MAX_FREEZE_SEC}s):", file=sys.stderr)
++        for s, e, d in freeze:
++            print(f"   {s:>7.2f}s -> {e:>7.2f}s   ({d:.2f}s frozen)", file=sys.stderr)
++        sys.exit(3)
++    print(f"  freeze (>={MAX_FREEZE_SEC}s): PASS")
++    if skew and skew != "none":
++        d, vd, ad = skew
++        if d > MAX_AV_SKEW_SEC:
++            print(f"FAIL: audio/video duration mismatch {d:.2f}s (video {vd:.2f}, audio {ad:.2f})", file=sys.stderr)
++            sys.exit(4)
++        print(f"  av-skew: PASS ({d:.2f}s)")
++    else:
++        print("  av-skew: SKIPPED (missing stream metadata)")
++    if disabled and not require:
++        print("  overlay-text / talking-head: SKIPPED (VM_DISABLE_CLIP_CHECKS=1, YTA_REQUIRE_GATES=0)")
++    elif disabled or not detectors_ok:
++        print("FAIL: cannot verify no-text / no-talking-head — detectors unavailable or disabled.", file=sys.stderr)
++        print("   This is a BLOCKER (Rules v22.3/v22.4).", file=sys.stderr)
++        sys.exit(8)
++    else:
++        if len(text_hits) >= cc.GATE_TEXT_HITS:
++            print(f"FAIL ({len(text_hits)} frame(s) with overlay/burned-in text, >= {cc.GATE_TEXT_HITS}):", file=sys.stderr)
++            for t, frac in sorted(text_hits)[:8]:
++                print(f"   {t:>7.2f}s   text covers {frac*100:.2f}% of frame", file=sys.stderr)
++            sys.exit(6)
++        print(f"  overlay-text: PASS ({len(text_hits)} flagged frame(s) < {cc.GATE_TEXT_HITS})")
++        if len(face_hits) >= cc.GATE_FACE_HITS:
++            print(f"FAIL ({len(face_hits)} frame(s) with a dominant face / talking head, >= {cc.GATE_FACE_HITS}):", file=sys.stderr)
++            for t, frac in sorted(face_hits)[:8]:
++                print(f"   {t:>7.2f}s   face covers {frac*100:.2f}% of frame", file=sys.stderr)
++            sys.exit(7)
++        print(f"  talking-head: PASS ({len(face_hits)} flagged frame(s) < {cc.GATE_FACE_HITS})")
++    print("\nVALIDATE_RENDER: OK (resumable)")
++    sys.exit(0)
++
++
++def run_resumable(p: Path, budget: float):
++    t_start = time.time()
++    dur = float(_probe(p).get("format", {}).get("duration") or 0.0)
++    chunk = float(os.environ.get("VM_VALIDATE_CHUNK_SEC", "120"))
++    st = _load_state(p, dur, chunk)
++
++    def over():
++        return (time.time() - t_start) >= budget
++
++    print(f"=== validate_render (resumable, budget={budget}s, chunk={chunk}s, dur={dur:.0f}s): {p} ===")
++    if st["black"] is None:
++        st["black"] = [list(h) for h in check_black(p)]; _save_state(p, st)
++        if over():
++            print(f"  black done; {EXIT_INCOMPLETE}=incomplete, re-run to continue"); sys.exit(EXIT_INCOMPLETE)
++    if st["freeze"] is None:
++        st["freeze"] = [list(h) for h in check_freeze(p)]; _save_state(p, st)
++        if over():
++            print(f"  freeze done; re-run to continue"); sys.exit(EXIT_INCOMPLETE)
++    if st["skew"] is None:
++        sk = check_av_skew(p); st["skew"] = list(sk) if sk else "none"; _save_state(p, st)
++
++    cc, disabled, detectors_ok, require = _detector_state()
++    if not (disabled and not require):
++        if disabled or not detectors_ok:
++            print("FAIL: cannot verify no-text / no-talking-head — detectors unavailable.", file=sys.stderr)
++            sys.exit(8)
++        n = max(1, math.ceil(dur / chunk))
++        processed = 0
++        for i in range(n):
++            if str(i) in st["tf_chunks"]:
++                continue
++            # Guarantee forward progress: always do >=1 chunk per call before honouring
++            # the budget, so a budget smaller than one chunk can't livelock (it overshoots
++            # by at most one chunk). Size VM_VALIDATE_CHUNK_SEC to fit your window.
++            if processed > 0 and over():
++                _save_state(p, st)
++                print(f"  text/face: {len(st['tf_chunks'])}/{n} chunks done; "
++                      f"re-run to continue (exit {EXIT_INCOMPLETE})")
++                sys.exit(EXIT_INCOMPLETE)
++            t0, t1 = i * chunk, min(dur, (i + 1) * chunk)
++            th, fh = _scan_chunk_text_face(p, t0, t1, cc)
++            st["tf_chunks"][str(i)] = {"text": th, "face": fh}; _save_state(p, st)
++            processed += 1
++            print(f"  text/face chunk {i+1}/{n} [{t0:.0f}-{t1:.0f}s]: "
++                  f"{len(th)} text, {len(fh)} face")
++
++    text_hits, face_hits = [], []
++    for v in st["tf_chunks"].values():
++        text_hits += [tuple(x) for x in v["text"]]
++        face_hits += [tuple(x) for x in v["face"]]
++    black = [tuple(x) for x in (st["black"] or [])]
++    freeze = [tuple(x) for x in (st["freeze"] or [])]
++    _emit_verdict(p, black, freeze, st["skew"], text_hits, face_hits, cc, disabled, detectors_ok, require)
++
++
+ def main():
+     if len(sys.argv) < 2:
+         print("usage: validate_render.py <mp4>", file=sys.stderr); sys.exit(1)
+@@ -106,6 +274,10 @@
+     if not p.exists():
+         print(f"FAIL: file not found: {p}", file=sys.stderr); sys.exit(5)
+ 
++    budget = float(os.environ.get("VM_VALIDATE_BUDGET_SEC", "0") or 0)
++    if budget > 0:
++        return run_resumable(p, budget)
++
+     print(f"=== validate_render: {p} ===")
+     try:
+         # 1. Black stretches

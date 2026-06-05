@@ -1,0 +1,202 @@
+{
+  "_README": "Niche vocabulary so the (offline) matcher UNDERSTANDS jargon and descriptions INCLUDE it. Per term: aka=synonyms, visual=what it looks like on screen (cue phrases used to expand text before embedding), label=related action label(s). Sources: CandleScience, Nature's Garden, NorthWood Candle & Craft, NI Candle Supplies, Kalamazoo Candle glossaries. '_common' applies to all niches. Keep in sync with YT-Clip-Classifier config/vocab.yaml.",
+  "candle_making": {
+    "tunneling": {
+      "aka": ["tunnel", "tunneled", "tunnelling", "memory ring", "coring"],
+      "visual": "the wax burns straight down the middle around the wick leaving a ring of thick hard unmelted wax up the sides of the jar; a deep hole or core down the centre, a narrow melt pool",
+      "label": ["reveal_result", "cure_cool"]
+    },
+    "memory_burn": {
+      "aka": ["memory ring", "first burn", "establishing the melt pool"],
+      "visual": "the critical first burn melting the wax all the way out to the edges of the container to set the melt pool boundary",
+      "label": ["reveal_result"]
+    },
+    "borehole": {
+      "aka": ["bore hole", "burrowing", "deep well", "drilled hole"],
+      "visual": "a narrow deep hole bored straight down into the wax around the wick",
+      "label": ["reveal_result"]
+    },
+    "sinkhole": {
+      "aka": ["sink hole", "sinkholes", "pitting", "cavity", "air pocket", "void"],
+      "visual": "a dip, pit, cavity or collapsed void that forms in the top of the candle as the wax cools and contracts, often around the wick",
+      "label": ["cure_cool", "reveal_result"]
+    },
+    "relief_holes": {
+      "aka": ["relief hole", "poke holes", "poking the wax"],
+      "visual": "poking holes into the cooling wax around the wick with a skewer to release trapped air and prevent sinkholes",
+      "label": ["cure_cool", "set_wick"]
+    },
+    "repour": {
+      "aka": ["re-pour", "second pour", "top up", "topping off"],
+      "visual": "pouring a second layer of melted wax on top to fill in shrinkage, sinkholes or an uneven set surface",
+      "label": ["pour_wax", "decorate_finish"]
+    },
+    "wet_spots": {
+      "aka": ["wet spot", "delamination", "jar separation", "poor glass adhesion"],
+      "visual": "patches where the wax has pulled away from the glass jar, looking like wet translucent or lighter marks against the side of the container",
+      "label": ["cure_cool", "reveal_result"]
+    },
+    "frosting": {
+      "aka": ["frost", "frosted", "polymorphism", "white crystals", "crystallization"],
+      "visual": "a white crystalline frosty bloom or coating growing on the surface or sides of soy or vegetable wax",
+      "label": ["reveal_result", "cure_cool"]
+    },
+    "jump_lines": {
+      "aka": ["jump line", "chatter", "ridges", "set lines"],
+      "visual": "horizontal lines, seams or ridges across the side of a container or pillar candle where the wax set too quickly while pouring",
+      "label": ["reveal_result", "pour_wax"]
+    },
+    "mushrooming": {
+      "aka": ["mushroom", "carbon ball", "carbon buildup", "wick mushroom"],
+      "visual": "a bulbous black carbon ball building up on the tip of the burning wick like a mushroom head, with a large flame",
+      "label": ["reveal_result", "trim_wick"]
+    },
+    "sooting": {
+      "aka": ["soot", "sooty", "smoking", "black smoke"],
+      "visual": "black smoke and soot coming off the flame, leaving black marks up the inside of the glass",
+      "label": ["reveal_result"]
+    },
+    "drowning_out": {
+      "aka": ["drowned wick", "drowning"],
+      "visual": "the flame shrinking and the wick being submerged or swamped by a deep pool of melted wax",
+      "label": ["reveal_result"]
+    },
+    "hang_up": {
+      "aka": ["hangup", "wax rim", "ledge"],
+      "visual": "a rim or ledge of unmelted wax left clinging to the container wall after burning",
+      "label": ["reveal_result"]
+    },
+    "sweating": {
+      "aka": ["sweat", "wax sweating", "oil beading", "fragrance seepage"],
+      "visual": "droplets or beads of oil seeping out and pooling on the surface of the finished wax",
+      "label": ["reveal_result", "cure_cool"]
+    },
+    "melt_pool": {
+      "aka": ["wax pool", "liquid pool", "full melt pool"],
+      "visual": "the pool of liquefied wax across the surface around the lit wick while the candle burns",
+      "label": ["reveal_result"]
+    },
+    "seizing": {
+      "aka": ["seized wax", "clumping", "graininess"],
+      "visual": "the wax suddenly thickening, clumping or going grainy into a paste when fragrance or dye is stirred in too cold",
+      "label": ["add_fragrance", "add_dye_color"]
+    },
+    "smooth_tops": {
+      "aka": ["smooth top", "glass top", "even surface", "smooth surface"],
+      "visual": "a flat glossy glass-like even surface on the finished candle with no lumps or holes",
+      "label": ["reveal_result", "cure_cool"]
+    },
+    "double_boiler": {
+      "aka": ["bain marie", "water bath", "melting pitcher", "pouring pitcher", "pour pot"],
+      "visual": "wax melting in a metal pouring pitcher or jug set inside a pot of simmering water on the stove",
+      "label": ["melt_wax"]
+    },
+    "pour_temperature": {
+      "aka": ["pour temp", "pouring temperature", "mix temperature", "melt point"],
+      "visual": "a thermometer reading the temperature of the melted wax before adding fragrance or pouring",
+      "label": ["monitor_temperature", "measure_wax", "pour_wax"]
+    },
+    "flashpoint": {
+      "aka": ["flash point"],
+      "visual": "the temperature at which the fragrance oil's vapour could ignite, checked on a thermometer before adding scent",
+      "label": ["monitor_temperature", "add_fragrance"]
+    },
+    "fragrance_load": {
+      "aka": ["scent load", "fragrance oil ratio", "scent percentage", "FO load"],
+      "visual": "weighing the fragrance oil to a set percentage of the wax weight on a scale before stirring it in",
+      "label": ["add_fragrance", "measure_wax"]
+    },
+    "cold_throw": {
+      "aka": ["cold scent throw"],
+      "visual": "smelling the unlit finished candle to judge its scent before burning",
+      "label": ["add_fragrance", "reveal_result"]
+    },
+    "hot_throw": {
+      "aka": ["hot scent throw", "scent throw"],
+      "visual": "the lit candle filling the room with fragrance, scent strength while burning",
+      "label": ["reveal_result"]
+    },
+    "curing": {
+      "aka": ["cure", "cure time", "curing time", "resting", "scent binding"],
+      "visual": "finished candles left untouched for days to harden and let the fragrance bind into the wax",
+      "label": ["cure_cool"]
+    },
+    "wick_priming": {
+      "aka": ["primed wick", "wick tab", "sustainer tab", "wick sticker", "wick assembly"],
+      "visual": "a wax-coated wick with a metal sustainer tab being stuck to the bottom centre of the container",
+      "label": ["set_wick", "prepare_container"]
+    },
+    "wick_bar": {
+      "aka": ["wick holder", "wick centering tool", "stabilizing bar", "wick stick", "clothespin", "wick clip"],
+      "visual": "a bar, stick, clip or clothespin laid across the jar rim holding the wick centred and upright while the wax sets",
+      "label": ["set_wick"]
+    },
+    "wick_trimming": {
+      "aka": ["wick trimmer", "trim the wick", "quarter inch"],
+      "visual": "trimming the burnt wick down to about a quarter inch with wick trimmers or scissors",
+      "label": ["trim_wick", "decorate_finish"]
+    },
+    "wood_wick": {
+      "aka": ["wooden wick", "crackling wick"],
+      "visual": "a flat wooden wick in the candle that crackles like a fireplace when lit",
+      "label": ["set_wick", "reveal_result"]
+    },
+    "double_wicking": {
+      "aka": ["double wick", "multiple wicks", "two wicks"],
+      "visual": "setting two or more wicks in a wide container so the whole surface melts evenly",
+      "label": ["set_wick"]
+    },
+    "stearic_acid": {
+      "aka": ["stearin", "hardener", "hardening additive"],
+      "visual": "a white powdery hardening additive being stirred into the melted wax to firm up pillar candles",
+      "label": ["add_dye_color", "melt_wax"]
+    },
+    "titanium_dioxide": {
+      "aka": ["white pigment", "whitener"],
+      "visual": "a white pigment added to opacify and whiten the wax",
+      "label": ["add_dye_color"]
+    },
+    "mica_powder": {
+      "aka": ["mica", "shimmer powder", "pigment powder"],
+      "visual": "shimmery pearlescent mica powder being brushed or stirred on for sparkle and colour",
+      "label": ["add_dye_color", "decorate_finish"]
+    },
+    "candle_dye": {
+      "aka": ["dye block", "color block", "colour block", "dye chips", "liquid dye"],
+      "visual": "concentrated candle dye blocks, chips or liquid colourant being melted into the wax to tint it",
+      "label": ["add_dye_color"]
+    },
+    "container_candle": {
+      "aka": ["jar candle", "vessel candle"],
+      "visual": "a candle poured directly into a glass jar, tin or ceramic vessel",
+      "label": ["prepare_container", "pour_wax"]
+    },
+    "pillar_candle": {
+      "aka": ["pillar", "freestanding candle", "moulded candle"],
+      "visual": "a freestanding moulded candle released from a mould, no container",
+      "label": ["reveal_result", "prepare_container"]
+    },
+    "votive": {
+      "aka": ["votive candle"],
+      "visual": "a small short candle about two inches tall poured in a little cup",
+      "label": ["reveal_result"]
+    },
+    "tealight": {
+      "aka": ["tea light", "tea-light"],
+      "visual": "tiny shallow candles in small metal or plastic cups",
+      "label": ["reveal_result", "pour_wax"]
+    },
+    "wax_melt": {
+      "aka": ["wax tart", "wickless wax", "wax warmer"],
+      "visual": "wickless scented wax cubes or shapes popped out of a mould to melt in a warmer",
+      "label": ["reveal_result", "decorate_finish"]
+    }
+  },
+  "_common": {
+    "b_roll": {
+      "aka": ["broll", "cutaway", "insert shot"],
+      "visual": "close-up footage of the action or object, no presenter talking to camera",
+      "label": []
+    }
+  }
+}
