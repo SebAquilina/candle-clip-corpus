@@ -1,0 +1,108 @@
+{
+  "video_id": "TMQBVTVx2Lc",
+  "video_title": "How to Choose the Right Wick Size for Your Candles | Our Wick Testing Guide | CandleScience",
+  "video_url": "https://www.youtube.com/watch?v=TMQBVTVx2Lc",
+  "video_duration_s": 174,
+  "niche": "candle_making",
+  "channel": "CandleScience",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:15:47Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 9,
+  "n_windows_kept": 3,
+  "n_windows_rejected": 6,
+  "windows": [
+    {
+      "window_index": 2,
+      "start_s": 38.3,
+      "end_s": 40.8,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 38.3,
+          "vision_desc": "two candles sitting on a marble surface",
+          "transcript_text": "An under",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 39.3,
+          "vision_desc": "two candles sitting on a marble surface",
+          "transcript_text": "under wicked candle will",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on a marble surface",
+      "transcript": "An under wicked candle will",
+      "old_description": "close-up of a candle melt pool and flame"
+    },
+    {
+      "window_index": 4,
+      "start_s": 66.1,
+      "end_s": 68.6,
+      "action_label": "cure_cool",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 66.1,
+          "vision_desc": "two candles with the words, carbuup",
+          "transcript_text": "of the wick.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 67.1,
+          "vision_desc": "two candles with the words, carbuup",
+          "transcript_text": "Wisps of soot can",
+          "scene_change": false,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles with the words, carbuup",
+      "transcript": "of the wick. Wisps of soot can",
+      "old_description": "a poured candle cooling, viewed from above"
+    },
+    {
+      "window_index": 5,
+      "start_s": 80.0,
+      "end_s": 82.5,
+      "action_label": "reveal_result",
+      "phase": "",
+      "seconds": [
+        {
+          "t": 0,
+          "abs_t": 80.0,
+          "vision_desc": "two candles sitting on a marble counter",
+          "transcript_text": "crack.",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        },
+        {
+          "t": 1,
+          "abs_t": 81.0,
+          "vision_desc": "three candles with the words, ' candle '",
+          "transcript_text": "Looking at the",
+          "scene_change": true,
+          "face_mention": false,
+          "face_terms": []
+        }
+      ],
+      "embed_text": "two candles sitting on a marble counter | three candles with the words, ' candle '",
+      "transcript": "crack. Looking at the",
+      "old_description": "lit candles in a row on the bench"
+    }
+  ],
+  "source": "corpus"
+}

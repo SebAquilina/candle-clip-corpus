@@ -1,0 +1,51 @@
+{
+  "video_id": "VTWkcmDwaZk",
+  "n_rejected": 5,
+  "rejected": [
+    {
+      "window_index": 2,
+      "start_s": 15.5,
+      "end_s": 23.25,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 22.0
+    },
+    {
+      "window_index": 3,
+      "start_s": 23.25,
+      "end_s": 31.0,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 23.75
+    },
+    {
+      "window_index": 7,
+      "start_s": 54.25,
+      "end_s": 62.0,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 54.75
+    },
+    {
+      "window_index": 8,
+      "start_s": 62.0,
+      "end_s": 69.75,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 62.5
+    },
+    {
+      "window_index": 10,
+      "start_s": 77.5,
+      "end_s": 85.25,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 78.0
+    }
+  ]
+}

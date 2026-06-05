@@ -1,0 +1,17 @@
+{
+  "video_id": "SVhIQ4pB5sc",
+  "video_title": "How to Make Essential Oil Candles  - Aromatherapy Essential Oil Candle Making DIY",
+  "video_url": "https://www.youtube.com/watch?v=SVhIQ4pB5sc",
+  "video_duration_s": 337.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T09:58:33Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 2,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 2,
+  "windows": [],
+  "source": "corpus"
+}

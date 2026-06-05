@@ -1,0 +1,17 @@
+{
+  "video_id": "vVlmkfF_PRk",
+  "video_title": "How to Make Soy Candles | Easy DIY Tutorial",
+  "video_url": "https://www.youtube.com/watch?v=vVlmkfF_PRk",
+  "video_duration_s": 456.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:52:21Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 3,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 3,
+  "windows": [],
+  "source": "corpus"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "o3oqto7AHIs",
+  "video_title": "Why This Luxury Candle Costs $660 | So Expensive | Business Insider",
+  "video_url": "https://www.youtube.com/watch?v=o3oqto7AHIs",
+  "video_duration_s": 621.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T14:30:50Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 53,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 53,
+  "windows": [],
+  "source": "corpus"
+}

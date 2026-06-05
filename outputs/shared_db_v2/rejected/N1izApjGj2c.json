@@ -1,0 +1,184 @@
+{
+  "video_id": "N1izApjGj2c",
+  "n_rejected": 18,
+  "rejected": [
+    {
+      "window_index": 5,
+      "start_s": 39.58,
+      "end_s": 47.5,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 40.08
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.5,
+      "end_s": 55.42,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 55.0
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.33,
+      "end_s": 71.25,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 63.83
+    },
+    {
+      "window_index": 9,
+      "start_s": 71.25,
+      "end_s": 79.17,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 78.75
+    },
+    {
+      "window_index": 10,
+      "start_s": 79.17,
+      "end_s": 87.08,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 79.67
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.92,
+      "end_s": 110.83,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 110.42
+    },
+    {
+      "window_index": 14,
+      "start_s": 110.83,
+      "end_s": 118.75,
+      "action_label": "prepare_container",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 114.33
+    },
+    {
+      "window_index": 16,
+      "start_s": 126.67,
+      "end_s": 134.58,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 129.17
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.58,
+      "end_s": 142.5,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 136.08
+    },
+    {
+      "window_index": 21,
+      "start_s": 166.25,
+      "end_s": 174.17,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 166.75
+    },
+    {
+      "window_index": 23,
+      "start_s": 182.08,
+      "end_s": 190.0,
+      "action_label": "monitor_temperature",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 187.58
+    },
+    {
+      "window_index": 24,
+      "start_s": 190.0,
+      "end_s": 197.92,
+      "action_label": "monitor_temperature",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 190.5
+    },
+    {
+      "window_index": 27,
+      "start_s": 213.75,
+      "end_s": 221.67,
+      "action_label": "monitor_temperature",
+      "phase": "process",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 28,
+      "start_s": 221.67,
+      "end_s": 229.58,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "glasses",
+        "person",
+        "someone"
+      ]
+    },
+    {
+      "window_index": 29,
+      "start_s": 229.58,
+      "end_s": 237.5,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 230.08
+    },
+    {
+      "window_index": 30,
+      "start_s": 237.5,
+      "end_s": 245.42,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 31,
+      "start_s": 245.42,
+      "end_s": 253.33,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "glasses",
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 33,
+      "start_s": 261.25,
+      "end_s": 269.17,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 265.75
+    }
+  ]
+}

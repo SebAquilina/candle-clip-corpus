@@ -1,0 +1,216 @@
+{
+  "video_id": "x8wCvhllfyg",
+  "n_rejected": 23,
+  "rejected": [
+    {
+      "window_index": 6,
+      "start_s": 48.0,
+      "end_s": 56.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 50.5
+    },
+    {
+      "window_index": 21,
+      "start_s": 168.0,
+      "end_s": 176.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 171.5
+    },
+    {
+      "window_index": 32,
+      "start_s": 256.0,
+      "end_s": 264.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 258.5
+    },
+    {
+      "window_index": 48,
+      "start_s": 384.0,
+      "end_s": 392.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 387.5
+    },
+    {
+      "window_index": 62,
+      "start_s": 496.0,
+      "end_s": 504.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 499.5
+    },
+    {
+      "window_index": 81,
+      "start_s": 648.0,
+      "end_s": 656.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 650.5
+    },
+    {
+      "window_index": 86,
+      "start_s": 688.0,
+      "end_s": 696.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 692.5
+    },
+    {
+      "window_index": 87,
+      "start_s": 696.0,
+      "end_s": 704.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 88,
+      "start_s": 704.0,
+      "end_s": 712.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 707.5
+    },
+    {
+      "window_index": 90,
+      "start_s": 720.0,
+      "end_s": 728.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 720.5
+    },
+    {
+      "window_index": 91,
+      "start_s": 728.0,
+      "end_s": 736.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 733.5
+    },
+    {
+      "window_index": 93,
+      "start_s": 744.0,
+      "end_s": 752.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 744.5
+    },
+    {
+      "window_index": 94,
+      "start_s": 752.0,
+      "end_s": 760.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 752.5
+    },
+    {
+      "window_index": 95,
+      "start_s": 760.0,
+      "end_s": 768.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 760.5
+    },
+    {
+      "window_index": 96,
+      "start_s": 768.0,
+      "end_s": 776.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 768.5
+    },
+    {
+      "window_index": 97,
+      "start_s": 776.0,
+      "end_s": 784.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 776.5
+    },
+    {
+      "window_index": 99,
+      "start_s": 792.0,
+      "end_s": 800.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 794.5
+    },
+    {
+      "window_index": 100,
+      "start_s": 800.0,
+      "end_s": 808.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 807.5
+    },
+    {
+      "window_index": 101,
+      "start_s": 808.0,
+      "end_s": 816.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 809.5
+    },
+    {
+      "window_index": 104,
+      "start_s": 832.0,
+      "end_s": 840.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 832.5
+    },
+    {
+      "window_index": 106,
+      "start_s": 848.0,
+      "end_s": 856.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 854.5
+    },
+    {
+      "window_index": 108,
+      "start_s": 864.0,
+      "end_s": 872.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 871.5
+    },
+    {
+      "window_index": 110,
+      "start_s": 880.0,
+      "end_s": 888.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 880.5
+    }
+  ]
+}

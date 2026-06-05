@@ -1,0 +1,17 @@
+{
+  "video_id": "ToGNCotyDeE",
+  "video_title": "How to Make Candles With ToAuto New 15L Wax Melting Furnace - Start Your Candle Business Easily",
+  "video_url": "https://www.youtube.com/watch?v=ToGNCotyDeE",
+  "video_duration_s": 246.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:29:46Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 30,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 30,
+  "windows": [],
+  "source": "corpus"
+}

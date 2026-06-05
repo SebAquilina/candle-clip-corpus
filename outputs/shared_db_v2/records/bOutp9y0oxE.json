@@ -1,0 +1,17 @@
+{
+  "video_id": "bOutp9y0oxE",
+  "video_title": "Tealight Candle Making At Home \ud83d\ude31/ Tea Light Candles Holder / diwali decoration Idea 2025/DIY Candle\ud83e\udd70",
+  "video_url": "https://www.youtube.com/watch?v=bOutp9y0oxE",
+  "video_duration_s": 83.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T12:18:03Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 6,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 6,
+  "windows": [],
+  "source": "corpus"
+}

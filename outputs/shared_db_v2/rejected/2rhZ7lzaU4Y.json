@@ -1,0 +1,126 @@
+{
+  "video_id": "2rhZ7lzaU4Y",
+  "n_rejected": 12,
+  "rejected": [
+    {
+      "window_index": 2,
+      "start_s": 16.26,
+      "end_s": 24.39,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 17.59
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.65,
+      "end_s": 48.78,
+      "action_label": "gather_materials",
+      "phase": "prep",
+      "reason": "text",
+      "hit_t": 45.32
+    },
+    {
+      "window_index": 6,
+      "start_s": 48.78,
+      "end_s": 56.91,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 49.45
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.91,
+      "end_s": 65.04,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 57.24
+    },
+    {
+      "window_index": 9,
+      "start_s": 73.17,
+      "end_s": 81.3,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 11,
+      "start_s": 89.43,
+      "end_s": 97.57,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 96.1
+    },
+    {
+      "window_index": 13,
+      "start_s": 105.7,
+      "end_s": 113.83,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 109.03
+    },
+    {
+      "window_index": 14,
+      "start_s": 113.83,
+      "end_s": 121.96,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 118.5
+    },
+    {
+      "window_index": 15,
+      "start_s": 121.96,
+      "end_s": 130.09,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 17,
+      "start_s": 138.22,
+      "end_s": 146.35,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 18,
+      "start_s": 146.35,
+      "end_s": 154.48,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "text",
+      "hit_t": 146.68
+    },
+    {
+      "window_index": 20,
+      "start_s": 162.61,
+      "end_s": 170.74,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    }
+  ]
+}

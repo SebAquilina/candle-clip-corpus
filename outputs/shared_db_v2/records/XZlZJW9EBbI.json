@@ -1,0 +1,17 @@
+{
+  "video_id": "XZlZJW9EBbI",
+  "video_title": "DIY Water Candle / NO WAX Candles / PAANI se banaye candle / Diwali Special / Homemade Candles / How",
+  "video_url": "https://www.youtube.com/watch?v=XZlZJW9EBbI",
+  "video_duration_s": 121.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T11:39:36Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 10,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 10,
+  "windows": [],
+  "source": "corpus"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "tefcS4jURNs",
+  "video_title": "Candle Making 101: How to Select the Right Wax for Making Candles, Wax Melts & Tarts",
+  "video_url": "https://www.youtube.com/watch?v=tefcS4jURNs",
+  "video_duration_s": 274,
+  "niche": "candle_making",
+  "channel": "CandleScience",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:44:16Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 1,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 1,
+  "windows": [],
+  "source": "corpus"
+}

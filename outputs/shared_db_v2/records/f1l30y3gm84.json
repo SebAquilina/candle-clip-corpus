@@ -1,0 +1,17 @@
+{
+  "video_id": "f1l30y3gm84",
+  "video_title": "all things wax! | asmr, cleaning, candle making\u2026",
+  "video_url": "https://www.youtube.com/watch?v=f1l30y3gm84",
+  "video_duration_s": 525.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T12:42:30Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 46,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 46,
+  "windows": [],
+  "source": "corpus"
+}

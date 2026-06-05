@@ -1,0 +1,17 @@
+{
+  "video_id": "YOZPNKDCPGU",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=YOZPNKDCPGU",
+  "video_duration_s": 524.887075,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T15:43:14Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 66,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 66,
+  "windows": [],
+  "source": "searched"
+}

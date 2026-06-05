@@ -1,0 +1,108 @@
+{
+  "video_id": "lTMszYRbm84",
+  "n_rejected": 11,
+  "rejected": [
+    {
+      "window_index": 5,
+      "start_s": 39.55,
+      "end_s": 47.45,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 40.05
+    },
+    {
+      "window_index": 6,
+      "start_s": 47.45,
+      "end_s": 55.36,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 48.95
+    },
+    {
+      "window_index": 7,
+      "start_s": 55.36,
+      "end_s": 63.27,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 55.86
+    },
+    {
+      "window_index": 8,
+      "start_s": 63.27,
+      "end_s": 71.18,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 63.77
+    },
+    {
+      "window_index": 10,
+      "start_s": 79.09,
+      "end_s": 87.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 80.59
+    },
+    {
+      "window_index": 13,
+      "start_s": 102.82,
+      "end_s": 110.73,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 106.32
+    },
+    {
+      "window_index": 14,
+      "start_s": 110.73,
+      "end_s": 118.64,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 111.23
+    },
+    {
+      "window_index": 15,
+      "start_s": 118.64,
+      "end_s": 126.55,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "reason": "text",
+      "hit_t": 119.14
+    },
+    {
+      "window_index": 16,
+      "start_s": 126.55,
+      "end_s": 134.45,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.45,
+      "end_s": 142.36,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 134.95
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.36,
+      "end_s": 150.27,
+      "action_label": "set_wick",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 142.86
+    }
+  ]
+}

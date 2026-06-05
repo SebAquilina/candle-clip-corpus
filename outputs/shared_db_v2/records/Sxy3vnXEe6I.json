@@ -1,0 +1,17 @@
+{
+  "video_id": "Sxy3vnXEe6I",
+  "video_title": "Studio Vlog | Bulk Order Iced Coffee Candle | Make Candles with Me",
+  "video_url": "https://www.youtube.com/watch?v=Sxy3vnXEe6I",
+  "video_duration_s": 533.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:02:20Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 31,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 31,
+  "windows": [],
+  "source": "corpus"
+}
