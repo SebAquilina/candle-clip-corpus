@@ -20,3 +20,6 @@ video-maker-3/output/
 # build/run logs (scratch)
 *.log
 video-maker-3/state_*.log
+
+# packaged skill bundles (source is tracked)
+*.skill
