@@ -1,0 +1,79 @@
+{
+  "video_id": "lwiqFbJa51w",
+  "n_rejected": 7,
+  "rejected": [
+    {
+      "window_index": 15,
+      "start_s": 118.93,
+      "end_s": 126.86,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 119.43
+    },
+    {
+      "window_index": 17,
+      "start_s": 134.79,
+      "end_s": 142.71,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 138.29
+    },
+    {
+      "window_index": 18,
+      "start_s": 142.71,
+      "end_s": 150.64,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 150.21
+    },
+    {
+      "window_index": 19,
+      "start_s": 150.64,
+      "end_s": 158.57,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 20,
+      "start_s": 158.57,
+      "end_s": 166.5,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "face",
+      "hit_t": 159.07
+    },
+    {
+      "window_index": 21,
+      "start_s": 166.5,
+      "end_s": 174.43,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 23,
+      "start_s": 182.36,
+      "end_s": 190.29,
+      "action_label": "decorate_finish",
+      "phase": "finish",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person",
+        "woman"
+      ]
+    }
+  ]
+}

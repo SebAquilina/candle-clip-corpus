@@ -1,0 +1,156 @@
+{
+  "video_id": "HoLNVLqefHU",
+  "n_rejected": 15,
+  "rejected": [
+    {
+      "window_index": 0,
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 0.5
+    },
+    {
+      "window_index": 1,
+      "start_s": 8.0,
+      "end_s": 16.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 10.5
+    },
+    {
+      "window_index": 2,
+      "start_s": 16.0,
+      "end_s": 24.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 18.5
+    },
+    {
+      "window_index": 3,
+      "start_s": 24.0,
+      "end_s": 32.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "glasses"
+      ]
+    },
+    {
+      "window_index": 5,
+      "start_s": 40.0,
+      "end_s": 48.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 45.5
+    },
+    {
+      "window_index": 7,
+      "start_s": 56.0,
+      "end_s": 64.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 58.5
+    },
+    {
+      "window_index": 9,
+      "start_s": 72.0,
+      "end_s": 80.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "face",
+      "hit_t": 74.5
+    },
+    {
+      "window_index": 10,
+      "start_s": 80.0,
+      "end_s": 88.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 85.5
+    },
+    {
+      "window_index": 11,
+      "start_s": 88.0,
+      "end_s": 96.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 12,
+      "start_s": 96.0,
+      "end_s": 104.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 13,
+      "start_s": 104.0,
+      "end_s": 112.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 14,
+      "start_s": 112.0,
+      "end_s": 120.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person"
+      ]
+    },
+    {
+      "window_index": 18,
+      "start_s": 144.0,
+      "end_s": 152.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 144.5
+    },
+    {
+      "window_index": 22,
+      "start_s": 176.0,
+      "end_s": 184.0,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 176.5
+    },
+    {
+      "window_index": 23,
+      "start_s": 184.0,
+      "end_s": 190.89,
+      "action_label": "",
+      "phase": "",
+      "reason": "text",
+      "hit_t": 186.5
+    }
+  ]
+}

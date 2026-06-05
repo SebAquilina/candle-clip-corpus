@@ -1,0 +1,17 @@
+{
+  "video_id": "_0gbnNLyE6k",
+  "video_title": "How To: Find The Right Wooden Wick! (Step by Step Guide)",
+  "video_url": "https://www.youtube.com/watch?v=_0gbnNLyE6k",
+  "video_duration_s": 880.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T11:45:57Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 7,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 7,
+  "windows": [],
+  "source": "corpus"
+}

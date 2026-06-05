@@ -1,0 +1,17 @@
+{
+  "video_id": "-pjWKo7zgrs",
+  "video_title": "DIY Candle Jars with Jesmonite and Boowannite | Nicole Molds jar mold diy handmade gift ideas",
+  "video_url": "https://www.youtube.com/watch?v=-pjWKo7zgrs",
+  "video_duration_s": 481.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-02T16:33:44Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 51,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 51,
+  "windows": [],
+  "source": "corpus"
+}

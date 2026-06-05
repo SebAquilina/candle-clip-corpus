@@ -1,0 +1,17 @@
+{
+  "video_id": "e-a2nzwVCZ0",
+  "video_title": "",
+  "video_url": "https://www.youtube.com/watch?v=e-a2nzwVCZ0",
+  "video_duration_s": 670.081451,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-04T14:11:55Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 84,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 84,
+  "windows": [],
+  "source": "searched"
+}

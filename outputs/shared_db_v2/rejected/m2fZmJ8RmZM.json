@@ -1,0 +1,122 @@
+{
+  "video_id": "m2fZmJ8RmZM",
+  "n_rejected": 10,
+  "rejected": [
+    {
+      "window_index": 27,
+      "start_s": 216.0,
+      "end_s": 224.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "face",
+      "hit_t": 216.5
+    },
+    {
+      "window_index": 28,
+      "start_s": 224.0,
+      "end_s": 232.0,
+      "action_label": "measure_wax",
+      "phase": "prep",
+      "reason": "face",
+      "hit_t": 231.5
+    },
+    {
+      "window_index": 29,
+      "start_s": 232.0,
+      "end_s": 240.0,
+      "action_label": "add_fragrance",
+      "phase": "process",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 30,
+      "start_s": 240.0,
+      "end_s": 248.0,
+      "action_label": "melt_wax",
+      "phase": "process",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "man",
+        "person"
+      ]
+    },
+    {
+      "window_index": 32,
+      "start_s": 256.0,
+      "end_s": 264.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 33,
+      "start_s": 264.0,
+      "end_s": 272.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "glasses",
+        "man",
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 34,
+      "start_s": 272.0,
+      "end_s": 280.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 35,
+      "start_s": 280.0,
+      "end_s": 288.0,
+      "action_label": "pour_wax",
+      "phase": "assemble",
+      "reason": "desc_face",
+      "hit_t": null,
+      "detail": [
+        "person",
+        "woman"
+      ]
+    },
+    {
+      "window_index": 36,
+      "start_s": 288.0,
+      "end_s": 296.0,
+      "action_label": "cure_cool",
+      "phase": "assemble",
+      "reason": "face",
+      "hit_t": 291.5
+    },
+    {
+      "window_index": 37,
+      "start_s": 296.0,
+      "end_s": 304.0,
+      "action_label": "reveal_result",
+      "phase": "finish",
+      "reason": "text",
+      "hit_t": 297.5
+    }
+  ]
+}

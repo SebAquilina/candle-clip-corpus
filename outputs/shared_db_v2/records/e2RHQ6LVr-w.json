@@ -1,0 +1,17 @@
+{
+  "video_id": "e2RHQ6LVr-w",
+  "video_title": "Making Candles at Home- Full Step-by-Step Tutorial",
+  "video_url": "https://www.youtube.com/watch?v=e2RHQ6LVr-w",
+  "video_duration_s": 883.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T12:30:59Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 65,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 65,
+  "windows": [],
+  "source": "corpus"
+}

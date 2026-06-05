@@ -1,0 +1,17 @@
+{
+  "video_id": "HXX8_QF8jcE",
+  "video_title": "Gradient candle making full tutorial ( soy wax & beeswax ) DIY at home | handmade | craft | layer",
+  "video_url": "https://www.youtube.com/watch?v=HXX8_QF8jcE",
+  "video_duration_s": 160.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:35:44Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 14,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 14,
+  "windows": [],
+  "source": "corpus"
+}

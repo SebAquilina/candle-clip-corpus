@@ -1,0 +1,17 @@
+{
+  "video_id": "otT0f6GWasc",
+  "video_title": "DIY Luxury Iridescent Soy Candles at Home!",
+  "video_url": "https://www.youtube.com/watch?v=otT0f6GWasc",
+  "video_duration_s": 789.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T16:12:48Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 69,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 69,
+  "windows": [],
+  "source": "corpus"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "Hir66vEC2MI",
+  "video_title": "Learn How to Make Scented Soy Wax Candles for Beginners | CandleScience Guides",
+  "video_url": "https://www.youtube.com/watch?v=Hir66vEC2MI",
+  "video_duration_s": 323.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:36:11Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 23,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 23,
+  "windows": [],
+  "source": "corpus"
+}

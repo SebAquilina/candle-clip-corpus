@@ -1,0 +1,17 @@
+{
+  "video_id": "EKYEsAkom3A",
+  "video_title": "how to choose your candle wax | paraffin wax or coconut wax? \ud83e\udd65",
+  "video_url": "https://www.youtube.com/watch?v=EKYEsAkom3A",
+  "video_duration_s": 645.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T08:20:40Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 1,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 1,
+  "windows": [],
+  "source": "corpus"
+}

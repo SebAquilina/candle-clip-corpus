@@ -1,0 +1,17 @@
+{
+  "video_id": "UrFrR3p0B3A",
+  "video_title": "DIY Candle Jars with Jesmonite | aesthetic candle vessels, Boowan Nicole molds | handmade gift ideas",
+  "video_url": "https://www.youtube.com/watch?v=UrFrR3p0B3A",
+  "video_duration_s": 399.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T10:36:51Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 47,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 47,
+  "windows": [],
+  "source": "corpus"
+}

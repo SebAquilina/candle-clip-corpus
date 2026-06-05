@@ -1,0 +1,17 @@
+{
+  "video_id": "wrGN0qeWyPk",
+  "video_title": "How to Make Your Candles Smell Stronger (Without Using More Fragrance Oil)",
+  "video_url": "https://www.youtube.com/watch?v=wrGN0qeWyPk",
+  "video_duration_s": 421.0,
+  "niche": "candle_making",
+  "channel": "",
+  "schema": "per_second_v1",
+  "reclassified_at": "2026-06-03T17:05:29Z",
+  "vlm": "blip",
+  "detector": "yunet",
+  "n_windows_in": 7,
+  "n_windows_kept": 0,
+  "n_windows_rejected": 7,
+  "windows": [],
+  "source": "corpus"
+}
