@@ -116,6 +116,11 @@ def build_worklist(sections, library_index, embed_many, cosine,
                 "label": seg.get("label", ""),
                 "vision": seg.get("embed_text", seg.get("desc", "")),
                 "transcript": seg.get("transcript", ""),
+                # describe_v2: hand Claude the rich structured fields too — these are what make
+                # picks accurate ("pour a heated jar", "trim wooden wick", colors/container).
+                "summary_v2": seg.get("summary_v2", ""),
+                "tags_v2": seg.get("tags_v2", {}),
+                "seconds_v2": seg.get("seconds_v2", []),
                 "score": round(float(score), 3),
                 "cos_vision": round(cv, 3), "cos_transcript": round(ct, 3),
             })

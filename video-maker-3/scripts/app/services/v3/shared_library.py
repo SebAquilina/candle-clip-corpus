@@ -163,15 +163,28 @@ def _record_to_entry(rec):
             end = float(w.get("end_s", start) or start)
             if end <= start:
                 end = start + 5.0
-            et = (w.get("embed_text") or "").strip()
+            # v2 describe (richer; agent-vision) supersedes BLIP when present.
+            et_v1 = (w.get("embed_text") or "").strip()
+            et_v2 = (w.get("embed_text_v2") or "").strip()
+            tags_v2 = w.get("tags_v2") or {}
             label = w.get("action_label", "")
+            # the v2 cleanup drops windows the agents flagged (face / overlay / off-topic);
+            # those windows still get emitted but with talking_head=True so library_match skips.
+            unusable_v2 = (w.get("usable_v2") is False)
+            embed_best = et_v2 or et_v1 or label
             segs.append({
                 "start": start, "end": end,
-                "desc": (et or label)[:160],
-                "embed_text": (et or label)[:400],        # VISION: what is on screen
+                "desc": (embed_best)[:160],
+                "embed_text": embed_best[:400],            # VISION: what is on screen (v2 if present)
+                "embed_text_v2": et_v2[:400],              # explicit v2 field for the matcher
                 "transcript": (w.get("transcript") or "").strip()[:400],  # SEPARATE: speech
-                "talking_head": False,                    # clean by construction
+                "tags_v2": tags_v2,                        # action/stage/tools/materials/etc.
+                "summary_v2": (w.get("summary_v2") or "")[:240],
+                "seconds_v2": (w.get("seconds_v2") or []),
+                "talking_head": unusable_v2,               # v2-flagged windows are skipped
                 "label": label,
+                "usable_v2": (not unusable_v2),
+                "usable_v2_reason": (w.get("usable_v2_reason") or ""),
             })
         if not segs:
             return None
