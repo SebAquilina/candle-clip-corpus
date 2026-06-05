@@ -152,27 +152,6 @@ def cmd_plan(args):
 # --------------------------------------------------------------------------- #
 # BUILD: assemble (materialize-on-place) -> render                            #
 # --------------------------------------------------------------------------- #
-_CHAN_CACHE = {}
-
-
-def _credit(moment):
-    """Source credit for the bottom-left overlay. Uses the corpus channel if present. Only
-    resolves an unknown channel over the network when VM_RESOLVE_CHANNELS=1 (off by default,
-    because fetch_channel hammers a rate-limited account with 429s during a build)."""
-    ch = (moment.get("channel") or "").strip()
-    resolve = os.environ.get("VM_RESOLVE_CHANNELS", "0").strip().lower() in ("1", "true", "yes")
-    if not ch and resolve:
-        url = moment.get("url", "")
-        if url not in _CHAN_CACHE:
-            try:
-                from app.services import youtube
-                _CHAN_CACHE[url] = youtube.fetch_channel(url) or ""
-            except Exception:
-                _CHAN_CACHE[url] = ""
-        ch = _CHAN_CACHE[url]
-    return f"via {ch} on YouTube" if ch else "via YouTube"
-
-
 def _make_materializer(run):
     from app.services import youtube
     from app.services.v3 import duration_ladder as dl
@@ -180,6 +159,32 @@ def _make_materializer(run):
     import render as rnd
     raw_dir = run / "raw"; seg_dir = run / "segs"
     raw_dir.mkdir(parents=True, exist_ok=True); seg_dir.mkdir(parents=True, exist_ok=True)
+
+    # Source credit: every clip gets a "via <channel> on YouTube" overlay (REQUIRED attribution).
+    # Channel comes from the corpus record if present, else it's resolved once via yt-dlp metadata
+    # and CACHED to disk (channels.json) so re-runs/restarts never re-resolve. Resolution is ON by
+    # default (VM_RESOLVE_CHANNELS=0 forces the bare "via YouTube" fallback, e.g. fully offline).
+    chan_path = run / "channels.json"
+    try:
+        chan_cache = json.loads(chan_path.read_text())
+    except Exception:
+        chan_cache = {}
+    resolve = os.environ.get("VM_RESOLVE_CHANNELS", "1").strip().lower() not in ("0", "false", "no")
+
+    def credit(moment):
+        ch = (moment.get("channel") or "").strip()
+        url = moment.get("url", "")
+        if not ch and url in chan_cache:
+            ch = chan_cache[url]
+        if not ch and resolve and url:
+            try:
+                ch = youtube.fetch_channel(url) or ""
+            except Exception:
+                ch = ""
+            chan_cache[url] = ch
+            try: chan_path.write_text(json.dumps(chan_cache))
+            except Exception: pass
+        return f"via {ch} on YouTube" if ch else "via YouTube"
     # Per-clip QC: black/validity is always on (cheap, no cv2). A per-clip FACE/TEXT recheck
     # (VM_LIGHT_QC_FACES=1, ON by default) catches the few corpus windows whose face flickers
     # between the corpus purge's per-second samples — so the build rejects them during assembly
@@ -257,7 +262,7 @@ def _make_materializer(run):
         # that trips the detector is unusable -> the assembler reaches for the next-best clip.
         if wkey not in face_status:
             qc_seg = seg_dir / f"qc_{vid}_{start:.2f}.mp4"
-            qres = dl.fit_clip(raw, qc_seg, max(1.0, end - start), _credit(moment))
+            qres = dl.fit_clip(raw, qc_seg, max(1.0, end - start), credit(moment))
             face_status[wkey] = (bool(qres.get("ok")) and qc_seg.exists()
                                  and not rnd.mostly_black(qc_seg) and _face_text_ok(qc_seg))
             try: qc_seg.unlink()
@@ -266,7 +271,7 @@ def _make_materializer(run):
         if not face_status[wkey]:
             return None
         seg_path = seg_dir / f"seg_{shot_seq:04d}.mp4"
-        res = dl.fit_clip(raw, seg_path, float(take), _credit(moment))
+        res = dl.fit_clip(raw, seg_path, float(take), credit(moment))
         if not res.get("ok") or not seg_path.exists() or rnd.mostly_black(seg_path):
             try: seg_path.unlink()
             except Exception: pass
