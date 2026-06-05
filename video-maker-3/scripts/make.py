@@ -36,7 +36,17 @@ from pathlib import Path
 
 BASE = Path(os.path.join(WS, 'state', 'runs'))
 PAD = float(os.environ.get('VM_DOWNLOAD_PAD', '1.5'))         # tail padding so a clip is never short
-NICHE = os.environ.get('VM_NICHE', 'candle making')
+# The skill is NICHE-AGNOSTIC: the corpus (an external, niche-specific GitHub repo supplied at
+# runtime) defines the niche. VM_NICHE overrides; otherwise it's derived from the corpus records.
+NICHE = os.environ.get('VM_NICHE', '')
+
+
+def _derive_niche(index):
+    """Most common niche across loaded corpus records, so candle/soap/etc. all 'just work'."""
+    import collections
+    c = collections.Counter((v.get("niche") or "").strip() for v in (index or {}).values())
+    c.pop("", None)
+    return c.most_common(1)[0][0] if c else ""
 
 
 # --------------------------------------------------------------------------- #
@@ -135,13 +145,17 @@ def cmd_plan(args):
     os.environ.setdefault("YTA_SHARED_NICHE", "")  # don't over-filter; corpus is single-niche
     index = lib.load_index(topic=NICHE, progress_cb=print)
     if not index:
-        print("[plan] FATAL: no corpus found (set YTA_SHARED_DB to outputs/shared_db_v2)"); sys.exit(2)
+        print("[plan] FATAL: no corpus found. Point YTA_SHARED_DB at a corpus's"
+              " outputs/shared_db_v2 (e.g. `bash scripts/get_corpus.sh <repo-url>`)."); sys.exit(2)
+    niche = NICHE or _derive_niche(index)          # niche comes from the corpus when unset
+    if niche:
+        print(f"[plan] niche (from corpus): {niche!r}")
 
     title = args.title or args.topic
     wl = matcher.build_worklist(sections, index, emb.embed_many, emb.cosine,
-                                project_title=title, niche=NICHE, progress_cb=print)
+                                project_title=title, niche=niche, progress_cb=print)
     wpath = run / "match_worklist.json"
-    matcher.write_worklist(wl, wpath, project_title=title, niche=NICHE)
+    matcher.write_worklist(wl, wpath, project_title=title, niche=niche)
     print(f"\n[plan] wrote {wpath}")
     print(f"[plan] NEXT (Claude-in-the-loop): read {wpath}; for each section pick the clip(s)\n"
           f"       whose VISION and TRANSCRIPT best convey the narration in the context of\n"
