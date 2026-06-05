@@ -27,11 +27,23 @@ discovery, no Gemini, no Pexels — the corpus is the single source. Claude does
 - **Lighter QC, but still checked:** the corpus is already clean, so per-clip screening is a
   light black/face/text sample — but the **non-skippable final gate stays** (`validate_render.py`).
 
+## The corpus is EXTERNAL and niche-specific (this skill is general)
+This skill is **niche-agnostic** — it makes a video for whatever corpus you point it at. The
+corpus is a **separate GitHub repo** built by the `clip-corpus-builder` skill (e.g. a candle
+corpus, a soap corpus). **The user supplies that repo URL at runtime; it is NOT baked into
+the skill.** Fetch it and let it set the corpus path + niche for you:
+```bash
+eval "$(bash scripts/get_corpus.sh https://github.com/<user>/<corpus-repo>)"
+# -> clones it, then exports YTA_SHARED_DB=.../outputs/shared_db_v2 and VM_NICHE=<corpus niche>
+```
+The niche (`VM_NICHE`) is **derived from the corpus records** when unset, so candle/soap/etc.
+all work without code changes.
+
 ## Setup
 ```bash
 cd <skill-dir>
 bash bootstrap.sh                       # venv + deps; lists any missing system binaries
-export YTA_SHARED_DB=/path/to/outputs/shared_db_v2      # the clean corpus
+eval "$(bash scripts/get_corpus.sh <corpus-repo-url>)"  # external corpus -> YTA_SHARED_DB + VM_NICHE
 export VM_COOKIES=/path/to/fresh/youtube_cookies.txt    # fresh full-auth cookies (for downloads)
 # optional 69labs voice (else EdgeTTS is used automatically):
 export LABS69_API_KEY=... LABS69_VOICE_ID=...
@@ -39,7 +51,8 @@ python scripts/make.py --selftest       # offline: assembly rules + matcher + em
 ```
 System binaries: **ffmpeg/ffprobe**, **tesseract** (final-gate text), **deno + node**
 (yt-dlp-ejs, to download corpus windows). Downloads need all three + fresh cookies, exactly
-like the corpus builder.
+like the corpus builder. (If the corpus repo ships an `outputs/clip_cache/`, matched windows
+are read from there first — no download needed.)
 
 ## Run it (Claude is in the loop between `plan` and `build`)
 ```bash
