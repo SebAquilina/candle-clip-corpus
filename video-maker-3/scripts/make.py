@@ -204,7 +204,7 @@ def _make_materializer(run):
             out = subprocess.check_output([sys.executable, "-c", code],
                                           timeout=int(os.environ.get("VM_LIGHT_QC_TIMEOUT", "180")),
                                           stderr=subprocess.DEVNULL).decode()
-            v = json.loads([l for l in out.splitlines() if l.startswith("RESULT")][-1][7:])
+            v = json.loads([l for l in out.splitlines() if l.startswith("RESULT")][-1].partition("RESULT")[2])
             return v["face"] < v["gf"] and v["text"] < v["gt"]
         except Exception:
             # FAIL-CLOSED (zero-tolerance): a window we can't verify face/text-free is unusable,
