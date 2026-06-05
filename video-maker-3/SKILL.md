@@ -54,6 +54,43 @@ System binaries: **ffmpeg/ffprobe**, **tesseract** (final-gate text), **deno + n
 like the corpus builder. (If the corpus repo ships an `outputs/clip_cache/`, matched windows
 are read from there first — no download needed.)
 
+## Script writing — Retention Opening (REQUIRED)
+
+Every script passed via `--script` **must** open with a **Retention Opening** before the
+body. This is a small, persona-independent structure that front-loads what the video covers
+and gives the viewer a concrete reason to stay to the end — it materially lifts retention.
+
+In order, the opening must contain:
+1. **Signature open** *(optional)* — channel name / catchphrase / framing device if the host
+   has one; 2-4 sentences. Skip if none.
+2. **Hook** — one vivid scene or bold claim ending in a clear *promise* of what the viewer
+   will walk away with.
+3. **Preview** — plainly list, in order, the 3-4 chapters the body will cover (use noun
+   phrases that map 1:1 to the body).
+4. **Open loop** — name that the most valuable item is saved for last, **without revealing
+   what it is**. Tie it to a payoff ("the one that changed everything", "the part nobody
+   tells you").
+5. **Transition** into the body chapters.
+
+Then near the end:
+
+6. **Payoff (close the loop)** — explicitly deliver the saved-for-last item and call back to
+   the hook's promise so the loop visibly closes.
+7. **Outro / sign-off** in the host's normal style.
+
+**Mechanics are fixed across all personas; only the wording adapts to the voice** (hype host,
+warm host, expert host — same skeleton, different delivery). Never break character for hype.
+
+Drop-in instruction for any script-writing agent or prompt:
+
+> "Every script must open with a Retention Opening: (1) optional signature open, (2) a hook
+> ending in a promise, (3) a plain preview of the 3-4 chapters in order, (4) an open loop
+> that saves the best payoff for last without revealing it. Deliver that saved payoff near
+> the end and call back to the hook's promise. Keep the mechanics fixed across all personas;
+> adapt only the wording to the character's voice."
+
+Full guide + worked examples (energetic + calm hosts): `references/RETENTION_OPENING.md`.
+
 ## Run it (TEAMS of Claude agents are in the loop between `plan` and `build`)
 
 The skill is **built for parallel agents at every Claude-in-the-loop step.** It splits work
