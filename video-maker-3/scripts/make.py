@@ -244,10 +244,17 @@ def _make_materializer(run):
         raw = raw_status[wkey]
         if raw is None:
             return None
-        # face/text QC once per window (cached on disk): scan the whole raw window; if it has a
-        # face the corpus purge missed, the window is unusable -> the assembler reaches onward.
+        # face/text QC once per window (cached on disk, fail-closed): scan the CROPPED full
+        # window = exactly the framing the final gate sees (the gate flags the cropped render,
+        # which can show a face the uncropped raw doesn't). A window the corpus purge missed or
+        # that trips the detector is unusable -> the assembler reaches for the next-best clip.
         if wkey not in face_status:
-            face_status[wkey] = (not rnd.mostly_black(raw)) and _face_text_ok(raw)
+            qc_seg = seg_dir / f"qc_{vid}_{start:.2f}.mp4"
+            qres = dl.fit_clip(raw, qc_seg, max(1.0, end - start), _credit(moment))
+            face_status[wkey] = (bool(qres.get("ok")) and qc_seg.exists()
+                                 and not rnd.mostly_black(qc_seg) and _face_text_ok(qc_seg))
+            try: qc_seg.unlink()
+            except Exception: pass
             _save_qc()
         if not face_status[wkey]:
             return None
