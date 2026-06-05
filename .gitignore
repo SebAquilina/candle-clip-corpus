@@ -1,0 +1,28 @@
+# python / venv scratch
+**/__pycache__/
+*.pyc
+**/.venv/
+.venv/
+
+# video-maker-3 run scratch (downloads, segments, renders, audio, work)
+video-maker-3/state/
+video-maker-3/output/
+
+# rendered/scratch media (corpus CSV/JSON under outputs/ is tracked; raw media is not)
+*.mp4
+*.wav
+*.muxing.mp4
+
+# secrets — never commit cookies or keys
+*cookies*.txt
+*.env
+
+# build/run logs (scratch)
+*.log
+video-maker-3/state_*.log
+
+# packaged skill bundles (source is tracked)
+*.skill
+# outputs/clip_cache/  # tracked via LFS
+outputs/describe_v2/
+!outputs/clip_cache/*.mp4
