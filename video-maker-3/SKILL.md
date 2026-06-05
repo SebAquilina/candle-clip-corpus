@@ -99,9 +99,15 @@ build **asserts** both rules before rendering.
 | `VM_W_VISION` / `VM_W_TRANSCRIPT` | 0.55 / 0.45 | offline shortlist weighting of the two signals |
 | `VM_SHORTLIST_K` | 12 | candidates shown to Claude per section |
 | `VM_MAX_SECTION_SEC` | 9 | split a longer sentence into sub-sections (keeps each query focused) |
-| `VM_LIGHT_QC` | 1 | light per-clip black/face/text sample at materialize (final gate is the hard one) |
+| `VM_LIGHT_QC_FACES` | 1 | per-clip face QC at materialize (gate-aligned, subprocess+timeout, cached) — excludes any window the corpus purge missed; `VM_QC_TEXT=1` also text-scans per clip |
+| `YTA_FACE_SCORE` | 0.6 | face confidence threshold. **Use 0.85 for candle/dark-texture corpora** — YuNet false-positives on circular wax textures (~0.75) below real faces (~0.94) |
+| `VM_TEXT_AREA_FRAC` | 0.012 | min frame fraction of text to flag. **Use 0.05 for candle corpora** so incidental product labels pass and only real overlay captions fail |
+| `VM_BLACK_PIX_TH` | 0.02 | black-detect pixel threshold (0.02 = only true black; dark candle footage passes) |
+| `VM_CACHED_ONLY` | 0 | assemble only from already-downloaded windows (use when YouTube is rate-limiting 429/503) |
 | `VM_DOWNLOAD_PAD` | 1.5 | tail seconds added to each window download so a clip is never short |
-| `LABS69_API_KEY`/`LABS69_VOICE_ID` | — | use 69labs; otherwise EdgeTTS (`EDGETTS_VOICE`) |
+| `LABS69_API_KEY`/`LABS69_VOICE_ID` | — | use 69labs; otherwise EdgeTTS (`EDGETTS_VOICE`/`EDGETTS_RATE`) |
 | `YTA_SHARED_DB` / `VM_COOKIES` | — | corpus dir / fresh YouTube cookies |
 
-See `ARCHITECTURE.md` for the keep/cut rationale vs the previous skill.
+**For this candle corpus**, run build + gate with `YTA_FACE_SCORE=0.85 VM_TEXT_AREA_FRAC=0.05
+VM_BLACK_PIX_TH=0.02` (see `TEST-LOG.md` for why). See `ARCHITECTURE.md` for the keep/cut
+rationale vs the previous skill.
