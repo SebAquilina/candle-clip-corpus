@@ -54,37 +54,56 @@ System binaries: **ffmpeg/ffprobe**, **tesseract** (final-gate text), **deno + n
 like the corpus builder. (If the corpus repo ships an `outputs/clip_cache/`, matched windows
 are read from there first — no download needed.)
 
-## Run it (Claude is in the loop between `plan` and `build`)
+## Run it (TEAMS of Claude agents are in the loop between `plan` and `build`)
+
+The skill is **built for parallel agents at every Claude-in-the-loop step.** It splits work
+into N slices and the operator spawns N agents in parallel. Use `--slices N` or set
+`VM_PICK_SLICES` / `VM_REVIEW_SLICES` (default 4 of each).
+
 ```bash
-# 1. PLAN — narrate, section, shortlist candidates per section
+# 1. PLAN — narrate, section, shortlist candidates, EMIT N SLICES for parallel pickers
 python scripts/make.py plan --topic top10 --script script.md \
-       --title "Top 10 Candle Making Tricks"
+       --title "Top 10 Candle Making Tricks" --slices 4
 ```
-This writes `state/runs/top10/match_worklist.json`. **Now do the matching yourself:**
+This writes `state/runs/top10/match_worklist.json` (full) AND
+`state/runs/top10/worklist_slices/slice_00.json … slice_03.json` (one per agent).
 
-> Read `match_worklist.json`. It has the project title + niche and, per section, the
-> narration text and ~12 candidate windows — each with its **vision** caption, its
-> **transcript**, action label, source title, and offline score. For each section pick the
-> clip(s) whose **vision and transcript together** best convey the narration **in the context
-> of the title**. Prefer a clip that both *shows* and (when spoken) *describes* the action.
-> Write `state/runs/top10/match_decisions.json`:
-> `{"0": ["<cand_id>", "<cand_id>", ...], "1": [...], ...}` — an **ordered** (best-first) list
-> per section; list a few so short clips can be concatenated to cover the section. You don't
-> need to track repeats — the assembler enforces ≤2 uses / never-consecutive. Omit a section
-> to accept the offline order.
+**Now spawn a team of agents IN PARALLEL** — one per slice. Each agent's task is:
+
+> Read `state/runs/<topic>/worklist_slices/slice_<i>.json`. It has the project title + niche
+> and, per section in that slice, the narration text and ~12 candidate windows — each with its
+> **vision** caption, its **transcript**, `summary_v2`, `tags_v2` (action / stage / tools /
+> materials / colors), action label, source title, and offline score. For each section pick
+> the clip(s) whose **vision and transcript together** best convey the narration **in the
+> context of the title**. Prefer a clip that both *shows* and (when spoken) *describes* the
+> action. Write `state/runs/<topic>/decisions_<i>.json`:
+> `{"<section.index>": ["<cand_id>", "<cand_id>", ...]}` — **key by the section's `index`
+> FIELD (not slice/list position)**, AS A STRING. Every cand_id MUST come from THAT section's
+> `candidates`. List 1-4 best-first per section so short clips can be concatenated to cover it.
+> You don't need to track repeats — the assembler enforces ≤2 uses / never-consecutive.
 
 ```bash
-# 2. BUILD — assemble (honoring the no-repeat/concat/no-freeze rules), download, render
+# 2. BUILD — auto-merges every decisions_*.json (safely, via cand_id recovery if any
+#    agent accidentally keyed by positional index), then assembles + renders.
 python scripts/make.py build --topic top10
 
-# 3. VALIDATE — the non-skippable safety gate (must exit 0 to ship)
+# 3. VALIDATE — the non-skippable safety gate (black/freeze/AV-skew/text/face)
 python scripts/validate_render.py state/runs/top10/top10.mp4
-```
-`make.py all --topic ... --script ...` runs plan+build with the **offline** order (no Claude
-step) — a CI/fallback path; the intended flow is plan → pick → build.
 
-**Resumable:** downloaded windows are cached under `state/runs/<topic>/raw/`; re-running
-`build` reuses them. The final gate has its own resumable mode (`VM_VALIDATE_BUDGET_SEC>0`).
+# 4. (Optional) REVIEW — emit N spot-check slices for a parallel "did the matcher pick well?"
+#    audit by another team of agents. Catches off-topic/wrong-clip placements the gate misses.
+python scripts/make.py review --topic top10 --slices 4
+```
+The build's parallel-decisions merge is **safe**: every cand_id is unique to its section's
+shortlist, so even if an agent mis-keys with slice-local indices the merge recovers the
+correct global section. Missing sections fall through to the offline cosine order.
+
+`make.py all --topic ... --script ...` runs plan+build with the **offline** order (no agents
+in the loop) — a CI/fallback path; the intended flow is plan → team-of-pickers → build.
+
+**Resumable:** downloaded windows are cached under `state/runs/<topic>/raw/`; QC verdicts in
+`qc_cache.json`; segments in `segs/`. Re-running `build` reuses everything. The final gate has
+its own resumable mode (`VM_VALIDATE_BUDGET_SEC>0`).
 
 ## Corpus describe — v2 fields (preferred when present)
 

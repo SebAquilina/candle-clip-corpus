@@ -157,10 +157,40 @@ def cmd_plan(args):
     wpath = run / "match_worklist.json"
     matcher.write_worklist(wl, wpath, project_title=title, niche=niche)
     print(f"\n[plan] wrote {wpath}")
-    print(f"[plan] NEXT (Claude-in-the-loop): read {wpath}; for each section pick the clip(s)\n"
-          f"       whose VISION and TRANSCRIPT best convey the narration in the context of\n"
-          f"       \"{title}\"; write {run/'match_decisions.json'} = {{\"<section>\": [cand_id,..]}}.\n"
-          f"       Then: python make.py build --topic {args.topic}")
+
+    # ----- PARALLEL PICKS: emit N slice files so a TEAM of agents picks in parallel -----
+    # The operator spawns one agent per slice, each agent picks clips for ITS sections,
+    # writes decisions_<i>.json. cmd_build merges them safely by cand_id (so even if an
+    # agent mis-keys with positional indices, the merge auto-recovers).
+    n_slices = max(1, int(getattr(args, "slices", 0) or os.environ.get("VM_PICK_SLICES", "4")))
+    sl_dir = run / "worklist_slices"; sl_dir.mkdir(parents=True, exist_ok=True)
+    # clear any older slices from a prior plan
+    for old in sl_dir.glob("slice_*.json"):
+        old.unlink()
+    secs = wl
+    if n_slices > 1 and len(secs) >= 2:
+        chunk = (len(secs) + n_slices - 1) // n_slices
+        for i in range(n_slices):
+            ch = secs[i * chunk:(i + 1) * chunk]
+            if not ch:
+                continue
+            json.dump({"_instructions": (
+                "Pick the best 1-4 cand_id per section, BEST FIRST. Key your output by each "
+                "section's `index` FIELD (NOT slice/list position), AS A STRING. Every cand_id "
+                "MUST come from THAT section's `candidates`. Prefer clips whose vision AND "
+                "(when spoken) transcript convey the narration in the context of the title. "
+                f"Write your output to state/runs/{args.topic}/decisions_{i}.json"),
+                "project_title": title, "niche": niche, "slice_index": i,
+                "section_index_range": [ch[0]["index"], ch[-1]["index"]],
+                "sections": ch}, open(sl_dir / f"slice_{i:02d}.json", "w"))
+        print(f"[plan] wrote {n_slices} slices under {sl_dir} (sections per slice: ~{chunk})")
+        print(f"[plan] NEXT — Claude-in-the-loop (PARALLEL): spawn {n_slices} agents in parallel,")
+        print(f"       one per slice. Each agent reads worklist_slices/slice_<i>.json and writes")
+        print(f"       decisions_<i>.json. Then: python make.py build --topic {args.topic}")
+    else:
+        print(f"[plan] NEXT (Claude-in-the-loop): read {wpath}; pick clips per section; write")
+        print(f"       {run/'match_decisions.json'} = {{\"<section_index>\": [cand_id,...]}}.")
+        print(f"       Then: python make.py build --topic {args.topic}")
 
 
 # --------------------------------------------------------------------------- #
@@ -317,6 +347,50 @@ def _make_materializer(run):
     return materialize
 
 
+def _merge_parallel_decisions(run, worklist):
+    """Merge any decisions_*.json from parallel pick agents into match_decisions.json,
+    safely. If an agent (mis)used SLICE-LOCAL section indices instead of the global
+    `index` field, we recover by looking up each pick's cand_id in the worklist —
+    every cand_id is unique to its section's shortlist, so the picks identify the
+    correct section unambiguously even with positional keys. Idempotent.
+    """
+    import glob
+    decs = sorted(glob.glob(str(run / "decisions_*.json")))
+    if not decs:
+        return None
+    cand2sec = {}
+    for s in worklist:
+        for c in s.get("candidates", []):
+            cand2sec.setdefault(c["cand_id"], set()).add(s["index"])
+    merged = {}; remapped = 0; ambiguous = 0
+    for f in decs:
+        try: d = json.load(open(f))
+        except Exception: continue
+        if isinstance(d, dict) and "decisions" in d:
+            d = d["decisions"]
+        for k, picks in (d.items() if isinstance(d, dict) else []):
+            if not picks: continue
+            if isinstance(picks, str): picks = [picks]
+            # find the section index that ALL picks share (intersection)
+            share = None
+            for cid in picks:
+                secs = cand2sec.get(cid, set())
+                share = secs if share is None else (share & secs)
+                if share is not None and not share: break
+            if not share: ambiguous += 1; continue
+            gidx = sorted(share)[0]
+            if str(gidx) != str(k): remapped += 1
+            merged.setdefault(str(gidx), [str(c) for c in picks])
+    out_path = run / "match_decisions.json"
+    json.dump(merged, open(out_path, "w"), indent=2)
+    if remapped or ambiguous:
+        print(f"[build] merged {len(decs)} decisions_*.json -> {len(merged)} sections "
+              f"(positional remaps: {remapped}, ambiguous skipped: {ambiguous})")
+    else:
+        print(f"[build] merged {len(decs)} decisions_*.json -> {len(merged)} sections")
+    return out_path
+
+
 def cmd_build(args):
     from app.services.v3 import shared_library as lib
     from app.services.v3 import section_planner as sp
@@ -327,6 +401,12 @@ def cmd_build(args):
     if not wpath.exists():
         print(f"[build] no worklist at {wpath}; run plan first"); sys.exit(2)
     worklist = matcher.load_worklist(wpath)
+    # auto-merge parallel decisions_*.json if any exist (and match_decisions.json doesn't
+    # already exist with the same effective content). Safe vs positional-key confusion.
+    if not (run / "match_decisions.json").exists():
+        _merge_parallel_decisions(run, worklist)
+    elif list(run.glob("decisions_*.json")):
+        _merge_parallel_decisions(run, worklist)
     dpath = Path(args.decisions) if args.decisions else (run / "match_decisions.json")
     decisions = matcher.load_decisions(dpath)
     print(f"[build] {len(worklist)} sections; {len(decisions)} have Claude decisions"
@@ -398,16 +478,52 @@ def cmd_selftest():
     sys.exit(0 if ok else 1)
 
 
+def cmd_review(args):
+    """Emit N spot-check slices for parallel cut-review agents (a second-pass QC layer)."""
+    run = BASE / args.topic
+    mp4 = run / f"{args.topic}.mp4"
+    if not mp4.exists():
+        print(f"[review] no video at {mp4}; build first"); sys.exit(2)
+    n_slices = max(1, int(getattr(args, "slices", 0) or os.environ.get("VM_REVIEW_SLICES", "4")))
+    shots = json.loads((run / "shots.json").read_text())
+    chunk = (len(shots) + n_slices - 1) // n_slices
+    sl_dir = run / "review_slices"; sl_dir.mkdir(parents=True, exist_ok=True)
+    for old in sl_dir.glob("slice_*.json"):
+        old.unlink()
+    for i in range(n_slices):
+        ch = shots[i * chunk:(i + 1) * chunk]
+        if not ch: continue
+        json.dump({"_instructions": (
+            "Spot-check the listed shots in the rendered video for issues a final-gate "
+            "automated scan can miss: an off-topic clip the matcher picked, a clip whose "
+            "content contradicts the narration, jarring back-to-back cuts, etc. For each "
+            "shot, judge ok / warn / fail with a one-line reason. Write your output to "
+            f"state/runs/{args.topic}/review_{i}.json as a list of "
+            "{shot_idx,start_sec,verdict,reason}."),
+            "video": str(mp4), "slice_index": i,
+            "shots": [{"shot_idx": s["shot_idx"], "start_sec": s["start_sec"],
+                       "duration": s["duration"],
+                       "scene_description": s.get("scene_description", ""),
+                       "candidate": {k: s["candidate"].get(k) for k in
+                                     ("id", "url", "source_title", "match", "scene")}}
+                      for s in ch]}, open(sl_dir / f"slice_{i:02d}.json", "w"))
+    print(f"[review] wrote {n_slices} review slices under {sl_dir} ({chunk} shots each)")
+    print(f"[review] NEXT — spawn {n_slices} agents in parallel, one per review slice, each")
+    print(f"         spot-checking the video at the given timestamps. Aggregate review_*.json.")
+
+
 def main():
     if "--selftest" in sys.argv:
         return cmd_selftest()
     ap = argparse.ArgumentParser()
-    ap.add_argument("phase", choices=["plan", "build", "all"])
+    ap.add_argument("phase", choices=["plan", "build", "review", "all"])
     ap.add_argument("--topic", required=True)
     ap.add_argument("--script")
     ap.add_argument("--title", default="")
     ap.add_argument("--decisions", default="")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--slices", type=int, default=0,
+                    help="N parallel agent slices for plan (default $VM_PICK_SLICES=4) or review ($VM_REVIEW_SLICES=4)")
     args = ap.parse_args()
     if args.phase in ("plan", "all"):
         if not args.script:
@@ -415,6 +531,8 @@ def main():
         cmd_plan(args)
     if args.phase in ("build", "all"):
         cmd_build(args)
+    if args.phase == "review":
+        cmd_review(args)
 
 
 if __name__ == "__main__":
