@@ -67,9 +67,12 @@ def download_segment(video_url: str, start: float, end: float, out_path: Path) -
         "--force-keyframes-at-cuts",
         # 429 resilience: back off on HTTP errors and pace requests so a rate-limited account
         # de-escalates instead of getting hard-blocked (the corpus may be heavily fetched).
+        # NOTE: --retry-sleep syntax is "[TYPE:]EXPR", EXPR = "linear=START[:END[:STEP]]" or
+        # "exp=START[:END]" or a bare number. (An earlier "http=2:30:2" was INVALID and made
+        # yt-dlp exit instantly, fast-failing every download.)
         "--retries", os.environ.get("VM_YT_RETRIES", "5"),
         "--extractor-retries", os.environ.get("VM_YT_EXTRACTOR_RETRIES", "3"),
-        "--retry-sleep", os.environ.get("VM_YT_RETRY_SLEEP", "http=2:30:2"),
+        "--retry-sleep", os.environ.get("VM_YT_RETRY_SLEEP", "http:linear=2:30:5"),
         "--sleep-requests", os.environ.get("VM_YT_SLEEP_REQUESTS", "1"),
         # solve YouTube's `n` challenge via deno (must be on PATH)
         "--remote-components", "ejs:github", "--js-runtimes", "node",
