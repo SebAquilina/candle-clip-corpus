@@ -86,6 +86,24 @@ step) — a CI/fallback path; the intended flow is plan → pick → build.
 **Resumable:** downloaded windows are cached under `state/runs/<topic>/raw/`; re-running
 `build` reuses them. The final gate has its own resumable mode (`VM_VALIDATE_BUDGET_SEC>0`).
 
+## Corpus describe — v2 fields (preferred when present)
+
+When the corpus has been enriched via the corpus-builder's `enrich_v2.sh` (agent-vision
+describe), each window carries **additive v2 fields** that this skill automatically prefers:
+
+- `embed_text_v2` — rich, action-led, object-rich vision text (~2.4× richer than baseline BLIP).
+  The matcher's vision cosine runs against this when present.
+- `summary_v2` — one-sentence per-clip summary; sent to Claude in the worklist.
+- `seconds_v2[]` — per-second context-aware descriptions; available for inspection.
+- `tags_v2` — structured `{action, stage, tools[], materials[], container, colors[], setting}`;
+  passed to Claude in the worklist for richer per-section picks.
+- `usable_v2` — soft cleanup. `shared_library` emits `talking_head: true` for any window with
+  `usable_v2=false`, so the matcher skips windows the agent QC flagged as off-topic,
+  burned-in-overlay, or face-bearing.
+
+Graceful fallback: any window without v2 fields still works via the original BLIP
+`embed_text` + `transcript` — the matcher tolerates either shape.
+
 ## How a section becomes clips (the assembler)
 `plan_from_worklist` walks each section best-first over **[your picks] + [offline order]** and,
 via a global use-count + last-clip state:

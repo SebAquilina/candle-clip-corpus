@@ -102,3 +102,48 @@ drop most windows — what survives is genuinely clean. This is expected, not a 
 | `REVAMP_COOKIES` | — | path to fresh YouTube cookies |
 
 See `METHODOLOGY.md` for the full reasoning behind every design choice.
+
+---
+
+## Optional enrichment — agent-vision describe v2 (after ingest)
+
+The ingest pipeline above is the **always-on** baseline (BLIP per-second + transcript).
+After ingest, you can **upgrade** each window's description with a richer, context-aware
+Claude-vision-agent pass that also QCs the corpus more deeply (catching real faces,
+overlay watermarks, and off-topic videos the automated purge misses). It's **additive,
+resumable, and idempotent**: re-running it on a grown corpus only describes the new windows.
+
+```bash
+export REVAMP_COOKIES=/path/to/fresh/youtube_cookies.txt
+bash enrich_v2.sh status        # see current tallies
+bash enrich_v2.sh download      # pre-download every window into outputs/clip_cache/ (resumable)
+bash enrich_v2.sh extract       # 1 frame/sec per window
+bash enrich_v2.sh batches       # emit agent batch files (one Claude vision-agent per batch)
+#  -> spawn one general-purpose agent per file under outputs/describe_v2/batches/,
+#     each following outputs/describe_v2/AGENT_INSTRUCTIONS.md
+bash enrich_v2.sh merge         # fold agent outputs into records + apply qc cleanup
+```
+
+This populates per window:
+- `embed_text_v2` — rich, action-led, object-rich matchable text (~2.4× BLIP length)
+- `summary_v2` — one-sentence
+- `seconds_v2[]` — per-second context-aware descriptions
+- `tags_v2` — action / stage / tools[] / materials[] / container / colors[] / setting
+- `usable_v2` + `usable_v2_reason` — soft cleanup signal (the v3 video-maker skips
+  `usable_v2=false` windows, but legacy consumers continue to see them)
+
+`csv_ingest.py` also **captures the source channel + video title at ingest** (via the
+yt-dlp metadata in `fetch.download`), so the video-maker can credit clips correctly
+without needing a separate live lookup later.
+
+## Publishing the corpus on GitHub (recommended pattern)
+
+The corpus is portable: any project can clone the repo and consume it. The repo this
+skill lives in publishes to GitHub additively:
+1. Build/enrich on a feature branch.
+2. Open a **corpus-only PR** that adds `outputs/shared_db_v2/` to `main` (no skill changes).
+   The diff should be 0 deletions (only added records + added per-window fields).
+3. (Optional) Track the downloaded clips with **Git LFS** under `outputs/clip_cache/*.mp4`
+   so future consumers don't have to re-download from YouTube — keeps re-runs fast and
+   independent of YouTube rate limits.
+
