@@ -1,0 +1,168 @@
+{
+ "video_id": "ai-veo-melt-wax-001",
+ "video_title": "AI B-roll: soy wax flakes melting in stainless double boiler (close-up dolly)",
+ "video_url": "https://github.com/SebAquilina/candle-clip-corpus/blob/main/outputs/clip_cache/ai-veo-melt-wax-001_0.00.mp4",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "AI generated (Veo 3.1)",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "melt_wax",
+   "phase": "process",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0.0,
+     "vision_desc": "soy wax flakes piled in a stainless steel double boiler on a kitchen stove, thermometer clipped to the rim",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1.0,
+     "vision_desc": "white soy wax flakes beginning to melt at the edges into a clear golden pool, gentle steam rising",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2.0,
+     "vision_desc": "close-up of wax flakes dissolving into molten golden wax inside a stainless double boiler",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3.0,
+     "vision_desc": "molten golden wax pool spreading across the double boiler, soft daylight from a window on the left",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4.0,
+     "vision_desc": "wax flakes half-melted into a glossy golden liquid, thermometer clipped to the pot rim, steam wisps",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5.0,
+     "vision_desc": "slow dolly closer on the clear golden melted wax surface in the stainless pot, warm cozy tones",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6.0,
+     "vision_desc": "molten soy wax shimmering in a stainless double boiler on the stove, shallow depth of field",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7.0,
+     "vision_desc": "close-up of fully melting golden wax with faint steam, thermometer on the rim of the double boiler",
+     "transcript_text": "",
+     "scene_change": false,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "soy wax flakes piled in a stainless steel double boiler on a kitchen stove, thermometer clipped to the rim | close-up of wax flakes dissolving into molten golden wax inside a stainless double boiler | wax flakes half-melted into a glossy golden liquid, thermometer clipped to the pot rim, steam wisps | molten soy wax shimmering in a stainless double boiler on the stove, shallow depth of field",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "Slow dolly-in close-up of soy wax flakes melting into a clear golden pool in a stainless steel double boiler on a kitchen stove; thermometer clipped to the pot rim, gentle steam rising; soft daylight from a window to the left, warm cozy tones, shallow depth of field, subtle film grain; audio is a soft simmer of water and faint stove tick, quiet kitchen room tone, no speech, no music",
+   "summary_v2": "A slow dolly-in close-up of soy wax flakes melting into clear golden wax in a stainless double boiler, thermometer on the rim and steam rising in soft window daylight.",
+   "tags_v2": {
+    "action": "melting soy wax flakes in a double boiler",
+    "stage": "melt_wax",
+    "tools": [
+     "double boiler",
+     "thermometer",
+     "kitchen stove"
+    ],
+    "materials": [
+     "soy wax flakes",
+     "molten soy wax",
+     "water"
+    ],
+    "container": "stainless steel double boiler",
+    "colors": [
+     "golden",
+     "white",
+     "stainless steel"
+    ],
+    "setting": "home kitchen with soft window daylight"
+   },
+   "seconds_v2": [
+    {
+     "t": 0,
+     "desc": "soy wax flakes piled in a stainless steel double boiler on a kitchen stove, thermometer clipped to the rim"
+    },
+    {
+     "t": 1,
+     "desc": "white soy wax flakes beginning to melt at the edges into a clear golden pool, gentle steam rising"
+    },
+    {
+     "t": 2,
+     "desc": "close-up of wax flakes dissolving into molten golden wax inside a stainless double boiler"
+    },
+    {
+     "t": 3,
+     "desc": "molten golden wax pool spreading across the double boiler, soft daylight from a window on the left"
+    },
+    {
+     "t": 4,
+     "desc": "wax flakes half-melted into a glossy golden liquid, thermometer clipped to the pot rim, steam wisps"
+    },
+    {
+     "t": 5,
+     "desc": "slow dolly closer on the clear golden melted wax surface in the stainless pot, warm cozy tones"
+    },
+    {
+     "t": 6,
+     "desc": "molten soy wax shimmering in a stainless double boiler on the stove, shallow depth of field"
+    },
+    {
+     "t": 7,
+     "desc": "close-up of fully melting golden wax with faint steam, thermometer on the rim of the double boiler"
+    }
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true
+  }
+ ],
+ "source": "ai_generated"
+}
