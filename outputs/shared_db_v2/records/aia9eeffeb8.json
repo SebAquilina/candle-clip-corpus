@@ -1,0 +1,141 @@
+{
+ "video_id": "aia9eeffeb8",
+ "video_title": "AI: freshly poured jar candles cooling spaced apart on a counter",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "cooling",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "A row of freshly poured cream jar candles spaced apart on a wooden workshop counter, soft warm evening light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "camera tracks slowly along the row of cooling jar candles, faint wisps of steam rising",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "evenly spaced glass jars with liquid cream wax cooling, warm side light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "tracking shot continues along the spaced row, wicks standing in soft wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "row of cooling candles on the wooden counter, gentle steam, warm glow",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "camera drifts past more spaced jars cooling on the bench",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "warm light across the row of freshly poured candles, even gaps between jars",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final jars of the cooling row in soft evening workshop light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "row of freshly poured cream jar candles spaced well apart on a wooden workshop counter to cool, faint steam, warm evening light, slow tracking shot",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "row of freshly poured cream jar candles spaced well apart on a wooden workshop counter to cool, faint steam, warm evening light, slow tracking shot",
+   "summary_v2": "Tracking shot along a row of freshly poured candles cooling spaced apart on a counter.",
+   "tags_v2": {
+    "action": "cooling",
+    "stage": "pour",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream"
+    ],
+    "setting": "workshop"
+   },
+   "seconds_v2": [
+    "A row of freshly poured cream jar candles spaced apart on a wooden workshop counter, soft warm evening light",
+    "camera tracks slowly along the row of cooling jar candles, faint wisps of steam rising",
+    "evenly spaced glass jars with liquid cream wax cooling, warm side light",
+    "tracking shot continues along the spaced row, wicks standing in soft wax",
+    "row of cooling candles on the wooden counter, gentle steam, warm glow",
+    "camera drifts past more spaced jars cooling on the bench",
+    "warm light across the row of freshly poured candles, even gaps between jars",
+    "final jars of the cooling row in soft evening workshop light"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T17:02:50"
+}
