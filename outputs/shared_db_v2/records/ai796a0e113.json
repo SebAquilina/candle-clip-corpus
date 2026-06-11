@@ -1,0 +1,144 @@
+{
+ "video_id": "ai796a0e113",
+ "video_title": "AI B-roll: White Cloth Soot Test (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "soot_check",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "folded white cloth draped over the rim of a glass jar candle, soft morning light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "faint grey smudge visible on the fabric fold, bench wood warm below",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "cloth fibers and smudge in sharp focus, jar of cream wax beneath",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "still composition, light shifting subtly across the cloth",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "the smudge mark reads clearly against fresh white fabric",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "jar rim and cloth edge, wax surface smooth below",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "long still beat, dust motes in the light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final frame of cloth, smudge, and jar on the bench",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "a folded white cloth draped over the rim of a glass jar candle on a rustic bench, faint grey smudge on the fabric, soft morning workshop light | static close-up of the white-cloth soot wipe test",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "a folded white cloth draped over the rim of a glass jar candle on a rustic bench, faint grey smudge on the fabric, soft morning workshop light | static close-up of the white-cloth soot wipe test",
+   "summary_v2": "A folded white cloth rests on a jar candle's rim, a faint grey soot smudge visible.",
+   "tags_v2": {
+    "action": "inspecting",
+    "stage": "testing",
+    "tools": [
+     "white cloth"
+    ],
+    "materials": [
+     "wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "white",
+     "grey"
+    ],
+    "setting": "workshop bench"
+   },
+   "seconds_v2": [
+    "folded white cloth draped over the rim of a glass jar candle, soft morning light",
+    "faint grey smudge visible on the fabric fold, bench wood warm below",
+    "cloth fibers and smudge in sharp focus, jar of cream wax beneath",
+    "still composition, light shifting subtly across the cloth",
+    "the smudge mark reads clearly against fresh white fabric",
+    "jar rim and cloth edge, wax surface smooth below",
+    "long still beat, dust motes in the light",
+    "final frame of cloth, smudge, and jar on the bench"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T11:58:20"
+}

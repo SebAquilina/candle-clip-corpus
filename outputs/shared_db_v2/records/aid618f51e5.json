@@ -1,0 +1,141 @@
+{
+ "video_id": "aid618f51e5",
+ "video_title": "AI B-roll: Burn Rate Two Jars (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "compare_burn",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "two identical glass jar candles side by side on a wooden bench, both unlit",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "left jar nearly full with smooth cream wax, right jar burned far down",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "wax clinging to the right jar's glass walls in thin sheets",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "still framing, warm even light across both jars",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "subtle light shift, wicks dark and trimmed",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "the contrast in remaining wax reads clearly",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "bench texture and shavings around the jar bases",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final still of the full jar beside the spent one",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "two identical glass jar candles side by side on a wooden bench, one nearly full of smooth cream wax, the other burned far down with wax clinging to the glass, both unlit, warm even light | static comparison of burn rates",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "two identical glass jar candles side by side on a wooden bench, one nearly full of smooth cream wax, the other burned far down with wax clinging to the glass, both unlit, warm even light | static comparison of burn rates",
+   "summary_v2": "Two identical jar candles sit side by side, one full, one burned far down.",
+   "tags_v2": {
+    "action": "comparing",
+    "stage": "testing",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream"
+    ],
+    "setting": "workshop bench"
+   },
+   "seconds_v2": [
+    "two identical glass jar candles side by side on a wooden bench, both unlit",
+    "left jar nearly full with smooth cream wax, right jar burned far down",
+    "wax clinging to the right jar's glass walls in thin sheets",
+    "still framing, warm even light across both jars",
+    "subtle light shift, wicks dark and trimmed",
+    "the contrast in remaining wax reads clearly",
+    "bench texture and shavings around the jar bases",
+    "final still of the full jar beside the spent one"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T11:58:20"
+}
