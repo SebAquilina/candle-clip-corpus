@@ -1,0 +1,143 @@
+{
+ "video_id": "ai351a8c228",
+ "video_title": "AI B-roll: Drowned Wick (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "drowned_wick",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "looking down a deep pale wax shaft inside a jar candle",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "blackened wick stub sitting in a small pool of liquid wax at the bottom",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "slow dolly closer down the tunnel",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "faint light catching the smooth tunnel walls",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "the drowned wick tilts in its little pool",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "wet wax glistening around the dead wick",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "shadows shifting in the deep shaft",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final close framing of the drowned wick",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "extreme close-up down a deep wax shaft inside a glass jar candle, a blackened drowned wick stub in a small pool of liquid wax at the bottom, warm light on the pale tunnel walls | the drowned wick at the bottom of a tunneled candle",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "extreme close-up down a deep wax shaft inside a glass jar candle, a blackened drowned wick stub in a small pool of liquid wax at the bottom, warm light on the pale tunnel walls | the drowned wick at the bottom of a tunneled candle",
+   "summary_v2": "A blackened drowned wick stub sits in liquid wax at the bottom of a deep tunnel.",
+   "tags_v2": {
+    "action": "inspecting",
+    "stage": "defect",
+    "tools": [],
+    "materials": [
+     "wax",
+     "wick"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream",
+     "black"
+    ],
+    "setting": "workshop bench"
+   },
+   "seconds_v2": [
+    "looking down a deep pale wax shaft inside a jar candle",
+    "blackened wick stub sitting in a small pool of liquid wax at the bottom",
+    "slow dolly closer down the tunnel",
+    "faint light catching the smooth tunnel walls",
+    "the drowned wick tilts in its little pool",
+    "wet wax glistening around the dead wick",
+    "shadows shifting in the deep shaft",
+    "final close framing of the drowned wick"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T13:46:57"
+}

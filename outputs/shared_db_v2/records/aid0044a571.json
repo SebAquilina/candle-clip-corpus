@@ -1,0 +1,144 @@
+{
+ "video_id": "aid0044a571",
+ "video_title": "AI B-roll: Foil Rescue (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "foil_fix",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "jar candle wrapped in crinkled aluminum foil with a round center opening",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "warm flame glow pulsing inside the foil collar",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "foil reflecting little flecks of flame light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "steady burn, heat trapped under the foil ring",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "glow brightens softly as the walls warm",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "close framing of the foil rim and inner glow",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "flame flutter visible through the opening",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final still of the foil-wrapped rescue burn",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "a glass jar candle with aluminum foil wrapped around its rim, a round opening in the middle, warm flame glow flickering inside the foil collar, wooden workbench in dim cozy light | the aluminum foil tunneling rescue trick",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "a glass jar candle with aluminum foil wrapped around its rim, a round opening in the middle, warm flame glow flickering inside the foil collar, wooden workbench in dim cozy light | the aluminum foil tunneling rescue trick",
+   "summary_v2": "A jar candle burning with a foil collar wrapped around its rim, the classic tunneling rescue.",
+   "tags_v2": {
+    "action": "fixing",
+    "stage": "rescue",
+    "tools": [
+     "aluminum foil"
+    ],
+    "materials": [
+     "wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "silver",
+     "amber"
+    ],
+    "setting": "workshop bench"
+   },
+   "seconds_v2": [
+    "jar candle wrapped in crinkled aluminum foil with a round center opening",
+    "warm flame glow pulsing inside the foil collar",
+    "foil reflecting little flecks of flame light",
+    "steady burn, heat trapped under the foil ring",
+    "glow brightens softly as the walls warm",
+    "close framing of the foil rim and inner glow",
+    "flame flutter visible through the opening",
+    "final still of the foil-wrapped rescue burn"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T13:46:57"
+}

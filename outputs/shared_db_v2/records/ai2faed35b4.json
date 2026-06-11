@@ -1,0 +1,142 @@
+{
+ "video_id": "ai2faed35b4",
+ "video_title": "AI B-roll: Full Melt Pool (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "full_pool",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "top-down view of a burning jar candle, melt pool touching the glass all around",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "thin even layer of clear liquid wax edge to edge",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "steady centered flame, slow orbital drift",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "wax surface glassy, reflections turning with the camera",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "the full pool reads as a textbook first burn",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "orbit continues, rim highlights sliding",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "flame steady at center of the liquid disc",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final overhead framing of the perfect pool",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "top-down slow orbit of a burning glass jar candle whose melt pool reaches the glass edge to edge, thin even liquid layer, steady centered flame, warm light on a wooden bench | the perfect edge-to-edge first burn melt pool",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "top-down slow orbit of a burning glass jar candle whose melt pool reaches the glass edge to edge, thin even liquid layer, steady centered flame, warm light on a wooden bench | the perfect edge-to-edge first burn melt pool",
+   "summary_v2": "Top-down view of a perfect edge-to-edge melt pool with a steady centered flame.",
+   "tags_v2": {
+    "action": "burning",
+    "stage": "first_burn",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream",
+     "gold"
+    ],
+    "setting": "workshop bench"
+   },
+   "seconds_v2": [
+    "top-down view of a burning jar candle, melt pool touching the glass all around",
+    "thin even layer of clear liquid wax edge to edge",
+    "steady centered flame, slow orbital drift",
+    "wax surface glassy, reflections turning with the camera",
+    "the full pool reads as a textbook first burn",
+    "orbit continues, rim highlights sliding",
+    "flame steady at center of the liquid disc",
+    "final overhead framing of the perfect pool"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T13:46:57"
+}

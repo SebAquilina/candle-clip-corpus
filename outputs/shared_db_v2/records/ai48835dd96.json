@@ -1,0 +1,144 @@
+{
+ "video_id": "ai48835dd96",
+ "video_title": "AI B-roll: Candle Warmer (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "warmer_melt",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "glass jar candle sitting on a round black electric warmer plate",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "entire top layer of wax liquid and glossy, no flame anywhere",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "gentle shimmer rising off the melt surface",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "lamp light glinting across the liquid wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "slow even melt, jar walls clean",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "close view of the glossy pool and plate edge",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "stillness, just heat shimmer over the wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final framing of the flameless warmer melt",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "a glass jar candle on a round electric candle warmer plate, the whole top layer liquid and glossy, no flame, gentle shimmer above the melt, warm lamp light on a wooden side table | flameless candle warmer melting the top layer",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "a glass jar candle on a round electric candle warmer plate, the whole top layer liquid and glossy, no flame, gentle shimmer above the melt, warm lamp light on a wooden side table | flameless candle warmer melting the top layer",
+   "summary_v2": "A jar candle on an electric warmer plate, top fully liquid, no flame.",
+   "tags_v2": {
+    "action": "melting",
+    "stage": "rescue",
+    "tools": [
+     "candle warmer"
+    ],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream",
+     "black"
+    ],
+    "setting": "side table"
+   },
+   "seconds_v2": [
+    "glass jar candle sitting on a round black electric warmer plate",
+    "entire top layer of wax liquid and glossy, no flame anywhere",
+    "gentle shimmer rising off the melt surface",
+    "lamp light glinting across the liquid wax",
+    "slow even melt, jar walls clean",
+    "close view of the glossy pool and plate edge",
+    "stillness, just heat shimmer over the wax",
+    "final framing of the flameless warmer melt"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T13:46:57"
+}
