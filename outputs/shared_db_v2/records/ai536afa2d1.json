@@ -1,0 +1,144 @@
+{
+ "video_id": "ai536afa2d1",
+ "video_title": "AI: thin repour layer self-levelling on a jar candle",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "repour",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "Close-up of a thin stream of molten golden wax flowing down into the centre of a set jar candle",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "the fresh molten layer spreads outward from the wick in slow motion, glossy and self-levelling",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "golden wax pool widening across the set cream surface, stream continuing into the centre",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "slow-motion ripples as the thin repour layer levels itself around the wick",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "molten layer nearly covering the candle top, glossy reflections, pour stream thinning",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "the repour layer settles level across the jar, stream ending",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "glossy fresh wax layer self-levelled around the wick, slow motion sheen",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "finished thin repour layer, smooth glossy top in warm light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "thin stream of molten golden wax flowing into the centre of a set jar candle, fresh second layer spreading outward and self-levelling around the wick, slow motion",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "thin stream of molten golden wax flowing into the centre of a set jar candle, fresh second layer spreading outward and self-levelling around the wick, slow motion",
+   "summary_v2": "Slow-motion thin repour layer spreading and levelling across a set candle top.",
+   "tags_v2": {
+    "action": "repour",
+    "stage": "fix",
+    "tools": [
+     "pouring"
+    ],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "golden",
+     "cream"
+    ],
+    "setting": "workshop"
+   },
+   "seconds_v2": [
+    "Close-up of a thin stream of molten golden wax flowing down into the centre of a set jar candle",
+    "the fresh molten layer spreads outward from the wick in slow motion, glossy and self-levelling",
+    "golden wax pool widening across the set cream surface, stream continuing into the centre",
+    "slow-motion ripples as the thin repour layer levels itself around the wick",
+    "molten layer nearly covering the candle top, glossy reflections, pour stream thinning",
+    "the repour layer settles level across the jar, stream ending",
+    "glossy fresh wax layer self-levelled around the wick, slow motion sheen",
+    "finished thin repour layer, smooth glossy top in warm light"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T17:02:30"
+}

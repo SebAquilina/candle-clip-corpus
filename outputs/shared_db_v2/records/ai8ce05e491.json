@@ -1,0 +1,141 @@
+{
+ "video_id": "ai8ce05e491",
+ "video_title": "AI: sinkhole crater beside the wick in a jar candle",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "sinkhole crater",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "Top-down extreme close-up of a glass jar candle, deep sinkhole crater sunk into smooth cream wax beside the dark wick, warm raking light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "slow dolly in over the jar rim, the crater walls and crumbled wax texture around the wick sharpening into focus",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "camera drifts closer, crater cavity beside the wick dominates the frame, warm bokeh background",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "extreme close-up of the sinkhole crater and wick, crumbled wax fragments on the surface",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "the wick stub stands at the crater edge, deep cavity shadow visible, warm light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "a small flame ignites on the wick beside the crater, warm glow spreading over the wax top",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "burning wick beside the sinkhole crater, flame steady, melted sheen forming",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "close-up of the lit candle, flame above the crater-pocked cream wax top",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "deep sinkhole crater sunk into smooth cream wax beside the wick of a glass jar candle, slow dolly in over the rim, crater walls in warm light, wick ignites in final seconds",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "deep sinkhole crater sunk into smooth cream wax beside the wick of a glass jar candle, slow dolly in over the rim, crater walls in warm light, wick ignites in final seconds",
+   "summary_v2": "Close-up dolly into a sinkhole crater beside the wick of a jar candle; flame appears in the last seconds.",
+   "tags_v2": {
+    "action": "sinkhole crater",
+    "stage": "defect",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream"
+    ],
+    "setting": "workshop"
+   },
+   "seconds_v2": [
+    "Top-down extreme close-up of a glass jar candle, deep sinkhole crater sunk into smooth cream wax beside the dark wick, warm raking light",
+    "slow dolly in over the jar rim, the crater walls and crumbled wax texture around the wick sharpening into focus",
+    "camera drifts closer, crater cavity beside the wick dominates the frame, warm bokeh background",
+    "extreme close-up of the sinkhole crater and wick, crumbled wax fragments on the surface",
+    "the wick stub stands at the crater edge, deep cavity shadow visible, warm light",
+    "a small flame ignites on the wick beside the crater, warm glow spreading over the wax top",
+    "burning wick beside the sinkhole crater, flame steady, melted sheen forming",
+    "close-up of the lit candle, flame above the crater-pocked cream wax top"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T17:02:11"
+}

@@ -1,0 +1,141 @@
+{
+ "video_id": "aie8ac50238",
+ "video_title": "AI: candle top remelting glossy and level from gentle heat",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "heat gun remelt",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "Static close-up of the top of a cream jar candle, surface turning glossy and liquid from gentle warmth",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "a shallow melt pool spreads from the wick, flowing toward a small crater beside it",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "liquid wax flows into the crater, surface settling level, soft moving reflections",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "the melt pool covers the crater, glossy liquid top around the wick",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "shallow pool fully level, reflections drifting across the warmed wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "glossy liquid candle top, wick centered, crater gone beneath the level pool",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "soft reflections moving over the smooth remelted surface",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "the warmed top sets level and glossy around the wick",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "top surface of a cream jar candle turning glossy and liquid from gentle warmth, shallow melt pool flowing into a small crater beside the wick and settling perfectly level, no tool in frame",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "top surface of a cream jar candle turning glossy and liquid from gentle warmth, shallow melt pool flowing into a small crater beside the wick and settling perfectly level, no tool in frame",
+   "summary_v2": "Candle top remelts glossy and self-levels into a small crater beside the wick.",
+   "tags_v2": {
+    "action": "heat gun remelt",
+    "stage": "fix",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream"
+    ],
+    "setting": "workshop"
+   },
+   "seconds_v2": [
+    "Static close-up of the top of a cream jar candle, surface turning glossy and liquid from gentle warmth",
+    "a shallow melt pool spreads from the wick, flowing toward a small crater beside it",
+    "liquid wax flows into the crater, surface settling level, soft moving reflections",
+    "the melt pool covers the crater, glossy liquid top around the wick",
+    "shallow pool fully level, reflections drifting across the warmed wax",
+    "glossy liquid candle top, wick centered, crater gone beneath the level pool",
+    "soft reflections moving over the smooth remelted surface",
+    "the warmed top sets level and glossy around the wick"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T17:02:50"
+}

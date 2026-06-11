@@ -1,0 +1,142 @@
+{
+ "video_id": "ai6f03c38ff",
+ "video_title": "AI B-roll: Four Jars Burning (candle making)",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle_making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "burn_test",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "row of four identical glass jar candles burning on a dark wooden shelf",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "camera pans slowly right along the row, each flame small and steady",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "middle jars in focus, wax tops smooth and even",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "pan continues, warm light pooling around each jar",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "third jar centered, gentle flame flutter, far jars soft",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "shelf grain and jar glass reflections in warm tones",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "pan eases toward the last jar, flames calm",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final framing of the candle row burning evenly",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "four identical glass jar candles burning in a row on a rustic wooden shelf, small steady flames, deep warm tones, far jars softly blurred | slow pan along a row of burning test candles",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "four identical glass jar candles burning in a row on a rustic wooden shelf, small steady flames, deep warm tones, far jars softly blurred | slow pan along a row of burning test candles",
+   "summary_v2": "Four identical jar candles burn in a row on a wooden shelf, flames small and steady.",
+   "tags_v2": {
+    "action": "burning",
+    "stage": "testing",
+    "tools": [],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream",
+     "amber"
+    ],
+    "setting": "wooden shelf"
+   },
+   "seconds_v2": [
+    "row of four identical glass jar candles burning on a dark wooden shelf",
+    "camera pans slowly right along the row, each flame small and steady",
+    "middle jars in focus, wax tops smooth and even",
+    "pan continues, warm light pooling around each jar",
+    "third jar centered, gentle flame flutter, far jars soft",
+    "shelf grain and jar glass reflections in warm tones",
+    "pan eases toward the last jar, flames calm",
+    "final framing of the candle row burning evenly"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T11:58:20"
+}

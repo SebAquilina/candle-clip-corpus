@@ -1,0 +1,143 @@
+{
+ "video_id": "ai813158fe8",
+ "video_title": "AI: relief holes pierced around the wick of a set candle",
+ "video_url": "",
+ "video_duration_s": 8.0,
+ "niche": "candle making",
+ "channel": "ai_generated",
+ "schema": "per_second_v1",
+ "reclassified_at": "2026-06-10T16:07:03Z",
+ "vlm": "user_provided",
+ "detector": "none",
+ "ai_generated": true,
+ "n_windows_in": 1,
+ "n_windows_kept": 1,
+ "n_windows_rejected": 0,
+ "windows": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "relief holes",
+   "phase": "ai",
+   "seconds": [
+    {
+     "t": 0,
+     "abs_t": 0,
+     "vision_desc": "Top-down close-up of a set cream soy candle in a glass jar, three thin relief holes pierced into the wax around the wick, a wooden skewer resting across the jar rim",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 1,
+     "abs_t": 1,
+     "vision_desc": "very slow orbit around the jar, the three skewer holes around the wick clearly visible in the smooth wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 2,
+     "abs_t": 2,
+     "vision_desc": "orbit continues, warm workshop light raking across the pierced candle top, skewer balanced on the rim",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 3,
+     "abs_t": 3,
+     "vision_desc": "the relief holes and wick in sharp focus, wood grain of the skewer catching light",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 4,
+     "abs_t": 4,
+     "vision_desc": "slow orbit reveals the depth of the thin holes pierced into the set wax",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 5,
+     "abs_t": 5,
+     "vision_desc": "candle top with three relief holes around the wick, skewer across the rim, warm tones",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 6,
+     "abs_t": 6,
+     "vision_desc": "orbiting view of the pierced candle top, glass rim reflections",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    },
+    {
+     "t": 7,
+     "abs_t": 7,
+     "vision_desc": "final angle of the relief-hole pierced candle with the resting skewer",
+     "transcript_text": "",
+     "scene_change": true,
+     "face_mention": false,
+     "face_terms": []
+    }
+   ],
+   "embed_text": "three thin relief holes pierced into set cream wax around the wick of a jar candle, wooden skewer resting across the jar rim, slow orbit in warm workshop light",
+   "transcript": "",
+   "ai_generated": true,
+   "embed_text_v2": "three thin relief holes pierced into set cream wax around the wick of a jar candle, wooden skewer resting across the jar rim, slow orbit in warm workshop light",
+   "summary_v2": "Slow orbit of a set candle top with three skewer relief holes around the wick.",
+   "tags_v2": {
+    "action": "relief holes",
+    "stage": "fix",
+    "tools": [
+     "skewer"
+    ],
+    "materials": [
+     "soy wax"
+    ],
+    "container": "glass jar",
+    "colors": [
+     "cream"
+    ],
+    "setting": "workshop"
+   },
+   "seconds_v2": [
+    "Top-down close-up of a set cream soy candle in a glass jar, three thin relief holes pierced into the wax around the wick, a wooden skewer resting across the jar rim",
+    "very slow orbit around the jar, the three skewer holes around the wick clearly visible in the smooth wax",
+    "orbit continues, warm workshop light raking across the pierced candle top, skewer balanced on the rim",
+    "the relief holes and wick in sharp focus, wood grain of the skewer catching light",
+    "slow orbit reveals the depth of the thin holes pierced into the set wax",
+    "candle top with three relief holes around the wick, skewer across the rim, warm tones",
+    "orbiting view of the pierced candle top, glass rim reflections",
+    "final angle of the relief-hole pierced candle with the resting skewer"
+   ],
+   "qc_v2": {
+    "face": false,
+    "text": false,
+    "watermark": false,
+    "off_topic": false,
+    "source": "user_provided_details"
+   },
+   "usable_v2": true,
+   "duration_s": 8.0,
+   "n_seconds": 8,
+   "usable_v2_reason": "ai_generated clean by construction"
+  }
+ ],
+ "source": "ai_generated",
+ "generated_by": "ultimate-video-maker (Veo 3.1 Lite via 69labs)",
+ "ingested_at": "2026-06-11T17:02:30"
+}
